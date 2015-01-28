@@ -729,15 +729,15 @@ msgstr "<b>adaugă la favoritele tale</b>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:691
 msgid "<b>archive</b>"
-msgstr ""
+msgstr "<b>arhivează</b>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:162
 msgid "<b>clear the modified attributes</b> of"
-msgstr ""
+msgstr "<b>șterge atributele modificate</b> ale"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:113
 msgid "<b>disable active checks</b> for"
-msgstr ""
+msgstr "<b>dezactivează verificările active</b> pentru"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:88
 msgid "<b>disable notifications</b> for"
