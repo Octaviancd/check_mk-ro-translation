@@ -704,6 +704,11 @@ msgid ""
 "will not be able to activate any changes until you have either updated your "
 "DNS or configured an explicit address for <tt>%s</tt>."
 msgstr ""
+"<b>AVERTIZARE:</b> căutarea adresei IP al <tt>%s</tt> e eșuat. Nucleu "
+"a fost pornit folosind adresa <tt>0.0.0.0</tt> pentru moment. Nu vei "
+"putea să aplici/activezi schimbprile până nu actualizezi "
+"DNS-ul sau configurezi o adresă explicită pentru <tt>%s</tt>."
+
 
 #: /omd/sites/production/share/check_mk/web/htdocs/index.py:231
 msgid "<b>You do not have any roles.</b> "
