@@ -717,15 +717,15 @@ msgstr "<b>Nu ai definit nici un rol</b>"
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:288
 #, python-format
 msgid "<b>acknowledge the problems%s</b> of"
-msgstr ""
+msgstr "<b>confirmă problemele%s</b> lui"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:333
 msgid "<b>add a comment to</b>"
-msgstr ""
+msgstr "adaugă un comentariu la"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:587
 msgid "<b>add to you favorites</b>"
-msgstr ""
+msgstr "<b>adaugă la favoritele tale</b>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:691
 msgid "<b>archive</b>"
