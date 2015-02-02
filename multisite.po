@@ -1049,7 +1049,7 @@ msgstr "Un director cu acest nume deja există."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1099
 msgid "A form for searching hosts using flexible filters"
-msgstr ""
+msgstr "Un formular pentru cautarea elementelor folosind filtre flexibile"
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/fixed_elements.py:75
 msgid "A frame around the page"
@@ -1076,7 +1076,7 @@ msgstr "Un ceas mare care arată timpul curent al serverului web"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:518
 msgid "A list of all hosts with some CPU related inventory data"
-msgstr ""
+msgstr "O lista cu toate elementele cu unele date de invetar legate de CPU"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/notify.py:92
 msgid "A list of specific users"
@@ -1084,7 +1084,7 @@ msgstr "O listă cu utilizatori specifici"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:409
 msgid "A matrix showing a colored square for each host"
-msgstr ""
+msgstr "O matrice care arată un pătrat colorat pentru fiecare element"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16822
 msgid ""
@@ -1140,11 +1140,11 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2484
 msgid "A single host related aggregation"
-msgstr ""
+msgstr "O agregare legată de un singur element"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2385
 msgid "A stored SNMP walk"
-msgstr ""
+msgstr "Un SNMP walk stocat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1455
 msgid "A string-combination of servername and port, e.g. 127.0.0.1:5000."
@@ -1340,7 +1340,7 @@ msgstr "Spațiu liber exact în MB"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6363
 msgid "Absolute levels for unused licenses"
-msgstr ""
+msgstr "Nivel-urile absolute de licențe neutilizate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2370
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2393
@@ -1425,7 +1425,7 @@ msgstr "Acces la modulul <i>Setări Globale</i>"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18632
 msgid "Access to the module <i>Timeperiods</i>"
-msgstr "A"
+msgstr "Accesul la modulul <i>Perioade de timp</i>"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18666
 msgid "Access to the module for analyzing and validating logfile patterns."
@@ -1448,11 +1448,11 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:2029
 msgid "Access via TCP"
-msgstr ""
+msgstr "Acces prin TCP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:2036
 msgid "Access via UNIX socket"
-msgstr ""
+msgstr "Acces prin socket UNIX"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:774
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1316
@@ -1463,16 +1463,16 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:303
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:316
 msgid "Acknowledge"
-msgstr ""
+msgstr "Confirmă"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:252
 #, python-format
 msgid "Acknowledge %s"
-msgstr ""
+msgstr "Confirmă %s"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:301
 msgid "Acknowledge Problems"
-msgstr ""
+msgstr "Confirmă Problemele"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:265
 msgid "Acknowledge host and service problems and remove acknowledgements"
@@ -1481,7 +1481,7 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:287
 #, python-format
 msgid "Acknowledged %s"
-msgstr ""
+msgstr "Confirmată %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:288
 #, python-format
@@ -1495,11 +1495,11 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:70
 msgid "Acknowledgement Author"
-msgstr ""
+msgstr "Autorul Confirmației"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:71
 msgid "Acknowledgement Comment"
-msgstr ""
+msgstr "Comentariul Confirmației"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8489
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11580
@@ -1519,11 +1519,11 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:100
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:528
 msgid "Action"
-msgstr ""
+msgstr "Acțiune"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:105
 msgid "Action ID"
-msgstr ""
+msgstr "ID-ul Acțiunii"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:602
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:636
@@ -1546,7 +1546,7 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:305
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:960
 msgid "Actions"
-msgstr ""
+msgstr "Acțiuni"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:198
 msgid "Actions (Emails &amp Scripts)"
@@ -1566,11 +1566,11 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4649
 msgid "Activate Changes!"
-msgstr ""
+msgstr "Activare Schimbări!"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18496
 msgid "Activate Configuration"
-msgstr ""
+msgstr "Activare Configurare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18503
 msgid "Activate Foreign Changes"
@@ -1588,7 +1588,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/webapi/webapi.py:172
 msgid "Activate changes"
-msgstr ""
+msgstr "Activare schimbări"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1469
 msgid "Activate changes for event console"
@@ -1629,7 +1629,7 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:1045
 #, fuzzy
 msgid "Activation"
-msgstr " Activeaza aceasta optiune"
+msgstr " Activează această opțiune"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1470
 msgid ""
@@ -1645,7 +1645,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1468
 msgid "Active Connections"
-msgstr ""
+msgstr "Conexiuni Active"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:725
 msgid "Active Directory"
@@ -1653,7 +1653,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:696
 msgid "Active Directory Replication"
-msgstr ""
+msgstr "Replicare Active Directory"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5243
 msgid "Active Power"
@@ -1661,12 +1661,12 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2562
 msgid "Active check"
-msgstr ""
+msgstr "Verificare activă"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3220
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:118
 msgid "Active checks"
-msgstr ""
+msgstr "Verificări active"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:28
 msgid "Active checks (HTTP, TCP, etc.)"
@@ -1674,7 +1674,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:471
 msgid "Active checks enabled"
-msgstr ""
+msgstr "Verificări active activate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/icons/builtin.py:472
 #, python-format
@@ -1692,27 +1692,27 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18592
 msgid "Add & remove folders"
-msgstr ""
+msgstr "Adaugă sau șterge directoare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18548
 msgid "Add & remove hosts"
-msgstr ""
+msgstr "Adaugă sau șterge elemente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:1036
 msgid "Add Bookmark"
-msgstr ""
+msgstr "Adaugă bookmark"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1491
 msgid "Add Condition"
-msgstr ""
+msgstr "Adaugă Condiție"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:551
 msgid "Add Content"
-msgstr ""
+msgstr "Adaugă Conținut"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4503
 msgid "Add Counter"
-msgstr ""
+msgstr "Adaugă Contoar"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:876
 msgid "Add Dashlet"
@@ -1720,11 +1720,11 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9615
 msgid "Add Exception"
-msgstr ""
+msgstr "Adaugă Excepție"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:988
 msgid "Add NGNIX instance"
-msgstr ""
+msgstr "Adaugă instanță NGINX"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:552
 msgid "Add Page Element"
@@ -1736,7 +1736,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/webapi/webapi.py:49
 msgid "Add a host to WATO"
-msgstr ""
+msgstr "Adaugă un element cu WATO"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:999
 msgid "Add a new host to the monitoring (agent must be installed)"
@@ -1744,7 +1744,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17323
 msgid "Add as Custom Macro"
-msgstr ""
+msgstr "Adaugă ca un Macro Customizat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17095
 msgid "Add child node generator"
@@ -1753,17 +1753,17 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:535
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:568
 msgid "Add column"
-msgstr ""
+msgstr "Adaugă coloanâ"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:662
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:339
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:344
 msgid "Add comment"
-msgstr ""
+msgstr "Adaugă comentariu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:322
 msgid "Add comments"
-msgstr ""
+msgstr "Adaugă comentarii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:323
 msgid "Add comments to hosts or services, and remove comments"
@@ -1771,7 +1771,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:676
 msgid "Add contact information"
-msgstr ""
+msgstr "Adaugă informații despre contact"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:444
 msgid "Add dashlet"
@@ -1783,7 +1783,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:960
 msgid "Add element"
-msgstr ""
+msgstr "Adaugă element"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1190
 msgid "Add exclusion"
@@ -1791,7 +1791,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:1025
 msgid "Add filter"
-msgstr ""
+msgstr "Adaugă filtre"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18549
 msgid ""
@@ -1809,7 +1809,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2779
 msgid "Add limits"
-msgstr ""
+msgstr "Adaugă limite"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:928
 msgid "Add message pattern"
@@ -1821,11 +1821,11 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1745
 msgid "Add name"
-msgstr ""
+msgstr "Adaugă nume"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:812
 msgid "Add new element"
-msgstr ""
+msgstr "Adaunge un nou element"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18593
 msgid ""
@@ -1835,7 +1835,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15612
 msgid "Add new mapping"
-msgstr ""
+msgstr "Adaugă o nouă mapare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:138
 msgid "Add new user configuration"
@@ -1843,13 +1843,13 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11633
 msgid "Add notification"
-msgstr ""
+msgstr "Adaugă notificare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:94
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1139
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4476
 msgid "Add pattern"
-msgstr ""
+msgstr "Adaugă model/tipar"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:664
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1182
@@ -1904,11 +1904,11 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/userdb/ldap.py:1060
 #, python-format
 msgid "Added: %s"
-msgstr ""
+msgstr "Adăugat %s"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:548
 msgid "Additional Information"
-msgstr ""
+msgstr "Informații Adiționale"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:69
 msgid "Additional Plugin Output"
