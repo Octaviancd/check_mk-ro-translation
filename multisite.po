@@ -2001,10 +2001,12 @@ msgid ""
 "Affected folders with an explicit reference to this tag group and that are "
 "affected by the change"
 msgstr ""
+"Directoarele afectate cu o referință explicită la acest grup de etichete și "
+"care sunt afectate de această schimbare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/bi.py:98
 msgid "Affected hosts contain"
-msgstr ""
+msgstr "Elementul afectat conține"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5455
 msgid ""
@@ -2024,6 +2026,10 @@ msgid ""
 "being tried. You can disable this check by setting the number of PING probes "
 "to 0."
 msgstr ""
+"Dupa ce este identificat un gateway, Check_MK verifică dacă este accesibil "
+"via PING. Dacă nu, este sărit și următorul gateway aproape nucleului de "
+"monitorizare este încercat. Poți dezactiva această verificare prin setarea "
+"numărului de probe PING la 0."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2901
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2388
@@ -2031,50 +2037,57 @@ msgid ""
 "After a request is sent to the remote SNMP agent we will wait up to this "
 "number of seconds until assuming the answer get lost and retrying."
 msgstr ""
+"După ce o cerere este trimisă agentului SNMP de la distanță vom aștepta "
+"până la acest număr de secunde dupa care presupunem că răspunsul este "
+"pierdut și reîncercăm."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:292
 msgid ""
 "After the configured time active host- and service checks are being "
 "interrupted and evaluate to the UNKNOWN state."
 msgstr ""
+"După timpul configurat verificările active de elemente cât și "
+"pentru servicii sunt întrerupte și evaluate la starea NECUNOSCTĂ"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1794
 msgid "After this number of days old logfile of event history will be deleted."
-msgstr ""
+msgstr "Dupâ acest număr de zile vor fi șterse evenimentele logfile din istoric."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:67
 msgid ""
 "After this time (in seconds) the check is aborted, regardless of how many "
 "packets have been received yet."
 msgstr ""
+"După acest timp (în secunde) verificarea este anulată, indiferent de câte"
+"pachete au fost recepționate."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9050
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:804
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:518
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:940
 msgid "Age"
-msgstr ""
+msgstr "Vârstă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3752
 msgid "Age of jobs controlled by mk-job"
-msgstr ""
+msgstr "Vârsta job-urilor controlate de câtre mk-job"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6000
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6002
 msgid "Age of last AntiVirus update"
-msgstr ""
+msgstr "Vârsta ultimului update AntiVirus"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9052
 msgid "Age of oldest notification is over maximum age"
-msgstr ""
+msgstr "Vârsta celei mai vechi notificări este peste vărsta maximă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3698
 msgid "Age of the last snapshot"
-msgstr ""
+msgstr "Vârsta ultimului snapshot"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3732
 msgid "Age of timemachine backup"
-msgstr ""
+msgstr "Vârsta ultimului timemachine backup"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2842
 msgid "Agent"
@@ -2082,62 +2095,62 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:248
 msgid "Agent Plugins"
-msgstr ""
+msgstr "Plugin Agent"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1119
 msgid "Agent TCP connect timeout (sec)"
-msgstr ""
+msgstr "Conexiunea Agent TCP expirată (sec)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/crashed_check.py:88
 msgid "Agent output"
-msgstr ""
+msgstr "Outputul Agentului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:198
 msgid "Agent sections to be executed"
-msgstr ""
+msgstr "Secțiunile agentului de a fi executate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1345
 msgid "Aggregate"
-msgstr ""
+msgstr "Agregat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/bi.py:127
 msgid "Aggregated assumed state"
-msgstr ""
+msgstr "Starea agregată asumată"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/bi.py:120
 msgid "Aggregated real state (never assumed)"
-msgstr ""
+msgstr "Starea reală agregată (nu presupus)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/bi.py:106
 msgid "Aggregated state"
-msgstr ""
+msgstr "Starea agregată"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/bi.py:113
 msgid "Aggregated state (number)"
-msgstr ""
+msgstr "Starea agregată (număr)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16399
 #: /omd/sites/production/share/check_mk/web/plugins/views/bi.py:143
 msgid "Aggregation"
-msgstr ""
+msgstr "Agregare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17085
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17122
 msgid "Aggregation Function"
-msgstr ""
+msgstr "Funcția de Agregare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16935
 msgid "Aggregation Groups"
-msgstr ""
+msgstr "Grupuri de Agregare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1285
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/infos.py:108
 msgid "Aggregation Name"
-msgstr ""
+msgstr "Numele Agregării"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16929
 msgid "Aggregation Properties"
-msgstr ""
+msgstr "Proprietățile Agregării"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2324
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2342
@@ -2145,115 +2158,115 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:361
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/bi.py:32
 msgid "Aggregation group"
-msgstr ""
+msgstr "Grup de agregare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/bi.py:142
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:360
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/bi.py:63
 msgid "Aggregation name"
-msgstr ""
+msgstr "Numele Agregării"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/bi.py:65
 msgid "Aggregation output"
-msgstr ""
+msgstr "Outputul Agregării"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/bi.py:149
 msgid "Aggregation status output"
-msgstr ""
+msgstr "Outputul stării Agregării"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/bi.py:163
 msgid "Aggregation: affected hosts"
-msgstr ""
+msgstr "Agregare: elemente afectate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/bi.py:170
 msgid "Aggregation: affected hosts (link to host page)"
-msgstr ""
+msgstr "Agregare: elemente afectate (link câtre pagina elemetului)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/bi.py:295
 msgid "Aggregation: complete tree"
-msgstr ""
+msgstr "Agregare: arobere complet"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/bi.py:303
 msgid "Aggregation: simplistic boxed layout"
-msgstr ""
+msgstr "Agregare: așezare în cutie simplistă"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16354
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2540
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:347
 msgid "Aggregations"
-msgstr ""
+msgstr "Agregări"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2558
 msgid "Aggregations Affected by Host"
-msgstr ""
+msgstr "Agregări Afectate de câtre Element"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2611
 msgid "Aggregations Affected by Service"
-msgstr ""
+msgstr "Agregpri Afectate de Serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6341
 msgid "Airflow Deviation in Percent"
-msgstr ""
+msgstr "Abatere flux de air în Procent"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5534
 msgid "Airflow levels"
-msgstr ""
+msgstr "Nivelul fluxului de aer"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:79
 msgid "Alert"
-msgstr ""
+msgstr "Alertă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2094
 #: /omd/sites/production/share/check_mk/web/plugins/views/datasources.py:203
 msgid "Alert Statistics"
-msgstr ""
+msgstr "Statisticile de Alertă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1895
 msgid "Alert Statistics: Number of critical alerts"
-msgstr ""
+msgstr "Statisticile de Alertă: Numărul alertelor critice"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1909
 msgid "Alert Statistics: Number of problem alerts"
-msgstr ""
+msgstr "Statisticile de Alertă: Numărul alertelor de tip problemă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1881
 msgid "Alert Statistics: Number of recoveries"
-msgstr ""
+msgstr "Statisticile de Alertă: Numărul recuperărilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1902
 msgid "Alert Statistics: Number of unknown alerts"
-msgstr ""
+msgstr "Statisticile de Alertp: Numărul alertelor necunoscunte"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1888
 msgid "Alert Statistics: Number of warnings"
-msgstr ""
+msgstr "Statisticile de Alertă: Numărul de atenționări"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3084
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3102
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3182
 msgid "Alert on too high CPU utilization"
-msgstr ""
+msgstr "Alertează când utilzarea procesorului este prea mare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3125
 msgid "Alert on too high FPGA utilization"
-msgstr ""
+msgstr "Alertează când utilizarea FPGA este prea mare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3194
 msgid "Alert on too high disk wait (IO wait)"
-msgstr ""
+msgstr "Alertează când se așteaptă după disk (IO WAIT) prea mult"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6384
 msgid "Alerting depending on the number of used licenses is disabled"
-msgstr ""
+msgstr "Alertarea în funcție de numărul de licențe folosite este dezactivat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2065
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:685
 msgid "Alerts"
-msgstr ""
+msgstr "Alerte"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:355
 msgid "Algorithm"
-msgstr ""
+msgstr "Algoritm"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4783
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7944
@@ -2275,177 +2288,182 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4347
 msgid "Alias for created gateway hosts"
-msgstr ""
+msgstr "Alias pentru elementele de tip gateway create"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:2237
 msgid "All"
-msgstr ""
+msgstr "Toate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2269
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2288
 msgid "All Aggregations"
-msgstr ""
+msgstr "Toate Agregările"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:919
 msgid "All Dashboards"
-msgstr ""
+msgstr "Toate Dashboard-urile"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:320
 msgid "All Eventlogs"
-msgstr ""
+msgstr "Toate Eventlogs"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16863
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16888
 msgid "All Hosts"
-msgstr ""
+msgstr "Toate Elementele"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12877
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12993
 msgid "All Hosttags"
-msgstr ""
+msgstr "Toate Etichetele de Element"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:107
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:174
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:255
 msgid "All Logfiles"
-msgstr ""
+msgstr "Toate Jurnalele"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:173
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:257
 msgid "All Logfiles of Host"
-msgstr ""
+msgstr "Toate Jurnalele Elementeului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1661
 msgid "All PNP performance graphs for a certain host."
-msgstr ""
+msgstr "Toate graphicele de performanță PNP ale unui element."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:84
 msgid "All Problematic Logfiles"
-msgstr ""
+msgstr "Toate Jurnalele Problematice"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:549
 msgid "All Reports"
-msgstr ""
+msgstr "Toate Rapoartele"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12430
 msgid "All Roles"
-msgstr ""
+msgstr "Toate Rol-urile"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9148
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9150
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1231
 msgid "All Rules"
-msgstr ""
+msgstr "Toare Regulile"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13739
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13901
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13907
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14123
 msgid "All Rulesets"
-msgstr ""
+msgstr "Toate Set-urile de Reguli"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1814
 msgid "All SNMP Checks"
-msgstr ""
+msgstr "Toate Verificările SNMP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1292
 msgid "All Services with a certain description"
-msgstr ""
+msgstr "Toate Serviciile cu o anume descriere"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1321
 msgid "All Services with this description:"
-msgstr ""
+msgstr "Toate Serviciile cu această descriere:"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10083
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10184
 msgid "All Sites"
-msgstr ""
+msgstr "Toate Site-urile"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9513
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9666
 msgid "All Timeperiods"
-msgstr ""
+msgstr "Toate Perioadele de Timp"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9086
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11842
 msgid "All Users"
-msgstr ""
+msgstr "Toți Utilizatorii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2566
 msgid "All aggregations affected by a certain service"
-msgstr ""
+msgstr "Toate agregprile afectate de un anume serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2619
 msgid "All aggregations that have a non-OK state (honoring state assumptions)"
-msgstr ""
+msgstr "Toate agregprile care au o stare non-OK (onorând stările presupuse)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2513
 msgid "All aggregations the given host is part of"
-msgstr ""
+msgstr "Toate agregările din care elementul face parte"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:69
 msgid "All but first page"
-msgstr ""
+msgstr "Toate mai puțin prima pagină"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4943
 msgid "All changes have been activated."
-msgstr ""
+msgstr "Toate schimbprile au fost aplicate."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8242
 msgid "All contacts of the notified object"
-msgstr ""
+msgstr "Toate contactele obiectului notificat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:2024
 #, python-format
 msgid "All elements of the tuple must be of type int, you have %s"
-msgstr ""
+msgstr "Toate elementele tuple-ului trebuie să fie de tip int, tu ai %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:71
 msgid "All even pages"
-msgstr ""
+msgstr "Toate paginile pare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7976
 msgid "All groups"
-msgstr ""
+msgstr "Toate grupurile"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1913
 msgid ""
 "All historic events concerning the state of a certain host (including "
 "services)"
 msgstr ""
+"Toate evenimentele istorice referitoare la starea unui anume element "
+"(inclusiv serviciile)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1796
 msgid ""
 "All historic events concerning the state of a certain host (without services)"
 msgstr ""
+"Toate evenimentele istorice referitoare la starea unui anume element "
+"(fără servicii)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1855
 msgid "All historic events concerning the state of a certain service"
-msgstr ""
+msgstr "Toate evenimentele istorice referitoare la starea unui anume serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1754
 msgid "All historic events of hosts or services (alerts, downtimes, etc.)"
-msgstr ""
+msgstr "Toate evenimentele istorice al unui element sau serviciu (alere, "
+"întreruperi, etc.)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1827
 msgid "All historic scheduled downtimes of a certain host"
-msgstr ""
+msgstr "Toate întreruperile istorice unuil anume element"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1885
 msgid "All historic scheduled downtimes of a certain service"
-msgstr ""
+msgstr "Toate întreruperile planificate unui anume serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:402
 msgid "All historic scheduled downtimes of hosts and services"
-msgstr ""
+msgstr "Toate întreruperile planificate elementelor și serviciilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:287
 msgid "All host- and service comments"
-msgstr ""
+msgstr "Toate comentariile elementelor și serviciilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:365
 msgid "All host- and service-downtimes"
-msgstr ""
+msgstr "Toate întreruperile de elemente și servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:433
 msgid "All host- and service-downtimes (including ids)"
