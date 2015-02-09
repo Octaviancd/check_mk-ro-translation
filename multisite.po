@@ -1880,31 +1880,31 @@ msgstr "Adaugă o alegere de etichetă"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:5943
 msgid "Add these contact groups to host"
-msgstr ""
+msgstr "Adaugp aceste grupuri de contacte la element"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:5949
 msgid "Add these groups as <b>contacts in all subfolders</b>"
-msgstr ""
+msgstr "Adaugă aceste grupuri ca și <b>contacte în toate sub-directoarele</b>""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:5947
 msgid "Add these groups as <b>contacts</b> to all hosts in this folder"
-msgstr ""
+msgstr "adaugă aceste grupuri ca și <b>contacte</b> la toate elementele în acest director"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/htmllib.py:894
 msgid "Add this view to..."
-msgstr ""
+msgstr "Adaugă acesta vedere la..."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:614
 msgid "Add to Favorites"
-msgstr ""
+msgstr "Adaugă la Favorite"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:358
 msgid "Add tuning configuration"
-msgstr ""
+msgstr "Adaugă configurație de ajustare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1614
 msgid "Add tunnel"
-msgstr ""
+msgstr "Adaugă tunel"
 
 #: /omd/sites/production/share/check_mk/web/plugins/userdb/ldap.py:1060
 #, python-format
@@ -1917,28 +1917,28 @@ msgstr "Informații Adiționale"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:69
 msgid "Additional Plugin Output"
-msgstr ""
+msgstr "Output adițional de la Plugin"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:650
 msgid "Additional header lines"
-msgstr ""
+msgstr "Linii de header adiționale"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14721
 msgid "Additional options"
-msgstr ""
+msgstr "Opțiuni adiționale"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1657
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:72
 msgid "Addons"
-msgstr ""
+msgstr "Addon-uri"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6080
 msgid "Address"
-msgstr ""
+msgstr "Adresă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:527
 msgid "Address Check mode"
-msgstr ""
+msgstr "Mod de verificare adresă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/userdb/ldap.py:872
 msgid ""
@@ -1946,27 +1946,31 @@ msgid ""
 "plugin adds the user only to existing contactgroups while the name of the "
 "contactgroup must match the common name (cn) of the LDAP group."
 msgstr ""
+"Adaugă utilizatorul la grupurile de contact în baza apartenenței din LDAP. "
+"Aceast plugin adaugă utilizatorul numai la grupuri de contacte existente și "
+"numele grupului de contact trebuie să se potrivească cu numele comun (cn) al "
+"grupului LDAP."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:357
 msgid "Adhoc comment"
-msgstr ""
+msgstr "Comentariu adhoc"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:365
 msgid "Adhoc downtime"
-msgstr ""
+msgstr "Întreruperi adhoc"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:506
 #, python-format
 msgid "Adhoc for %d minutes"
-msgstr ""
+msgstr "Adhoc pentru %d minute"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:309
 msgid "Administrative port states to inventorize"
-msgstr ""
+msgstr "Starea porturilor pentru inventariere"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:934
 msgid "Administrative state"
-msgstr ""
+msgstr "Stare adiministrativă"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/userdb.py:556
 msgid "Administrator"
@@ -1974,15 +1978,15 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9971
 msgid "Administrator login"
-msgstr ""
+msgstr "Login Administrator"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9976
 msgid "Administrator password:"
-msgstr ""
+msgstr "Parolâ Administrator:"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9973
 msgid "Adminstrator name:"
-msgstr ""
+msgstr "Nume Administrator:"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6465
 msgid "Adva Optical Transport Laser Power"
@@ -1990,7 +1994,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/bi.py:126
 msgid "Affected by service"
-msgstr ""
+msgstr "Afectat de serviciu"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13402
 msgid ""
