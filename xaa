@@ -3819,12 +3819,21 @@ msgid ""
 "precompilation to be executed on demand. BI only precompiles the "
 "aggregations which are really requested by the users."
 msgstr ""
+"Implicit toate agregările în Check_MK BI sunt precompilate la prima utilizare "
+"a unui BI sau aferent unui dialog de element/serviciu în status GUI. În cazul "
+"unui mediu mare cu multe agregări BI această precompilare ar putea să dureze "
+"prea mult (câteva secunde). Este acum posibil sâ schimbi precompilarea astfel "
+"încât să se execute la nevoie. BI va precompila doar agregările care sunt "
+"solicitate/utilizate de câtre un utilizator."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:99
 msgid ""
 "By default all multiple graphs in emails are displayed floating nearby. You "
 "can enable this option to show the graphs among each other."
 msgstr ""
+"Implicit toate graficele multiple în mesajele electronice vor fi afișate "
+"plutind în apropriere. Poți activa această opțiune pentru afișarea graficilor "
+"între ele."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:482
 msgid ""
@@ -3833,22 +3842,27 @@ msgid ""
 "hostgroup memberships by the users. You can define a default group to use "
 "for filtering which is used when a user opens the network topology view."
 msgstr ""
+"Implicit topologia rețelei îți afișează relațiile de tip pârinte / copil "
+"al tuturor elementelor în site-ul tâu local. Lista poate fi filtrată în baza "
+"apartenenței la un grup de elemente de câtre utilizatori. Poți defini un grup"
+" strict pentru filtrare care va fi folosit atunci când un utilizator deschide "
+"vederea topologiei rețelei."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1626
 msgid "By default the standard IMAP Port 110 is used."
-msgstr ""
+msgstr "Implicit se folosește portul standard 110 pentru POP3."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1578
 msgid "By default the standard IMAP Port 143 is used."
-msgstr ""
+msgstr "Implicit se folosește portul standard 143 pentru IMAP."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1586
 msgid "By default the standard IMAP/SSL Port 993 is used."
-msgstr ""
+msgstr "Implicit se folosește portul standard 993 pentru IMAP/SSL."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1634
 msgid "By default the standard POP3/SSL Port 995 is used."
-msgstr ""
+msgstr "Implicit se folosește portul standard 995 pentru POP3/SSL."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:640
 msgid ""
@@ -3858,6 +3872,12 @@ msgid ""
 "perform any actions. For example the LDAP connector will start the sync once "
 "the cached user information are too old."
 msgstr ""
+"Implicit utilizatorii sunt sincronizați automat în câteva situații. Procesul "
+"de sincronizare este pornit când se deschide pagina \"Utilizatori\" în "
+"configurare și la fiecare randare de pagine. Fiecare conector poate specifica "
+"dacă dorește să efectueze orice acțiune. Spre exemplu, conectorul LDAP va "
+"porni sincronizarea odată ce informațiile anterioare despre utilizatori sunt "
+"prea vechi."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:227
 msgid ""
@@ -3867,6 +3887,12 @@ msgid ""
 "rendered, disable this option. Be aware, you might open the way for several "
 "injection attacks."
 msgstr ""
+"Implicit, din motive de securitate, Multisite nu interpretează cod HTML "
+"recepționat de la surse externe, precum output-ul unui plugin sau jurnal. "
+"Dacă ești foarte sigur pe ceea ce faci și ai nevoie de cod HTML, "
+"precum randarea unor legături, dezactivează această opțiune. Sa fii "
+"conștient că s-ar putea să dezchizi porțile pentru anumite tip-uri de"
+"atacuri prin injectare. "
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1346
 msgid ""
@@ -3875,6 +3901,10 @@ msgid ""
 "or several host addresses here, it is possible to let the check monitor one "
 "or multiple hosts."
 msgstr ""
+"Dacă nu specifici aici nici o adresa elemetului ise va folosi adresa "
+"elementului căruia acest serviciu este atașat. Prin specificarea uneia sau "
+"mai multe adrese de element aici, este posibil să lași check-ul să "
+"monitorizeze unul sau mai multe elemente."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10484
 #, python-format
@@ -3886,6 +3916,12 @@ msgid ""
 "remote site. Please refer to the <a target=_blank href='%s'>online "
 "documentation</a> for details."
 msgstr ""
+"Prin specificarea unui element de status pentru fiecare conexiune non-locală "
+"previi Multisite de a întâmpina întreruperi când site-uri distante nu răspund."
+" Trebuie să adaugi serverele site-urilor distante ca elemente în site-ul "
+"local de monitorizre și să folosești starea elementelor ca starea de "
+"accesibilitate al site-ului distant. Pentru mai multe informații vezi "
+"documentația <a target=_balnk href='%s'>online</a>."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2354
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2451
@@ -3903,16 +3939,16 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5344
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5345
 msgid "C / range"
-msgstr ""
+msgstr "C / interval"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:870
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6759
 msgid "C3 discards"
-msgstr ""
+msgstr "renunțările C3"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:794
 msgid "CCMS paths to monitor"
-msgstr ""
+msgstr "calea de monitorizare CCMS"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1823
 msgid "CLOSED"
@@ -3933,55 +3969,55 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:403
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:636
 msgid "CPU Architecture"
-msgstr ""
+msgstr "Arhitectura procesoarelor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:468
 msgid "CPU Averaging"
-msgstr ""
+msgstr "Medierea procesoarelor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:517
 msgid "CPU Inv. (all Hosts)"
-msgstr ""
+msgstr "Inv. Procesoare (tuturor Elementelor)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:394
 msgid "CPU Model"
-msgstr ""
+msgstr "Model procesor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:516
 msgid "CPU Related Inventory of all Hosts"
-msgstr ""
+msgstr "Inventar legat de Procesoare al tuturor Elementelor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3058
 msgid "CPU load (not utilization!)"
-msgstr ""
+msgstr "Încărcare procesor (nu utilizare!)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6192
 msgid "CPU usage critical at"
-msgstr ""
+msgstr "Utilizare procesor critic la"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6191
 msgid "CPU usage warning at"
-msgstr ""
+msgstr "Atenționare utilizare procesor la"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3078
 msgid "CPU utilization for Appliances"
-msgstr ""
+msgstr "Utillizarea procesorului pentru Dispozitive"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3144
 msgid "CPU utilization for Windows and ESX Hosts"
-msgstr ""
+msgstr "Utilizarea Procesorului pentru sisteme Windows și ESX"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3095
 msgid "CPU utilization of Devices with Modules"
-msgstr ""
+msgstr "Utilizare Procesor pe Dispozitive cu Module"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3176
 msgid "CPU utilization on Linux/UNIX"
-msgstr ""
+msgstr "Utilizarea procesoarelor pe Linux/UNIX"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:402
 msgid "CPUs"
-msgstr ""
+msgstr "Procesoare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/bi.py:1659
 msgid "CR"
@@ -3990,7 +4026,7 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:843
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6732
 msgid "CRC errors rate"
-msgstr ""
+msgstr "Rata de erori CRC"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/lib.py:37
 #: /omd/sites/production/share/check_mk/web/htdocs/bi.py:81
