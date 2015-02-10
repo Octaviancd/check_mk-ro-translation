@@ -3723,7 +3723,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18670
 msgid "Business Intelligence Rules"
-msgstr ""
+msgstr "Regulile Business Intelligence"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1125
 msgid "But you are not a member of any contact group."
@@ -3731,11 +3731,11 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:631
 msgid "Button Icon"
-msgstr ""
+msgstr "Pictograma Butonului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:626
 msgid "Button Text"
-msgstr ""
+msgstr "Textul Butonului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:974
 msgid ""
@@ -3745,15 +3745,15 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:421
 msgid "By Host"
-msgstr ""
+msgstr "Dupâ Element"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:422
 msgid "By Host group"
-msgstr ""
+msgstr "Dupâ grup de Elemente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:423
 msgid "By Service group"
-msgstr ""
+msgstr "Dupâ grup de Servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:469
 msgid ""
