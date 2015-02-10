@@ -1,0 +1,4000 @@
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8511
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8515
+#: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:1248
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:330
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:210
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1016
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1246
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:286
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:298
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:310
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:687
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:700
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1231
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1247
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1896
+#: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:171
+#: /omd/sites/production/share/check_mk/web/plugins/visuals/bi.py:175
+#: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:332
+msgid "CRIT"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1485
+msgid "CRIT - if this router is being used"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1483
+msgid "CRIT - if this router is not being used"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:217
+msgid "CRIT Pattern"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:685
+msgid "CRIT Services of host"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/lib.py:36
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:903
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:69
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5295
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:154
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:415
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:457
+msgid "CRITICAL"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/webservice.py:170
+msgid "CSV data export"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/webservice.py:177
+msgid "CSV data output"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:395
+msgid "Cache Size"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1196
+msgid "Cache age for background checks"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10251
+msgid "Cache several non-status queries"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2373
+msgid "Cached output of monitoring agents"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16840
+msgid "Call a Rule"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11079
+msgid "Call not supported in distributed setups."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11464
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15362
+msgid "Call with the following parameters:"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16456
+msgid "Called for all hosts..."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16458
+msgid "Called for each child of..."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16460
+msgid "Called for each parent of..."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16465
+msgid "Called for each service..."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8779
+msgid "Cancel notifications for this plugin type"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11474
+msgid "Cancel previous notifications"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10750
+#, python-format
+msgid "Cannot access site %s - you are not logged in."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4727
+msgid "Cannot activate changes"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9947
+#, python-format
+msgid "Cannot connect to remote site: %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14789
+#, python-format
+msgid "Cannot create rule: %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:1533
+#, python-format
+msgid ""
+"Cannot create thumbnail of report %s: %s, Exit code is %d, command was \"%s"
+"\", PDF source code was \"%s...\""
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2158
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17627
+msgid "Cannot delete host. Hosts in this folder are locked"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1659
+msgid "Cannot delete hosts. Hosts in this folder are locked"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:1020
+#, python-format
+msgid "Cannot edit schedule entry for non-existing report %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:1335
+#, python-format
+msgid ""
+"Cannot email report: The owner %s does not have an email address and no "
+"explicit addresses are configured."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/reporting/fixed_elements.py:99
+#, python-format
+msgid "Cannot find embedded image \"%s\" in %s)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/reporting/fixed_elements.py:98
+msgid "Cannot find image file"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1052
+msgid "Cannot get rules from local event daemon."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:165
+#, python-format
+msgid "Cannot load %s from %s: %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1681
+msgid "Cannot move folder: Target folder is locked."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1679
+msgid "Cannot move folder: This folder is locked."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1617
+msgid "Cannot move selected hosts: Hosts in target folder are locked."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1615
+msgid "Cannot move selected hosts: Hosts in this folder are locked."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/userdb.py:248
+#: /omd/sites/production/share/check_mk/web/htdocs/userdb.py:265
+#: /omd/sites/production/share/check_mk/web/htdocs/userdb.py:590
+#: /omd/sites/production/share/check_mk/web/htdocs/userdb.py:646
+#: /omd/sites/production/share/check_mk/web/htdocs/userdb.py:683
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7728
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8174
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9297
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10554
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13367
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15199
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16580
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:798
+#, python-format
+msgid "Cannot read configuration file %s: %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/config.py:131
+#, python-format
+msgid "Cannot read configuration file %s: %s:"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/actions.py:99
+#, python-format
+msgid "Cannot reschedule check: %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/config.py:422
+#, python-format
+msgid "Cannot save %s options for user <b>%s</b> into <b>%s</b>: %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/mkeventd.py:259
+#, python-format
+msgid "Cannot update timeperiod information for %s: %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3039
+msgid "Capacity filled"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3016
+msgid "Capacity remaining"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:433
+msgid "Card Name"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:726
+msgid "Case insensitive"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15551
+msgid "Case translation"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:256
+msgid "Cell padding"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:265
+msgid "Cell spacing"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:632
+msgid "Change Event state to:"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15848
+#, fuzzy
+msgid "Change Password"
+msgstr "Parola"
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:646
+msgid "Change State"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/sidebar/reporting.py:69
+msgid "Change Timerange"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1714
+msgid "Change ago:"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/default_permissions.py:73
+msgid "Change column display options"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:587
+msgid "Change comment:"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:591
+msgid "Change contact:"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:626
+msgid "Change event state"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12099
+msgid "Change password at next login or access"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/views.py:1494
+msgid "Change the number of display columns"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/views.py:1500
+msgid "Change the refresh rate"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/default_permissions.py:63
+msgid "Change view display columns"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/default_permissions.py:68
+msgid "Change view display refresh"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7430
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1383
+#, python-format
+msgid "Changed Configuration variable %s to %s."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7193
+#, python-format
+msgid "Changed LDAP configuration variable %s to %s."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1843
+#, python-format
+msgid "Changed attributes of folder %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3955
+#, python-format
+msgid "Changed attributes of host %s in bulk mode"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1329
+#, python-format
+msgid "Changed configuration of %s to %s."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7588
+#, python-format
+msgid "Changed global configuration variable %s to %s."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9196
+#, python-format
+msgid "Changed notification rule %d"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12787
+msgid "Changed order of host tag groups"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14192
+#, python-format
+msgid "Changed order of rules in ruleset %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8898
+#, python-format
+msgid "Changed position of notification rule %d"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9116
+#, python-format
+msgid "Changed position of notification rule %d of user %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:912
+#, python-format
+msgid "Changed position of rule %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14832
+#, python-format
+msgid "Changed properties of rule %s in folder %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14844
+#, python-format
+msgid "Changed properties of rule %s, moved rule from folder %s to %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10117
+#, python-format
+msgid "Changed site-specific configuration variable %s to %s."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17264
+#, python-format
+msgid "Changed title of %s attribute %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/sidebar/reporting.py:58
+#, python-format
+msgid "Changed to: <b>%s</b>"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18137
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1221
+msgid "Changes"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:5258
+msgid "Changes that are not activated on all sites:"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:5260
+msgid "Changes that are not yet activated:"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:392
+msgid "Chassis"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:1490
+msgid "Check / Uncheck all"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:813
+msgid "Check Cerficate on different IP / DNS Name"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:537
+msgid "Check City against Regex"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:198
+msgid "Check DNS service"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1513
+msgid "Check Email Delivery"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:189
+msgid "Check FTP Service"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1329
+msgid "Check HTML Form Submit"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:551
+msgid "Check HTTP service"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:552
+msgid ""
+"Check HTTP/HTTPS service using the plugin <tt>check_http</tt> from the "
+"standard Nagios Plugins. This plugin tests the HTTP service on the specified "
+"host. It can test normal (HTTP) and secure (HTTPS) servers, follow "
+"redirects, search for strings and regular expressions, check connection "
+"times, and report on certificate expiration times."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1416
+msgid "Check Number of Notifications per Contact"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2559
+msgid "Check Origin and Parameters"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3267
+msgid "Check Parameters"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:270
+msgid "Check SQL Database"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:76
+msgid "Check SSH service"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:800
+msgid "Check SSL Certificate Age"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1271
+msgid "Check State of BI Aggregation"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:715
+msgid "Check Type"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:847
+msgid "Check access to LDAP service"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1099
+msgid "Check access to SMB share"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:950
+msgid "Check access to SMTP services"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4335
+msgid "Check always is in a OK State"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:473
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:926
+msgid "Check command"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:480
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:933
+msgid "Check command expanded"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1501
+msgid "Check configuration"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:370
+msgid "Check connecting to a TCP port"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1456
+msgid "Check current routing (uses <tt>traceroute</tt>)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1936
+msgid "Check event state in Event Console"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:524
+msgid "Check for Version"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:525
+msgid "Check for an Address"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2484
+msgid "Check for correct version of Check_MK agent"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1223
+msgid "Check freshness"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:107
+msgid "Check hosts with PING (ICMP Echo Request)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:599
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:999
+msgid "Check int."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1819
+msgid "Check intervals for SNMP checks"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1107
+msgid "Check logfiles for relevant new messages"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:754
+msgid "Check manual (for Check_MK based checks)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1748
+msgid "Check output"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/builtin_modules.py:43
+msgid ""
+"Check parameters and other configuration variables on hosts and services"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1672
+msgid "Check period for active services"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1761
+msgid "Check period for hosts"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1682
+msgid "Check period for passive Check_MK services"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:291
+msgid "Check plugin timeout"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1256
+msgid "Check result did not arrive in time"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2931
+msgid "Check result if the host or VM is powered off"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2924
+msgid "Check result if the host or VM is powered on"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2938
+msgid "Check result if the host or VM is suspended"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4334
+msgid "Check show Errors in Case of degraded or offline hosts"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1345
+msgid "Check specific host(s)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:393
+msgid "Check state of ALLNET IP Sensoric Devices"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:202
+msgid "Check state of EMC VNX storage systems"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:335
+msgid "Check state of Fritz!Box Devices"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:256
+msgid "Check state of IBM SVC / V7000 storage systems"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:170
+msgid "Check state of VMWare ESX via vSphere"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1198
+msgid "Check submission method"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1330
+msgid ""
+"Check submission of HTML forms via HTTP/HTTPS using the plugin "
+"<tt>check_form_submit</tt> provided with Check_MK. This plugin provides more "
+"functionality as <tt>check_http</tt>, as it automatically follows HTTP "
+"redirect, accepts and uses cookies, parses forms from the requested pages, "
+"changes vars and submits them to check the response afterwards."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:569
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1342
+msgid "Check the URL"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1417
+msgid ""
+"Check the number of sent notifications per contact using the plugin "
+"<tt>check_notify_count</tt> provided with Check_MK. This plugin counts the "
+"total number of notifications sent by the local monitoring core and creates "
+"graphs for each individual contact. You can configure thresholds on the "
+"number of notifications per contact in a defined time interval. This plugin "
+"queries livestatus to extract the notification related log entries from the "
+"log file of your monitoring core."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:199
+msgid ""
+"Check the resolution of a hostname into an IP address by a DNS server. This "
+"check uses <tt>check_dns</tt> from the standard Nagios plugins."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8208
+msgid "Check type"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14909
+msgid "Check types"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:511
+msgid "Check uniserv service"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18556
+msgid ""
+"Check whether or not the host is reachable, test the different methods a "
+"host can be accessed, for example via agent, SNMPv1, SNMPv2 to find out the "
+"correct monitoring configuration for that host."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:349
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:1356
+msgid "Check_MK $PERIODNAME$ '$TITLE$'"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2421
+msgid "Check_MK Agent"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:119
+msgid "Check_MK Agent Local-Directory"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:118
+msgid "Check_MK Agent Plugins-Directory"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2893
+#, python-format
+msgid "Check_MK Agent Port (<a href=\"%s\">Rules</a>)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:79
+msgid "Check_MK Logo"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:31
+msgid "Check_MK Micro Core"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:154
+#: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:183
+#: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:196
+msgid "Check_MK Mobile"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/login.py:245
+msgid "Check_MK Multisite Login"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/sidebar.py:221
+msgid "Check_MK Sidebar"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/wato.py:31
+msgid "Check_MK config filename"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3866
+msgid ""
+"Check_MK service discovery will automatically find and configure services to "
+"be checked on your hosts.</p>"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1646
+#, python-format
+msgid ""
+"Check_MK usually uses an interval of one minute for the active Check_MK "
+"check and for legacy checks. Here you can specify a larger interval. Please "
+"note, that this setting only applies to active checks (those with the %s "
+"reschedule button). If you want to change the check interval of the Check_MK "
+"service only, specify <tt><b>Check_MK$</b></tt> in the list of services."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1211
+msgid "Check_MK with times performance data"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/notify.py:278
+msgid "Check_MK: Notification"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12833
+msgid "Checkbox"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:93
+msgid "Checkbox Selection Livetime"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:533
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:948
+msgid "Checked"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3246
+msgid "Checkplugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3955
+msgid "Checkpoint Firewall Connections"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3972
+msgid "Checkpoint Firewall Packet Rates"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6672
+msgid "Checksum invalid and not signed"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6675
+msgid "Checksum not available"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6669
+msgid "Checksum valid and signed"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15320
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1825
+msgid "Checktype"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17123
+msgid "Child Node Generation"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12834
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13198
+msgid "Choices"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:3206
+msgid "Choose another Icon"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:140
+msgid "Choose the type of action to perform"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:3222
+msgid "Choose this Icon"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:521
+msgid ""
+"Choose, whether you just want to query the version number, or if you want to "
+"check the response to an address query."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2559
+msgid "Cisco Memory Usage"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2628
+msgid "Cisco Nexus Supervisor Memory Usage"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1730
+msgid "Cisco WLAN AP"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2441
+msgid "Cisco quality of service"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6419
+msgid "Citrix Server load"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6430
+msgid "Citrix Terminal Server Sessions"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:535
+msgid "City name"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1184
+msgid "Classical active and passive Nagios checks"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2565
+msgid "Classical check"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:201
+msgid "Classical web GUI"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4022
+#, python-format
+msgid "Cleaned %d attributes of host %s in bulk mode"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1354
+msgid "Cleanup"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:159
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4596
+msgid "Clear Log"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:161
+msgid "Clear Logs"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1082
+msgid "Clear Rule"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:158
+msgid "Clear modified attributes"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:5098
+msgid "Cleared audit log."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:790
+msgid "Clickable URLs"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/sidebar/mkeventd.py:54
+msgid "Client connects"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12390
+msgid "Clone"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:694
+#: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:564
+#, python-format
+msgid "Clone %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18564
+msgid ""
+"Clone existing hosts to create new ones from the existing one.Please also "
+"add the permission <i>Add & remove hosts</i>."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18563
+msgid "Clone hosts"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:1001
+#, python-format
+msgid "Clone report schedule entry %d"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10008
+msgid "Clone this connection in order to create a new one"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:907
+msgid "Clone this element element"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:638
+msgid "Clone this fixel element"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:604
+msgid "Clone this schedule entry"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1578
+msgid "Close Timewarp"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:473
+msgid ""
+"Close connection once more than this number of bytes are received. Per "
+"default the number of read bytes is not limited. This setting is only used "
+"if you expect strings in the response."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2005
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2226
+msgid "Cluster"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2101
+msgid "Clustered services"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3224
+msgid "Clustered services (located on cluster host)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2114
+msgid "Clustered services for overlapping clusters"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:325
+msgid "Cnt."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:274
+msgid "Collect RMON statistics data"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4384
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4406
+msgid "Collect performance data for disk latency"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6882
+msgid "Collection count levels"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6866
+msgid "Collection time levels"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:184
+msgid "Color"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:937
+msgid "Colored Background"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/views.py:468
+#: /omd/sites/production/share/check_mk/web/htdocs/views.py:471
+#: /omd/sites/production/share/check_mk/web/htdocs/views.py:500
+#: /omd/sites/production/share/check_mk/web/htdocs/views.py:554
+msgid "Column"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/views.py:443
+msgid "Column Headers"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/inventory.py:82
+msgid "Column headers"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/views.py:542
+msgid "Columns"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:652
+msgid "Com. buf. max/total"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1779
+#: /omd/sites/production/share/check_mk/web/plugins/visuals/infos.py:96
+msgid "Command"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/sidebar.py:558
+#, python-format
+msgid "Command %s/%d not found"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2644
+msgid "Command Line"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/visuals/infos.py:99
+msgid "Command Name"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1164
+msgid "Command line"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:42
+msgid "Command line to execute"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:378
+msgid "Command line:"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1801
+msgid "Command:"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:251
+#: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:269
+#: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:687
+msgid "Commands"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/views.py:61
+msgid "Commands on host and services"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6631
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6753
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6959
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8309
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13845
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14373
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14727
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16223
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16402
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17058
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:80
+#: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:252
+#: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:313
+#: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:341
+#: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:372
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1593
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1646
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1836
+#: /omd/sites/production/share/check_mk/web/plugins/visuals/infos.py:69
+msgid "Comment"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/visuals/infos.py:72
+msgid "Comment ID"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1553
+msgid "Comment author"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1573
+msgid "Comment entry time"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1616
+msgid "Comment entry type (user/downtime/flapping/ack)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1581
+msgid "Comment expiry time"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1547
+msgid "Comment id"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1560
+msgid "Comment text"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:371
+#: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:100
+msgid "Comment to the event"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:314
+msgid "Comment type"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1566
+msgid "Comment type (host/service)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:310
+#: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:360
+#: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:565
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:767
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1302
+msgid "Comments"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:335
+msgid "Comments of host"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:361
+msgid "Comments of service"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4164
+msgid "Commits"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3911
+msgid ""
+"Compares the maximum number of connections that have been in use "
+"simultaneously since the server started with the maximum simultaneous "
+"connections allowed by the configuration of the server. This threshold makes "
+"the check raise warning/critical states if the percentage is equal to or "
+"above the configured levels."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:158
+msgid "Compatibility mode"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7049
+msgid "Complete reset to factory settings."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1409
+msgid "Complete site"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:74
+msgid "Complete variable list (for testing)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3166
+msgid "Compute average over last "
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:193
+msgid "Concurrent Livestatus connections"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8659
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8811
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13818
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14345
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14861
+msgid "Conditions"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4328
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1249
+#: /omd/sites/production/share/check_mk/web/plugins/wato/backup_domains.py:52
+#: /omd/sites/production/share/check_mk/web/plugins/wato/backup_domains.py:69
+#: /omd/sites/production/share/check_mk/web/plugins/wato/backup_domains.py:83
+#: /omd/sites/production/share/check_mk/web/plugins/wato/backup_domains.py:104
+#: /omd/sites/production/share/check_mk/web/plugins/wato/backup_domains.py:116
+#: /omd/sites/production/share/check_mk/web/plugins/wato/backup_domains.py:136
+#: /omd/sites/production/share/check_mk/web/plugins/wato/backup_domains.py:191
+msgid "Configuration"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/index.py:272
+msgid "Configuration Error"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:504
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1853
+msgid "Configuration GUI (WATO)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10497
+msgid "Configuration Replication (Distributed WATO)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11090
+msgid "Configuration activated, monitoring server restarted"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/index.py:270
+msgid "Configuration error"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11295
+msgid ""
+"Configuration error. You treat us as a <b>slave</b>, but we have an own "
+"distributed WATO configuration!"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/index.py:275
+#, python-format
+msgid "Configuration error: %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/builtin_modules.py:72
+msgid "Configuration of Check_MK's Business Intelligence component."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1457
+msgid "Configuration of Event Console "
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:661
+msgid "Configuration of RRD databases of hosts"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:645
+msgid "Configuration of RRD databases of services"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1463
+msgid "Configuration of event rules"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:346
+msgid "Configuration of individual Eventlogs"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:53
+msgid ""
+"Configuration of monitoring agents for Linux, Windows and other operating "
+"systems."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/inventory.py:29
+msgid "Configuration of the Check_MK Hardware and Software Inventory System"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11094
+msgid "Configuration successfully activated."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8066
+msgid "Configure access permissions to NagVis maps."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:29
+msgid "Configure active networking checks like HTTP and TCP"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:142
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1506
+msgid "Configure details of the report"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/builtin_modules.py:47
+msgid "Configure fixed checks without using service discovery"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11622
+msgid ""
+"Configure regular expressions that match the beginning of the service names "
+"here."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11612
+msgid ""
+"Configure regular expressions that match the beginning of the service names "
+"here. Prefix an entry with <tt>!</tt> in order to <i>exclude</i> that "
+"service."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/default_permissions.py:91
+msgid "Configure sidebar"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:199
+msgid ""
+"Configure that possible actions that can be performed when a rule triggers "
+"and also manually by a user."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:184
+msgid "Configure the Server Address and the Portnumber of the target server"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15668
+#, python-format
+msgid ""
+"Configure the default language to be used by the user in the user interface "
+"here. If you do not check the checkbox, then the system default will be used."
+"<br><br>Note: currently Multisite is internationalized but comes without any "
+"actual localisations (translations). If you want to create you own "
+"translation, you find <a href=\"%(url)s\">documentation online</a>."
+msgstr ""
+"Configureaza aici limba de baza care sa fie folosita de utilizator in "
+"interfata.Daca nu bifezi caseta, atunci va fi folosita limba sistemului."
+"<br><br> NOTA: In acest moment Multisite este internationalizat dar nu vine "
+"cu nici o traducere. Daca doriti sa va creati propria traducere, gasiti  la "
+"urmatorul link <a href=\"%(url)s\">documentatia online</a>"
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11603
+msgid ""
+"Configure the hosts for this notification. Without prefix, only exact, case "
+"sensitive matches,! for negation and ~ for regex matches "
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:408
+msgid ""
+"Configure the name of the environment variable to read from the incoming "
+"HTTP requests"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2223
+msgid "Configure the target mode for the system."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2198
+msgid "Configure thresholds for overprovisioning of datastores."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/userdb/ldap.py:944
+msgid ""
+"Configures the roles of the user depending on its group memberships in LDAP."
+"<br><br>Please note: Additionally the user is assigned to the <a href=\"wato."
+"py?mode=edit_configvar&varname=default_user_profile&site=&folder=\">Default "
+"Roles</a>. Deactivate them if unwanted."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14151
+msgid "Confirm"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:1061
+msgid "Confirm Dashlet Deletion"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4685
+msgid "Confirm activating foreign changes"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16331
+msgid "Confirm aggregation deletion"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:890
+msgid "Confirm copying rules"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:879
+msgid "Confirm counter reset"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1655
+#, python-format
+msgid "Confirm deletion of %d hosts"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17366
+#, python-format
+msgid "Confirm deletion of attribute \"%s\""
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:5094
+msgid "Confirm deletion of audit log"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7898
+#, python-format
+msgid "Confirm deletion of group \"%s\""
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12349
+#, python-format
+msgid "Confirm deletion of role %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9894
+#, python-format
+msgid "Confirm deletion of site %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6854
+msgid "Confirm deletion of snapshot"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12749
+#, python-format
+msgid "Confirm deletion of the auxiliary tag '%s'"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12715
+#, python-format
+msgid "Confirm deletion of the host tag group '%s'"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9254
+#, python-format
+msgid "Confirm deletion of time period %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11676
+#, python-format
+msgid "Confirm deletion of user %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4689
+msgid "Confirm discarding foreign changes"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6911
+msgid "Confirm factory reset"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1698
+msgid "Confirm folder deletion"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2154
+msgid "Confirm host deletion"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9915
+msgid "Confirm logout"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3478
+msgid "Confirm moving hosts"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8878
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9095
+msgid "Confirm notification rule deletion"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2242
+msgid "Confirm renaming of host"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6898
+msgid "Confirm restore snapshot"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16318
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:866
+msgid "Confirm rule deletion"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1253
+msgid "Confirm switching replication mode"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13445
+msgid "Confirm tag deletion"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13447
+msgid "Confirm tag modifications"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10441
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1664
+msgid "Connect Timeout"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:707
+msgid "Connect Timeout (sec)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1841
+msgid "Connect timeout to status socket of Event Console"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:381
+msgid ""
+"Connect to AeroHive HiveManger via a webcall to get a list of all devices"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:690
+msgid ""
+"Connect to the LDAP server with a SSL encrypted connection. You might need "
+"to configure the OpenLDAP installation on your monitoring server to accept "
+"the certificates of the LDAP server. This is normally done via system wide "
+"configuration of the CA certificate which signed the certificate of the LDAP "
+"server. Please refer to the <a target=\"_blank\" href=\"http://mathias-"
+"kettner.de/checkmk_multisite_ldap_integration.html\">documentation</a> for "
+"details."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:2012
+msgid "Connect to the local Event Console"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1272
+msgid ""
+"Connect to the local or a remote monitoring host, which uses Check_MK BI to "
+"aggregate several states to a single BI aggregation, which you want to show "
+"up as a single service."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10197
+msgid "Connect to the local site"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10198
+msgid "Connect via TCP"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10199
+msgid "Connect via UNIX socket"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7334
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10084
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10425
+msgid "Connection"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7246
+msgid "Connection established. The connection settings seem to be ok."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1941
+msgid "Connection name"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:473
+msgid ""
+"Connection state of each site and button for enabling and disabling the site "
+"connection"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:75
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:341
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:400
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1592
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:86
+msgid "Connection timeout"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9992
+msgid "Connections to local and remote sites"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11747
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11750
+msgid "Connector"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:254
+msgid "Consider periods of flapping states"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3533
+msgid "Consider state of Archivelogmode: "
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3516
+msgid "Consider the state of the job"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:259
+msgid "Consider times where the host is down"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:597
+msgid "Consolidation functions"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:729
+msgid "Consumer Count is the size of connected consumers to a queue"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9020
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9046
+#: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:406
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1773
+#: /omd/sites/production/share/check_mk/web/plugins/visuals/infos.py:87
+msgid "Contact"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1496
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12164
+#: /omd/sites/production/share/check_mk/web/plugins/wato/builtin_modules.py:58
+#: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:504
+msgid "Contact Groups"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/visuals/infos.py:90
+msgid "Contact Name"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:405
+#: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:99
+msgid "Contact Person"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8235
+msgid "Contact Selection"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11779
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1031
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:494
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1288
+msgid "Contact groups"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7917
+msgid ""
+"Contact groups are needed for assigning hosts and services to people "
+"(contacts)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12195
+#, python-format
+msgid ""
+"Contact groups are used to assign monitoring objects to users. If you "
+"haven't defined any contact groups yet, then first <a href='%s'>do so</a>. "
+"Hosts and services can be assigned to contact groups using <a href='%"
+"s'>rules</a>.<br><br>If you do not put the user into any contact group then "
+"no monitoring contact will be created for the user."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/builtin_modules.py:59
+msgid "Contact groups are used to assign persons to hosts and services"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/mobile.py:607
+#: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:3106
+msgid "Contact notification"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/userdb/ldap.py:871
+msgid "Contactgroup Membership"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1279
+msgid "Contactgroups that have permission on this folder"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8791
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:487
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1281
+msgid "Contacts"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/multitar.py:153
+#, python-format
+msgid "Contains corrupt file %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6636
+msgid "Content"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:598
+msgid "Content elements"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:545
+#, python-format
+msgid "Content of report %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:746
+msgid "Content-Type"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:257
+#: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:302
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:937
+msgid "Context"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:800
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:1099
+#: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:491
+msgid "Context / Search Filters"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4288
+msgid "Context Switches"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13848
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14376
+msgid "Context information about this rule"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:841
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:730
+#: /omd/sites/production/share/check_mk/web/htdocs/views.py:338
+#: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:425
+msgid "Continue"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:370
+msgid "Continue counting when event is <b>acknowledged</b>"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:410
+#, python-format
+msgid "Controller %d"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15561
+msgid "Convert FQHN"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15555
+msgid "Convert hostnames to lower case"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15554
+msgid "Convert hostnames to upper case"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:838
+msgid "Convert imported User-IDs to lower case during synchronisation."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10244
+msgid "Cooling period after failed connect/heartbeat"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:897
+msgid "Copied rules from master"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:895
+msgid "Copied the event rules from the master into the local configuration"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:924
+msgid "Copy Rules From Master"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:175
+msgid "Copyright Mathias Kettner 2012"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4790
+msgid "Core"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:404
+msgid "Cores"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:399
+msgid "Cores per CPU"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7328
+#, python-format
+msgid "Could not find the group specified for role %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9054
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1175
+msgid "Count"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:324
+msgid "Count (number of recent occurrances)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7338
+msgid "Count Groups"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7336
+msgid "Count Users"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:328
+msgid "Count messages in defined interval"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6885
+msgid "Count of garbage collection per minute"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/bi.py:96
+msgid "Count the number of nodes in state OK"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:339
+msgid "Count until triggered"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:376
+msgid "Count, size and age of files (Linux, Windows)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:698
+msgid "Counting &amp; Timing"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1201
+msgid "Cr"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/crashed_check.py:42
+msgid "Crash Check Report"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/crashed_check.py:85
+msgid "Crash report"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:152
+msgid "Crash-Debugging"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4440
+msgid "Creata a separate check for each VxVM volume (Linux)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17021
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17166
+msgid "Create"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:383
+#: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:566
+#, python-format
+msgid "Create %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14053
+#, python-format
+msgid "Create %s specific rule for: "
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:805
+msgid "Create Dashlet from existing View"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12886
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13012
+msgid "Create New Topic"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4512
+msgid "Create Random Hosts"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17205
+msgid "Create User Attribute"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/views.py:307
+msgid "Create View"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16831
+msgid ""
+"Create a child node for each service on the specified hosts that is not "
+"contained in any other node of the aggregation."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1453
+msgid "Create a clone of this host"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7940
+msgid "Create a copy of this group"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8744
+msgid "Create a copy of this notification rule"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:962
+msgid "Create a copy of this rule"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11721
+msgid "Create a copy of this user"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:312
+msgid "Create a customized copy of this"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:500
+msgid "Create a new event for each incident - never merge"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8781
+msgid "Create a notification"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4439
+msgid "Create a separate check for each LVM volume (Linux)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4438
+msgid "Create a separate check for each physical disk"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4437
+msgid "Create a summary for all read, one for write"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4436
+msgid "Create a summary over all physical disks"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16346
+msgid "Create aggregation rule"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1005
+msgid "Create an annotation for this period"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:910
+msgid "Create and email this report right now"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1206
+msgid "Create check files"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:134
+msgid "Create check if service is in start mode"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:126
+msgid "Create check if service is in state"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1974
+#, python-format
+msgid "Create clone of %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1349
+msgid ""
+"Create customized packaged monitoring agents for Linux, Windows and other "
+"operating systems"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:281
+msgid ""
+"Create extra service with RMON statistics data (if available for the device)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4334
+msgid "Create gateway hosts in<ul>"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:699
+#, python-format
+msgid "Create new %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17262
+#, python-format
+msgid "Create new %s attribute %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8018
+#, python-format
+msgid "Create new %s group %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17145
+#, python-format
+msgid "Create new BI rule %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12794
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12872
+msgid "Create new auxiliary tag"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1000
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1985
+msgid "Create new cluster"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7915
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7966
+msgid "Create new contact group"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1005
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1752
+msgid "Create new folder"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:998
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1988
+msgid "Create new host"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7962
+msgid "Create new host group"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9142
+msgid "Create new notification rule"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:1011
+msgid "Create new report schedule entry"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1073
+msgid "Create new rule"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7964
+msgid "Create new service group"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10179
+msgid "Create new site connection"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12792
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12988
+msgid "Create new tag group"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9661
+msgid "Create new time period"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11837
+msgid "Create new user"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12040
+#, python-format
+msgid "Create new user %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:290
+msgid "Create new virtual host tree configuration"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16846
+msgid "Create nodes based on a host search"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16879
+msgid "Create nodes based on a service search"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18569
+msgid "Create random hosts"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:324
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:327
+msgid "Create random monitoring data"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12115
+msgid "Create random secret"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:386
+msgid "Create regular time-schedule for this report"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14061
+msgid "Create rule in folder: "
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3315
+msgid "Create rule to permanently disable this service"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8202
+msgid "Create separate notification bulks based on"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8632
+msgid ""
+"Create separate notification bulks for different values of the following "
+"custom macros"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6929
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6935
+msgid "Create snapshot"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18610
+msgid ""
+"Create, remove and edit host tags. Removing host tags also might remove "
+"rules, so this permission should not be available to normal users. "
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4506
+#, python-format
+msgid "Created %d random hosts in %d folders"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4507
+#, python-format
+msgid "Created %d random hosts."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6631
+msgid "Created by"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4280
+msgid "Created by parent scan"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/sidebar/mkeventd.py:53
+msgid "Created events"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17005
+#, python-format
+msgid "Created new BI aggregation %d"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10391
+#, python-format
+msgid "Created new connection to site %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1152
+#, python-format
+msgid "Created new event correlation rule with id %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17570
+#, python-format
+msgid "Created new folder %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4403
+#, python-format
+msgid "Created new folder %s during parent scant"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4440
+#, python-format
+msgid "Created new host %s during parent scan"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3617
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17582
+#, python-format
+msgid "Created new host %s."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13120
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13121
+#, python-format
+msgid "Created new host tag group '%s'"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9194
+msgid "Created new notification rule"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12372
+#, python-format
+msgid "Created new role '%s'"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14829
+#, python-format
+msgid "Created new rule in ruleset %s in folder %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14851
+#, python-format
+msgid "Created new rule in ruleset '%s' in folder %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9727
+#, python-format
+msgid "Created new time period %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7022
+#, python-format
+msgid "Created snapshot %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6803
+#, python-format
+msgid "Created snapshot <tt>%s</tt>."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:1285
+#, python-format
+msgid "Creating scheduled report '%s'..."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4333
+msgid "Creation of gateway hosts"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:658
+msgid "Credentials for HTTP Basic Authentication"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:673
+msgid "Credentials for HTTP Proxy with basic authentication"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2305
+msgid "Credentials for SNMPv3 with authentication and privacy (authPriv)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2296
+msgid ""
+"Credentials for SNMPv3 with authentication but without privacy (authNoPriv)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2287
+msgid ""
+"Credentials for SNMPv3 without authentication and privacy (noAuthNoPriv)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5913
+msgid "Cricital if above"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:361
+msgid "Crit/Down"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:80
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1293
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1553
+#: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:207
+#: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:180
+#: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:747
+msgid "Critical"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5412
+msgid "Critical Battery Capacity"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5423
+msgid "Critical Battery Current"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5429
+msgid "Critical Battery Voltage"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1023
+msgid ""
+"Critical Level for time since last diagnostic test of the device. For a "
+"value of 0 the critical level will not be used"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1022
+msgid "Critical Level for time since last self test"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5417
+msgid "Critical System Temperature"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:452
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:504
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:583
+msgid "Critical above"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/prediction.py:103
+msgid "Critical area"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15426
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15435
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15443
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15469
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15478
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15486
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15531
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1570
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:483
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:491
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3019
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3042
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4253
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5384
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5582
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5601
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6366
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6373
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6874
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6888
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6918
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6934
+msgid "Critical at"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2773
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2794
+msgid "Critical at a RAM usage of"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3197
+msgid "Critical at a disk wait of"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2745
+msgid "Critical at a memory usage of"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2523
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2540
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2566
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2593
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2610
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2633
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2668
+msgid "Critical at a usage of"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3083
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3105
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3128
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3185
+msgid "Critical at a utilization of"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1520
+msgid "Critical at or below"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2201
+msgid "Critical at overprovisioning of"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5373
+msgid "Critical at stratum"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:437
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:568
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1047
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:330
+msgid "Critical below"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2001
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2007
+#, python-format
+msgid "Critical if %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:463
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:701
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:750
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:778
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:790
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:821
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:828
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:846
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:855
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:864
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:873
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:983
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1000
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1099
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1253
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1262
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1280
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1298
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1333
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1362
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1394
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1447
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1473
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1642
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1671
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1679
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1720
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1764
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1774
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1785
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1796
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1807
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1817
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1827
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1838
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1849
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1860
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1872
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1935
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1966
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2131
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2146
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2153
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2274
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2366
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2374
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2463
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2471
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2497
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2503
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2547
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2573
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2617
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2675
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2750
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2999
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3225
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3243
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3328
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3429
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3436
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3638
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3646
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3654
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3662
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3670
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3678
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3760
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3784
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3794
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3804
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3814
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3840
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3850
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3859
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3918
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3962
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4059
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4069
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4089
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4158
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4167
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4176
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4185
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4194
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4203
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4241
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4265
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4516
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4831
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4841
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5345
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5501
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5515
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5552
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5651
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5686
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5724
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5763
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5794
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5826
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5845
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5864
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5897
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5905
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5921
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5929
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5937
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6534
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6710
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6717
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6735
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6744
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6753
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6762
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:39
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:50
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:139
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:249
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:348
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:400
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:629
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:930
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1078
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1139
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1443
+msgid "Critical if above"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1673
+msgid "Critical if above or equal"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:975
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1090
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1235
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1244
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1271
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1289
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1324
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1717
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1926
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2160
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2389
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2397
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2694
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3222
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3240
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3269
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3276
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3291
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3298
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3570
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4020
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5354
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5508
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5522
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5543
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5678
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5714
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5753
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5833
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5852
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5871
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:356
+msgid "Critical if below"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1403
+msgid "Critical if equal or below"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3378
+msgid "Critical if fewer than"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1370
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1402
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2100
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2106
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2687
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4224
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4630
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5968
+msgid "Critical if less than"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3356
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3381
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4133
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4633
+msgid "Critical if more than"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1081
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1208
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1226
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3616
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3701
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3720
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3740
+msgid "Critical if older than"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2430
+msgid "Critical if under"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1072
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1199
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1217
+msgid "Critical if younger than"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5448
+msgid "Critical level"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5985
+msgid "Critical level for important updates"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5987
+msgid "Critical level for optional updates"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6005
+msgid "Critical level for time since last update"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5989
+msgid "Critical level for time until forced reboot"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15456
+msgid "Critical level is at least"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2972
+msgid "Critical remaining"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6378
+msgid "Critical when all licenses are used"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5160
+msgid "Current"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:560
+msgid "Current Host Notification Number"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5439
+msgid "Current Output Load"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15904
+#, fuzzy
+msgid "Current Password"
+msgstr "Parola"
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1278
+msgid "Current Server Status"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:561
+msgid "Current Service Notification Number"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:591
+msgid "Current check attempt"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:125
+msgid "Current disable execution of this action"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:991
+msgid "Current host check attempt"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2266
+msgid "Current name"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1046
+msgid "Current number of Sessions"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1045
+msgid "Current number of processes"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5250
+msgid "Current on Power Channel"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1281
+msgid "Current replication mode"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7639
+msgid "Current setting"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6910
+msgid "Current thread count levels"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6926
+msgid "Current threads busy levels"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/prediction.py:106
+#, python-format
+msgid "Current value: %.2f"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:89
+msgid "Currently cache files will be created as a subdirectory of this."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1629
+msgid "Currently disable replication"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16951
+msgid "Currently disable this aggregation"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11527
+msgid "Currently disable this notification"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:633
+#: /omd/sites/production/share/check_mk/web/plugins/icons/builtin.py:348
+msgid "Currently in downtime"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:830
+msgid "Currently open events of a host that is monitored"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:869
+msgid "Currently open events of one specific host"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:212
+msgid "Currently running processes"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8926
+msgid "Currently there are no unsent notification bulks pending."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:296
+msgid "Custom"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:674
+#: /omd/sites/production/share/check_mk/web/plugins/icons/builtin.py:274
+msgid "Custom Action"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11647
+msgid "Custom Attributes"
+msgstr "Atribute personalizate"
+
+#: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:1103
+msgid "Custom Links"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/icons/builtin.py:324
+#, fuzzy
+msgid "Custom Notes"
+msgstr "Atribute personalizate"
+
+#: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:949
+msgid "Custom Title"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:594
+msgid "Custom URL"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17336
+msgid "Custom User Attributes"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3223
+msgid "Custom checks (defined via rule)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1294
+msgid "Custom host notes"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:458
+msgid "Custom localizations"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:250
+msgid "Custom notification"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9072
+msgid "Custom notification table for user "
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11728
+msgid "Custom notification table of this user"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:829
+msgid "Custom services notes"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4624
+msgid "Custom settings"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5286
+msgid "Custom states"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:512
+msgid "Custom time range"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1197
+msgid "Customcheck"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/default_permissions.py:148
+#, python-format
+msgid "Customize %s and use them"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:127
+msgid "Cut everything after first space"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:293
+msgid "DB2"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:217
+msgid "DD.MM.YYYY"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2314
+msgid "DES"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:386
+msgid "DNS Hostname"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:964
+msgid "DNS Hostname or IP address"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:211
+msgid "DNS Server"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/lib.py:38
+#: /omd/sites/production/share/check_mk/web/htdocs/bi.py:82
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8481
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8482
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8484
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8485
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:675
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1247
+#: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:365
+msgid "DOWN"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4753
+msgid "DRBD device"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4676
+msgid "DRBD roles and diskstates"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4689
+msgid "DRBD shows up as"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1009
+msgid "DROP"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:1348
+msgid "Daily Report"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2504
+msgid "Daily build"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:724
+msgid "Dashboard Properties"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:80
+#: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:181
+msgid "Dashboards"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:929
+msgid "Dashlet Type"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3659
+msgid "Data"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/index.py:290
+msgid "Data not found"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1395
+msgid ""
+"Data to send via HTTP POST method. Please make sure, that the data is URL-"
+"encoded (for example \"key1=val1&key2=val2\")."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:741
+msgid ""
+"Data to send via HTTP POST method. Please make sure, that the data is URL-"
+"encoded."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17307
+msgid "Data type"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:303
+msgid "Database Name"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:311
+msgid "Database Password"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:299
+msgid "Database Port"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3364
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3384
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3408
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3439
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3463
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3487
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3576
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4116
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4140
+msgid "Database SID"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:307
+msgid "Database User"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4093
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4210
+msgid "Database name"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1052
+msgid "Dataguard Statistics"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/views.py:267
+#: /omd/sites/production/share/check_mk/web/htdocs/views.py:293
+#: /omd/sites/production/share/check_mk/web/htdocs/views.py:415
+msgid "Datasource"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2916
+#, python-format
+msgid "Datasource Program (<a href=\"%s\">Rules</a>)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:28
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:358
+msgid "Datasource Programs"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/reporting/availability.py:133
+#: /omd/sites/production/share/check_mk/web/plugins/reporting/views.py:179
+#, python-format
+msgid "Datasource: %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2208
+msgid "Datastore Name"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:90
+msgid "Datastores"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:5295
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1858
+#: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:391
+msgid "Date"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:588
+msgid "Date (YYYY-MM-DD)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:2250
+msgid "Date format"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:211
+msgid "Date format for page titles"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:1822
+msgid "Date must be a number value"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8962
+msgid "Date/Time"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:1868
+msgid "Day"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15398
+msgid "Day of the month (1-31)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:327
+msgid "Day of the week"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15397
+msgid "Day of the week (1-7, 1 is Monday)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4640
+msgid "Dead paths"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:85
+msgid "Debug"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:70
+msgid "Debug Livestatus queries"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:45
+msgid "Debug mode"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1736
+msgid "Debug queries to mkeventd"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1691
+msgid "Debug rule execution"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:2102
+msgid "December"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7811
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1019
+msgid "Default User Profile"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2712
+msgid "Default Value"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1300
+msgid "Default configuration"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:896
+msgid "Default is 389 for normal connections and 636 for SSL connections."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/sidebar/reporting.py:51
+msgid "Default reporting timerange"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7644
+msgid "Default setting"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1621
+msgid ""
+"Default state if a tunnel, which is not listed above in this rule, can no "
+"longer be found."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2898
+msgid "Default state if stopped autostart services are found"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1620
+msgid "Default state to report when tunnel can not be found anymore"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:516
+msgid "Default table layout"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/reporting/builting_reports.py:32
+msgid "Default template for all reports"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:438
+msgid "Default time range"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6207
+msgid "Default value"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15662
+#, python-format
+msgid "Default: %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8543
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:558
+msgid "Define a range of syslog priorities this rule matches"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:548
+msgid "Delay Livestatus responses"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:509
+msgid "Delay event creation"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1943
+msgid "Delay host notifications"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1166
+msgid "Delay precompiling of host checks"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1958
+msgid "Delay service notifications"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1941
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1956
+msgid "Delay:"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1351
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7941
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9278
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10009
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11724
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17390
+msgid "Delete"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:567
+#, python-format
+msgid "Delete %s number %d?"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6695
+msgid "Delete Snapshot"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/nagvis_auth.py:61
+msgid "Delete all maps"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1679
+msgid ""
+"Delete all messages identified as being related to this check. This is "
+"disabled by default, which will make your mailbox grow when you not clean it "
+"up on your own."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1678
+msgid "Delete all processed message belonging to this check"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:320
+msgid "Delete event immediately after the actions"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/omd_configuration.py:49
+msgid "Delete files older than"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/webapi/webapi.py:130
+msgid "Delete host in WATO"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2148
+msgid "Delete host!"
+msgstr "Sterge Elementul"
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/nagvis_auth.py:82
+msgid "Delete permitted maps"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1677
+msgid "Delete processed messages"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:882
+#, python-format
+msgid "Delete report schedule entry '%s'?"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14151
+#, python-format
+msgid "Delete rule number %d of folder '%s'?"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13472
+msgid ""
+"Delete rules containing tags that have been removed, if tag is used in a "
+"positive sense. Just remove that tag if it's used negated."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16361
+msgid "Delete this aggregation"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1863
+msgid "Delete this annotation"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12857
+msgid "Delete this auxiliary tag"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:909
+msgid "Delete this element element"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:822
+#: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:965
+msgid "Delete this entry"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:639
+msgid "Delete this fixel element"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1266
+msgid "Delete this folder"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1454
+msgid "Delete this host"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8745
+msgid "Delete this notification rule"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12392
+msgid "Delete this role"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13811
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14332
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16394
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:963
+msgid "Delete this rule"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:605
+msgid "Delete this schedule entry"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12828
+msgid "Delete this tag group"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:321
+msgid "Delete!"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7904
+#, python-format
+msgid "Deleted %s group %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16335
+#, python-format
+msgid "Deleted BI aggregation number %d"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16323
+#, python-format
+msgid "Deleted BI rule with id %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17372
+#, python-format
+msgid "Deleted attribute %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1706
+#, python-format
+msgid "Deleted empty folder %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1667
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2161
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17633
+#, python-format
+msgid "Deleted host %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8882
+#, python-format
+msgid "Deleted notification rule %d"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9099
+#, python-format
+msgid "Deleted notification rule %d or user %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12355
+#, python-format
+msgid "Deleted role '%s'"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:870
+#, python-format
+msgid "Deleted rule %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14158
+#, python-format
+msgid "Deleted rule in ruleset '%s'"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9905
+#, python-format
+msgid "Deleted site %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9260
+#, python-format
+msgid "Deleted timeperiod %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11681
+#, python-format
+msgid "Deleted user %s"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4182
+msgid "Deletes"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/webapi/webapi.py:131
+msgid "Deletes the given hostname in WATO"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mknotifyd.py:44
+msgid "Deliver notifications asychronously"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12835
+msgid "Demonstration"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:391
+#, python-format
+msgid ""
+"Depending on the choosen datasource a %s can list <i>multiple</i> or "
+"<i>single</i> objects. For example the <i>services</i> datasource can be "
+"used to simply create a list of <i>multiple</i> services, a list of "
+"<i>multiple</i> services of a <i>single</i> host or even a list of services "
+"with the same name on <i>multiple</i> hosts. When you just want to create a "
+"list of objects, you do not need to make any selection in this dialog. If "
+"you like to create a view for one specific object of a specific type, select "
+"the object type below and continue."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2468
+msgid ""
+"Depending on the measurement unit (defaults to bit) the absolute levels are "
+"set in bit or byte"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2490
+msgid ""
+"Depending on the measurement unit (defaults to bit) you can set the warn and "
+"crit levels for the number of dropped bits or bytes"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2371
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2394
+msgid ""
+"Depending on the measurement unit (defaults to byte) the absolute levels are "
+"set in bit or byte"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:621
+msgid "Deploy DB2 memory plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:420
+msgid "Deploy IBM WebSphere MQ plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:481
+msgid "Deploy Kaspersky Anti-Virus plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:304
+msgid "Deploy Linux filesystem quota plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:291
+msgid "Deploy Mailman plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:443
+msgid "Deploy NFS4 exports plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:635
+msgid "Deploy PostgreSQL plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:396
+msgid "Deploy SMART plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:469
+msgid "Deploy Symantec Anti Virus plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:431
+msgid "Deploy Unitrends plugins"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:408
+msgid "Deploy VxVM plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:457
+msgid "Deploy netstat plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:261
+msgid "Deploy plugin for JAR signatures"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:500
+msgid "Deploy the Check_MK Inventory plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:709
+msgid "Deploy the Jolokia plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:836
+msgid "Deploy the Logwatch plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:600
+msgid "Deploy the MySQL plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1140
+msgid "Deploy the ORACLE Database plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:762
+msgid "Deploy the SAP R/3 plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:578
+msgid "Deploy the TSM plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:518
+msgid "Deploy the Zypper plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:631
+msgid ""
+"Deploy the agent plugin <tt>mk_postgres</tt> and the hosts. This will create "
+"information neccessary for the checks <tt>postgres_sessions</tt> and "
+"<tt>postgres_stat_database</tt>."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:536
+msgid "Deploy the plesk plugins"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:28
+msgid "Deprecated"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/views.py:562
+msgid "Descending"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:627
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6644
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8301
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8789
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13027
+#: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:623
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:258
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1044
+#: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:456
+msgid "Description"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:216
+msgid "Destination IP"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1661
+msgid "Destination email address"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/icons/builtin.py:171
+msgid "Detailed host infos"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7361
+#: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1287
+msgid "Details"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:1003
+msgid "Details about a historical event history entry"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:909
+msgid "Details about one event"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6351
+msgid "Detector ID"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2596
+msgid "Determined by discovery"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4419
+msgid "Device"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:411
+msgid "Devices"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2365
+msgid ""
+"Devices which do not publish the system description OID .1.3.6.1.2.1.1.1.0 "
+"are normally ignored by the SNMP inventory. Use this ruleset to select hosts "
+"which should nevertheless be checked."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2008
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2523
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3092
+msgid "Diagnostic"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2855
+msgid "Diagnostic of host"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7231
+msgid "Diagnostics"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7535
+msgid "Did not find any global setting matching your search."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12964
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13193
+msgid ""
+"Different taggroups can be grouped in topics to make the visualization and "
+"selections in the GUI more comfortable."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/sidebar/wato.py:67
+msgid "Direct access to WATO - the web administration GUI of Check_MK"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/sidebar/reporting.py:78
+msgid ""
+"Direct access to global reports, selection for the default reporting time "
+"range, link to report editor."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:221
+msgid "Direct links to all service groups"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6046
+msgid "Directly forward to event console"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4246
+msgid "Directly reachable hosts"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:720
+msgid "Directory Type"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:81
+msgid "Directory for binaries (executables)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:88
+msgid "Directory for configuration files"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:214
+msgid "Directs links to all host groups"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10491
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:124
+#: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:96
+#: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:121
+#: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:141
+msgid "Disable"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/userdb/user_attributes.py:56
+msgid "Disable Notifications"
+msgstr "Dezactiveaza Notificarile"
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1716
+msgid "Disable active checks"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/default_permissions.py:109
+msgid "Disable all personal notifications"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10518
+msgid "Disable configuration via WATO on this site"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2012
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2022
+msgid "Disable flap detection"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1849
+msgid "Disable host notifications"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1149
+msgid "Disable locking"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12130
+msgid "Disable password"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1705
+msgid "Disable processing of passive check results"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1694
+msgid "Disable processing of perfdata"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1859
+msgid "Disable service notifications"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10039
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10041
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11526
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16950
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:132
+msgid "Disabled"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2092
+msgid "Disabled checks"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4641
+msgid "Disabled paths"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8317
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14748
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:267
+msgid "Disabled rules are kept in the configuration but are not applied."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:1046
+msgid "Disabled schedule entries are not being executed."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2082
+msgid "Disabled services"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3218
+msgid "Disabled services (configured away by admin)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12136
+msgid ""
+"Disabling the password will prevent a user from logging in while retaining "
+"the original password. Notifications are not affected by this setting."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4653
+#, fuzzy
+msgid "Discard Changes!"
+msgstr "Nici o schimbare"
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4713
+#, python-format
+msgid "Discarded pending changes (Restored %s)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1356
+msgid "Discovery"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:422
+msgid "Disk ID"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1102
+msgid "Disk space on OpenVMS"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4319
+msgid "Disk/Drive type"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:235
+msgid "Disks"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/omd_configuration.py:40
+msgid "Diskspace Cleanup"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4719
+msgid "Diskstate"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4712
+msgid "Diskstates"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:103
+msgid "Display ESX Host power state on"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/views.py:758
+msgid "Display Options"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:114
+msgid "Display VM power state on"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/reporting/pnp_graphs.py:156
+msgid "Display a simple message that the graph is missing"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:492
+msgid "Display average"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:729
+msgid "Display dashboard title"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:97
+msgid "Display graphs among each other"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:213
+msgid "Display legend for timeline"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:510
+msgid "Display name"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/table.py:279
+msgid "Display table actions"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4526
+msgid "Display the system's uptime as a check"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:1413
+msgid "Display the tree only below this node"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2163
+msgid "Display time left in check output"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:491
+msgid "Display total sum (for % the average)"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/datasources.py:82
+msgid "Displays a list of hosts."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:350
+msgid "Displays a performance graph of a host or service."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:490
+msgid "Displays a static text to the user."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:563
+msgid "Displays a the content of a Multisite view."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2241
+msgid "Displays all BI aggregations."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2296
+msgid "Displays all aggregations of a certain group."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:56
+msgid "Displays an introduction and Check_MK logo."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1944
+msgid "Displays entries from the logfile of the monitoring core."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1556
+msgid "Displays hosts in a tiled layout, where each host is a single tile."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:130
+msgid "Displays statistics about host states as globe and a table."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:197
+msgid "Displays statistics about service states as globe and a table."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:596
+msgid "Displays the content of a custom website."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3592
+msgid "Disregard required mirror space as free space"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:405
+msgid "Distinguish times in and out of notification period"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/userdb/ldap.py:920
+msgid ""
+"Distinguished Name of the LDAP group to add users this role. e. g. "
+"<tt>CN=cmk-users,OU=groups,DC=example,DC=com</tt><br> This group must be "
+"defined within the scope of the <a href=\"wato.py?"
+"mode=ldap_config&varname=ldap_groupspec\">LDAP Group Settings</a>."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:880
+msgid "Distinguished name for binding"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9868
+#: /omd/sites/production/share/check_mk/web/plugins/wato/builtin_modules.py:74
+msgid "Distributed Monitoring"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4776
+msgid "Distributed WATO - Replication Status"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/builtin_modules.py:75
+msgid "Distributed monitoring via Multsite, distributed configuration via WATO"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8388
+msgid "Do <b>not</b> match the following services"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1584
+msgid "Do a replication every"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1829
+msgid "Do check every"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3888
+msgid "Do full SNMP scan for SNMP devices"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/inventory.py:35
+msgid "Do hardware/software Inventory"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18583
+msgid "Do inventory and service configuration on existing hosts."
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:147
+msgid "Do no monitor placeholder VMs"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/inventory.py:84
+msgid "Do not add column headers"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1686
+msgid "Do not alert on connection loss"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15553
+msgid "Do not convert case"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:622
+msgid "Do not deploy DB2 memory plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:421
+msgid "Do not deploy IBM WebSphere MQ plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:482
+msgid "Do not deploy Kaspersky Anti-Virus plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:305
+msgid "Do not deploy Linux filesystem quota plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:292
+msgid "Do not deploy Mailman plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:444
+msgid "Do not deploy NFS4 exports plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:636
+msgid "Do not deploy PostgreSQL plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:397
+msgid "Do not deploy SMART plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:470
+msgid "Do not deploy Symantec Anti Virus plugin"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:432
+msgid "Do not deploy Unitrends plugins"
+msgstr ""
+
+#: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:409
+msgid "Do not deploy VxVM plugin"
+msgstr ""
