@@ -1,193 +1,194 @@
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:458
 msgid "Do not deploy netstat plugin"
-msgstr ""
+msgstr "Nu face provizionare plugin-ului netstat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:277
 msgid "Do not deploy plugin for JAR signatures"
-msgstr ""
+msgstr "Nu face provizionare plugin-ului pentru semnaturi JAR"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1037
 msgid "Do not deploy the Apache Status plugin"
-msgstr ""
+msgstr "Nu face provizionare plugin-ului pentru Apache Status"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:503
 msgid "Do not deploy the Check_MK Inventory plugin"
-msgstr ""
+msgstr "Nu face provizionarea plugin-ului Check_MK Inventory"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:564
 msgid "Do not deploy the DNS client plugin"
-msgstr ""
+msgstr "Nu face provizionarea plugin-ului pentru clientul DNS"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:727
 msgid "Do not deploy the Jolokia plugin"
-msgstr ""
+msgstr "Nu face provizionarea plugin-ului Jolokia"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:934
 msgid "Do not deploy the Logwatch plugin"
-msgstr ""
+msgstr "Nu face provizionarea plugin-ului Logwatch"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:608
 msgid "Do not deploy the MySQL plugin"
-msgstr ""
+msgstr "Nu face provizionarea plugin-ului MySQL"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:991
 msgid "Do not deploy the NGINX Status plugin"
-msgstr ""
+msgstr "Nu face provizionarea plugin-ului NGINX Status"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1203
 msgid "Do not deploy the ORACLE plugin"
-msgstr ""
+msgstr "Nu face provizionarea plugin-ului ORACLE"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:808
 msgid "Do not deploy the SAP R/3 plugin"
-msgstr ""
+msgstr "Nu face provizionarea plugin-ului SAP R/3"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:586
 msgid "Do not deploy the TSM plugin"
-msgstr ""
+msgstr "Nu face provizionarea plugin-ului TSM"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:521
 msgid "Do not deploy the Zypper plugin"
-msgstr ""
+msgstr "Nu face provizionarea plugin-ului Zypper"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:539
 msgid "Do not deploy the plesk plugins"
-msgstr ""
+msgstr "Nu face provizionarea plugin-ului plesk"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:215
 msgid "Do not display a date"
-msgstr ""
+msgstr "Nu afisa o dată"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:209
 msgid "Do not display column headers"
-msgstr ""
+msgstr "Nu afisa antetul de coloană"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:212
 msgid "Do not display icons for history and timeline"
-msgstr ""
+msgstr "Nu afisa pictogramele pentru istoric si cronologie"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:210
 msgid "Do not display the host name"
-msgstr ""
+msgstr "Nu afisa numele elementului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6999
 msgid "Do not enforce the resource to be hold by a specific node."
-msgstr ""
+msgstr "Nu forta rezervarea resurselor pentru un nod anume"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:420
 msgid "Do not group"
-msgstr ""
+msgstr "Nu grupa"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15525
 msgid "Do not impose levels, always be OK"
-msgstr ""
+msgstr "Nu impune praguri, returnează întotdeauna OK"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4472
 msgid "Do not list grouped interfaces separately"
-msgstr ""
+msgstr "Nu lista interfetele grupate separat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8533
 msgid "Do not match Event Console alerts"
-msgstr ""
+msgstr "Nu verifica potrivirile pe alertele Event Console"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:480
 msgid "Do not merge consecutive phases with equal state"
-msgstr ""
+msgstr "Nu comasa fazele consecutive cu aceeasi stare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4683
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4714
 msgid "Do not monitor"
-msgstr ""
+msgstr "Nu monitoriza"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:131
 msgid "Do not offer this action as a command on open events"
-msgstr ""
+msgstr "Nu permite aceasta actiune ca o comandă pentru evenimentele deschise"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1907
 msgid "Do not send to remote host"
-msgstr ""
+msgstr "Nu trimite către elementul distant"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:589
 #, python-format
 msgid "Do not show a context button to this %s"
-msgstr ""
+msgstr "Nu afisa un buton de context pentru %s"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:490
 msgid "Do not show a summary line"
-msgstr ""
+msgstr "Nu afisa o linie de sumarizare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:890
 msgid "Do not transfer context"
-msgstr ""
+msgstr "Nu transfera contextul"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11534
 msgid "Do only notifiy alerts within this time period"
-msgstr ""
+msgstr "Notifica doar alertele din aceast interval de timp"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:524
 msgid "Do this recursively"
-msgstr ""
+msgstr "Fă acest lucru recursiv"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:889
 msgid "Do transfer context"
-msgstr ""
+msgstr "Transferă contextul"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:362
 #, python-format
 msgid "Do you really want to %(title)s the %(count)d %(what)ss?"
-msgstr ""
+msgstr "Ești sigur că doresti să %(title)s a %(count)d %(what)ss?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:1920
 #, python-format
 msgid "Do you really want to %(title)s the following %(count)d %(what)s?"
-msgstr ""
+msgstr "Ești sigur că doresti să %(title)s a urmatorului %(count)d %(what)s?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:263
 #, python-format
 msgid ""
 "Do you really want to acknowledge %s by <b>deleting</b> all stored messages?"
 msgstr ""
-
+"Ești sigur că doresti să confirmi %s <b>stergând</b> toate mesajele stocate?" 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:5095
 msgid "Do you really want to clear the audit log?"
-msgstr ""
+msgstr "Ești sigur ca dorești să golești jurnalul de audit"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:891
 msgid ""
 "Do you really want to copy all event rules from the master and replace your "
 "local configuration with them?"
 msgstr ""
-
+"Ești sigur că dorești să copiezi toate regulile de eveniment de pe site-ul "
+"principal și să inlocuiești configuratia locală cu ele?"
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1656
 #, python-format
 msgid "Do you really want to delete the %d selected hosts?"
-msgstr ""
+msgstr "Ești sigur ca dorești sa ștergi cele %d elemente selectate?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7896
 #, python-format
 msgid "Do you really want to delete the %s group \"%s\"?"
-msgstr ""
+msgstr "Ești sigur ca dorești să ștergi grupul %s  \"%s\"?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16332
 #, python-format
 msgid "Do you really want to delete the aggregation number <b>%s</b>?"
-msgstr ""
+msgstr "Ești sigur ca doresti să ștergi agregarea numarul <b>%s</b>?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12751
 #, python-format
 msgid "Do you really want to delete the auxiliary tag '%s'?"
-msgstr ""
+msgstr "Ești sigur ca dorești să ștergi eticheta auxiliară '%s'?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9895
 #, python-format
 msgid "Do you really want to delete the connection to the site %s?"
-msgstr ""
+msgstr "Ești sigur că dorești să stergi conexiunea la site-ul %s?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17364
 #, python-format
 msgid "Do you really want to delete the custom attribute \"%s\"?"
-msgstr ""
+msgstr "Ești sigur că dorești să ștergi atributele personalizate \"%s\"?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1692
 #, python-format
@@ -197,7 +198,7 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2155
 #, python-format
 msgid "Do you really want to delete the host <tt>%s</tt>?"
-msgstr ""
+msgstr "Ești sigur că dorești să ștergi elementul <tt>%s</tt>?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12717
 #, python-format
