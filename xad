@@ -1,37 +1,37 @@
 msgid "Hostname, marked red if down"
-msgstr ""
+msgstr "Nume element marcat roșu dacă este oprit"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1081
 msgid "Hostname, red background if down or unreachable"
-msgstr ""
+msgstr "Nume element, fundal roșu daca este oprit sau inaccesibil"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1100
 msgid "Hostname, red background if down, link to Nagios services"
-msgstr ""
+msgstr "Nume element, fundal roșu dacă este oprit, legatura catre serviciile de Nagios"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:2018
 msgid "Hostname/IP address of Event Console:"
-msgstr ""
+msgstr "Nume element/Adresă IP a Consolei de Evenimente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1567
 msgid "Hostname/IP address of Master Event Console:"
-msgstr ""
+msgstr "Nume element/Adresă IP a Consolei Principale de Evenimente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:391
 msgid "Hostname/IP-Address"
-msgstr ""
+msgstr "Nume element/Adresă IP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:102
 msgid "Hostname/IP-Address of event, exact match"
-msgstr ""
+msgstr "Nume element/Adresă IP a evenimentului, potrivire perfectă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:101
 msgid "Hostname/IP-Address of original event"
-msgstr ""
+msgstr "Nume element/Adresă IP a evenimentului original"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:556
 msgid "Hostnames to resolve"
-msgstr ""
+msgstr "Nume elemente de rezolvat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:125
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1290
@@ -56,17 +56,19 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:71
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:557
 msgid "Hosts"
-msgstr ""
+msgstr "Elemente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:291
 msgid "Hosts Connected"
-msgstr ""
+msgstr "Elemente Conectate"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:970
 msgid ""
 "Hosts attributes locked (You cannot create, edit or delete hosts in this "
 "folder)"
 msgstr ""
+"Atributele elementelor sunt blocate (Nu poți crea, modifica sau șterge elemente "
+"din acest folder)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1597
 msgid ""
@@ -74,16 +76,22 @@ msgid ""
 "to put hosts which belong together in a host group to make it possible to "
 "get them listed together in the status GUI."
 msgstr ""
+"Elementele pot fi grupate împreună în grupurile de elemente. Cel mai întalnit"
+"caz este gruparea elementelor care corespund într-un singur grup pentru a face"
+"posibilă afișarea lor împreună în interfața de stare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1373
 msgid "Hosts colored according to state"
-msgstr ""
+msgstr "Elemente colorate conform starei"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:300
 msgid ""
 "Hosts configured via this rule get the <tt>lnx_quota</tt> plugin deployed. "
 "This is only useful if you have filesystem quotas setup on the host."
 msgstr ""
+"Elementele configurate prin această regulă"
+"Acest lucru este folositor doar dacă conta sisteului de fișiere este "
+"definita pe element."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:392
 msgid ""
@@ -91,6 +99,9 @@ msgid ""
 "Assuming you have installed <tt>smartmontools</tt>, your local harddisks "
 "will be monitored for temperature and errors."
 msgstr ""
+"Elementele configurate prin această regulă"
+"Presupunând ca aveți instalat <tt>smartmontools</tt>, vor fi monitorizate"
+"temperatura și erorile pentru discurile dvs. locale"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:617
 msgid ""
@@ -98,54 +109,63 @@ msgid ""
 "This will create one service for the memory consumption of every running DB2 "
 "instance found on the system."
 msgstr ""
+"Elementele configurate prin această regulă"
+"Aceast regulă va crea câte un serviciu pentru memoria consumată de fiecare "
+"instanță funcțională de DB2 care a fost găsită pe sistemul dvs."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6164
 msgid "Hosts forced to use <tt>if</tt> instead of <tt>if64</tt>"
-msgstr ""
+msgstr "Elementelor li s-a impus folosirea <tt>if</tt> în loc de <tt>if64</tt>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/datasources.py:86
 msgid "Hosts grouped by host groups"
-msgstr ""
+msgstr "Elemente grupate după grupul de elemente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:864
 msgid "Hosts grouped by hostgroups, with a brief list of all services"
 msgstr ""
+"Elemente grupate după grupul de elemente, împreună o listă sumară a"
+"tuturor serviciilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2072
 msgid "Hosts to be monitored"
-msgstr ""
+msgstr "Elemente de monitorizat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4514
 msgid "Hosts to create in each folder"
-msgstr ""
+msgstr "Elemente de creat în fiecare director"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2352
 msgid "Hosts using SNMP bulk walk (enforces SNMP v2c)"
-msgstr ""
+msgstr "Elemente care folosesc SNMP bulk walk (impune folosirea SNMP v2c)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13411
 msgid ""
 "Hosts where this tag group is explicitely set and that are effected by the "
 "change"
 msgstr ""
+"Elemente unde acest grup de etichete este setat în mod explicit și care sunt"
+"afectate de catre modificare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2251
 msgid "Hosts with dynamic DNS lookup during monitoring"
-msgstr ""
+msgstr "Elemente cu căutarea DNSului dinamic în timpul monitorizării"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2364
 msgid "Hosts without system description OID"
-msgstr ""
+msgstr "Elemente fără descrierea de sistem OID"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/backup_domains.py:84
 msgid ""
 "Hosts, Services, Groups, Timeperiods, Business Intelligence and Monitoring "
 "Configuration"
 msgstr ""
+"Elemente, Servicii, Grupuri, Intervale de timp, Business Intelligence si"
+"Configuratia de monitorizare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5280
 msgid "Hostsystem sensor alerts"
-msgstr ""
+msgstr "Senzor de alertare a sistemului gazdă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1500
 msgid "Hotspare-Hub replacing another router"
@@ -153,45 +173,47 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:1871
 msgid "Hour"
-msgstr ""
+msgstr "Ora"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15399
 msgid "Hour of the day (0-23)"
-msgstr ""
+msgstr "Ora din zi (0-23)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:454
 msgid "Hours"
-msgstr ""
+msgstr "Ore"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:2036
 msgid "Hours/Minutes out of range"
-msgstr ""
+msgstr "Ore/Minute în afara perioadei"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1667
 msgid "Housekeeping Interval"
-msgstr ""
+msgstr "Interval mentenanță"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:401
 msgid "Housekeeping interval"
-msgstr ""
+msgstr "Interval mentenață"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1480
 msgid "How"
-msgstr ""
+msgstr "Cum"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4876
 msgid ""
 "How the disks are named depends on the type of hardware being used. Please "
 "look at already inventorized checks for examples."
 msgstr ""
+"Modul cum discurile sunt denumite depinde de tipul de echipament folosit."
+"Pentru exemple vă rugăm să vă vizualizați verificările deja inventariate."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:687
 msgid "How to handle redirect"
-msgstr ""
+msgstr "Cum să interpretezi redirecționările"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/notify.py:117
 msgid "How to notify"
-msgstr ""
+msgstr "Cum să fi informat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1498
 msgid "Hub"
@@ -203,19 +225,19 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5091
 msgid "Humidity"
-msgstr ""
+msgstr "Umiditate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3218
 msgid "Humidity Levels"
-msgstr ""
+msgstr "Nivele de umiditate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3236
 msgid "Humidity Levels for devices with a single sensor"
-msgstr ""
+msgstr "Nivele de umiditate pentru dispozitive cu un singur senzor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1109
 msgid "Hyper-V Server: State of VMs"
-msgstr ""
+msgstr "Server Hyper-V: Starea mașinilor virtuale"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:400
 msgid "Hyperthreads per CPU"
@@ -223,19 +245,19 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:268
 msgid "IBM SVC / V7000 user name"
-msgstr ""
+msgstr "Nume de utilizator IBM SVC / V7000"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4297
 msgid "IBM SVC: Levels for total disk latency"
-msgstr ""
+msgstr "IBM SVC: Nivele pentru latența totală a discului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4328
 msgid "IBM SVC: Options for SVC Hosts Check "
-msgstr ""
+msgstr "IBM SVC: Opțiuni pentru SVC Hosts Check"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:417
 msgid "IBM WebSphere MQ (Linux)"
-msgstr ""
+msgstr "IBM WebSphere MQ (Linux)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1499
 msgid "ICMP Echo Request"
@@ -252,141 +274,143 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1548
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1632
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5527
 msgid "ID of phase"
-msgstr ""
+msgstr "ID-ul fazei"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:96
 msgid "ID of rule"
-msgstr ""
+msgstr "ID-ul regulei"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1545
 msgid "ID of the Channel (usually ranging from 1)"
-msgstr ""
+msgstr "ID-ul canalului (în mod normal variind de la 1)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1584
 msgid "ID of the Entry"
-msgstr ""
+msgstr "ID-ul intrării"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1525
 msgid "ID of the channel (usually ranging from 1)"
-msgstr ""
+msgstr "ID-ul canalului (în mod normal variind de la 1)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:317
 msgid "ID of the event"
-msgstr ""
+msgstr "ID-ul evenimentului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6408
 msgid "ID of the license, e.g. <tt>PVSD_STD_CCS</tt>"
-msgstr ""
+msgstr "ID-ul licenței, ex. <tt>PVSD_STD_CCS</tt>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:906
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:72
 msgid "IGNORE"
-msgstr ""
+msgstr "IGNORĂ"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1559
 msgid "IMAP"
-msgstr ""
+msgstr "IMAP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1563
 msgid "IMAP Server"
-msgstr ""
+msgstr "Server IMAP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:295
 msgid "IO Groups"
-msgstr ""
+msgstr "IO Grupuri"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4376
 msgid "IO Latency"
-msgstr ""
+msgstr "IO Latență"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:971
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1024
 msgid "IP Address"
-msgstr ""
+msgstr "Adresă IP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:66
 msgid "IP Address of Host"
-msgstr ""
+msgstr "Adresa IP a elementului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:200
 msgid "IP Address of remote Event Console"
-msgstr ""
+msgstr "Adresa IP a Consolei de Evenimente Remote"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:217
 msgid "IP Address of the Spectrum server receiving the SNMP trap"
-msgstr ""
+msgstr "Adresa IP a serverului Spectrum care recepționează capcana SNMP"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2876
 #: /omd/sites/production/share/check_mk/web/plugins/wato/builtin_attributes.py:37
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1150
 msgid "IP address"
-msgstr ""
+msgstr "Adresă IP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:645
 msgid "IP address of JVM webserver"
-msgstr ""
+msgstr "Adresa IP a serverului web JVM"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1627
 msgid "IP-Address of Tunnel Endpoint"
-msgstr ""
+msgstr "Adresa IP a capătului de tunel"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1600
 msgid "IP-Address or Name of Tunnel Endpoint"
-msgstr ""
+msgstr "Adresa IP sau Numele capului de tunel"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:984
 msgid "IP-Version"
-msgstr ""
+msgstr "Versiune IP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:989
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:994
 msgid "IPv6"
-msgstr ""
+msgstr "IPv"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2222
 msgid "Icon image for hosts in status GUI"
-msgstr ""
+msgstr "Imagine iconiță pentru elementele in interfața de stare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2233
 msgid "Icon image for services in status GUI"
-msgstr ""
+msgstr "Imagine iconiță pentru serviciile din interfața de stare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:346
 msgid "Icon showing the site"
-msgstr ""
+msgstr "Iconiță care afișează site-ul"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1109
 msgid "Icon with link to host to Nagios GUI"
-msgstr ""
+msgstr "Iconiță cu legătură care interfața Nagios"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:330
 msgid "Icon with link to service in Nagios GUI"
-msgstr ""
+msgstr "Iconiță cu legatură către serviciile din interfața Nagios"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:487
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:196
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:205
 msgid "Icons"
-msgstr ""
+msgstr "Iconițe"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12049
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17297
 msgid "Identity"
-msgstr ""
+msgstr "Identitate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:601
 msgid ""
 "If a matching message appears with this text, then an event created by this "
 "rule will automatically be cancelled (if host, application and match groups "
 "match). "
-msgstr ""
+msgstr "Dacă un mesaj asemănător apare cu acest text, atunci un eveniment"
+"creat de această regulă va fi in mod automat anulat (daca elementul,)"
+"aplicația sau grupurile sunt asemănătoare)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4601
 msgid ""
