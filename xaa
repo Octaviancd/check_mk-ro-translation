@@ -2844,56 +2844,57 @@ msgid ""
 "Anaylse ruleset with this notification:\n"
 "%s"
 msgstr ""
+""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1878
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1924
 msgid "Annotation"
-msgstr ""
+msgstr "Adnotare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1849
 msgid "Annotations"
-msgstr ""
+msgstr "Adnotări"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:714
 msgid "Apache ActiveMQ Queue lengths"
-msgstr ""
+msgstr "Lungimea cozilor Apache ActiveMQ"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:183
 msgid "Apache ActiveMQ queues"
-msgstr ""
+msgstr "Cozi Apache ActiveMQ"
 
 #: /omd/sites/production/share/check_mk/web/plugins/userdb/htpasswd.py:135
 msgid "Apache Local Password File (htpasswd)"
-msgstr ""
+msgstr "Fișier local de parole Apache (htpasswd)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1454
 msgid "Apache Server"
-msgstr ""
+msgstr "Server Apache"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:999
 msgid "Apache webservers (Linux)"
-msgstr ""
+msgstr "Servere web Apache (Linux)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5152
 msgid "Apparent Power"
-msgstr ""
+msgstr "Putere Aparentă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:413
 msgid "Application"
-msgstr ""
+msgstr "Aplicație"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1973
 msgid "Application (regular expression)"
-msgstr ""
+msgstr "Aplicație (expresie regulată)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:412
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:98
 msgid "Application / Syslog-Tag"
-msgstr ""
+msgstr "Aplicație / Syslog-Tag"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/backup_domains.py:181
 msgid "Application Logs"
-msgstr ""
+msgstr "Jurnale de Aplicație"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:723
 msgid "Application Name"
@@ -2901,47 +2902,47 @@ msgstr "Numele Aplicatiei"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:41
 msgid "Applications, Processes &amp; Services"
-msgstr ""
+msgstr "Aplicații, Procese &amp; Servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:617
 msgid "Apply"
-msgstr ""
+msgstr "Aplică"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3425
 msgid "Apply Lag"
-msgstr ""
+msgstr "Aplică Lag"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:2100
 msgid "April"
-msgstr ""
+msgstr "Aprilie"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:447
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:454
 msgid "Architecture"
-msgstr ""
+msgstr "Arhitectura"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:698
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:700
 msgid "Archive Event"
-msgstr ""
+msgstr "Arhivează Eveniment"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:683
 msgid "Archive an event"
-msgstr ""
+msgstr "Arhivează un eveniment"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1754
 msgid "Archive messages that do not match any rule"
-msgstr ""
+msgstr "Arhivează mesajele care nu se potrivesc nici unei reguli"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1965
 #, python-format
 msgid "Are you sure that you want to delete the annotation '%s'?"
-msgstr ""
+msgstr "Ești sigur că vrei să ștergi adnotarea '%s'?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6855
 #, python-format
 msgid "Are you sure you want to delete the snapshot <br><br>%s?"
-msgstr ""
+msgstr "Ești sigur că vrei să ștergi instantaneul <br><br>%s?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2243
 #, python-format
@@ -2949,101 +2950,107 @@ msgid ""
 "Are you sure you want to rename the host <b>%s</b> into <b>%s</b>? This "
 "involves a restart of the monitoring core!"
 msgstr ""
+"Ești sigur că vrei să redenumești elementul <b>%s</b> în <b>%s</b>? Această "
+"operațiune presupune ă repornire al nucleului de monitorizare!"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6879
 #, python-format
 msgid "Are you sure you want to restore the snapshot %s?"
-msgstr ""
+msgstr "Esti sigur că vrei să restaurezi instantaneul %s?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16793
 msgid "Arguments:"
-msgstr ""
+msgstr "Argumente:"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:409
 msgid "Arrays (Controllers)"
-msgstr ""
+msgstr "Matrice (Controlere)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:559
 msgid "Artificial Livestatus Delay"
-msgstr ""
+msgstr "Întârziere artificială Livestatus"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:505
 msgid "Artificial slowdown of logfile parsing (for testing!)"
-msgstr ""
+msgstr "Încetinire artificialâ al parsării jurnalelor (pentru testare!)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:449
 msgid ""
 "As soon as you configure expected strings in the response the check will "
 "output the response - as long as you do not hide it with this option"
 msgstr ""
+"De îndată ce configurezi șirurile așteptate în răspuns, verificarea "
+"va scoate răspunsul - atâta timp căt nu ascunzi această opțiune"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:561
 msgid "Ascending"
-msgstr ""
+msgstr "Ascendent"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2115
 msgid "Assign services to the following cluster:"
-msgstr ""
+msgstr "Asignează servicii următorului cluster:"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1589
 msgid ""
 "Assignment of host &amp; services to host, service and contacts groups. "
-msgstr ""
+msgstr "Asignarea de elemente și servicii câtre grupuri de element și contact"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1614
 msgid "Assignment of hosts to contact groups"
-msgstr ""
+msgstr "Asignarea elementelor câtre grupuri de contact"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1596
 msgid "Assignment of hosts to host groups"
-msgstr ""
+msgstr "Asignarea elementului către grupuri de element"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1621
 msgid "Assignment of services to contact groups"
-msgstr ""
+msgstr "Asignarea serviciilor câtre grupuri de contact"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1606
 msgid "Assignment of services to service groups"
-msgstr ""
+msgstr "Asignarea serviciilor câtre grupuri de servicii"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/bi.py:1615
 msgid "Assume another state for this item (reload page to activate)"
 msgstr ""
+"Să presupunem o altă stare pentru acest articol (reîncarcă "
+"pagina pentru activare)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/bi.py:128
 msgid "Assumed"
-msgstr ""
+msgstr "Asumat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2311
 msgid "Assumed input speed"
-msgstr ""
+msgstr "Viteza de intrare asumată"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:835
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6724
 msgid "Assumed link speed"
-msgstr ""
+msgstr "Viteza link asumată"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2330
 msgid "Assumed output speed"
-msgstr ""
+msgstr "Viteza de ieșire asumată"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/bi.py:1054
 #: /omd/sites/production/share/check_mk/web/htdocs/bi.py:1085
 #, python-format
 msgid "Assumed to be %s"
-msgstr ""
+msgstr "Presupus a fi %s"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:234
 msgid "Asynchronous execution of plugins"
-msgstr ""
+msgstr "Execuție asincronă al plugin-urilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:221
 msgid "Asynchronously spooled check results"
-msgstr ""
+msgstr "Rezultatele verificării spooled asincron"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2496
 msgid "At least"
-msgstr ""
+msgstr "Cel puțin"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:706
 msgid ""
@@ -3051,12 +3058,18 @@ msgid ""
 "server response (default: <tt>HTTP/1.</tt>). If specified skips all other "
 "status line logic (ex: 3xx, 4xx, 5xx processing)"
 msgstr ""
+"Cel puțin una din următoarele șir-uri trebuie să se regăsească pe prima linie "
+"(status) al răspunului (implicit: <tt>HTTP/1.</tt>). Dacă aceasta este "
+"specifcat atunci toate celelalte linii ale stării sunt sărite (ex: procesare "
+"3xx, 4xx, 5xx)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8619
 msgid ""
 "At most that many Notifications are kept back for bulking. A value of 1 "
 "essentially turns of notification bulking."
 msgstr ""
+"Cel mult atâtea Notificări sunt reținute pentru a trimite în masă. O "
+"valoare de 1 înseamnă să dezactivezi notificările în masă."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:161
 msgid ""
@@ -3066,24 +3079,31 @@ msgid ""
 "in time. Checks that run for a longer time block the workers longer. A "
 "larger number of helpers will consume more memory."
 msgstr ""
+"La pornire CMC crează un numâr fix de procese lucrătoare care sunt folosite "
+"pentru a executa verificările clasice. Acest număr este configurat aici. Dacă "
+"numărul proceselor este prea mic atunci nu vor putea fi executate toate "
+"verificările în timp. Verificările care ruleaza pentru o perioadă de timp mai "
+"lungă țin procesele lucrătoate blocate mai lung. Un număr mai mare de procese "
+"lucrătoare vor consuma mai multă memorie."
+
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:328
 msgid "At the beginning of every month at day"
-msgstr ""
+msgstr "La începutul fiecărei luni ziua"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:55
 msgid "At the center of the page"
-msgstr ""
+msgstr "În mijlocul paginii"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:330
 msgid "At the end of every month at day"
-msgstr ""
+msgstr "La sfârșitul fiecărui luni ziua"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:592
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:992
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1755
 msgid "Att."
-msgstr ""
+msgstr "În At."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:663
 msgid ""
@@ -3091,6 +3111,9 @@ msgid ""
 "match, then you can use the placeholders <tt>\\1</tt>, <tt>\\2</tt>, etc. "
 "for inserting the first, second etc matching group."
 msgstr ""
+"Atașază un comentariu evenimentului. If you have bracketed groups in the text to "
+"match, then you can use the placeholders <tt>\\1</tt>, <tt>\\2</tt>, etc. "
+"for inserting the first, second etc matching group."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:677
 msgid ""
@@ -3098,6 +3121,9 @@ msgid ""
 "the text to match, then you can use the placeholders <tt>\\1</tt>, <tt>\\2</"
 "tt>, etc. for inserting the first, second etc matching group."
 msgstr ""
+"Atașează informații despre o persoană de contact. Dacă ai grupuri în "
+"paranteze pătrate, poți folosi substituenții <tt>\\1</tt>, <tt>\\2</tt> "
+", etc. introducând, primul, al doilea, etc. grup potrivit."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:866
 msgid "Attribute to search"
