@@ -370,33 +370,33 @@ msgstr "IPv4"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:994
 msgid "IPv6"
-msgstr "IPv"
+msgstr "IPv6"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2222
 msgid "Icon image for hosts in status GUI"
-msgstr "Imagine iconiță pentru elementele in interfața de stare"
+msgstr "Pictogramă pentru elementele in interfața de stare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2233
 msgid "Icon image for services in status GUI"
-msgstr "Imagine iconiță pentru serviciile din interfața de stare"
+msgstr "Pictogramă pentru serviciile din interfața de stare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:346
 msgid "Icon showing the site"
-msgstr "Iconiță care afișează site-ul"
+msgstr "Pictograma care afișează site-ul"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1109
 msgid "Icon with link to host to Nagios GUI"
-msgstr "Iconiță cu legătură care interfața Nagios"
+msgstr "Pictogramă cu legătură care interfața Nagios"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:330
 msgid "Icon with link to service in Nagios GUI"
-msgstr "Iconiță cu legatură către serviciile din interfața Nagios"
+msgstr "Pictogramă cu legatură către serviciile din interfața Nagios"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:487
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:196
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:205
 msgid "Icons"
-msgstr "Iconițe"
+msgstr "Pictograme"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12049
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17297
@@ -418,6 +418,9 @@ msgid ""
 "device instead of the UUID. The alias will then be part of the service "
 "description. The UUID will be output in the pluging outpout."
 msgstr ""
+"Dacă un dispozitiv multipath are un alias atunci, acesta, se poate folosii pentru"
+"a specifica dispozitivul in locul de folosirea UUID. În acest caz alias-ul va fi"
+"parte din descrierea serviciului. UUID-ul va fi afișat în rezultatul plugin-ului."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3967
 msgid ""
@@ -425,12 +428,17 @@ msgid ""
 "hosts share the same setting for this attribute. If you leave that "
 "selection, all hosts will keep their individual settings."
 msgstr ""
+"Dacă o selecție este setată pe <i>nu se modifică</i> atunci nu toate elementele"
+"selectate vor împărții aceeași setare pentru acest atribut. Dacă vei părăsii"
+"această selecție, toate elementele își vor păstra setările lor individuale"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:270
 msgid ""
 "If a user lacks this permission then he/she can see only those events that "
 "originate from a host that he/she is a contact for."
 msgstr ""
+"Dacă un utilizator nu are această permisiune, atunci el/ea pot vizualiza"
+"doar evenimentele care aparțin de elementul la care el/ea este contact"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15608
 msgid ""
@@ -448,6 +456,11 @@ msgid ""
 "monitoring server simpler, but can result much traffic on logfiles with "
 "frequent new messages."
 msgstr ""
+"Dacă mesajele contextuale sunt activate, atunci când cel puțin un mesaj"
+"relevant este identificat (clasificat ca ATENȚIE sau CRIT), atunci toate"
+"mesajele noi ale ciclului curet sunt transferate. Acest lucru face ca"
+"analiza jurnalului servărului monitorizat sa fie mai simplă, dar va"
+"rezulta mai mult trafic din cauza jurnalelor cu mesaje noi frecvente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1996
 msgid ""
@@ -458,6 +471,12 @@ msgid ""
 "tt><br>Output with less verbosity<br><tt>WARN - 1 events (Worst line: "
 "Incomplete Content)</tt><br>"
 msgstr ""
+"Dacă este activat, check-ul raportează mai puține informații in rezultatul său."
+"<br>Nu o să vedeți informații legate de cea mai degradată stare sau evenimente"
+"neconfirmate.<br>De exemplu un rezultat implicit fără această opțiune <br><tt>"
+"ATENȚIE - 1 eveniment(1 neconfirmat), starea degradată se află în ATENȚIE "
+"(Ultima linie: Conținut incomplet)</tt><br>Rezultat puțin concis<br><tt>"
+"ATENȚIE - 1 eveniment (Linie degradată: Conținut incomplet)</tt><br>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1279
 msgid ""
