@@ -802,7 +802,7 @@ msgstr "<b>programează o întrerupere imediată până la 24:00:00</b> pe"
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:389
 #, python-format
 msgid "<b>schedule an immediate downtime until end of %d</b> on"
-msgstr ""<b>programează o întrerupere imediată până la sfârșitul lui %d</b> pe"
+msgstr "<b>programează o întrerupere imediată până la sfârșitul lui %d</b> pe"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:384
 msgid "<b>schedule an immediate downtime until end of month</b> on"
@@ -892,7 +892,7 @@ msgstr "<i>nu este un contact</i>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1292
 msgid "<li>No successful synchronization so far.</li>"
-msgstr "<li>Nici o sincronizare de succes până acum.</li""
+msgstr "<li>Nici o sincronizare de succes până acum.</li"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/notify.py:225
 #, python-format
@@ -1884,7 +1884,7 @@ msgstr "Adaugp aceste grupuri de contacte la element"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:5949
 msgid "Add these groups as <b>contacts in all subfolders</b>"
-msgstr "Adaugă aceste grupuri ca și <b>contacte în toate sub-directoarele</b>""
+msgstr "Adaugă aceste grupuri ca și <b>contacte în toate sub-directoarele</b>"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:5947
 msgid "Add these groups as <b>contacts</b> to all hosts in this folder"
@@ -2599,59 +2599,69 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1997
 msgid "All services of a given site."
-msgstr ""
+msgstr "Toate serviciile unui site anume."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:582
 msgid "All services of hosts which match a name"
-msgstr ""
+msgstr "Toate serviciile unui element care se potrivesc dupâ nume"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2674
 msgid ""
 "All single-host aggregations that are in non-OK state (honoring state "
 "assumptions)"
 msgstr ""
+"Toate agregprile cu un singur element care sunt într-o stare non-OK "
+"(onorând presupunerile de stare)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8249
 msgid "All users"
-msgstr ""
+msgstr "Toți utilizatorii"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8255
 msgid "All users with an email address"
-msgstr ""
+msgstr "Toți utilizatorii cu o adresă de email"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:557
 msgid "Allow upload of insecure WATO snapshots"
-msgstr ""
+msgstr "Permite încărcare de snapshot-uri nesigure WATO"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:781
 msgid "Allowed is 1 ... 9"
-msgstr ""
+msgstr "Permise sunt 1 ... 9"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:891
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:911
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:927
 msgid "Allowed states (otherwise check will be critical)"
-msgstr ""
+msgstr "Stări permise (altfel verificarea va deveni critică)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2299
 msgid "Allowed states:"
-msgstr ""
+msgstr "Stări permise:"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:124
 msgid "Allows a user to create or modify entries in the report scheduler."
 msgstr ""
+"Permite unui utilizator să creeze sau să modifice intrări în "
+"planificatorul de raportare."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:128
 msgid ""
 "Allows a user to modify scheduled reports of other users and also to specify "
 "arbitrary Email addresses as report destination."
 msgstr ""
+"Permite utilizatorului să modifice raportele planificate al altor utilizatori "
+"cât și să specifice adrese de Email arbitrare pentru destinație."
+
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:119
 msgid ""
 "Allows the user the do instant reporting. At the bottom of each view an icon "
 "will be visible for exporting the current view's data as a PDF file."
 msgstr ""
+"Permite utilizatorului să ruleze rapoarte instantanee. În josul fiecărui view "
+"o pictogramă va fi disponibilă pentru exportul view-ului curent ca un fișier "
+"PDF."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:114
 msgid ""
@@ -2659,29 +2669,39 @@ msgid ""
 "own report templates or customizing existing ones a dedicated permission is "
 "required."
 msgstr ""
+"Permite utilizatorului să folosească funcțiile de raportare, i.e. să genereze "
+"rapoarte. Pentru crearea propriilor șabloane de raportare sau customizarea "
+"celor existente sunt necesare permisiuni specifice."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/default_permissions.py:149
 #, python-format
 msgid "Allows to create own %s, customize builtin %s and use them."
-msgstr ""
+msgstr "Permite să creeze propriul %s, customizare integrare %s și utilizarea lor."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/default_permissions.py:141
 msgid ""
 "Allows to ignore the hard query limit imposed upon the number of datasets "
 "returned by a query"
 msgstr ""
+"Permite să ignori limita hard query impusă de numărul de set-uri de date "
+"retyrbate de către o integrare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/default_permissions.py:136
 msgid ""
 "Allows to ignore the soft query limit imposed upon the number of datasets "
 "returned by a query"
 msgstr ""
+"Permite să ignori limita soft query impusă de numărul de set-uri de date "
+"returnate de către o interogare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/default_permissions.py:81
 msgid ""
 "Allows users to perform Nagios commands. If no further permissions are "
 "granted, actions can only be done on objects one is a contact for"
 msgstr ""
+"Permite utilizatorilor să execute comenzi Nagios. Dacă nu sunt acordate "
+"alte permisiuni, acțiunile acestea pot fi efectuate doar asupra obiectelor "
+"unde unul este asociat ca și contact"
 
 #: /omd/sites/production/share/check_mk/web/plugins/webapi/webapi.py:81
 msgid ""
@@ -2689,106 +2709,120 @@ msgid ""
 "folder.<br>If you want to unset a host_tag specify it with "
 "<tt>tag_agent=False</tt>."
 msgstr ""
+"Permite să modifici atributele elementului în WATO dar nu pentru a schimba "
+"directorului unuil element.<br>Dacă vrei să scoți un host_tag specifică "
+"acest lucru cu<tt>tag_agent=False</tt>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1157
 msgid ""
 "Almost all available filters, used for searching services and maybe doing "
 "actions"
 msgstr ""
+"Aproape toate filtrele disponibile folosite pentru căutare și poate pentru "
+"acțiuni"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3216
 msgid "Already configured services"
-msgstr ""
+msgstr "Serviciu deja configurat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:522
 msgid "Also set downtime on child hosts"
 msgstr ""
+"De asemenea, setează un timp de nefuncționare pentru elemente "
+"subordonate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5467
 msgid "Alternative critical battery capacity after calibration"
-msgstr ""
+msgstr "Capacitatea critică alternativă a bateriei după calibrare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2052
 msgid "Alternative display name for Services"
-msgstr ""
+msgstr "Nume de afișare alternativ pentru Servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:74
 msgid "Alternative display name of the service, regex match"
 msgstr ""
+"Nume de afișare alternativ al serviciului, potrivire pe expresia "
+"regulată"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9806
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11806
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12213
 msgid "Always"
-msgstr ""
+msgstr "Întotdeaun"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1779
 msgid "Always assume host to be up"
-msgstr ""
+msgstr "Asumă întotdeauna că elementul este pornit"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6383
 msgid "Always report OK"
-msgstr ""
+msgstr "Întotdeauna raportează OK"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:363
 msgid "Always send <b>all</b> messages, even old ones (just for testing!)"
-msgstr ""
+msgstr "Trimite întotdeanu <b>toate</b> mesajele, inclusiv cele vechi "
+"(doar pentru testare!)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:395
 msgid "Always show the checkboxes"
-msgstr ""
+msgstr "Afișează întotdeauna căsuțele de selectare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5910
 msgid "Amount of data processed"
-msgstr ""
+msgstr "Cantintatea de date procesate"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8053
 msgid "An Alias or description of this group."
-msgstr ""
+msgstr "Un Alias sau descriere al acestui grup."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:129
 msgid ""
 "An absolute path to the filename (in case of MRPE) or to a directory in case "
 "of local / plugin"
 msgstr ""
+"O cali absolută câtre fișier (în caî de MRPE) sau câtre un director în cazul "
+"unui plugin / local"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12499
 msgid "An alias or description of the role"
-msgstr ""
+msgstr "Un alias sau descriere al rolului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10421
 msgid "An alias or description of the site"
-msgstr ""
+msgstr "Un alias sau descriere al site-ului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9753
 msgid "An alias or description of the timeperiod"
-msgstr ""
+msgstr "Un alias sau descriere al perioadei de timp"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12960
 msgid "An alias or description of this auxiliary tag"
-msgstr ""
+msgstr "Un alias sau descriere al acestei etichete auxiliare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13188
 msgid "An alias or description of this tag group"
-msgstr ""
+msgstr "Un alias sau descriere al acestui grup de etichete"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17059
 msgid "An arbitrary comment of this rule for you."
-msgstr ""
+msgstr "Un comentariu aribitrar al acestei reguli pentru tine."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:430
 msgid "An empty value is not allowed here."
-msgstr ""
+msgstr "O valoare nulă nu este permisă aici."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:428
 msgid "An empty value must be represented with None here."
-msgstr ""
+msgstr "O valoare nulă trebuie să fie reprezentată prin None aici"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:458
 msgid ""
 "An identifier must only consist of letters, digits, dash and underscore and "
 "it must start with a letter or underscore."
 msgstr ""
+"Un identificator poate conține doar litere, cifre, cratimă și underscore. "
+"De asemenea trebuie să pornească cu o literă sau underscore."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14738
 msgid ""
@@ -2798,45 +2832,54 @@ msgid ""
 "<tt>http://</tt>), absolute local urls (beginning with <tt>/</tt>) or "
 "relative URLs (that are relative to <tt>check_mk/</tt>)."
 msgstr ""
+"O legătură opțională câtre documentație sau orice altă pagină. Aceasta va "
+"fi afișată ca un pictograf <img class=icon src='images/button_url_log.png'> "
+"și se va deschide într-o nouă pagină când este apăsat. Poți folosi legături "
+"globale (începând cu <tt>/</tt> sau cu legături relative (care sunt relative "
+"la <tt>check_mk</tt>)."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8310
 msgid "An optional comment that explains the purpose of this rule."
-msgstr ""
+msgstr "Un comentariu opțional care explică scopul acestei reguli."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14728
 msgid "An optional comment that helps you document the purpose of  this rule"
 msgstr ""
+"Un comentariu opțional care te ajută să documentezi scopul acestei "
+"reguli"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8842
 msgid "Analyse"
-msgstr "Analizeaza"
+msgstr "Analizează"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/bi.py:78
 msgid "Analyse availability of this aggregation"
-msgstr ""
+msgstr "Analiză disponibilitate pentru acest agregat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/icons/builtin.py:249
 msgid "Analyse predictive monitoring for this service"
-msgstr ""
+msgstr "Analizeazâ monitorizare predictivă pentru acest serviciu"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:108
 msgid "Analyze Host Patterns"
-msgstr ""
+msgstr "Analiză Modele de Elemente"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:87
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:176
 msgid "Analyze Patterns"
-msgstr ""
+msgstr "Analiză Modele"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/builtin_modules.py:69
 msgid ""
 "Analyze logfile pattern rules and validate logfile patterns against custom "
 "text."
 msgstr ""
+"Analizează modelul de reguli de jurnal și validează modelul de jurnal fatâ de "
+"textul personalizat."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:222
 msgid "Analyze this line"
-msgstr ""
+msgstr "Analizează acest rând"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8947
 #, python-format
@@ -2844,7 +2887,9 @@ msgid ""
 "Anaylse ruleset with this notification:\n"
 "%s"
 msgstr ""
-""
+"Analizează set-ul de reguli cu această notificare:\n"
+"%s"
+
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1878
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1924
