@@ -193,7 +193,7 @@ msgstr "Ești sigur că dorești să ștergi atributele personalizate \"%s\"?"
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1692
 #, python-format
 msgid "Do you really want to delete the folder %s?"
-msgstr ""
+msgstr "Ești sigur că vrei să stergi folderul %s?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2155
 #, python-format
@@ -203,28 +203,29 @@ msgstr "Ești sigur că dorești să ștergi elementul <tt>%s</tt>?"
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12717
 #, python-format
 msgid "Do you really want to delete the host tag group '%s'?"
-msgstr ""
+msgstr "Ești sigur că dorești sa ștergi grupul de etichete '%s' al elementului?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8879
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9096
 #, python-format
 msgid "Do you really want to delete the notification rule <b>%d</b> <i>%s</i>?"
-msgstr ""
+msgstr "Ești sigur că dorești să stergi regula de notificare <b>%d</b> "
+"<i>%s</i>?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12350
 #, python-format
 msgid "Do you really want to delete the role %s?"
-msgstr ""
+msgstr "Ești sigur că dorești să stergi rolul %s?"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:867
 #, python-format
 msgid "Do you really want to delete the rule <b>%s</b> <i>%s</i>?"
-msgstr ""
+msgstr "Ești sigur că dorești să stergi regula <b>%s</b> <i>%s</i>?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16319
 #, python-format
 msgid "Do you really want to delete the rule with the id <b>%s</b>?"
-msgstr ""
+msgstr "Ești sigur că dorești să stergi regula cu identificatorul <b>%s</b>?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9255
 #, python-format
@@ -232,24 +233,26 @@ msgid ""
 "Do you really want to delete the time period '%s'? I've checked it: it is "
 "not being used by any rule or user profile right now."
 msgstr ""
+"Ești sigur că dorești să stergi intervalul de timp '%s'? Am verificat: nu este"
+" utilizat de nici o regula sau de un profil de utilizator acum."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11677
 #, python-format
 msgid "Do you really want to delete the user %s?"
-msgstr ""
+msgstr "Ești sigur că dorești să stergi utilizatorul %s?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:1068
 msgid "Do you really want to delete this dashlet?"
-msgstr ""
+msgstr "Ești sigur că dorești să stergi acest dashlet?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9916
 #, python-format
 msgid "Do you really want to log out of '%s'?"
-msgstr ""
+msgstr "Ești sigur că dorești să ieși din '%s'?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4695
 msgid "Do you really want to proceed?"
-msgstr ""
+msgstr "Ești sigur că dorești continui?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10103
 #, python-format
@@ -258,10 +261,13 @@ msgid ""
 "specific configuration of this site and that way use the global value of "
 "<b><tt>%s</tt></b>?"
 msgstr ""
+"Ești sigur că dorești să stergi variabila de configurare <b>%s</b> a "
+"configuratiei specifice a acestui site si astfel să folosești valoarea "
+"<b><tt>%s</tt></b>?"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:880
 msgid "Do you really want to reset all <i>Hits</i> counters to zero?"
-msgstr ""
+msgstr "Ești sigur că dorești să resetezi toate contoarele <i>Hits</i> la zero?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7413
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1370
@@ -276,62 +282,64 @@ msgid ""
 "Do you really want to reset this configuration variable back to its default "
 "value?"
 msgstr ""
+"Ești sigur că dorești să resetezi acestă variabila de configurare la valoarea "
+"implicită?"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1254
 #, python-format
 msgid "Do you really want to switch the event daemon to %s mode?"
-msgstr ""
+msgstr "Ești sigur că dorești să modifici procesul de eveniment la modul %s?"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1552
 msgid "Docsis Cable Modem Status"
-msgstr ""
+msgstr "Starea Modemului de Cablu Docsis"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1532
 msgid "Docsis Downstream Channels"
-msgstr ""
+msgstr "Canalele Docsis Downstream"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1513
 msgid "Docsis Upstream Channels"
-msgstr ""
+msgstr "Canalele Docsis Upstream"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:49
 msgid "Documentation"
-msgstr ""
+msgstr "Documentatie"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14737
 msgid "Documentation-URL"
-msgstr ""
+msgstr "URL-ul documentatiei"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:3091
 #, python-format
 msgid "Does not ends with \"%s\"."
-msgstr ""
+msgstr "Nu se termina cu  \"%s\"."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/backup_domains.py:211
 msgid "Doku Wiki Pages and Settings"
-msgstr ""
+msgstr "Paginile si setarile Doku Wiki"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:7094
 msgid "Domino Mail Queue Names"
-msgstr ""
+msgstr "Numele cozii de mail Domino"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:704
 msgid "Don't use persistent LDAP connections."
-msgstr ""
+msgstr "Nu folosi conexiuni persistente LDAP."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/inventory.py:74
 msgid "Don't use quotes"
-msgstr ""
+msgstr "Nu folosi ghilimele"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:768
 msgid "Don't wait for document body"
-msgstr ""
+msgstr "Nu astepta corpul documentului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:202
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:106
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:745
 msgid "Down"
-msgstr ""
+msgstr "Jos"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4593
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:50
@@ -341,15 +349,15 @@ msgstr "Descarca"
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1261
 #, python-format
 msgid "Download %s package of agent for %s"
-msgstr ""
+msgstr "Descarcă %s pachetul agentului pentru %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6697
 msgid "Download Snapshot"
-msgstr ""
+msgstr "Descarcă Snapshot-ul"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:453
 msgid "Download filename"
-msgstr ""
+msgstr "Numele fisierului pentru descarcare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8978
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:365
@@ -361,70 +369,70 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1596
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/infos.py:78
 msgid "Downtime"
-msgstr ""
+msgstr "Timp de nefunctionare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:487
 msgid "Downtime Comment"
-msgstr ""
+msgstr "Comentariu pentru timpul de nefunctionare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/infos.py:81
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:807
 msgid "Downtime ID"
-msgstr ""
+msgstr "Identificatorul timpului de nefunctionare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1666
 msgid "Downtime active or pending"
-msgstr ""
+msgstr "Timp de nefunctionare activ sau in asteptare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1638
 msgid "Downtime author"
-msgstr ""
+msgstr "Autorul setării timpului de nefunctionare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1645
 msgid "Downtime comment"
-msgstr ""
+msgstr "Comentariu pentru timpul de nefunctionare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1700
 msgid "Downtime duration (if flexible)"
-msgstr ""
+msgstr "Durata timpului de nefunctionare (daca este variabilă)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:324
 msgid "Downtime end"
-msgstr ""
+msgstr "Sfârșitul timpului de nefunctionare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1689
 msgid "Downtime end time"
-msgstr ""
+msgstr "Ora sfârsitului timpului de nefunctionare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1673
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:325
 msgid "Downtime entry time"
-msgstr ""
+msgstr "Ora intrării in timpul de nefunctionare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1659
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:322
 msgid "Downtime for host/service"
-msgstr ""
+msgstr "Timp de nefunctionare pentru elementul/serviciul"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1631
 msgid "Downtime id"
-msgstr ""
+msgstr "Identificatorul timpului de nefunctionare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:323
 msgid "Downtime start"
-msgstr ""
+msgstr "Începerea timpului de nefunctionare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1652
 msgid "Downtime start mode"
-msgstr ""
+msgstr "Modul inceperii timpului de nefunctionare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1681
 msgid "Downtime start time"
-msgstr ""
+msgstr "Ora inceperii timpului de nefunctionare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1896
 msgid "Downtime-History"
-msgstr ""
+msgstr "Istoricul timpului de nefunctionare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:397
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:469
@@ -433,43 +441,46 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:545
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:552
 msgid "Downtimes"
-msgstr ""
+msgstr "Timpi de nefunctionare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:495
 msgid "Downtimes of host"
-msgstr ""
+msgstr "Timpi de nefunctionare a elementelor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:521
 msgid "Downtimes of service"
-msgstr ""
+msgstr "Timpi de nefunctionare a serviciilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:435
 msgid "Driver"
-msgstr ""
+msgstr "Driver"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:436
 msgid "Driver Date"
-msgstr ""
+msgstr "Data Driver-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:437
 msgid "Driver Version"
-msgstr ""
+msgstr "Verdiunea Driver-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:273
 msgid "Drop Message"
-msgstr ""
+msgstr "Renunta la Mesaj"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15562
 msgid "Drop domain part (<tt>host123.foobar.de</tt> &#8594; <tt>host123</tt>)"
 msgstr ""
+"Renuntă la partea identificând domeniul (<tt>host123.foobar.de</tt> &#8594; "
+"<tt>host123</tt>)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12833
 msgid "Dropdown"
-msgstr ""
+msgstr "Deruleaza"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:236
 msgid "Dropdown list, selection of service group is <b>enforced</b>"
 msgstr ""
+"Listă verticala, selectia grupurilor de servicii este <b>obligatorie</b>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:634
 msgid "Dt."
@@ -481,17 +492,18 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:985
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1701
 msgid "Duration"
-msgstr ""
+msgstr "Durată"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:647
 msgid "During regular page processing"
-msgstr ""
+msgstr "În timpul procesării paginilor normale"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:681
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:694
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:703
 msgid "During this time period no monitoring data is available"
 msgstr ""
+"În timpul acestui interval de timp nu sunt disponibile date de monitorizare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1430
 msgid "Dw"
@@ -503,7 +515,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:606
 msgid "Dynamic URL rendering function"
-msgstr ""
+msgstr "Functie de randare dinamica a URL-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2027
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3305
