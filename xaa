@@ -2363,7 +2363,7 @@ msgstr "Toate Verificările SNMP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1292
 msgid "All Services with a certain description"
-msgstr "Toate Serviciile cu o anume descriere"
+msgstr "Toate Serviciile cu o anumită descriere"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1321
 msgid "All Services with this description:"
@@ -2386,7 +2386,7 @@ msgstr "Toți Utilizatorii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2566
 msgid "All aggregations affected by a certain service"
-msgstr "Toate agregprile afectate de un anume serviciu"
+msgstr "Toate agregprile afectate de un anumit serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2619
 msgid "All aggregations that have a non-OK state (honoring state assumptions)"
@@ -2506,96 +2506,107 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:3048
 msgid "All notification events concerning the state of a certain service."
 msgstr ""
+"Toate evenimentele de notificare în legătura cu starea unui anumit "
+"serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2997
 msgid "All notification events of hosts or services."
-msgstr ""
+msgstr "Toate evenimentele de notificarea elementelor sau serviciilor."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:3085
 msgid "All notification events sent to"
-msgstr ""
+msgstr "Toate evenimentele de notifice trimise câtre"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:70
 msgid "All odd pages"
-msgstr ""
+msgstr "Toate paginile impare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:221
 msgid "All of your favorites services by hosts."
-msgstr ""
+msgstr "Toate serviciile tale favorite sortate după elemente."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/notify.py:100
 msgid "All online users"
-msgstr ""
+msgstr "Toți utilizatorii online"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:67
 msgid "All pages"
-msgstr ""
+msgstr "Toate paginile"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:741
 msgid ""
 "All problem services of a given host. The host and site must be set via HTTP "
 "variables."
 msgstr ""
+"Toate serviciile cu probleme ale unui anumit element. Elementul și site-ul "
+"trebuiesc configurate prin variabile HTTP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1514
 msgid "All problems of services not currently in a downtime."
-msgstr ""
+msgstr "Toate probeleme serviciilor care nu sunt în timp de nefuncționare."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/omd_configuration.py:50
 msgid ""
 "All registered dynamic files (historic data) which are older than this value "
 "will be deleted on next execution of the \"diskspace\" program."
 msgstr ""
+"Toate fișierele înregistrare dinamic (date istorice) care sunt mai vechi "
+"de această valoare vor fi șterse la urmâtoare execuție al progrmului "
+"\"diskspace\"."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13882
 #, python-format
 msgid "All rules that contain '%s' in their name"
-msgstr ""
+msgstr "Toate regulile care conțin '%s' în numele lor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:216
 #: /omd/sites/production/share/check_mk/web/plugins/views/datasources.py:97
 msgid "All services"
-msgstr ""
+msgstr "Toate serviciile"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:162
 msgid "All services grouped by hosts."
-msgstr ""
+msgstr "Toate serviciile grupate după elemente."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:798
 msgid "All services of a certain hostgroup"
-msgstr ""
+msgstr "Toate serviciile unui grup de elemente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:715
 msgid "All services of a given host that are PENDING"
-msgstr ""
+msgstr "Toate serviciile unui anumit element care sunt în starea ÎN AȘTEPTARE"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:663
 msgid "All services of a given host that are in state CRIT"
-msgstr ""
+msgstr "Toate serviciile unui element care sunt în starea CRIT"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:611
 msgid "All services of a given host that are in state OK"
-msgstr ""
+msgstr "Toate serviciile unui element care sunt în starea OK"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:689
 msgid "All services of a given host that are in state UNKNOWN"
-msgstr ""
+msgstr "Toate serviciile unui element care sunt în starea NECUNOSCUTĂ"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:637
 msgid "All services of a given host that are in state WARN"
-msgstr ""
+msgstr "Toate serviciile unui element care sunt în starea de ATENȚIONARE"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:525
 msgid ""
 "All services of a given host. The host and site must be set via HTML "
 "variables."
 msgstr ""
+"Toate serviciile unui anumit element. Elementul și site-ul trebuiesc setate "
+"prin variabile HTML."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:553
 msgid ""
 "All services of a given host. The host and site must be set via HTTP "
 "variables."
 msgstr ""
+"Toate serviciile unui anumit element. Elementul și site-ul trebuiesc setate "
+"prin variabile HTTP."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1997
 msgid "All services of a given site."
