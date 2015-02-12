@@ -520,15 +520,15 @@ msgstr "Functie de randare dinamica a URL-ului"
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2027
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3305
 msgid "Dynamic levels"
-msgstr ""
+msgstr "Nivele dinamice"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15461
 msgid "Dynamic levels - lower bound"
-msgstr ""
+msgstr "Nivele dinamice - limita de jos"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15418
 msgid "Dynamic levels - upper bound"
-msgstr ""
+msgstr "Nivele dinamice - limita de sus"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1965
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1966
@@ -542,23 +542,23 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:121
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:177
 msgid "EDIT"
-msgstr ""
+msgstr "EDITEAZA"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:211
 msgid "EMC VNX admin user name"
-msgstr ""
+msgstr "Numele utilizatorului administrator al EMC VNX"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:227
 msgid "EMC VNX admin user password"
-msgstr ""
+msgstr "Parola utilizatorului administrator al EMC VNX"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/htmllib.py:920
 msgid "ERROR: "
-msgstr ""
+msgstr "EROARE: "
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6565
 msgid "ERROR: Snapshot progress no longer running!"
-msgstr ""
+msgstr "EROARE: Progresul snapshot-ului nu mai rulează!"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1760
 msgid "ESTABLISHED"
@@ -566,22 +566,25 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2193
 msgid "ESX Datastores (used space and growth)"
-msgstr ""
+msgstr "Datastore-ul ESX (spatiu utilizat si cresterea)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2218
 msgid "ESX Hostsystem Maintenance Mode"
-msgstr ""
+msgstr "Sistemul gazdă ESX in modul Mentenantă"
+
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:120
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:176
 msgid "EXPORT"
-msgstr ""
+msgstr "EXPORTĂ"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12793
 msgid ""
 "Each host tag group will create one dropdown choice in the host "
 "configuration."
 msgstr ""
+"Fiecare grup de etichete a elementului va grea o listă vertical în "
+"configurearea elementului."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:917
 msgid ""
@@ -596,6 +599,17 @@ msgid ""
 "tt> for the first regex match group of the match, <tt></tt> for the second "
 "and so on."
 msgstr ""
+"Fiecare nou mesaj este trecut prin această listă de reguli. De îndată ce o "
+"expresie regulată este găsită <i>în</i> mesaj, se determină starea si căutarea"
+" este terminată. Dacă nici o regulă nu se potriveste mesajului, mesajul este "
+"clasificat <i>IGNORĂ</i>. Notă: mesajele <i>OK</i> sunt trimise către serverul"
+" Check_MK central, unde pot fi reclasificate. Mesajele <i>IGNORĂ</i> sunt "
+"ignorate. <br><br><i>RESCRIE</i> permite modificarea continutului mesajului "
+"în care a fost găsită expresia din regula <i>anterioară</i>. Poți specifica "
+"un nou textși poti utiliza substituenți <tt></tt> în mesajul original, "
+"<tt>^A</tt> pentru primul grup ce se potrivește expresiei regulate, "
+"<tt>^B</tt> pentru al doilea grup și așa mai departe."  
+
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12505
 msgid ""
@@ -611,30 +625,30 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:309
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/reporting.py:73
 msgid "Edit"
-msgstr ""
+msgstr "Editează"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:689
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:568
 #, python-format
 msgid "Edit %s"
-msgstr ""
+msgstr "Editează %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/sidebar.py:617
 msgid "Edit Bookmark"
-msgstr ""
+msgstr "Editează Marcaj"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:434
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:493
 msgid "Edit Dashboard"
-msgstr ""
+msgstr "Editează tabloul de bord"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:686
 msgid "Edit Dashboards"
-msgstr ""
+msgstr "Editeaza tablourile de bord"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:902
 msgid "Edit Dashlet"
-msgstr ""
+msgstr "Editează Dashlet-ul"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16120
 msgid "Edit Logfile Rules"
