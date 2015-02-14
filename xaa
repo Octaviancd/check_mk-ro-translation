@@ -1581,10 +1581,11 @@ msgid ""
 "Activate HTTP header authentication (Warning: Only activate in trusted "
 "environments, see help for details)"
 msgstr ""
+"Activează "
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:966
 msgid "Activate automatic locking of user accounts"
-msgstr ""
+msgstr "Activează blocajul automat al conturilor de utilizator"
 
 #: /omd/sites/production/share/check_mk/web/plugins/webapi/webapi.py:172
 msgid "Activate changes"
@@ -1592,32 +1593,34 @@ msgstr "Activare schimbări"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1469
 msgid "Activate changes for event console"
-msgstr ""
+msgstr "Activează schimbările pentru event console"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:267
 msgid "Activate export to Graphite"
-msgstr ""
+msgstr "Activează export-ul câtre Graphite"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:397
 msgid "Activate logging of BI compilations into a logfile"
-msgstr ""
+msgstr "Activează jurnalizarea compilării BI într-un fișier"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:949
 msgid "Activate logging of LDAP transactions into a logfile"
-msgstr ""
+msgstr "Activează jurnalizarea tranzațiilor LDAP într-un fișier"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3183
 msgid "Activate missing"
-msgstr ""
+msgstr "Activează cele lipsă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1174
 msgid "Activated changes of event console configuration"
-msgstr ""
+msgstr "Modificările aplicate ale consolei de jurnal"
 
 #: /omd/sites/production/share/check_mk/web/plugins/webapi/webapi.py:173
 msgid ""
 "Activates changes. The user still needs the required permissions to do so."
 msgstr ""
+"Activează modificările. Utilizatorul trebui să aibe drepturile necesare "
+"pentru activare."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2302
 msgid ""
@@ -1641,7 +1644,7 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:669
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1054
 msgid "Active"
-msgstr ""
+msgstr "Activ"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1468
 msgid "Active Connections"
@@ -1670,7 +1673,7 @@ msgstr "Verificări active"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:28
 msgid "Active checks (HTTP, TCP, etc.)"
-msgstr ""
+msgstr "Verificări active (HTTP, TCP, etc.)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:471
 msgid "Active checks enabled"
@@ -1679,16 +1682,16 @@ msgstr "Verificări active activate"
 #: /omd/sites/production/share/check_mk/web/plugins/icons/builtin.py:472
 #, python-format
 msgid "Active checks have been manually disabled for this %s!"
-msgstr ""
+msgstr "Verificările active au fost manual dezactivate pentru acest %s!"
 
 #: /omd/sites/production/share/check_mk/web/plugins/icons/builtin.py:474
 #, python-format
 msgid "Active checks have been manually enabled for this %s!"
-msgstr ""
+msgstr "Verificările active au fost manual activate pentru acest %s!"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4639
 msgid "Active paths"
-msgstr ""
+msgstr "Căi Active"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18592
 msgid "Add & remove folders"
@@ -1716,7 +1719,7 @@ msgstr "Adaugă Contoar"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:876
 msgid "Add Dashlet"
-msgstr ""
+msgstr "Adaugă Dashlet"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9615
 msgid "Add Exception"
@@ -1728,11 +1731,11 @@ msgstr "Adaugă instanță NGINX"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:552
 msgid "Add Page Element"
-msgstr ""
+msgstr "Adaugă un Element pe Pagină"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/inventory.py:85
 msgid "Add a first row with column titles"
-msgstr ""
+msgstr "Adaugă o primă coloană cu titluri"
 
 #: /omd/sites/production/share/check_mk/web/plugins/webapi/webapi.py:49
 msgid "Add a host to WATO"
@@ -1741,6 +1744,8 @@ msgstr "Adaugă un element cu WATO"
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:999
 msgid "Add a new host to the monitoring (agent must be installed)"
 msgstr ""
+"Adaugă un nou element spre monitorizare (agentul trebuie "
+"să fie instalat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17323
 msgid "Add as Custom Macro"
@@ -1748,7 +1753,7 @@ msgstr "Adaugă ca un Macro Customizat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17095
 msgid "Add child node generator"
-msgstr ""
+msgstr "Adaugă generator child node"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:535
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:568
@@ -1767,7 +1772,7 @@ msgstr "Adaugă comentarii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:323
 msgid "Add comments to hosts or services, and remove comments"
-msgstr ""
+msgstr "Adaugă comentarii elementelor sau seriviciilor, și șterge comentarii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:676
 msgid "Add contact information"
@@ -1775,11 +1780,11 @@ msgstr "Adaugă informații despre contact"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:444
 msgid "Add dashlet"
-msgstr ""
+msgstr "Adaugă dashlet"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4746
 msgid "Add diskstate rule"
-msgstr ""
+msgstr "Adaugă regulă pentru diskstate"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:960
 msgid "Add element"
@@ -1787,7 +1792,7 @@ msgstr "Adaugă element"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1190
 msgid "Add exclusion"
-msgstr ""
+msgstr "Adaugă excludere"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:1025
 msgid "Add filter"
@@ -2018,6 +2023,14 @@ msgid ""
 "this time period with an additional time span to make sure calibrations "
 "occuring just before midnight do not trigger false alarms."
 msgstr ""
+"Dupâ calibrarea bateriei capacitatea este redusă până când bateria este "
+"încărcată complet din nou. Aici poți specifica un nivel alternativ mai "
+"mic pentru faza post-calibrare. Deoarece elementele APC ține cont de data "
+"ultimei calibrări, nivelul alternativ va fi aplicat pentru toată ziua "
+"calibrării până la miezul nopții. Poți extinde această perioadă de timp "
+"cu un interval de timp adițional pentru a te asigura că eventualele "
+"calibrări care sunt efectuate înainte de miezul nopții nu declanșează "
+"alarme false."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4318
 msgid ""
@@ -2463,25 +2476,27 @@ msgstr "Toate comentariile elementelor și serviciilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:365
 msgid "All host- and service-downtimes"
-msgstr "Toate întreruperile de elemente și servicii"
+msgstr "Toate perioadele de nefuncționare pentru elemente și servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:433
 msgid "All host- and service-downtimes (including ids)"
 msgstr ""
+"Toate perioadele de timp de nefuncționare pentru elemente și servicii "
+"(inclusive ids)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:82
 #: /omd/sites/production/share/check_mk/web/plugins/views/datasources.py:76
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:306
 msgid "All hosts"
-msgstr ""
+msgstr "Toate elementele"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:157
 msgid "All hosts (Mini)"
-msgstr ""
+msgstr "Toate elementele (Mini)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1587
 msgid "All hosts (tiled)"
-msgstr ""
+msgstr "Toate elementele (tiled)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/inventory.py:36
 msgid ""
@@ -2492,16 +2507,23 @@ msgid ""
 "get any useful result for agent based hosts make sure that you have "
 "installed the agent plugin <tt>mk_inventory</tt> on these hosts."
 msgstr ""
+"Toate elementele configurate prin acest set de reguli vor face o inventariere "
+"hardware și software. Pentru fiecare element configurat, o nouă verificare "
+"activă va fi creată. Ar trebui să creezi o regulă pentru a schimba intervalul "
+"de verificare la ceva între două ore și o zi. <b>Note:</b> pentru a scoate "
+"informații relevante de la elementele verificate prin agent, asigurăte că ai "
+"instalat plugin-ul <tt>mk_inventory</tt> pe aceste elemente."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1410
 msgid "All hosts of site"
-msgstr ""
+msgstr "Toate elementele acestui site"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2949
 msgid ""
 "All notification events concerning the state of a certain host (including "
 "services)"
-msgstr ""
+msgstr "Toate evenimentele de notificare în legătură cu starea unui anumit "
+"element (inclusiv servicii)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:3048
 msgid "All notification events concerning the state of a certain service."
