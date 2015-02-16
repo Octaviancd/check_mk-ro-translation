@@ -1418,6 +1418,9 @@ msgid ""
 "access to this module can make arbitrary changes to the configuration by "
 "restoring uploaded snapshots and even do a complete factory reset!"
 msgstr ""
+"Acces la modulul <i>Backup & Restore</i>. Atenție: un utilizator cu drepturi "
+"de scriere la acest modul poate efectua modificări la configurație prin "
+"restaurarea unor instantanee sau prin restaurea la setările din fabrică!"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18616
 msgid "Access to the module <i>Global settings</i>"
@@ -1429,22 +1432,28 @@ msgstr "Accesul la modulul <i>Perioade de timp</i>"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18666
 msgid "Access to the module for analyzing and validating logfile patterns."
-msgstr ""
+msgstr "Acces la modulul pentru analiza și validarea modelelor logfile."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18621
 msgid ""
 "Access to the module for managing Check_MK rules. Please note that a user "
 "can only manage rules in folders he has permissions to. "
 msgstr ""
+"Acces la modulele pentru administrarea regulilor Check_MK. Atenție că un "
+"utilizator poate administra doar regulile din directoarele unde are drepturi. "
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18637
 msgid ""
 "Access to the module for managing connections to remote monitoring sites."
 msgstr ""
+"Acces la modulele pentru managementul conexiunilor câtre site-urile "
+"de monitorizare distante."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18627
 msgid "Access to the modules for managing host and service groups."
 msgstr ""
+"Acces la modulele pentru managementul grupurilor de elemente și "
+"servicii."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:2029
 msgid "Access via TCP"
@@ -1476,7 +1485,7 @@ msgstr "Confirmă Problemele"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:265
 msgid "Acknowledge host and service problems and remove acknowledgements"
-msgstr ""
+msgstr "Confirmă problemele elementelor și serviciilor și șterge confirmările"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:287
 #, python-format
@@ -1486,12 +1495,12 @@ msgstr "Confirmată %s"
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:288
 #, python-format
 msgid "Acknowledged all messages in %s."
-msgstr ""
+msgstr "Confirmă toate mesajele în %s."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8981
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1607
 msgid "Acknowledgement"
-msgstr ""
+msgstr "Confirmare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:70
 msgid "Acknowledgement Author"
@@ -1504,12 +1513,12 @@ msgstr "Comentariul Confirmației"
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8489
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11580
 msgid "Acknowledgement of host problem"
-msgstr ""
+msgstr "Confirmarea problemelor elementului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8519
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11595
 msgid "Acknowledgement of service problem"
-msgstr ""
+msgstr "Confirmarea problemelor de servicii"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11743
 msgid "Act."
@@ -1550,19 +1559,19 @@ msgstr "Acțiuni"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:198
 msgid "Actions (Emails &amp Scripts)"
-msgstr ""
+msgstr "Acțiuni (Email &amp Script-uri)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:313
 msgid "Actions to automatically perform when an event is being cancelled."
-msgstr ""
+msgstr "Acțiuni de efectuat automat când se anulează un anumit eveniment."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:306
 msgid "Actions to automatically perform when this event occurs"
-msgstr ""
+msgstr "Acțiuni de efectuat automat când se întâplă acest eveniment"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:312
 msgid "Actions when cancelling"
-msgstr ""
+msgstr "Acțiuni când se anulează"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4649
 msgid "Activate Changes!"
@@ -1574,14 +1583,15 @@ msgstr "Activare Configurare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18503
 msgid "Activate Foreign Changes"
-msgstr ""
+msgstr "Activați Schimbările Strâine"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:414
 msgid ""
 "Activate HTTP header authentication (Warning: Only activate in trusted "
 "environments, see help for details)"
 msgstr ""
-"Activează "
+"Activează autentificarea prin header HTTP (Atenție: Activați numai în "
+"medii sigure, vedeți help pentru detalii)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:966
 msgid "Activate automatic locking of user accounts"
