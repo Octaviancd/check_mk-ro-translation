@@ -619,7 +619,12 @@ msgid ""
 "or not get those new permissions based on the default settings of the "
 "builtin role it's based on."
 msgstr ""
-
+"Fiecare rol definit de utilizator este bazat pe unul dintre rolurile "
+"predefinite. La creare va avea toate permisiunile rolului pe care se bazează."
+"Dacă datorită unei actualizări software sau instalării unor addon-uri apar noi"
+" permisiuni, rolul definit de utilizator va primi sau nu noile permisiuni în "
+"functie de setările implicite ale rolului pe care acesta este bazat."
+ 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1353
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14760
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:309
@@ -644,7 +649,7 @@ msgstr "Editează tabloul de bord"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:686
 msgid "Edit Dashboards"
-msgstr "Editeaza tablourile de bord"
+msgstr "Editează Dashboard-urile"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:902
 msgid "Edit Dashlet"
@@ -652,156 +657,157 @@ msgstr "Editează Dashlet-ul"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16120
 msgid "Edit Logfile Rules"
-msgstr "Editeaza regulile de loguri"
+msgstr "Editează regulile de loguri"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:376
 msgid "Edit Reports"
-msgstr ""
+msgstr "Editează Rapoartele"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17208
 msgid "Edit User Attribute"
-msgstr ""
+msgstr "Editează Atributele Utilizatorului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15850
 msgid "Edit User Profile"
-msgstr ""
+msgstr "Editează Profilul Utilizatorului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:1537
 msgid "Edit View"
-msgstr ""
+msgstr "Evitează View-ul"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:268
 msgid "Edit Views"
-msgstr ""
+msgstr "Editează View-urile"
 
 #: /omd/sites/production/share/check_mk/web/plugins/webapi/webapi.py:80
 msgid "Edit a host in WATO"
-msgstr ""
+msgstr "Editează un element în WATO"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/nagvis_auth.py:54
 msgid "Edit all maps"
-msgstr ""
+msgstr "Editează toate hărțile"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3293
 msgid "Edit and analyze the check parameters of this service"
-msgstr ""
+msgstr "Editează și analizează parametrii de verificate a acestui serviciu"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3300
 msgid "Edit and analyze the disabled services rules"
-msgstr ""
+msgstr "Editează si analizează regulile dezactivate de servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1908
 msgid "Edit annotation of "
-msgstr ""
+msgstr "Editeză adnotarea "
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12874
 msgid "Edit auxiliary tag"
-msgstr ""
+msgstr "Editează eticheta auxiliară"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7973
 msgid "Edit contact group"
-msgstr ""
+msgstr "Editează grupul de contacte"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13174
 msgid "Edit group"
-msgstr ""
+msgstr "Editează grupul"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7969
 msgid "Edit host group"
-msgstr ""
+msgstr "Editează grupul de elemente"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9144
 #, python-format
 msgid "Edit notification rule %d"
-msgstr ""
+msgstr "Editează regula de notificare %d"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/nagvis_auth.py:75
 msgid "Edit permitted maps"
-msgstr ""
+msgstr "Editează hărțile permise"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/default_permissions.py:102
 msgid "Edit personal notification settings"
-msgstr ""
+msgstr "Editează setările personale de notificare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/default_permissions.py:116
 msgid "Edit personal user attributes"
-msgstr ""
+msgstr "Editează atributele personale ale utilizatorului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:384
 msgid "Edit report content"
-msgstr ""
+msgstr "Editează continutul raportului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:995
 #, python-format
 msgid "Edit report schedule entry %d"
-msgstr ""
+msgstr "Editează raportul programat %d"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1075
 #, python-format
 msgid "Edit rule %s"
-msgstr ""
+msgstr "Editează regula %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7971
 msgid "Edit service group"
-msgstr ""
+msgstr "Editează grupul de servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/icons/wato.py:38
 msgid "Edit services"
-msgstr ""
+msgstr "Editează serviciile"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10181
 #, python-format
 msgid "Edit site connection %s"
-msgstr ""
+msgstr "Editează conexiune site-ului %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10080
 #, python-format
 msgid "Edit site-specific global settings of %s"
-msgstr ""
+msgstr "Editează setarile globale specifice site-ului %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12990
 msgid "Edit tag group"
-msgstr ""
+msgstr "Editează grupul de etichete"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:497
 msgid "Edit the Dashboard"
-msgstr ""
+msgstr "Editeaza Dashboard-ul"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1240
 msgid "Edit the properties of this folder"
-msgstr ""
+msgstr "Editează proprietățile acestui director"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1442
 msgid "Edit the properties of this host"
-msgstr ""
+msgstr "Editează proprietătile acestui element"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18671
 msgid "Edit the rules for the BI aggregations."
-msgstr ""
+msgstr "Editează regulile de agregare ale BI-ului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1445
 msgid "Edit the services of this host, do a service discovery"
 msgstr ""
+"Editează serviciile acestui element, ruleaza reinventarierea serviciilor"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/default_permissions.py:123
 msgid "Edit the user password"
-msgstr ""
+msgstr "Editează parola utilizatorului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/default_permissions.py:96
 msgid "Edit the user profile"
-msgstr ""
+msgstr "Editează profilul utilizatorului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16359
 msgid "Edit this aggregation"
-msgstr ""
+msgstr "Editează această agregare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1861
 msgid "Edit this annotation"
-msgstr ""
+msgstr "Editează această adnotare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12856
 msgid "Edit this auxiliary tag"
-msgstr ""
+msgstr "Editează această etichetă auxiliară"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:906
 msgid "Edit this element element"
