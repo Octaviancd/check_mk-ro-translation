@@ -811,19 +811,19 @@ msgstr "Editează această etichetă auxiliară"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:906
 msgid "Edit this element element"
-msgstr ""
+msgstr "Editează acest element al elementului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:637
 msgid "Edit this fixel element"
-msgstr ""
+msgstr "Editează acest element fix"
 
 #: /omd/sites/production/share/check_mk/web/plugins/icons/wato.py:42
 msgid "Edit this host"
-msgstr ""
+msgstr "Editează acest element"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8743
 msgid "Edit this notification rule"
-msgstr ""
+msgstr "Editează această regulă de notificare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13801
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14329
@@ -831,51 +831,51 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16387
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:961
 msgid "Edit this rule"
-msgstr ""
+msgstr "Editează această regulă"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:603
 msgid "Edit this schedule entry"
-msgstr ""
+msgstr "Editează această programare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12827
 msgid "Edit this tag group"
-msgstr ""
+msgstr "Editează acest grup de etichete"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8700
 msgid "Edit this user's notifications"
-msgstr ""
+msgstr "Editează notificările acestui utilizator"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9663
 msgid "Edit time period"
-msgstr ""
+msgstr "Editează acest interval de timp"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11839
 #, python-format
 msgid "Edit user %s"
-msgstr ""
+msgstr "Editează utilizatorul %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12427
 #, python-format
 msgid "Edit user role %s"
-msgstr ""
+msgstr "Editează rolul %s al utilizatorului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/sidebar.py:195
 msgid "Edit your personal settings, change your password"
-msgstr ""
+msgstr "Editează setările tale personale, schimba parola"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17314
 msgid "Editable by Users"
-msgstr ""
+msgstr "Editabil de catre utilizator"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13166
 #, python-format
 msgid "Edited host tag group %s (%s)"
-msgstr ""
+msgstr "Editează grupul de etichete %s al elementului (%s)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1824
 #, python-format
 msgid "Edited properties of folder %s"
-msgstr ""
+msgstr "Editează proprietatile directorului %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2949
 #, python-format
