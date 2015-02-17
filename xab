@@ -520,138 +520,144 @@ msgstr "Verifică daca este întotdeauna in statusul OK"
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:473
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:926
 msgid "Check command"
-msgstr "Verificarea comenzii"
+msgstr "Comanda de check"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:480
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:933
 msgid "Check command expanded"
-msgstr ""
+msgstr "Comanda de check extinsă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1501
 msgid "Check configuration"
-msgstr ""
+msgstr "Verificarea configuraţiei"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:370
 msgid "Check connecting to a TCP port"
-msgstr ""
+msgstr "Verificarea conexiunii la un port TCP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1456
 msgid "Check current routing (uses <tt>traceroute</tt>)"
-msgstr ""
+msgstr "Verificarea rutării curente (se foloseşte <tt>traceroute</tt>)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1936
 msgid "Check event state in Event Console"
-msgstr ""
+msgstr "Verificarea statusului evenimentului în Consola de evenimente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:524
 msgid "Check for Version"
-msgstr ""
+msgstr "Verifcarea versiunii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:525
 msgid "Check for an Address"
-msgstr ""
+msgstr "Verifică pentru o adresă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2484
 msgid "Check for correct version of Check_MK agent"
-msgstr ""
+msgstr "Verifică versiunea corectă de Check_MK_agent"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1223
 msgid "Check freshness"
-msgstr ""
+msgstr "Verificarea noutăţii datelor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:107
 msgid "Check hosts with PING (ICMP Echo Request)"
-msgstr ""
+msgstr "Verificare elementelor cu PING (ICMP Echo Request)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:599
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:999
 msgid "Check int."
-msgstr ""
+msgstr "Verifiăcarea int."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1819
 msgid "Check intervals for SNMP checks"
-msgstr ""
+msgstr "Intervalul de verificare pentru SNMP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1107
 msgid "Check logfiles for relevant new messages"
-msgstr ""
+msgstr "Verificarea fişierelor de loguri pentru mesaje noi relevante"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:754
 msgid "Check manual (for Check_MK based checks)"
-msgstr ""
+msgstr "Manualul verificărilor (pentru verificările bazate pe Check_MK)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1748
 msgid "Check output"
-msgstr ""
+msgstr "Mesajul verificării"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/builtin_modules.py:43
 msgid ""
 "Check parameters and other configuration variables on hosts and services"
 msgstr ""
+"Parametrii verificărilor şi alte variabile de configuraţie pentru elemente "
+"şi servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1672
 msgid "Check period for active services"
-msgstr ""
+msgstr "Intervalul de verificare pentru serviciile active"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1761
 msgid "Check period for hosts"
-msgstr ""
+msgstr "Intervalul de verificare pentru elemente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1682
 msgid "Check period for passive Check_MK services"
-msgstr ""
+msgstr "Intervalul de verificare pentru serviciile Check_MK pasive"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:291
 msgid "Check plugin timeout"
-msgstr ""
+msgstr "Timeout-ul pluginului de verificare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1256
 msgid "Check result did not arrive in time"
-msgstr ""
+msgstr "Rezultatul verificării nu a ajuns in timp util"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2931
 msgid "Check result if the host or VM is powered off"
 msgstr ""
+"Rezultatul verificării dacă elementul sau maşina virtuală este oprită"
+
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2924
 msgid "Check result if the host or VM is powered on"
 msgstr ""
+"Rezultatul verificării dacă elementul sau maşina virtuală este pornită"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2938
 msgid "Check result if the host or VM is suspended"
 msgstr ""
+"Rezultatul verificării dacă elementul sau maşina virtuală este suspendată"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4334
 msgid "Check show Errors in Case of degraded or offline hosts"
-msgstr ""
+msgstr "Verificarea arată erori daca elementele sunt oprite sau degradate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1345
 msgid "Check specific host(s)"
-msgstr ""
+msgstr "Verifică elemente specifice"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:393
 msgid "Check state of ALLNET IP Sensoric Devices"
-msgstr ""
+msgstr "Statusul verificărilor pentru ALLNET IP Sensoric"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:202
 msgid "Check state of EMC VNX storage systems"
-msgstr ""
+msgstr "Statusul verificărilor pentru sistemele de stocare EMC VNX"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:335
 msgid "Check state of Fritz!Box Devices"
-msgstr ""
+msgstr "Statusul verificărilor pentru elementele Fritz!Box"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:256
 msgid "Check state of IBM SVC / V7000 storage systems"
-msgstr ""
+msgstr "Statusul verificărilor pentru sistemele de stocare IBM SVC / V7000"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:170
 msgid "Check state of VMWare ESX via vSphere"
-msgstr ""
+msgstr "Statusul verificărilor pentru VMWare ESX via vSphere"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1198
 msgid "Check submission method"
-msgstr ""
+msgstr "Metoda de trimitere a verificărilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1330
 msgid ""
@@ -661,6 +667,13 @@ msgid ""
 "redirect, accepts and uses cookies, parses forms from the requested pages, "
 "changes vars and submits them to check the response afterwards."
 msgstr ""
+"Verificarea trimiterii de formulare HTML peste HTTP/HTTPS folosind pluginul "
+"<tt>check_form_submit</tt> făcut cu Check_MK. Acest plugin oferă mai multe"
+"funcţionalităţi decat  <tt>check_http</tt>, deoarece urmăreşte automat "
+"redirecţionările, acceptă folosirea de cookies, parsează formularele "
+
+
+
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:569
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1342
