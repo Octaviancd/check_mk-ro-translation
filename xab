@@ -670,15 +670,15 @@ msgstr ""
 "Verificarea trimiterii de formulare HTML peste HTTP/HTTPS folosind pluginul "
 "<tt>check_form_submit</tt> făcut cu Check_MK. Acest plugin oferă mai multe"
 "funcţionalităţi decat  <tt>check_http</tt>, deoarece urmăreşte automat "
-"redirecţionările, acceptă folosirea de cookies, parsează formularele "
-
-
+"redirecţionările, acceptă folosirea de cookies, parsează formularele din"
+"paginile cerute, urmăreşte schimbările de variabile şi le trimite pentru "
+"a vedea răspunsul."
 
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:569
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1342
 msgid "Check the URL"
-msgstr ""
+msgstr "Verifică URL-ul"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1417
 msgid ""
@@ -690,24 +690,32 @@ msgid ""
 "queries livestatus to extract the notification related log entries from the "
 "log file of your monitoring core."
 msgstr ""
+"Verifică numărul de notificări trimise per contact utilizând pluginul"
+"<tt>check_notify_count</tt> distribuit de Check_MK. Acest plugin numără şi"
+"crează grafice pentru fiecare contact în parte, într-un interval de timp."
+"Acest plugin interogează modulul de livestatus pentru a extrage logurile"
+"din fişierul de loguri al nucleului de monitorizare"
+
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:199
 msgid ""
 "Check the resolution of a hostname into an IP address by a DNS server. This "
 "check uses <tt>check_dns</tt> from the standard Nagios plugins."
 msgstr ""
+"Verifică rezolvarea intr-o adresă IP a unui nume de către un server DNS."
+"Acest check foloseşte <tt>check_dns</tt> din pluginurile standard Nagios."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8208
 msgid "Check type"
-msgstr ""
+msgstr "Tipul de verificare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14909
 msgid "Check types"
-msgstr ""
+msgstr "Tipurile de verificare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:511
 msgid "Check uniserv service"
-msgstr ""
+msgstr "Verificarea serviciului uniserv"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18556
 msgid ""
@@ -715,6 +723,9 @@ msgid ""
 "host can be accessed, for example via agent, SNMPv1, SNMPv2 to find out the "
 "correct monitoring configuration for that host."
 msgstr ""
+"Verifică dacă un element este accesibil, verifică mai mult metode de "
+"accesare, de exemplu prin intermediul agentului, SNMPv1, SNMPv2 pentru a "
+"găsi configurarea de monitorizare corectă pentru acel element."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:349
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:1356
@@ -727,20 +738,20 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:119
 msgid "Check_MK Agent Local-Directory"
-msgstr ""
+msgstr "Directorul Local pentru Check_MK Agent"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:118
 msgid "Check_MK Agent Plugins-Directory"
-msgstr ""
+msgstr "Directorul de plugin-uri pentru Check_MK Agent"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2893
 #, python-format
 msgid "Check_MK Agent Port (<a href=\"%s\">Rules</a>)"
-msgstr ""
+msgstr "Portul agentului Check_MK (<a href=\"%s\">Rules</a>)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:79
 msgid "Check_MK Logo"
-msgstr ""
+msgstr "Logo-ul Check_MK"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:31
 msgid "Check_MK Micro Core"
@@ -750,11 +761,11 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:183
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:196
 msgid "Check_MK Mobile"
-msgstr ""
+msgstr "Check_MK Mobil"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/login.py:245
 msgid "Check_MK Multisite Login"
-msgstr ""
+msgstr "Check_MK Multisite Login"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/sidebar.py:221
 msgid "Check_MK Sidebar"
@@ -762,13 +773,16 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/wato.py:31
 msgid "Check_MK config filename"
-msgstr ""
+msgstr "Fişierul de configurare al Check_MK"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3866
 msgid ""
 "Check_MK service discovery will automatically find and configure services to "
 "be checked on your hosts.</p>"
 msgstr ""
+"Check_MK va găsi si va configura automat serviciile ce trebuiesc "
+"verificate pe hoştii dumneavoastră"
+
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1646
 #, python-format
