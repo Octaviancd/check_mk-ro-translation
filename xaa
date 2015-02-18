@@ -1118,12 +1118,27 @@ msgid ""
 "service level is equal to defining a level of 0.<br><br>The list of "
 "available service levels is configured via a <a href='%s'>global option.</a>"
 msgstr ""
+"Un nivel de serviciu este un număr care descrie impactul asupra afacere "
+"datorită unui host sau serviciu. Acest nivel poate fi folosit în reguli "
+"pentru notificări, ca un filtru într-un view sau ca și criteriu în reguli "
+" pentru Consola de Evenimente. Un nivel de serviciu mai mare se presupune a "
+"a fi mai critic pentru afacere. Acest set de reguli permite desemnarea "
+"nivelului de serviciu la hoști și/sau servicii. Notă: dacă desemnezi un nivel "
+"de serviciu unui host cu set-ul de reguli <i>Nivelul Serviciilor al "
+"Hoștilor</i>, atunci acest nivel va fi moștenit de către tiate serviciile "
+"care <b>nu</b> au un nivel implicit asociat prin set-ul de reguli <i>"
+"Nivelul Serviciului al Serviciilor</i>. Desemnarea nici unui nivel de "
+"serviciu este egal cu definirea unui nivel egal cu 0.<br><br>Lista "
+"nivelelor de serviciu disponibile este configurată via <a href='%s'>"
+"opțiunea globală </a>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:898
 msgid ""
 "A short overview over all host groups, without an explicity listing of the "
 "actual hosts"
 msgstr ""
+"O scurtă privire de ansamblu asupra tuturor hoștilor, fără listarea "
+"explicită a hosturilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1464
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1490
@@ -1131,12 +1146,16 @@ msgid ""
 "A short overview over all service groups, without explicity listing of the "
 "actual hosts and services"
 msgstr ""
+"O scurtă privire de ansamblu asupra tuturor grupurilor de servicii, fără "
+"listarea explicită a hosturilor și serviciilor."
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:1041
 msgid ""
 "A simple and yet practical snapin allowing to create bookmarks to views and "
 "other content in the main frame"
 msgstr ""
+"Un snapin simplu și practic ceea ce îți permite crearea unor bookmark-uri "
+"către views și alt conținut din frame-ul principal."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2484
 msgid "A single host related aggregation"
@@ -1148,28 +1167,33 @@ msgstr "Un SNMP walk stocat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1455
 msgid "A string-combination of servername and port, e.g. 127.0.0.1:5000."
-msgstr ""
+msgstr "Un șir ce conține numele serverului și port, e.g. 127.0.0.1:5000."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1481
 msgid "A string-combination of servername and port, e.g. 127.0.0.1:80."
-msgstr ""
+msgstr "Un șir ce conține numele serverului și port, e.g. 127.0.0.1:89."
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:325
 msgid ""
 "A summary state of all hosts that have a problem, with links to problems of "
 "those hosts"
 msgstr ""
+"O stare rezumată al tuturor hostilor care au o problemă, cu link către "
+"problemele acelor hoști"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:316
 msgid ""
 "A summary state of all summary hosts (summary hosts hold aggregated service "
 "states and are a feature of Check_MK)"
 msgstr ""
+"O stare rezumată al tuturor 'summary hosts' ('summary hosts') țin stări "
+"agregate și sunt o o caracteristică al Check_MK)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:307
 msgid ""
 "A summary state of each host with a link to the view showing its services"
 msgstr ""
+"O stare rezumată al fiecărui host cu un link câtre view-ul cu serviciile"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3255
 msgid ""
@@ -1178,6 +1202,11 @@ msgid ""
 "Tables and indexes are created within a particular tablespace. This rule "
 "allows you to define checks on the size of tablespaces."
 msgstr ""
+"Un tablespace container pentru segemente (tabele, indecși, etc.). O bază de "
+"date conține una sau mai mult tablespaces, fiecare conținănd una sau mai "
+"multe fișiere de date. Tabelele și indecșii sunt create în cadrul unui "
+"tablespace particular. Această regulă îți permite definierea verificării "
+"pentru mărimea tablespace-ului."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:106
 msgid ""
@@ -1185,12 +1214,17 @@ msgid ""
 "configuration. Changing the ID is not possible if still rules refer to this "
 "ID."
 msgstr ""
+"Un ID unic al acestei acțiuni care este folosit ca o referință internă în "
+"configurație. Schimbarea ID-ului nu este posibil dacă alte reguli fac "
+"referire la acest ID."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:251
 msgid ""
 "A unique ID of this rule. Each event will remember the rule it was "
 "classified with by its rule ID."
 msgstr ""
+"Un ID unic al acestei reguli. Fiecare eveniment va ține cont de regula prin "
+"care a fost clasificat după ID-ul regulii."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/notify.py:168
 #, python-format
@@ -1264,6 +1298,10 @@ msgid ""
 "space. Enable this option to set the check against require mirror free "
 "space. This only works for normal or high redundancy Disk Groups. "
 msgstr ""
+"ASM calculează spațiul liber în baza free_mb sau spațiul 'require mirror "
+"free'. Activează această opțiune pentru a configura verificarea la adresa "
+"'require mirror free'. Aceasta lucrează numai pentru 'Disk Groups' normale "
+"sau de redundanță înaltă (high redundancy)."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:705
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:967
@@ -1366,6 +1404,11 @@ msgid ""
 "monitored storage devices to the .ssh/known_hosts file for the user your "
 "monitoring is running under (on OMD: the site user)"
 msgstr ""
+"Acceptă orice cheie SSH Host Key primită de la echipamentul de stocare. "
+"Notați: Aceasta ar putea fi o problemă de securitate deoarece atacuri de tip "
+"man-in-themiddle nu sunt recunoscute! O soluție mai bună ar fi să adaugieia "
+"cheia SSH al echipamentului de stocare în fișierul .ssh/known_hosts pentru "
+"utilizatorul sub care rulează monitorizarea (pentru OMD: nume site)."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:43
 msgid "Access Check_MK Agent via TCP"
@@ -1405,12 +1448,17 @@ msgid ""
 "audit log. The currently pending changes can be seen by all users with "
 "access to WATO."
 msgstr ""
+"Acess la jurnalul de audit istoric. Un utilizator cu drepturi de scriere "
+"poate accesa jurnaul de audit. Modificările în așteptare pot fi vizualizate "
+"de către toți utilizatorii cu acces la WATO."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18521
 msgid ""
 "Access to the management of hosts and folders. This module has some "
 "additional permissions (see below)."
 msgstr ""
+"Acces la administrarea elementelor și a directoarelor. Acest modul "
+"are permisiuni suplimnetare (vezi mai jos)."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18658
 msgid ""
