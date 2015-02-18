@@ -974,6 +974,14 @@ msgid ""
 "deleted. Other states will keep the log entries but reclassify the state of "
 "them.</p>"
 msgstr ""
+"<p>Poți defini una sau mai multe modele (expresii regulate) în fiecare model "
+"de regulă logfile. Aceste modele sunt aplicate la lista de logfile-uri "
+"selectate pentru reclasificarea acelor mesage care se potrivesc. Primul model "
+"care se potrivește cu o linie va fi folosit pentru reclasificarea unui mesaj. "
+"Poți folosi <a href=\"wato.py?mode=pattern_editor\">Logfile Pattern Analyzer "
+"</a> pentru a verifica regulile pe care le definești aici.</p><p>Selectează "
+"\"Ignoră\" la stare pentru a șterge log-urile care se potrivesc. Alte stări "
+"vor păstra log-urile dar vor fi reclasificate.<p>"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/index.py:236
 msgid ""
@@ -1001,8 +1009,7 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5253
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5425
 msgid "A"
-msgstr ""
-# TODO
+msgstr "Un"
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/views.py:205
 msgid "A Multisite view"
@@ -1016,16 +1023,19 @@ msgstr "O descriere sau comentariu despre acest element"
 msgid ""
 "A compact dashboard which lists your unhandled host and service problems."
 msgstr ""
+"Un dashboard compact ce afișează problemele de servicii și hoști nerezolvate."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:929
 msgid ""
 "A complete list of all host problems with a search form for selecting "
 "handled and unhandled"
 msgstr ""
+"O listă completă cu toate problemele hoștilor cu un formular de căutare "
+"pentru filtrarea problemelor rezolvate și nerezolvate."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:976
 msgid "A complete listing of all host groups and each of their hosts"
-msgstr ""
+msgstr "O listă completă cu toate grupurile de hoști și starea fiecăruia."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6165
 msgid ""
@@ -1034,6 +1044,10 @@ msgid ""
 "hosts in this rule forces them to use the interface check with 32 bit "
 "counters instead."
 msgstr ""
+"Câteva switch-uri cu firmware defect raportează că suporta contoare 64 de "
+"biți dar nu afișează date reale în acele contoare. Introducerea acelor hoști "
+"în această regulă îi forțează să foloseasca interfețele cu contoare pe 32 de "
+"biți."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:116
 msgid "A descriptive title of this action."
@@ -1041,7 +1055,7 @@ msgstr "Un titlu descriptiv despre această acțiune."
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/bi.py:45
 msgid "A direct link to all groups of BI aggregations"
-msgstr ""
+msgstr "O legăturp directă la toate grupurile de agregări BI"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1907
 msgid "A folder with that name already exists."
@@ -1061,6 +1075,9 @@ msgid ""
 "scheduled check rate. If the Speed-O-Meter shows a speed of 100 percent, all "
 "service checks are being executed in exactly the rate that is desired."
 msgstr ""
+"Un gadget care arată rata curentă al verificărilor de servicii în relație cu "
+"rata de verificare programată. Dacă Speed-O-Meeter-ul arată o viteză de 100%, "
+"toate verificările de servicii sunt exectutate exact la rata dorită."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:282
 msgid "A heading for the view"
@@ -1092,6 +1109,10 @@ msgid ""
 "You can use a trailing <tt>$</tt> in order to define an exact match. For "
 "each matching service on the specified hosts one child node will be created. "
 msgstr ""
+"O expresie regulată care se potrivește cu <b>începtului</b> descrierii unui "
+"serviciu. Poți folosi un <tt>$</tt> la sfârșit pentru a defini o potrivire "
+"exactă. Pentru fiecare serviciu care se potrivește pe host se va crea un "
+"nod copil."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1108
 msgid "A rule with this ID already exists."
@@ -1103,6 +1124,9 @@ msgid ""
 "to a cron job on unix. This rule allows you to define the maximum run "
 "duration and state.."
 msgstr ""
+"Un 'scheduler job' este un obiect in bazele de date ORACLE Care pot fi "
+"comparate cu un cron job pe sisteme unix. Această regulă permite definirea "
+"timpul maxim de rulare și starea.."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:2054
 #, python-format
