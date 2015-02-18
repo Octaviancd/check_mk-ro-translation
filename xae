@@ -67,11 +67,11 @@ msgstr "Credențialele de autentificare lipsesc"
 
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:328
 msgid "Missing needed host parameter."
-msgstr ""
+msgstr "Lipseste parametrul elementului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11213
 msgid "Missing secret for automation command."
-msgstr ""
+msgstr "-------------------------------------------------------------------------------------------------"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:439
 msgid "Missing site"
@@ -256,7 +256,7 @@ msgid "Monitor the performance of the Event Console"
 msgstr "Monitorizează performanța Consolei de Evenimente"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10831
-msgid "Monitored on site"
+msgid "Monitored on site”
 msgstr "Monitorizate în locație"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:52
@@ -745,100 +745,104 @@ msgstr "Numele masinii virtuale și/sau<br>plaja de thread-uri "
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1464
 msgid "Name resolution"
-msgstr ""
+msgstr "Rezolvarea de nume"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:571
 msgid ""
 "Needed for acknowledging and changing the comment and contact of an event"
-msgstr ""
+msgstr "Necesar pentru confirmarea si schimbarea comentariului si contactului a"
+" unui eveniment"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:577
 msgid "Needed for changing a comment when updating an event"
-msgstr ""
+msgstr "Necesar pentru modificarea unui comentariu cănd se actualizează "
+"un eveniment"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:581
 msgid "Needed for changing a contact when updating an event"
-msgstr ""
+msgstr "Necesar pentru modificarea unui contact cand se actualizează un "
+"eveniment"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/inventory.py:161
 msgid "Negate: find hosts <b>not</b> having this package"
-msgstr ""
+msgstr "Negare: gaseste elemente <b>not</b> care conțin acest pachet"
 
 #: /omd/sites/production/share/check_mk/web/plugins/userdb/ldap.py:885
 #: /omd/sites/production/share/check_mk/web/plugins/userdb/ldap.py:936
 msgid "Nested group memberships are resolved"
-msgstr ""
+msgstr "Înșiruirea ce aparține grupului sunt rezolvate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1098
 msgid "NetApp Filers: Used Space in Filesystems"
-msgstr ""
+msgstr "NetApp Filers: Spațiu este folosit in Filesystems"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1099
 msgid "NetApp Filers: Used space in Filesystem Using 32-Bit Counters"
-msgstr ""
+msgstr "NetApp Filers: Spațiu este folosit in Filesystems folosind contoare "
+"32-Bit "
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1121
 msgid "NetBIOS name of the server"
-msgstr ""
+msgstr "Numele NetBIOS-ului al serverului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1316
 msgid "Netapp FC Port throughput"
-msgstr ""
+msgstr "Netapp transferul portului FC"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:227
 msgid "Network Interface and Switch Port Inventory"
-msgstr ""
+msgstr "Interfața de rețea și inventarierea porturilor din switch"
 
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/builtin.py:203
 msgid "Network Topology"
-msgstr ""
+msgstr "Topologia rețelei"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:481
 msgid "Network Topology: Default Filter Group"
-msgstr ""
+msgstr "Topologia rețelei: Filtrul implicit al grupului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4570
 msgid "Network filesystem - overall status (e.g. NFS)"
-msgstr ""
+msgstr "Sistemul de fișiere din rețea - starea de ansamblu (de ex. NFS)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4449
 msgid "Network interface groups"
-msgstr ""
+msgstr "Grupurile interfeței de rețea"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1461
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:256
 msgid "Network interface port states to inventorize"
-msgstr ""
+msgstr "Starea porturilor interfețelor de rețea de inventariat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1468
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:264
 msgid "Network interface port types to inventorize"
-msgstr ""
+msgstr "Tipurile porturilor interfețelor de rețea de inventariat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2262
 msgid "Network interfaces and switch ports"
-msgstr ""
+msgstr "Interfețele de rețea si porturile switch-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2433
 msgid "Network specification"
-msgstr ""
+msgstr "Specificațiile rețelei"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:36
 msgid "Networking"
-msgstr ""
+msgstr "Rețelistică"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/omd_configuration.py:77
 msgid "Never remove files newer than"
-msgstr ""
+msgstr "Nu se vor șterge fișiere mai noi de"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14760
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:259
 msgid "New"
-msgstr ""
+msgstr "Nou"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:196
 msgid "New Action"
-msgstr ""
+msgstr "Acțiune nouă"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16309
 msgid "New Aggregation"
@@ -846,7 +850,7 @@ msgstr "Agregare noua"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17344
 msgid "New Attribute"
-msgstr ""
+msgstr "Atribut nou"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12698
 msgid "New Aux tag"
@@ -976,89 +980,90 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/htdocs/notify.py:313
 msgid ""
 "No UTF-8 encoding found in your locale -a! Please provide C.UTF-8 encoding."
-msgstr ""
+msgstr "Nu a fost găsită codare UTF-8 în.....! Te rog sa asiguri  "
+"codare C.UTF-8."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2859
 msgid "No VMWare Tools installed."
-msgstr ""
+msgstr "Nu este instalat VMWare Tools."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2291
 msgid "No authentication, no privacy"
-msgstr ""
+msgstr "Nu există intimate fără autentificare."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14112
 #, python-format
 msgid "No available rule for service %s at host %s"
-msgstr ""
+msgstr "Nu există regulă disponibilă pentru serviciul %s la elementul %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:459
 msgid "No colon, slash or backslash is allowed in the filename."
-msgstr ""
+msgstr "Nu sunt permise coloane, slash sau backslash in numele fișierului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:356
 msgid "No commands are possible in this view"
-msgstr ""
+msgstr "În acest view nu sunt posibile comenzi"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/inventory.py:34
 msgid "No configuration neccessary"
-msgstr ""
+msgstr "Nu este necesară configurarea"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12193
 msgid "No contact groups assigned."
-msgstr ""
+msgstr "Nu sunt alocate grupuri de contact"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17379
 msgid "No custom attributes are defined yet."
-msgstr ""
+msgstr "Încă nu sunt definite atribute la comandă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/cmc.py:41
 msgid "No data."
-msgstr ""
+msgstr "Nu există date"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:581
 msgid "No datasource defined."
-msgstr ""
+msgstr "Nu este definită o sursă de date"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/table.py:68
 msgid "No entries."
-msgstr ""
+msgstr "Nu există înregistrări"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6025
 msgid "No forwarding"
-msgstr ""
+msgstr "Nu se poate expedia"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4248
 msgid "No gateway found"
-msgstr ""
+msgstr "Nu a fost găsit nici un gateway"
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/pnp_graphs.py:54
 msgid "No graph available."
-msgstr ""
+msgstr "Nu este disponibil nici un grafic"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7919
 msgid "No groups are defined yet."
-msgstr ""
+msgstr "Nu sunt definite grupuri."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2844
 msgid "No heartbeat"
-msgstr ""
+msgstr "Fără heartbeat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4372
 #, python-format
 msgid "No host %s configured, parents not set"
-msgstr ""
+msgstr "Nu este configurat elementul %s, parintii nu sunt setați"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3624
 msgid "No host has been imported."
-msgstr ""
+msgstr "Nu a fost importat nici un element"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:287
 msgid "No hosts/services found."
-msgstr ""
+msgstr "Nu au fost găsite elemente/sevicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:895
 msgid "No information available"
-msgstr ""
+msgstr "Nu sunt disponibile informații"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:149
 msgid "No logging"
@@ -1066,7 +1071,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:151
 msgid "No logs found for this host."
-msgstr ""
+msgstr "Nu au fost găsite inregistrări pentru acest element."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:1942
 msgid "No matching data row. No command sent."
