@@ -74,7 +74,7 @@ msgid ""
 "</table>\n"
 msgstr ""
 "\n"
-"Următorii substituenți vor fi substituite cu valoarile reale de la eveniment "
+"Următorii substituenții vor fi substituite cu valoarile reale de la eveniment "
 "eveniment:\n"
 "<table class=help>\n"
 "<tr><td class=tt>$ID$</td><td>ID Eveniment</td></tr>\n"
@@ -866,10 +866,9 @@ msgid ""
 "50. You either configured too many levels or built an infinite recursion. "
 "This happened in rule <pre>%s</pre>"
 msgstr ""
-"<h3>Atins limita de adâncime/h3>Nivelul de nesting al agregărilor este "
-"limitat la 50. Fie ai creat prea multi nivele sau ai construit o regulă "
-"cu recursie infinită. Aceasta s-a întâmplat în regula <pre>%s</pre>"
-
+#TODO "<h3>Atins limita de adâncime/h3>The nesting level of aggregations is limited to "
+#TODO "50. You either configured too many levels or built an infinite recursion. "
+#TODO "This happened in rule <pre>%s</pre>"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/bi.py:721
 #, python-format
@@ -878,9 +877,6 @@ msgid ""
 "elements: description, argument list, aggregation function and list of "
 "nodes. Your rule has %d elements: <pre>%s</pre>"
 msgstr ""
-"<h3>Regulă de agregare invalidă</h1>Regulile de agregare trebuie să conținâ "
-"patru elemente: descrierea, lista de argumente, funcția de agregare și o "
-"cu node-uri. Regula ta are %d elemente: <pre>%s</pre>"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1282
 #, python-format
@@ -889,7 +885,7 @@ msgstr "<i>%d mai multe grupuri de contact</i><br>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/globals_notification.py:52
 msgid "<i>(No fallback email address configured!)</i>"
-msgstr "<i>(Nici o adresă de rezervă configurată!)</i>""
+msgstr <i>(Nici o adresă de rezervă configurată!)</i>""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11792
 msgid "<i>not a contact</i>"
@@ -921,22 +917,6 @@ msgid ""
 "may also use <tt>%1</tt>, <tt>%2</tt>, etc. These will be replaced by the "
 "first, second, ... matching group. This allows you to reorder things.</p>"
 msgstr ""
-"<p>Numele procesului poate conține unul sau mai multe apariții ale <tt>"
-"%s</tt>. În acest caz, modelul trebuie să fie o expresie regulată prefixate "
-"cu ~. Pentru fiecare <tt>%s</tt> într-o descriere, expresia trebuie sâ "
-"conțină un \"grup\". Un grup reprezintă o sub-expresie între paranteze "
-"pătrate, spre exemplu <tt>(.*)</tt> sau <tt>([a-zA-Z]+)</tt> or <tt>(...)"
-"</tt>. Când în procesul de inventariere se identifică un model potrivit, "
-"va înlocui aceste grupuri cu valoarea actuală când se crează check-ul. În "
-"acest fel o regulă poate crea multiple verificări pe un host.</p><p>Dacă "
-"modelul conține mai multe grupuri decât aparații ale <tt>%s</tt> în "
-"descrierea serviciului, doar prima sub-expresie potrivită va fi folosită "
-"pentru descrierea serviciului. Șir-urile (sub-strings) potrivite la grupurile "
-"rămase vor fi copiate în expresia regulată.</p><p>Ca o alternativă la <tt>%s"
-"</tt> poți folosi <tt>%1</tt>, <tt>%2</tt>, etc. Aceste expresii vor fi "
-"înlocuite cu primul, al doilea, etc. grup potrivit, oferin posibilitatea "
-"reorganizării lucrurilor."
-
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:522
 msgid ""
@@ -955,21 +935,6 @@ msgid ""
 "also use <tt>%1</tt>, <tt>%2</tt>, etc. These expressions will be replaced "
 "by the first, second, ... matching group, allowing you to reorder things.</p>"
 msgstr ""
-"<p>Descrierea serviciului poate conține unul sau mai multe apariții ale <tt>"
-"%s</tt>. În acest caz, modelul trebuie să fie o expresie regulată prefixate "
-"cu ~. Pentru fiecare <tt>%s</tt> într-o descriere, expresia trebuie sâ "
-"conțină un \"grup\". Un grup reprezintă o sub-expresie între paranteze "
-"pătrate, spre exemplu <tt>(.*)</tt> sau <tt>([a-zA-Z]+)</tt> or <tt>(...)"
-"</tt>. Când în procesul de inventariere se identifică un model potrivit, "
-"va înlocui aceste grupuri cu valoarea actuală când se crează check-ul. În "
-"acest fel o regulă poate crea multiple verificări pe un host.</p><p>Dacă "
-"modelul conține mai multe grupuri decât aparații ale <tt>%s</tt> în "
-"descrierea serviciului, doar prima sub-expresie potrivită va fi folosită "
-"pentru descrierea serviciului. Șir-urile (sub-strings) potrivite la grupurile "
-"rămase vor fi copiate în expresia regulată.</p><p>Ca o alternativă la <tt>%s"
-"</tt> poți folosi <tt>%1</tt>, <tt>%2</tt>, etc. Aceste expresii vor fi "
-"înlocuite cu primul, al doilea, etc. grup potrivit, oferin posibilitatea "
-"reorganizării lucrurilor."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:412
 #, python-format
@@ -988,19 +953,6 @@ msgid ""
 "the actual user name. For example \"\\\\NT AUTHORITY\\NETWORK SERVICE\" or "
 "\"\\\\CHKMKTEST\\Administrator\".</p>"
 msgstr ""
-"<p>Specificațiile de utilizator pot fi numele utilizatorului (șir). "
-"Inventarierea în acest caz se va aplica numai dacă numele procesului rulează "
-"sub numele acelui utilizator. Alternativ poți specifica \"obține utilizator\" "
-". </p><p>Specificând \"obține utilizator\" face ca verificarea să se aștepte "
-"ca utilizatorul sub care rulează procesul să fie același ca utilizatorul sub "
-"care rulează verificarea (agentul) în timpul inventarierii: numele "
-"utilizatorului va fi hardcodad în verificare. În acest caz dacă pui %u în "
-" descrierea serviciului, aceasta va fi înlocuit cu numele utilizatorului "
-"actual în timpul inventarierii. Ai nevoie de așa ceva dacă regula ar putea să "
-"se potrivească la mai mulți utilizatori - s-ar crea servicii duplicate cu "
-"aceeași descriere.</p><p>Utilizatorii Windows sunt specificați după namespace "
-"urmat de numele utilizatorului actual. Spre exemplu \"\\\NT AUTHORITY\\"
-"NETWORK SERVICE\" sau \"\\\CHMKTEST\\Administrator\".</p> "
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8908
 #, python-format
@@ -1011,11 +963,6 @@ msgid ""
 "alerts will <b>not</b> use the rule based notifications now.<br><br>You can "
 "change this setting <a href=\"%s\">here</a>."
 msgstr ""
-"<b>Atenție</b><br><br>Notificările bazate pe reguli sunt dezactivate în "
-"configurația globală. Regulile pe care le editezi aici vor vea un efect "
-"numai pentru notificările generate de către Consola de Evinemente. Alertele "
-"normale de monitorizare <b>nu</b> vor utiliza aceste reguli acum.<br><br> "
-"Poți schimba aceste setări <a href=\"%s\">aici</a>.""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:86
 msgid ""
@@ -1028,14 +975,6 @@ msgid ""
 "deleted. Other states will keep the log entries but reclassify the state of "
 "them.</p>"
 msgstr ""
-"<p>Poți defini una sau mai multe modele (expresii regulate) în fiecare model "
-"de regulă logfile. Aceste modele sunt aplicate la lista de logfile-uri "
-"selectate pentru reclasificarea acelor mesage care se potrivesc. Primul model "
-"care se potrivește cu o linie va fi folosit pentru reclasificarea unui mesaj. "
-"Poți folosi <a href=\"wato.py?mode=pattern_editor\">Logfile Pattern Analyzer "
-"</a> pentru a verifica regulile pe care le definești aici.</p><p>Selectează "
-"\"Ignoră\" la stare pentru a șterge log-urile care se potrivesc. Alte stări "
-"vor păstra log-urile dar vor fi reclasificate.<p>"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/index.py:236
 msgid ""
@@ -1063,7 +1002,8 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5253
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5425
 msgid "A"
-msgstr "Un"
+msgstr ""
+# TODO
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/views.py:205
 msgid "A Multisite view"
@@ -1077,19 +1017,16 @@ msgstr "O descriere sau comentariu despre acest element"
 msgid ""
 "A compact dashboard which lists your unhandled host and service problems."
 msgstr ""
-"Un dashboard compact ce afișează problemele de servicii și hoști nerezolvate."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:929
 msgid ""
 "A complete list of all host problems with a search form for selecting "
 "handled and unhandled"
 msgstr ""
-"O listă completă cu toate problemele hoștilor cu un formular de căutare "
-"pentru filtrarea problemelor rezolvate și nerezolvate."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:976
 msgid "A complete listing of all host groups and each of their hosts"
-msgstr "O listă completă cu toate grupurile de hoști și starea fiecăruia."
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6165
 msgid ""
@@ -1098,10 +1035,6 @@ msgid ""
 "hosts in this rule forces them to use the interface check with 32 bit "
 "counters instead."
 msgstr ""
-"Câteva switch-uri cu firmware defect raportează că suporta contoare 64 de "
-"biți dar nu afișează date reale în acele contoare. Introducerea acelor hoști "
-"în această regulă îi forțează să foloseasca interfețele cu contoare pe 32 de "
-"biți."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:116
 msgid "A descriptive title of this action."
@@ -1109,7 +1042,7 @@ msgstr "Un titlu descriptiv despre această acțiune."
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/bi.py:45
 msgid "A direct link to all groups of BI aggregations"
-msgstr "O legăturp directă la toate grupurile de agregări BI"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1907
 msgid "A folder with that name already exists."
@@ -1129,9 +1062,6 @@ msgid ""
 "scheduled check rate. If the Speed-O-Meter shows a speed of 100 percent, all "
 "service checks are being executed in exactly the rate that is desired."
 msgstr ""
-"Un gadget care arată rata curentă al verificărilor de servicii în relație cu "
-"rata de verificare programată. Dacă Speed-O-Meeter-ul arată o viteză de 100%, "
-"toate verificările de servicii sunt exectutate exact la rata dorită."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:282
 msgid "A heading for the view"
@@ -1163,10 +1093,6 @@ msgid ""
 "You can use a trailing <tt>$</tt> in order to define an exact match. For "
 "each matching service on the specified hosts one child node will be created. "
 msgstr ""
-"O expresie regulată care se potrivește cu <b>începtului</b> descrierii unui "
-"serviciu. Poți folosi un <tt>$</tt> la sfârșit pentru a defini o potrivire "
-"exactă. Pentru fiecare serviciu care se potrivește pe host se va crea un "
-"nod copil."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1108
 msgid "A rule with this ID already exists."
@@ -1178,9 +1104,6 @@ msgid ""
 "to a cron job on unix. This rule allows you to define the maximum run "
 "duration and state.."
 msgstr ""
-"Un 'scheduler job' este un obiect in bazele de date ORACLE Care pot fi "
-"comparate cu un cron job pe sisteme unix. Această regulă permite definirea "
-"timpul maxim de rulare și starea.."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:2054
 #, python-format
@@ -1196,27 +1119,12 @@ msgid ""
 "service level is equal to defining a level of 0.<br><br>The list of "
 "available service levels is configured via a <a href='%s'>global option.</a>"
 msgstr ""
-"Un nivel de serviciu este un număr care descrie impactul asupra afacere "
-"datorită unui host sau serviciu. Acest nivel poate fi folosit în reguli "
-"pentru notificări, ca un filtru într-un view sau ca și criteriu în reguli "
-" pentru Consola de Evenimente. Un nivel de serviciu mai mare se presupune a "
-"a fi mai critic pentru afacere. Acest set de reguli permite desemnarea "
-"nivelului de serviciu la hoști și/sau servicii. Notă: dacă desemnezi un nivel "
-"de serviciu unui host cu set-ul de reguli <i>Nivelul Serviciilor al "
-"Hoștilor</i>, atunci acest nivel va fi moștenit de către tiate serviciile "
-"care <b>nu</b> au un nivel implicit asociat prin set-ul de reguli <i>"
-"Nivelul Serviciului al Serviciilor</i>. Desemnarea nici unui nivel de "
-"serviciu este egal cu definirea unui nivel egal cu 0.<br><br>Lista "
-"nivelelor de serviciu disponibile este configurată via <a href='%s'>"
-"opțiunea globală </a>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:898
 msgid ""
 "A short overview over all host groups, without an explicity listing of the "
 "actual hosts"
 msgstr ""
-"O scurtă privire de ansamblu asupra tuturor hoștilor, fără listarea "
-"explicită a hosturilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1464
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1490
@@ -1224,16 +1132,12 @@ msgid ""
 "A short overview over all service groups, without explicity listing of the "
 "actual hosts and services"
 msgstr ""
-"O scurtă privire de ansamblu asupra tuturor grupurilor de servicii, fără "
-"listarea explicită a hosturilor și serviciilor."
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:1041
 msgid ""
 "A simple and yet practical snapin allowing to create bookmarks to views and "
 "other content in the main frame"
 msgstr ""
-"Un snapin simplu și practic ceea ce îți permite crearea unor bookmark-uri "
-"către views și alt conținut din frame-ul principal."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2484
 msgid "A single host related aggregation"
@@ -1245,33 +1149,28 @@ msgstr "Un SNMP walk stocat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1455
 msgid "A string-combination of servername and port, e.g. 127.0.0.1:5000."
-msgstr "Un șir ce conține numele serverului și port, e.g. 127.0.0.1:5000."
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1481
 msgid "A string-combination of servername and port, e.g. 127.0.0.1:80."
-msgstr "Un șir ce conține numele serverului și port, e.g. 127.0.0.1:89."
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:325
 msgid ""
 "A summary state of all hosts that have a problem, with links to problems of "
 "those hosts"
 msgstr ""
-"O stare rezumată al tuturor hostilor care au o problemă, cu link către "
-"problemele acelor hoști"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:316
 msgid ""
 "A summary state of all summary hosts (summary hosts hold aggregated service "
 "states and are a feature of Check_MK)"
 msgstr ""
-"O stare rezumată al tuturor 'summary hosts' ('summary hosts') țin stări "
-"agregate și sunt o o caracteristică al Check_MK)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:307
 msgid ""
 "A summary state of each host with a link to the view showing its services"
 msgstr ""
-"O stare rezumată al fiecărui host cu un link câtre view-ul cu serviciile"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3255
 msgid ""
@@ -1280,11 +1179,6 @@ msgid ""
 "Tables and indexes are created within a particular tablespace. This rule "
 "allows you to define checks on the size of tablespaces."
 msgstr ""
-"Un tablespace container pentru segemente (tabele, indecși, etc.). O bază de "
-"date conține una sau mai mult tablespaces, fiecare conținănd una sau mai "
-"multe fișiere de date. Tabelele și indecșii sunt create în cadrul unui "
-"tablespace particular. Această regulă îți permite definierea verificării "
-"pentru mărimea tablespace-ului."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:106
 msgid ""
@@ -1292,17 +1186,12 @@ msgid ""
 "configuration. Changing the ID is not possible if still rules refer to this "
 "ID."
 msgstr ""
-"Un ID unic al acestei acțiuni care este folosit ca o referință internă în "
-"configurație. Schimbarea ID-ului nu este posibil dacă alte reguli fac "
-"referire la acest ID."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:251
 msgid ""
 "A unique ID of this rule. Each event will remember the rule it was "
 "classified with by its rule ID."
 msgstr ""
-"Un ID unic al acestei reguli. Fiecare eveniment va ține cont de regula prin "
-"care a fost clasificat după ID-ul regulii."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/notify.py:168
 #, python-format
@@ -1376,10 +1265,6 @@ msgid ""
 "space. Enable this option to set the check against require mirror free "
 "space. This only works for normal or high redundancy Disk Groups. "
 msgstr ""
-"ASM calculează spațiul liber în baza free_mb sau spațiul 'require mirror "
-"free'. Activează această opțiune pentru a configura verificarea la adresa "
-"'require mirror free'. Aceasta lucrează numai pentru 'Disk Groups' normale "
-"sau de redundanță înaltă (high redundancy)."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:705
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:967
@@ -1482,11 +1367,6 @@ msgid ""
 "monitored storage devices to the .ssh/known_hosts file for the user your "
 "monitoring is running under (on OMD: the site user)"
 msgstr ""
-"Acceptă orice cheie SSH Host Key primită de la echipamentul de stocare. "
-"Notați: Aceasta ar putea fi o problemă de securitate deoarece atacuri de tip "
-"man-in-themiddle nu sunt recunoscute! O soluție mai bună ar fi să adaugieia "
-"cheia SSH al echipamentului de stocare în fișierul .ssh/known_hosts pentru "
-"utilizatorul sub care rulează monitorizarea (pentru OMD: nume site)."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:43
 msgid "Access Check_MK Agent via TCP"
@@ -1526,17 +1406,12 @@ msgid ""
 "audit log. The currently pending changes can be seen by all users with "
 "access to WATO."
 msgstr ""
-"Acess la jurnalul de audit istoric. Un utilizator cu drepturi de scriere "
-"poate accesa jurnaul de audit. Modificările în așteptare pot fi vizualizate "
-"de către toți utilizatorii cu acces la WATO."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18521
 msgid ""
 "Access to the management of hosts and folders. This module has some "
 "additional permissions (see below)."
 msgstr ""
-"Acces la administrarea elementelor și a directoarelor. Acest modul "
-"are permisiuni suplimnetare (vezi mai jos)."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18658
 msgid ""
@@ -1544,9 +1419,6 @@ msgid ""
 "access to this module can make arbitrary changes to the configuration by "
 "restoring uploaded snapshots and even do a complete factory reset!"
 msgstr ""
-"Acces la modulul <i>Backup & Restore</i>. Atenție: un utilizator cu drepturi "
-"de scriere la acest modul poate efectua modificări la configurație prin "
-"restaurarea unor instantanee sau prin restaurea la setările din fabrică!"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18616
 msgid "Access to the module <i>Global settings</i>"
@@ -1558,28 +1430,22 @@ msgstr "Accesul la modulul <i>Perioade de timp</i>"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18666
 msgid "Access to the module for analyzing and validating logfile patterns."
-msgstr "Acces la modulul pentru analiza și validarea modelelor logfile."
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18621
 msgid ""
 "Access to the module for managing Check_MK rules. Please note that a user "
 "can only manage rules in folders he has permissions to. "
 msgstr ""
-"Acces la modulele pentru administrarea regulilor Check_MK. Atenție că un "
-"utilizator poate administra doar regulile din directoarele unde are drepturi. "
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18637
 msgid ""
 "Access to the module for managing connections to remote monitoring sites."
 msgstr ""
-"Acces la modulele pentru managementul conexiunilor câtre site-urile "
-"de monitorizare distante."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18627
 msgid "Access to the modules for managing host and service groups."
 msgstr ""
-"Acces la modulele pentru managementul grupurilor de elemente și "
-"servicii."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:2029
 msgid "Access via TCP"
@@ -1611,7 +1477,7 @@ msgstr "Confirmă Problemele"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:265
 msgid "Acknowledge host and service problems and remove acknowledgements"
-msgstr "Confirmă problemele elementelor și serviciilor și șterge confirmările"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:287
 #, python-format
@@ -1621,12 +1487,12 @@ msgstr "Confirmată %s"
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:288
 #, python-format
 msgid "Acknowledged all messages in %s."
-msgstr "Confirmă toate mesajele în %s."
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8981
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1607
 msgid "Acknowledgement"
-msgstr "Confirmare"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:70
 msgid "Acknowledgement Author"
@@ -1639,12 +1505,12 @@ msgstr "Comentariul Confirmației"
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8489
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11580
 msgid "Acknowledgement of host problem"
-msgstr "Confirmarea problemelor elementului"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8519
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11595
 msgid "Acknowledgement of service problem"
-msgstr "Confirmarea problemelor de servicii"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11743
 msgid "Act."
@@ -1685,19 +1551,19 @@ msgstr "Acțiuni"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:198
 msgid "Actions (Emails &amp Scripts)"
-msgstr "Acțiuni (Email &amp Script-uri)"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:313
 msgid "Actions to automatically perform when an event is being cancelled."
-msgstr "Acțiuni de efectuat automat când se anulează un anumit eveniment."
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:306
 msgid "Actions to automatically perform when this event occurs"
-msgstr "Acțiuni de efectuat automat când se întâplă acest eveniment"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:312
 msgid "Actions when cancelling"
-msgstr "Acțiuni când se anulează"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4649
 msgid "Activate Changes!"
@@ -1709,19 +1575,17 @@ msgstr "Activare Configurare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18503
 msgid "Activate Foreign Changes"
-msgstr "Activați Schimbările Strâine"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:414
 msgid ""
 "Activate HTTP header authentication (Warning: Only activate in trusted "
 "environments, see help for details)"
 msgstr ""
-"Activează autentificarea prin header HTTP (Atenție: Activați numai în "
-"medii sigure, vedeți help pentru detalii)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:966
 msgid "Activate automatic locking of user accounts"
-msgstr "Activează blocajul automat al conturilor de utilizator"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/webapi/webapi.py:172
 msgid "Activate changes"
@@ -1729,34 +1593,32 @@ msgstr "Activare schimbări"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1469
 msgid "Activate changes for event console"
-msgstr "Activează schimbările pentru event console"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:267
 msgid "Activate export to Graphite"
-msgstr "Activează export-ul câtre Graphite"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:397
 msgid "Activate logging of BI compilations into a logfile"
-msgstr "Activează jurnalizarea compilării BI într-un fișier"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:949
 msgid "Activate logging of LDAP transactions into a logfile"
-msgstr "Activează jurnalizarea tranzațiilor LDAP într-un fișier"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3183
 msgid "Activate missing"
-msgstr "Activează cele lipsă"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1174
 msgid "Activated changes of event console configuration"
-msgstr "Modificările aplicate ale consolei de jurnal"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/webapi/webapi.py:173
 msgid ""
 "Activates changes. The user still needs the required permissions to do so."
 msgstr ""
-"Activează modificările. Utilizatorul trebui să aibe drepturile necesare "
-"pentru activare."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2302
 msgid ""
@@ -1780,7 +1642,7 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:669
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1054
 msgid "Active"
-msgstr "Activ"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1468
 msgid "Active Connections"
@@ -1809,7 +1671,7 @@ msgstr "Verificări active"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:28
 msgid "Active checks (HTTP, TCP, etc.)"
-msgstr "Verificări active (HTTP, TCP, etc.)"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:471
 msgid "Active checks enabled"
@@ -1818,16 +1680,16 @@ msgstr "Verificări active activate"
 #: /omd/sites/production/share/check_mk/web/plugins/icons/builtin.py:472
 #, python-format
 msgid "Active checks have been manually disabled for this %s!"
-msgstr "Verificările active au fost manual dezactivate pentru acest %s!"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/icons/builtin.py:474
 #, python-format
 msgid "Active checks have been manually enabled for this %s!"
-msgstr "Verificările active au fost manual activate pentru acest %s!"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4639
 msgid "Active paths"
-msgstr "Căi Active"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18592
 msgid "Add & remove folders"
@@ -1855,7 +1717,7 @@ msgstr "Adaugă Contoar"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:876
 msgid "Add Dashlet"
-msgstr "Adaugă Dashlet"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9615
 msgid "Add Exception"
@@ -1867,11 +1729,11 @@ msgstr "Adaugă instanță NGINX"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:552
 msgid "Add Page Element"
-msgstr "Adaugă un Element pe Pagină"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/inventory.py:85
 msgid "Add a first row with column titles"
-msgstr "Adaugă o primă coloană cu titluri"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/webapi/webapi.py:49
 msgid "Add a host to WATO"
@@ -1880,8 +1742,6 @@ msgstr "Adaugă un element cu WATO"
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:999
 msgid "Add a new host to the monitoring (agent must be installed)"
 msgstr ""
-"Adaugă un nou element spre monitorizare (agentul trebuie "
-"să fie instalat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17323
 msgid "Add as Custom Macro"
@@ -1889,7 +1749,7 @@ msgstr "Adaugă ca un Macro Customizat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17095
 msgid "Add child node generator"
-msgstr "Adaugă generator child node"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:535
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:568
@@ -1908,7 +1768,7 @@ msgstr "Adaugă comentarii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:323
 msgid "Add comments to hosts or services, and remove comments"
-msgstr "Adaugă comentarii elementelor sau seriviciilor, și șterge comentarii"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:676
 msgid "Add contact information"
@@ -1916,11 +1776,11 @@ msgstr "Adaugă informații despre contact"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:444
 msgid "Add dashlet"
-msgstr "Adaugă dashlet"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4746
 msgid "Add diskstate rule"
-msgstr "Adaugă regulă pentru diskstate"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:960
 msgid "Add element"
@@ -1928,7 +1788,7 @@ msgstr "Adaugă element"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1190
 msgid "Add exclusion"
-msgstr "Adaugă excludere"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:1025
 msgid "Add filter"
@@ -2159,14 +2019,6 @@ msgid ""
 "this time period with an additional time span to make sure calibrations "
 "occuring just before midnight do not trigger false alarms."
 msgstr ""
-"Dupâ calibrarea bateriei capacitatea este redusă până când bateria este "
-"încărcată complet din nou. Aici poți specifica un nivel alternativ mai "
-"mic pentru faza post-calibrare. Deoarece elementele APC ține cont de data "
-"ultimei calibrări, nivelul alternativ va fi aplicat pentru toată ziua "
-"calibrării până la miezul nopții. Poți extinde această perioadă de timp "
-"cu un interval de timp adițional pentru a te asigura că eventualele "
-"calibrări care sunt efectuate înainte de miezul nopții nu declanșează "
-"alarme false."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4318
 msgid ""
@@ -2612,27 +2464,25 @@ msgstr "Toate comentariile elementelor și serviciilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:365
 msgid "All host- and service-downtimes"
-msgstr "Toate perioadele de nefuncționare pentru elemente și servicii"
+msgstr "Toate întreruperile de elemente și servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:433
 msgid "All host- and service-downtimes (including ids)"
 msgstr ""
-"Toate perioadele de timp de nefuncționare pentru elemente și servicii "
-"(inclusive ids)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:82
 #: /omd/sites/production/share/check_mk/web/plugins/views/datasources.py:76
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:306
 msgid "All hosts"
-msgstr "Toate elementele"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:157
 msgid "All hosts (Mini)"
-msgstr "Toate elementele (Mini)"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1587
 msgid "All hosts (tiled)"
-msgstr "Toate elementele (tiled)"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/inventory.py:36
 msgid ""
@@ -2643,23 +2493,16 @@ msgid ""
 "get any useful result for agent based hosts make sure that you have "
 "installed the agent plugin <tt>mk_inventory</tt> on these hosts."
 msgstr ""
-"Toate elementele configurate prin acest set de reguli vor face o inventariere "
-"hardware și software. Pentru fiecare element configurat, o nouă verificare "
-"activă va fi creată. Ar trebui să creezi o regulă pentru a schimba intervalul "
-"de verificare la ceva între două ore și o zi. <b>Note:</b> pentru a scoate "
-"informații relevante de la elementele verificate prin agent, asigurăte că ai "
-"instalat plugin-ul <tt>mk_inventory</tt> pe aceste elemente."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1410
 msgid "All hosts of site"
-msgstr "Toate elementele acestui site"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2949
 msgid ""
 "All notification events concerning the state of a certain host (including "
 "services)"
-msgstr "Toate evenimentele de notificare în legătură cu starea unui anumit "
-"element (inclusiv servicii)"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:3048
 msgid "All notification events concerning the state of a certain service."
@@ -4808,144 +4651,138 @@ msgstr "Verifică daca este întotdeauna in statusul OK"
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:473
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:926
 msgid "Check command"
-msgstr "Comanda de check"
+msgstr "Verificarea comenzii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:480
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:933
 msgid "Check command expanded"
-msgstr "Comanda de check extinsă"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1501
 msgid "Check configuration"
-msgstr "Verificarea configuraţiei"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:370
 msgid "Check connecting to a TCP port"
-msgstr "Verificarea conexiunii la un port TCP"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1456
 msgid "Check current routing (uses <tt>traceroute</tt>)"
-msgstr "Verificarea rutării curente (se foloseşte <tt>traceroute</tt>)"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1936
 msgid "Check event state in Event Console"
-msgstr "Verificarea statusului evenimentului în Consola de evenimente"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:524
 msgid "Check for Version"
-msgstr "Verifcarea versiunii"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:525
 msgid "Check for an Address"
-msgstr "Verifică pentru o adresă"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2484
 msgid "Check for correct version of Check_MK agent"
-msgstr "Verifică versiunea corectă de Check_MK_agent"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1223
 msgid "Check freshness"
-msgstr "Verificarea noutăţii datelor"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:107
 msgid "Check hosts with PING (ICMP Echo Request)"
-msgstr "Verificare elementelor cu PING (ICMP Echo Request)"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:599
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:999
 msgid "Check int."
-msgstr "Verifiăcarea int."
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1819
 msgid "Check intervals for SNMP checks"
-msgstr "Intervalul de verificare pentru SNMP"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1107
 msgid "Check logfiles for relevant new messages"
-msgstr "Verificarea fişierelor de loguri pentru mesaje noi relevante"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:754
 msgid "Check manual (for Check_MK based checks)"
-msgstr "Manualul verificărilor (pentru verificările bazate pe Check_MK)"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1748
 msgid "Check output"
-msgstr "Mesajul verificării"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/builtin_modules.py:43
 msgid ""
 "Check parameters and other configuration variables on hosts and services"
 msgstr ""
-"Parametrii verificărilor şi alte variabile de configuraţie pentru elemente "
-"şi servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1672
 msgid "Check period for active services"
-msgstr "Intervalul de verificare pentru serviciile active"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1761
 msgid "Check period for hosts"
-msgstr "Intervalul de verificare pentru elemente"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1682
 msgid "Check period for passive Check_MK services"
-msgstr "Intervalul de verificare pentru serviciile Check_MK pasive"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:291
 msgid "Check plugin timeout"
-msgstr "Timeout-ul pluginului de verificare"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1256
 msgid "Check result did not arrive in time"
-msgstr "Rezultatul verificării nu a ajuns in timp util"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2931
 msgid "Check result if the host or VM is powered off"
 msgstr ""
-"Rezultatul verificării dacă elementul sau maşina virtuală este oprită"
-
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2924
 msgid "Check result if the host or VM is powered on"
 msgstr ""
-"Rezultatul verificării dacă elementul sau maşina virtuală este pornită"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2938
 msgid "Check result if the host or VM is suspended"
 msgstr ""
-"Rezultatul verificării dacă elementul sau maşina virtuală este suspendată"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4334
 msgid "Check show Errors in Case of degraded or offline hosts"
-msgstr "Verificarea arată erori daca elementele sunt oprite sau degradate"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1345
 msgid "Check specific host(s)"
-msgstr "Verifică elemente specifice"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:393
 msgid "Check state of ALLNET IP Sensoric Devices"
-msgstr "Statusul verificărilor pentru ALLNET IP Sensoric"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:202
 msgid "Check state of EMC VNX storage systems"
-msgstr "Statusul verificărilor pentru sistemele de stocare EMC VNX"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:335
 msgid "Check state of Fritz!Box Devices"
-msgstr "Statusul verificărilor pentru elementele Fritz!Box"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:256
 msgid "Check state of IBM SVC / V7000 storage systems"
-msgstr "Statusul verificărilor pentru sistemele de stocare IBM SVC / V7000"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:170
 msgid "Check state of VMWare ESX via vSphere"
-msgstr "Statusul verificărilor pentru VMWare ESX via vSphere"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1198
 msgid "Check submission method"
-msgstr "Metoda de trimitere a verificărilor"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1330
 msgid ""
@@ -4955,18 +4792,11 @@ msgid ""
 "redirect, accepts and uses cookies, parses forms from the requested pages, "
 "changes vars and submits them to check the response afterwards."
 msgstr ""
-"Verificarea trimiterii de formulare HTML peste HTTP/HTTPS folosind pluginul "
-"<tt>check_form_submit</tt> făcut cu Check_MK. Acest plugin oferă mai multe"
-"funcţionalităţi decat  <tt>check_http</tt>, deoarece urmăreşte automat "
-"redirecţionările, acceptă folosirea de cookies, parsează formularele din"
-"paginile cerute, urmăreşte schimbările de variabile şi le trimite pentru "
-"a vedea răspunsul."
-
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:569
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1342
 msgid "Check the URL"
-msgstr "Verifică URL-ul"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1417
 msgid ""
@@ -4978,32 +4808,24 @@ msgid ""
 "queries livestatus to extract the notification related log entries from the "
 "log file of your monitoring core."
 msgstr ""
-"Verifică numărul de notificări trimise per contact utilizând pluginul"
-"<tt>check_notify_count</tt> distribuit de Check_MK. Acest plugin numără şi"
-"crează grafice pentru fiecare contact în parte, într-un interval de timp."
-"Acest plugin interogează modulul de livestatus pentru a extrage logurile"
-"din fişierul de loguri al nucleului de monitorizare"
-
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:199
 msgid ""
 "Check the resolution of a hostname into an IP address by a DNS server. This "
 "check uses <tt>check_dns</tt> from the standard Nagios plugins."
 msgstr ""
-"Verifică rezolvarea intr-o adresă IP a unui nume de către un server DNS."
-"Acest check foloseşte <tt>check_dns</tt> din pluginurile standard Nagios."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8208
 msgid "Check type"
-msgstr "Tipul de verificare"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14909
 msgid "Check types"
-msgstr "Tipurile de verificare"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:511
 msgid "Check uniserv service"
-msgstr "Verificarea serviciului uniserv"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18556
 msgid ""
@@ -5011,9 +4833,6 @@ msgid ""
 "host can be accessed, for example via agent, SNMPv1, SNMPv2 to find out the "
 "correct monitoring configuration for that host."
 msgstr ""
-"Verifică dacă un element este accesibil, verifică mai mult metode de "
-"accesare, de exemplu prin intermediul agentului, SNMPv1, SNMPv2 pentru a "
-"găsi configurarea de monitorizare corectă pentru acel element."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:349
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:1356
@@ -5026,20 +4845,20 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:119
 msgid "Check_MK Agent Local-Directory"
-msgstr "Directorul Local pentru Check_MK Agent"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:118
 msgid "Check_MK Agent Plugins-Directory"
-msgstr "Directorul de plugin-uri pentru Check_MK Agent"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2893
 #, python-format
 msgid "Check_MK Agent Port (<a href=\"%s\">Rules</a>)"
-msgstr "Portul agentului Check_MK (<a href=\"%s\">Rules</a>)"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:79
 msgid "Check_MK Logo"
-msgstr "Logo-ul Check_MK"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:31
 msgid "Check_MK Micro Core"
@@ -5049,11 +4868,11 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:183
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:196
 msgid "Check_MK Mobile"
-msgstr "Check_MK Mobil"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/login.py:245
 msgid "Check_MK Multisite Login"
-msgstr "Check_MK Multisite Login"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/sidebar.py:221
 msgid "Check_MK Sidebar"
@@ -5061,16 +4880,13 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/wato.py:31
 msgid "Check_MK config filename"
-msgstr "Fişierul de configurare al Check_MK"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3866
 msgid ""
 "Check_MK service discovery will automatically find and configure services to "
 "be checked on your hosts.</p>"
 msgstr ""
-"Check_MK va găsi si va configura automat serviciile ce trebuiesc "
-"verificate pe hoştii dumneavoastră"
-
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1646
 #, python-format
@@ -8951,12 +8767,7 @@ msgid ""
 "or not get those new permissions based on the default settings of the "
 "builtin role it's based on."
 msgstr ""
-"Fiecare rol definit de utilizator este bazat pe unul dintre rolurile "
-"predefinite. La creare va avea toate permisiunile rolului pe care se bazează."
-"Dacă datorită unei actualizări software sau instalării unor addon-uri apar noi"
-" permisiuni, rolul definit de utilizator va primi sau nu noile permisiuni în "
-"functie de setările implicite ale rolului pe care acesta este bazat."
- 
+
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1353
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14760
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:309
@@ -8981,7 +8792,7 @@ msgstr "Editează tabloul de bord"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:686
 msgid "Edit Dashboards"
-msgstr "Editează Dashboard-urile"
+msgstr "Editeaza tablourile de bord"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:902
 msgid "Edit Dashlet"
@@ -8989,173 +8800,172 @@ msgstr "Editează Dashlet-ul"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16120
 msgid "Edit Logfile Rules"
-msgstr "Editează regulile de loguri"
+msgstr "Editeaza regulile de loguri"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:376
 msgid "Edit Reports"
-msgstr "Editează Rapoartele"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17208
 msgid "Edit User Attribute"
-msgstr "Editează Atributele Utilizatorului"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15850
 msgid "Edit User Profile"
-msgstr "Editează Profilul Utilizatorului"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:1537
 msgid "Edit View"
-msgstr "Evitează View-ul"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:268
 msgid "Edit Views"
-msgstr "Editează View-urile"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/webapi/webapi.py:80
 msgid "Edit a host in WATO"
-msgstr "Editează un element în WATO"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/nagvis_auth.py:54
 msgid "Edit all maps"
-msgstr "Editează toate hărțile"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3293
 msgid "Edit and analyze the check parameters of this service"
-msgstr "Editează și analizează parametrii de verificate a acestui serviciu"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3300
 msgid "Edit and analyze the disabled services rules"
-msgstr "Editează si analizează regulile dezactivate de servicii"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1908
 msgid "Edit annotation of "
-msgstr "Editeză adnotarea "
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12874
 msgid "Edit auxiliary tag"
-msgstr "Editează eticheta auxiliară"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7973
 msgid "Edit contact group"
-msgstr "Editează grupul de contacte"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13174
 msgid "Edit group"
-msgstr "Editează grupul"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7969
 msgid "Edit host group"
-msgstr "Editează grupul de elemente"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9144
 #, python-format
 msgid "Edit notification rule %d"
-msgstr "Editează regula de notificare %d"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/nagvis_auth.py:75
 msgid "Edit permitted maps"
-msgstr "Editează hărțile permise"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/default_permissions.py:102
 msgid "Edit personal notification settings"
-msgstr "Editează setările personale de notificare"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/default_permissions.py:116
 msgid "Edit personal user attributes"
-msgstr "Editează atributele personale ale utilizatorului"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:384
 msgid "Edit report content"
-msgstr "Editează continutul raportului"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:995
 #, python-format
 msgid "Edit report schedule entry %d"
-msgstr "Editează raportul programat %d"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1075
 #, python-format
 msgid "Edit rule %s"
-msgstr "Editează regula %s"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7971
 msgid "Edit service group"
-msgstr "Editează grupul de servicii"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/icons/wato.py:38
 msgid "Edit services"
-msgstr "Editează serviciile"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10181
 #, python-format
 msgid "Edit site connection %s"
-msgstr "Editează conexiune site-ului %s"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10080
 #, python-format
 msgid "Edit site-specific global settings of %s"
-msgstr "Editează setarile globale specifice site-ului %s"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12990
 msgid "Edit tag group"
-msgstr "Editează grupul de etichete"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:497
 msgid "Edit the Dashboard"
-msgstr "Editeaza Dashboard-ul"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1240
 msgid "Edit the properties of this folder"
-msgstr "Editează proprietățile acestui director"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1442
 msgid "Edit the properties of this host"
-msgstr "Editează proprietătile acestui element"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18671
 msgid "Edit the rules for the BI aggregations."
-msgstr "Editează regulile de agregare ale BI-ului"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1445
 msgid "Edit the services of this host, do a service discovery"
 msgstr ""
-"Editează serviciile acestui element, ruleaza reinventarierea serviciilor"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/default_permissions.py:123
 msgid "Edit the user password"
-msgstr "Editează parola utilizatorului"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/default_permissions.py:96
 msgid "Edit the user profile"
-msgstr "Editează profilul utilizatorului"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16359
 msgid "Edit this aggregation"
-msgstr "Editează această agregare"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1861
 msgid "Edit this annotation"
-msgstr "Editează această adnotare"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12856
 msgid "Edit this auxiliary tag"
-msgstr "Editează această etichetă auxiliară"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:906
 msgid "Edit this element element"
-msgstr "Editează acest element al elementului"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:637
 msgid "Edit this fixel element"
-msgstr "Editează acest element fix"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/icons/wato.py:42
 msgid "Edit this host"
-msgstr "Editează acest element"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8743
 msgid "Edit this notification rule"
-msgstr "Editează această regulă de notificare"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13801
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14329
@@ -9163,61 +8973,61 @@ msgstr "Editează această regulă de notificare"
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16387
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:961
 msgid "Edit this rule"
-msgstr "Editează această regulă"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:603
 msgid "Edit this schedule entry"
-msgstr "Editează această programare"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12827
 msgid "Edit this tag group"
-msgstr "Editează acest grup de etichete"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8700
 msgid "Edit this user's notifications"
-msgstr "Editează notificările acestui utilizator"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9663
 msgid "Edit time period"
-msgstr "Editează acest interval de timp"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11839
 #, python-format
 msgid "Edit user %s"
-msgstr "Editează utilizatorul %s"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12427
 #, python-format
 msgid "Edit user role %s"
-msgstr "Editează rolul %s al utilizatorului"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/sidebar.py:195
 msgid "Edit your personal settings, change your password"
-msgstr "Editează setările tale personale, schimba parola"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17314
 msgid "Editable by Users"
-msgstr "Editabil de catre utilizator"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13166
 #, python-format
 msgid "Edited host tag group %s (%s)"
-msgstr "Editează grupul de etichete %s al elementului (%s)"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1824
 #, python-format
 msgid "Edited properties of folder %s"
-msgstr "Proprietatile editate ale directorului %s"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2949
 #, python-format
 msgid "Edited properties of host via diagnose [%s]"
-msgstr "Proprietăție editate ale elementului prin diagnoza [%s]"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14852
 #, python-format
 msgid "Edited rule in ruleset '%s' in folder %s"
-msgstr "Regua editată in setul de reguli '%s' in directorul %s"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16798
 msgid ""
@@ -9225,26 +9035,23 @@ msgid ""
 "name. Example: <tt>srv.*p</tt> will match <tt>srv4711p</tt> but not "
 "<tt>xsrv4711p2</tt>. "
 msgstr ""
-"Oricare dintre numele exact al elementuluit sau o expresie regulată care se "
-"potriveste exact cu numele elementului. Examplu: <tt>srv.*p</tt> se va potrivi"
-" <tt>srv4711p</tt> dar nu <tt>xsrv4711p2</tt>. "
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4991
 msgid "Electrical Power"
-msgstr "Putere Electrică"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5008
 msgid "Electrical Power for Devices with only one phase"
-msgstr "Putere Electrica pentru Dispozitivele monofazate"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:389
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:418
 msgid "Elements"
-msgstr "Elemente"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6930
 msgid "Elements to save"
-msgstr "Elemente pentru a fi salvate"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11770
 msgid "Email"
@@ -9253,178 +9060,174 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12073
 #: /omd/sites/production/share/check_mk/web/plugins/userdb/ldap.py:712
 msgid "Email address"
-msgstr "Adresa de Email"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/globals_notification.py:157
 msgid "Email body to use for both host and service notifications"
-msgstr "" 
-"Corpul email-ului ce va fi folosit atât pentru notificările elementelor cât "
-"si a serviciilor"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/globals_notification.py:200
 msgid "Email body to use for host notifications"
-msgstr "Corpul mesajului ce va fi utilizat pentru notificările elementului"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/globals_notification.py:212
 msgid "Email body to use for service notifications"
-msgstr "Corpul mesajului ce va fi utilizat pentru notificările serviciilor"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/globals_notification.py:106
 msgid "Email command line used for notifications"
-msgstr "Linia de comanda folosită pentru trimiterea email-urilor de notificare"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mkeventd.py:97
 msgid "Email sent"
-msgstr "Email trimis"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/globals_notification.py:128
 msgid "Email subject to use for host notifications"
-msgstr "Subiectul email-ului folosit la notificările elementului"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/globals_notification.py:142
 msgid "Email subject to use for service notifications"
-msgstr "Subiectul email-ului folosit pentru notificările serviciilor"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:1072
 msgid "Email-Addresses to mail PDF reports to"
-msgstr "Adresa de email către care se vor trimite rapoartele PDF"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:895
 #, python-format
 msgid "Emailed report to %s."
-msgstr "Raport trimis catre %s."
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/fixed_elements.py:161
 msgid "Embedded image"
-msgstr "Imagine incorporată"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:78
 msgid "Emergency"
-msgstr "Urgentă"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:292
 msgid "Empty Hostgroup Visibilitiy"
-msgstr "Golește Vizibilitatea Grupului de Elemente"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10694
 msgid "Empty response from web service"
-msgstr "Golește răspunsul serviciului web"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2163
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:95
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:120
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:140
 msgid "Enable"
-msgstr "Activează"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10250
 msgid "Enable Caching"
-msgstr "Activează Caching"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:153
 msgid "Enable Crash-Debugging for Windows Agent"
-msgstr "Activează Depanarea-Erorilor pentru Agentul Windows"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:121
 msgid "Enable Notification Debugging"
-msgstr "Activează Depanarea Notificărilor"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1055
 msgid "Enable SMTP AUTH (LOGIN)"
-msgstr "Activează SMTP AUTH (LOGIN)"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:617
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:831
 msgid "Enable SSL/TLS hostname extension support (SNI)"
-msgstr "Activează suportul SSL/TLS pentru extensiile numelui elementului (SNI)"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:530
 msgid "Enable Turbo Scheduling mode"
-msgstr "Activează modul de Planificare Rapidă"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1715
 msgid "Enable active checks"
-msgstr "Activează check-urile active"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:366
 msgid "Enable adhoc downtime"
-msgstr "Activează timp adhoc de nefunctionare"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:104
 msgid "Enable and disable active or passive checks on hosts and services"
 msgstr ""
-"Activează și dezactivează check-urile active sau pasive pentru elemente și "
-"servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:79
 msgid "Enable and disable notifications on hosts and services"
-msgstr "Activează și dezactivează notificările pentru elemente și servicii"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/notify.py:126
 msgid "Enable automatic invalidation at"
-msgstr "Activează invalidarea automată la"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:133
 msgid "Enable core dumps"
-msgstr "Activează core dump"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2011
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2021
 msgid "Enable flap detection"
-msgstr "Activează detectarea flapping-ului"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2171
 msgid "Enable generation of performance data from trends"
-msgstr "Activează generarea datelor de performanță din trenduri"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1848
 msgid "Enable host notifications"
-msgstr "Activează notificarile de elemente"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:521
 msgid "Enable in-memory cache for availability"
-msgstr "Activează cache-ul in memorie pentru disponibilitate"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1241
 msgid "Enable inline SNMP (directly use net-snmp libraries)"
-msgstr "Activează SNMP inline (utilizare directă a biliotecilor net-snmp)"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/globals_notification.py:35
 msgid "Enable new rule based notifications"
-msgstr "Activează o nouă notificare bazată pe reguli"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1978
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1998
 msgid "Enable periodic notifications"
-msgstr "Activează notificările periodice"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1704
 msgid "Enable processing of passive check results"
-msgstr "Activează procesarea rezultatelor check-urilor pasive"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1693
 msgid "Enable processing of perfdata"
-msgstr "Activează procesarea datelor de performantă"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1258
 msgid "Enable recording of Inline SNMP statistics"
-msgstr "Activează inregistrarea statisticilor pentru SNMP Inline"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1278
 msgid "Enable regular service discovery checks"
-msgstr "Activează check-urile de detectare a serviciilor standard"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1647
 msgid "Enable replication from a master"
-msgstr "Activează replicarea de pe un master"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1858
 msgid "Enable service notifications"
-msgstr "Activează notificările serviciilor"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:116
 msgid "Enable sounds in views"
-msgstr "Activează sunetul in View-uri"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:154
 msgid ""
@@ -9434,68 +9237,59 @@ msgid ""
 "installation directory. It is a text file that will explain in detail what "
 "was the last action of the agent and probably caused the crash."
 msgstr ""
-"Activează această opțiune când agentul de Windows Check_MK manifestă blocări "
-"sporadice. Această opțiune va face agentul să creeze un fișier numit "
-"<tt>crash.log</tt> in cazul blocarii. Acest fișier este localizat in "
-"directorul în care este instalat agentul. Este un fișier text care va "
-"explica detaliat care a fost ultima actiune a agentului și probabila cauza "
-" a blocarii."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2140
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5337
 msgid "Enable trend computation"
-msgstr "Activează calculul trend-ului"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:1485
 msgid "Enable/Disable checkboxes for selecting rows for commands"
-msgstr "Activează/Dezactivează casetele de selectare a liniilor pentru comenzi" 
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1712
 msgid "Enable/disable active checks for services"
-msgstr "Activează/Dezactivează check-urile active pentru servicii"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:103
 msgid "Enable/disable checks"
-msgstr "Activează/dezactivează check-urile"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2008
 msgid "Enable/disable flapping detection for hosts"
 msgstr ""
-"Activează/Dezactivează detecția fluctuațiilor de status pentru elemente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2018
 msgid "Enable/disable flapping detection for services"
 msgstr ""
-"Activează/Dezactivează detecția fluctuațiilor de status pentru servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:78
 msgid "Enable/disable notifications"
-msgstr "Activează/Dezactivează notificările"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1842
 msgid "Enable/disable notifications for hosts"
-msgstr "Activează/Dezactivează notificările pentru elemente"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1855
 msgid "Enable/disable notifications for services"
-msgstr "Activează/Dezactivează netificările pentru servicii"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1701
 msgid "Enable/disable passive checks for services"
-msgstr "Activează/Dezactivează check-urile pasive pentru servicii"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1690
 msgid "Enable/disable processing of perfdata for services"
 msgstr ""
-"Activează/Dezactivează procesarea datelor de performanță pentru servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:622
 msgid "Enabled User Connectors"
-msgstr "Activează Conectorii Utilizatorului"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12205
 msgid "Enabling"
-msgstr "Activez"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8601
 msgid ""
@@ -9505,11 +9299,6 @@ msgid ""
 "number of notifications in cases where many (related) problems occur within "
 "a short time."
 msgstr ""
-"Activând notificările in masă va colecta câteva notificari ulterioare pentru "
-"un anume contact intr-o singura notifica ce listează toate problemele actuale"
-" într-un singur email. Acesta reduce numarul de notificări in cazurile in care"
-" exista mai multe probleme interdependente ce apar într-un interval de timp "
-"mic."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1213
 msgid ""
@@ -9518,19 +9307,12 @@ msgid ""
 "following fields: user_time, system_time, children_user_time and "
 "children_system_time"
 msgstr ""
-"Activând această optiune vor rezulta date de performantă suplimentare pentru "
-"iesirea Check_MK furnizândinformații cu privile la timpii procesului. "
-"Furnizează următoarele câmpuri: user_time, system_time, children_user_time și "
-"children_system_time"
- 
+
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1640
 msgid ""
 "Enabling this option will create detailed log entries for all replication "
 "activities of the slave. If disabled only problems will be logged."
 msgstr ""
-"Activând această opțiune se vor crea loguri detaliate pentru toate "
-"activitățile de replicare ale slave-ului. Dacă este dezactivată vor fi "
-"inregistrate doar problemele."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:852
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6741
@@ -9543,77 +9325,68 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:301
 msgid "Enclosures"
-msgstr "Sertare"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1580
 msgid "Encrypt IMAP communication using SSL"
-msgstr "Criptează comunicatiile IMAP folosind SSL"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1628
 msgid "Encrypt POP3 communication using SSL"
-msgstr "Criptează comunicatiile POP3 folosind SSL"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1533
 msgid "Encrypt SMTP communication using TLS"
-msgstr "Criptează comunicatiile SMTP folosind TLS"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:698
 msgid "Encrypt the network connection using SSL."
-msgstr "Criptează conexiunea de retea folosind SSL"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1690
 msgid "End"
-msgstr "Final"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1923
 msgid "End-Time"
-msgstr "Timpul Finalizării"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12095
 msgid "Enforce change"
-msgstr "Impune schimbările"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:840
 msgid "Enforce lower case User-IDs."
-msgstr "Impune ID-uri de utilizator scrise cu caractere mici"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/lib.py:222
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15662
 msgid "English"
-msgstr "Engleză"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8263
 msgid ""
 "Enter a list of user ids to be notified here. These users need to be members "
 "of at least one contact group in order to be notified."
 msgstr ""
-"Introdu aici lista de identificatori ai utilizatorilor care să fie notificați."
-" Aceștia trebuie să fie membri ai cel putin unui grup de contacte pentru putea"
-" fi notificați."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:516
 msgid ""
 "Enter here the uniserve service name. (Has nothing to do with service "
 "description)"
 msgstr ""
-"Introdu aici numele serviciului uniserve. (Nu are nimic de a face cu "
-"descrierea serviciului)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2136
 msgid ""
 "Enter the host names of the cluster nodes. These hosts must be present in "
 "WATO. "
 msgstr ""
-"Introdu numele elementelor noduri ale cluster-ului. Aceste elemente trebuie "
-"să fie prezente in WATO. "
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1107
 msgid ""
 "Enter the plain name of the share only, e. g. <tt>iso</tt>, NOT the full UNC "
 "like \\\\servername\\iso"
 msgstr ""
-"Introdu doar numele share-ului, de exemplu <tt>iso</tt>, NU intreaga cale "
-"UNC ca de exemplu \\\\numeserver\\iso" 
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1634
 msgid "Enterasys LSNAT Bindings"
@@ -9621,16 +9394,16 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:127
 msgid "Entries"
-msgstr "Intrari"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1880
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1674
 msgid "Entry"
-msgstr "Intrare"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2768
 msgid "Equal or more than"
-msgstr "Egal sau mai mare ca"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/sidebar.py:340
 #: /omd/sites/production/share/check_mk/web/htdocs/index.py:281
@@ -9638,20 +9411,18 @@ msgstr "Egal sau mai mare ca"
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11158
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:81
 msgid "Error"
-msgstr "Eroare"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3697
 msgid ""
 "Error during discovery: Maximum number of retries reached. You need to "
 "restart the bulk service discovery"
 msgstr ""
-"Eroare in procesul de inventariere: Numărul maxim de incercări a fost atins."
-" Trebuie să repornești serviciul de inventariere in masă."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3743
 #, python-format
 msgid "Error during inventory of %s on site %s<div class=exc>%s</div"
-msgstr "Eroare in timpul inventarierii %s in site-ul %s<div class=exc>%s</div>"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3746
 #, python-format
@@ -16514,11 +16285,11 @@ msgstr "Credențialele de autentificare lipsesc"
 
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:328
 msgid "Missing needed host parameter."
-msgstr "Lipseste parametrul elementului"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11213
 msgid "Missing secret for automation command."
-msgstr "-------------------------------------------------------------------------------------------------"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:439
 msgid "Missing site"
@@ -16703,7 +16474,7 @@ msgid "Monitor the performance of the Event Console"
 msgstr "Monitorizează performanța Consolei de Evenimente"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10831
-msgid "Monitored on site”
+msgid "Monitored on site"
 msgstr "Monitorizate în locație"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:52
@@ -17192,104 +16963,100 @@ msgstr "Numele masinii virtuale și/sau<br>plaja de thread-uri "
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1464
 msgid "Name resolution"
-msgstr "Rezolvarea de nume"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:571
 msgid ""
 "Needed for acknowledging and changing the comment and contact of an event"
-msgstr "Necesar pentru confirmarea si schimbarea comentariului si contactului a"
-" unui eveniment"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:577
 msgid "Needed for changing a comment when updating an event"
-msgstr "Necesar pentru modificarea unui comentariu cănd se actualizează "
-"un eveniment"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:581
 msgid "Needed for changing a contact when updating an event"
-msgstr "Necesar pentru modificarea unui contact cand se actualizează un "
-"eveniment"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/inventory.py:161
 msgid "Negate: find hosts <b>not</b> having this package"
-msgstr "Negare: gaseste elemente <b>not</b> care conțin acest pachet"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/userdb/ldap.py:885
 #: /omd/sites/production/share/check_mk/web/plugins/userdb/ldap.py:936
 msgid "Nested group memberships are resolved"
-msgstr "Înșiruirea ce aparține grupului sunt rezolvate"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1098
 msgid "NetApp Filers: Used Space in Filesystems"
-msgstr "NetApp Filers: Spațiu este folosit in Filesystems"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1099
 msgid "NetApp Filers: Used space in Filesystem Using 32-Bit Counters"
-msgstr "NetApp Filers: Spațiu este folosit in Filesystems folosind contoare "
-"32-Bit "
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1121
 msgid "NetBIOS name of the server"
-msgstr "Numele NetBIOS-ului al serverului"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1316
 msgid "Netapp FC Port throughput"
-msgstr "Netapp transferul portului FC"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:227
 msgid "Network Interface and Switch Port Inventory"
-msgstr "Interfața de rețea și inventarierea porturilor din switch"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/builtin.py:203
 msgid "Network Topology"
-msgstr "Topologia rețelei"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:481
 msgid "Network Topology: Default Filter Group"
-msgstr "Topologia rețelei: Filtrul implicit al grupului"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4570
 msgid "Network filesystem - overall status (e.g. NFS)"
-msgstr "Sistemul de fișiere din rețea - starea de ansamblu (de ex. NFS)"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4449
 msgid "Network interface groups"
-msgstr "Grupurile interfeței de rețea"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1461
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:256
 msgid "Network interface port states to inventorize"
-msgstr "Starea porturilor interfețelor de rețea de inventariat"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1468
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:264
 msgid "Network interface port types to inventorize"
-msgstr "Tipurile porturilor interfețelor de rețea de inventariat"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2262
 msgid "Network interfaces and switch ports"
-msgstr "Interfețele de rețea si porturile switch-ului"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2433
 msgid "Network specification"
-msgstr "Specificațiile rețelei"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:36
 msgid "Networking"
-msgstr "Rețelistică"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/omd_configuration.py:77
 msgid "Never remove files newer than"
-msgstr "Nu se vor șterge fișiere mai noi de"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14760
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:259
 msgid "New"
-msgstr "Nou"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:196
 msgid "New Action"
-msgstr "Acțiune nouă"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16309
 msgid "New Aggregation"
@@ -17297,7 +17064,7 @@ msgstr "Agregare noua"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17344
 msgid "New Attribute"
-msgstr "Atribut nou"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12698
 msgid "New Aux tag"
@@ -17427,90 +17194,89 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/htdocs/notify.py:313
 msgid ""
 "No UTF-8 encoding found in your locale -a! Please provide C.UTF-8 encoding."
-msgstr "Nu a fost găsită codare UTF-8 în.....! Te rog sa asiguri  "
-"codare C.UTF-8."
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2859
 msgid "No VMWare Tools installed."
-msgstr "Nu este instalat VMWare Tools."
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2291
 msgid "No authentication, no privacy"
-msgstr "Nu există intimate fără autentificare."
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14112
 #, python-format
 msgid "No available rule for service %s at host %s"
-msgstr "Nu există regulă disponibilă pentru serviciul %s la elementul %s"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:459
 msgid "No colon, slash or backslash is allowed in the filename."
-msgstr "Nu sunt permise coloane, slash sau backslash in numele fișierului"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:356
 msgid "No commands are possible in this view"
-msgstr "În acest view nu sunt posibile comenzi"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/inventory.py:34
 msgid "No configuration neccessary"
-msgstr "Nu este necesară configurarea"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12193
 msgid "No contact groups assigned."
-msgstr "Nu sunt alocate grupuri de contact"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17379
 msgid "No custom attributes are defined yet."
-msgstr "Încă nu sunt definite atribute la comandă"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/cmc.py:41
 msgid "No data."
-msgstr "Nu există date"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:581
 msgid "No datasource defined."
-msgstr "Nu este definită o sursă de date"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/table.py:68
 msgid "No entries."
-msgstr "Nu există înregistrări"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6025
 msgid "No forwarding"
-msgstr "Nu se poate expedia"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4248
 msgid "No gateway found"
-msgstr "Nu a fost găsit nici un gateway"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/pnp_graphs.py:54
 msgid "No graph available."
-msgstr "Nu este disponibil nici un grafic"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7919
 msgid "No groups are defined yet."
-msgstr "Nu sunt definite grupuri."
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2844
 msgid "No heartbeat"
-msgstr "Fără heartbeat"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4372
 #, python-format
 msgid "No host %s configured, parents not set"
-msgstr "Nu este configurat elementul %s, parintii nu sunt setați"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3624
 msgid "No host has been imported."
-msgstr "Nu a fost importat nici un element"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:287
 msgid "No hosts/services found."
-msgstr "Nu au fost găsite elemente/sevicii"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:895
 msgid "No information available"
-msgstr "Nu sunt disponibile informații"
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:149
 msgid "No logging"
@@ -17518,7 +17284,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:151
 msgid "No logs found for this host."
-msgstr "Nu au fost găsite inregistrări pentru acest element."
+msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:1942
 msgid "No matching data row. No command sent."
