@@ -316,32 +316,32 @@ msgstr "Scoate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:304
 msgid "Remove Acknowledgement"
-msgstr ""
+msgstr "Șterge Confirmarea"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:501
 msgid "Remove all"
-msgstr ""
+msgstr "Șterge toate"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3188
 msgid "Remove exceeding"
-msgstr ""
+msgstr "Șterge ceea ce este peste"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7658
 msgid "Remove explicit setting"
-msgstr ""
+msgstr "Șterge setare explicitp"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:615
 msgid "Remove from Favorites"
-msgstr ""
+msgstr "Șterge din Favorite"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3871
 msgid "Remove obsolete services"
-msgstr ""
+msgstr "Șterge serviciile învechite"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12770
 #, python-format
 msgid "Removed auxiliary tag %s (%s)"
-msgstr ""
+msgstr "Șterge tag-ul auxiliar %s (%s)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12728
 #, python-format
