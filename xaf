@@ -17,7 +17,7 @@ msgstr "RAID: starea unui singur disk"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:907
 msgid "REWRITE"
-msgstr ""
+msgstr "RESCRIE"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1055
 msgid "RMAN Backups"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:628
 msgid "RRA configuration"
-msgstr ""
+msgstr "configurația RRA"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:590
 #, python-format
@@ -33,92 +33,94 @@ msgid ""
 "RRA entry number %d: the number of steps must be greater than that of the "
 "previous entry."
 msgstr ""
+"Intrarea RRA cu numărul %d: numărul de pași trebuie să fie mai mare decăt "
+"celei anterioare."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2387
 msgid "RRD databases with performance data"
-msgstr ""
+msgstr "Baze de date RRD cu date despre performanțe"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2389
 msgid "RRD updates in journal of RRD Cache"
-msgstr ""
+msgstr "Actualizările RRD în jurnalul cache-ului RRD"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:855
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4493
 msgid "Random Hosts"
-msgstr ""
+msgstr "Hoști Aleatoriu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:553
 msgid "Random additional delay"
-msgstr ""
+msgstr "Întârziere suplimentară aleatoare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:3121
 msgid "Randomize password"
-msgstr ""
+msgstr "Parolă aleatoare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10223
 msgid "Rate:"
-msgstr ""
+msgstr "Rată:"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1321
 msgid "Read"
-msgstr ""
+msgstr "Citire"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4391
 msgid "Read Queue-Length"
-msgstr ""
+msgstr "Citește Queue-Length"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18598
 msgid "Read access to all hosts and folders"
-msgstr ""
+msgstr "Acces de citire la toți hoștii și foldere"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18489
 msgid "Read access to all modules"
-msgstr ""
+msgstr "Acces de citire la toate modulele"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4302
 msgid "Read latency"
-msgstr ""
+msgstr "Latența în citire"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3877
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4356
 msgid "Read throughput"
-msgstr ""
+msgstr "Throughput citire"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mknotifyd.py:113
 msgid "Receive notifications from remote sites"
-msgstr ""
+msgstr "Primește notificări de la site-uri distante"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6478
 msgid "Received Power"
-msgstr ""
+msgstr "Puterea primită"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/mkeventd.py:50
 msgid "Received messages"
-msgstr ""
+msgstr "Mesajele primite"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:948
 msgid "Recent Event History"
-msgstr ""
+msgstr "Istoricul de evenimente recente"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8938
 msgid "Recent notifications (for analysis)"
-msgstr ""
+msgstr "Notificările recenete (pentru analiză)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1724
 msgid "Recently changed services"
-msgstr ""
+msgstr "Serviciile cu modificări recente "
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:149
 msgid "Recipient Email address"
-msgstr ""
+msgstr "Adresa de Email al Recipientului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1257
 msgid "Record statistics of Inline SNMP"
-msgstr ""
+msgstr "Loghează statistici ale Inline SNMP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1050
 msgid "Recovery Area"
-msgstr ""
+msgstr "Zona de Recuperare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1051
 #, fuzzy
@@ -127,33 +129,35 @@ msgstr "Statusul Serverului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:183
 msgid "Red"
-msgstr ""
+msgstr "Roșu"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16850
 msgid "Refer to:"
-msgstr ""
+msgstr "Referință la:"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/prediction.py:100
 msgid "Reference"
-msgstr ""
+msgstr "Referință"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2120
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3317
 msgid "Reference size for magic factor"
-msgstr ""
+msgstr "Dimensiunea de referință pentru factorul magic"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3873
 msgid "Refresh all services (tabula rasa)"
-msgstr ""
+msgstr "Refresh la toate serviciile (tabula rasa)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3117
 #, python-format
 msgid "Refreshed check configuration of host [%s] with %d services"
 msgstr ""
+"Configurația verificărilor actualizată ale hostului [%s] cu %d "
+"servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3593
 msgid "Regard required mirror space as free space"
-msgstr ""
+msgstr "Priviți spațiul mirro ca spațiu liber"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15451
 msgid ""
@@ -162,54 +166,59 @@ msgid ""
 "avoids false alarms during times where the predicted levels would be very "
 "low."
 msgstr ""
+"Indiferent de cum nivel-urile dynamice pentru limita superioase sunt "
+"calculate în baza previziunii: ele nu vor fi sub următoarele limite. Aceasta "
+"evită alairme false când nivel-urile prevăzute ar fi prea mici."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16866
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16891
 msgid "Regex for host name"
-msgstr ""
+msgstr "Regex pentru numele host-ului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15573
 msgid "Regular expression"
-msgstr ""
+msgstr "Expresie regulată"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:552
 msgid "Regular expression for matching the syslog tag (case insenstive)"
-msgstr ""
+msgstr "Expresie regulată pentru identificarea tag-ului syslog"
+
+# TODO: case insensitive
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:377
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:547
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6274
 msgid "Regular expression matching command line"
-msgstr ""
+msgstr "Expresie regulată pentru identificarea liniei de comandă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:7025
 msgid "Regular expression matching tasks"
-msgstr ""
+msgstr "Expresie regulată pentru identificarea task-urilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:609
 msgid "Regular expression matching the path"
-msgstr ""
+msgstr "Expresie regulată pentru identificarea căii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6297
 msgid "Regular expression matching username"
-msgstr ""
+msgstr "Expresie regulată pentru identificarea numele utilizatorului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15566
 msgid "Regular expression substitution"
-msgstr ""
+msgstr "Substituire expresie regulată"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:732
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1382
 msgid "Regular expression to expect in content"
-msgstr ""
+msgstr "Expresia regulată așteptă în conținut"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:725
 msgid "Regular expression: "
-msgstr ""
+msgstr "Expresie regulată"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:916
 msgid "Regular expressions for message classification"
-msgstr ""
+msgstr "Expresie regulată pentru clasificarea mesajelor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:111
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2886
@@ -222,80 +231,88 @@ msgid ""
 "*mssql</tt> matches all services which contain <tt>MSSQL</tt> or <tt>MsSQL</"
 "tt> or <tt>mssql</tt> or..."
 msgstr ""
+"Expresie regulată care se potrivește la începutul numeului intern al "
+"descrierii serviciului. Dacă nici un nume este dat atunci această regulă se "
+"va potrivi tuturor serviciilor. Potrivirea este efectuată la "
+"<i>începutul</i> numelui serviciului. Potrivirea se face <i>case sensitive"
+"</i>. Poți face o căutare care să țină cont de majuscule prin prefixarea "
+"expresiei regulate cu <tt>(?i)</tt>. Exemplu: <tt>(?i).*mssql</tt> se va "
+"potrivi tuturor serviciilor care conțin <tt>MSSQL</tt> sau <tt>MsSQL</> sau "
+"<tt>mssql</tt> sau..."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10220
 msgid "Regular heartbeat"
-msgstr ""
+msgstr "Heartbeat regular"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:387
 msgid "Related Views"
-msgstr ""
+msgstr "View-uri conexe"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:92
 msgid "Relative"
-msgstr ""
+msgstr "Relativ"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:68
 msgid "Relative Time of Alert"
-msgstr ""
+msgstr "Timpul Relativ al Alertei"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15431
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15474
 msgid "Relative difference from prediction"
-msgstr ""
+msgstr "Diferența relativă de la previziune"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:185
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:284
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:523
 msgid "Reload"
-msgstr ""
+msgstr "Reîncărcare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1191
 msgid "Reload Config!"
-msgstr ""
+msgstr "Reîncărcare Config!"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/htmllib.py:805
 msgid "Reloading..."
-msgstr ""
+msgstr "Reîncărcăm..."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1443
 msgid "Remaining Open Slots"
-msgstr ""
+msgstr "Slot-uri Deschise Disponibile"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1919
 msgid "Remote IP address"
-msgstr ""
+msgstr "Adresa IP distantă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:97
 msgid "Remote Protocol"
-msgstr ""
+msgstr "Protocol Distant"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5084
 msgid "Remote Temperature"
-msgstr ""
+msgstr "Temperatura Distantă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:92
 msgid "Remote Version"
-msgstr ""
+msgstr "Versiunea Distantă"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4755
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4759
 #, python-format
 msgid "Remote command on site %s failed: <pre>%s</pre>"
-msgstr ""
+msgstr "Comanda distantă pe site-ul %s a eșuat: <pre>%s</pre>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mknotifyd.py:61
 msgid "Remote host"
-msgstr ""
+msgstr "Host distant"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1920
 msgid "Remote port number"
-msgstr ""
+msgstr "Numărul portului distant"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:554
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:567
 msgid "Remove"
-msgstr ""
+msgstr "Scoate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:304
 msgid "Remove Acknowledgement"
