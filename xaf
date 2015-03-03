@@ -346,49 +346,49 @@ msgstr "Șterge tag-ul auxiliar %s (%s)"
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12728
 #, python-format
 msgid "Removed host tag group %s (%s)"
-msgstr ""
+msgstr "Șters grupul de tag-uri host %s (%s)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4471
 msgid "Removed parents"
-msgstr ""
+msgstr "Șters părinții"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6994
 #, python-format
 msgid "Removed snapshot %s"
-msgstr ""
+msgstr "Șters snapshot %s"
 
 #: /omd/sites/production/share/check_mk/web/plugins/userdb/ldap.py:1062
 #, python-format
 msgid "Removed: %s"
-msgstr ""
+msgstr "Șters: %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10102
 msgid "Removing site-specific configuration variable"
-msgstr ""
+msgstr "Eliminare variabile de configurație al unui site anume"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2005
 #, python-format
 msgid "Rename %s"
-msgstr ""
+msgstr "Redenumire %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2226
 #, python-format
 msgid "Rename %s %s"
-msgstr ""
+msgstr "Redenumire %s %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2272
 msgid "Rename host!"
-msgstr ""
+msgstr "Redenumire host!"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2265
 #, python-format
 msgid "Rename to host %s"
-msgstr ""
+msgstr "Redenumire host la %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2249
 #, python-format
 msgid "Renamed host %s into %s"
-msgstr ""
+msgstr "Redenumit host %s în %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2254
 #, python-format
