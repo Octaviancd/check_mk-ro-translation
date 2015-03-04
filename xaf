@@ -394,51 +394,51 @@ msgstr "Redenumit host %s în %s"
 #, python-format
 msgid ""
 "Renamed host <b>%s</b> into <b>%s</b> at the following places:<br><ul>%s</ul>"
-msgstr ""
+msgstr "Redenumit host-ul <b>%s</b> în <b>%s</b> în următoarele locuri:<br><ul>%s</ul>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:611
 msgid "Render URL contents in own frame"
-msgstr ""
+msgstr "Randează conținutul URL-ului în propriul frame"
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/pnp_graphs.py:154
 msgid "Render an error message into the document"
-msgstr ""
+msgstr "Randează un mesaj de eroare direct în document"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:938
 msgid "Render background"
-msgstr ""
+msgstr "Randează în fundal"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:939
 msgid "Render gray background color behind the dashlets content."
-msgstr ""
+msgstr "Randează un fundal gri în spatele dashlet-ului."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:240
 msgid "Render horizontal rules between rows"
-msgstr ""
+msgstr "Randează o bară orizontală între rânduri"
 
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:610
 msgid "Render in iframe"
-msgstr ""
+msgstr "Randeazu un iframe"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:944
 msgid "Render the titlebar above the dashlet"
-msgstr ""
+msgstr "Randează bara cu titlu deasupra dashlet-ului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:945
 msgid "Render the titlebar including title and link above the dashlet."
-msgstr ""
+msgstr "Randeaza bara cu titlu inclusiv titlu și link-ul deasupra dashlet-ului."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:246
 msgid "Render vertical rules between columns"
-msgstr ""
+msgstr "Randează linii verticale între coloane"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/html_mod_python.py:166
 msgid "Repeat query and allow more results."
-msgstr ""
+msgstr "Repetă înterogarea și permite mai multe rezultate."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/html_mod_python.py:169
 msgid "Repeat query without limit."
-msgstr ""
+msgstr "Repetă înterogarea fără limite."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:650
 msgid ""
@@ -446,6 +446,9 @@ msgid ""
 "groups in the text to match, then you can use the placeholders <tt>\\1</tt>, "
 "<tt>\\2</tt>, etc. for inserting the first, second etc matching group."
 msgstr ""
+"Înlocuiește aplicația (tag-ul syslog) cu acest text. Dacă folosești grupuri "
+"[paranteze pătrate] în text, atunci poți folosi substituenți precum "
+"<tt>\\1</tt>, <tt>\\2</tt>, etc. pentru inserarea grupului potrivit."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:637
 msgid ""
@@ -453,6 +456,10 @@ msgid ""
 "text to match, then you can use the placeholders <tt>\\1</tt>, <tt>\\2</tt>, "
 "etc. for inserting the first, second etc matching group."
 msgstr ""
+"Înlocuiește numele host-ului cu acest text. Dacă folosești grupuri "
+"[paranteze pătrate] în text, atunci poți folosi substituenți precum "
+"<tt>\\1</tt>, <tt>\\2</tt>, etc. pentru inserarea grupului potrivit."
+
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:623
 msgid ""
@@ -460,101 +467,105 @@ msgid ""
 "text to match, then you can use the placeholders <tt>\\1</tt>, <tt>\\2</tt>, "
 "etc. for inserting the first, second etc matching group."
 msgstr ""
+"Înlocuiește mesajul text cu acest text. Dacă folosești grupuri "
+"[paranteze pătrate] în text, atunci poți folosi substituenți precum "
+"<tt>\\1</tt>, <tt>\\2</tt>, etc. pentru inserarea grupului potrivit."
+
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:848
 msgid "Replace umlauts like \"&uuml;\" with \"ue\""
-msgstr ""
+msgstr "Înlocuiește diacritice precum \"&uuml;\ cu \"ue\""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:128
 msgid "Replace with underscores"
-msgstr ""
+msgstr "Înlocuiește cu liniuțe de subliniere"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15581
 msgid "Replacement"
-msgstr ""
+msgstr "Înlocuire"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8949
 msgid "Replay this notification, send it again!"
-msgstr ""
+msgstr "Redă această notificare, trimite din nou!"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8873
 #, python-format
 msgid "Replayed notifiation number %d"
-msgstr ""
+msgstr "Reluat notificarea cu numărul %d"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15677
 msgid "Replicate new Authentication Information"
-msgstr ""
+msgstr "Replică noiile Informații de Autentificare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4786
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10060
 msgid "Replication"
-msgstr ""
+msgstr "Replicare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:705
 msgid "Replication Partner"
-msgstr ""
+msgstr "Partner de Replicare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15694
 msgid "Replication States"
-msgstr ""
+msgstr "Stări de Replicare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11122
 msgid "Replication completed successfully."
-msgstr ""
+msgstr "Replicare finalizat cu succes."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15726
 msgid "Replication in progress"
-msgstr ""
+msgstr "Replicare în curs"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1582
 msgid "Replication interval"
-msgstr ""
+msgstr "Intervalul replicării"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1628
 msgid "Replication is disabled"
-msgstr ""
+msgstr "Replicarea este dezactivată"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10498
 msgid "Replication method"
-msgstr ""
+msgstr "Metoda de replicare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4797
 msgid "Replication result"
-msgstr ""
+msgstr "Rezultatul replicării"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/mkeventd.py:72
 msgid "Replication synchronization"
-msgstr ""
+msgstr "Sincronizarea replicării"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:39
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:118
 msgid "Reply-To: Address"
-msgstr ""
+msgstr "Reply-To: Adresă"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:344
 msgid "Reply-To: email address"
-msgstr ""
+msgstr "Reply-To: adresă email"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:925
 msgid "Report"
-msgstr ""
+msgstr "Raport"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:410
 msgid "Report Properties"
-msgstr ""
+msgstr "Proprietâți raport"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:869
 msgid "Report Scheduler"
-msgstr ""
+msgstr "Planificatorul de Rapoarte"
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/builting_reports.py:126
 msgid "Report of Host"
-msgstr ""
+msgstr "Raport de Host"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:1034
 msgid "Report to create"
-msgstr ""
+msgstr "Raport de creat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:972
 msgid "Report to schedule"
