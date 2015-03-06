@@ -569,52 +569,52 @@ msgstr "Raport de creat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:972
 msgid "Report to schedule"
-msgstr ""
+msgstr "Planifică un raport"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/reporting.py:77
 msgid "Reporting"
-msgstr ""
+msgstr "Raportare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/reporting.py:30
 msgid "Reporting - Default settings for all reports"
-msgstr ""
+msgstr "Raportare - Setările implicite pentru toate rapoartele"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:133
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:873
 msgid "Reports"
-msgstr ""
+msgstr "Rapoarte"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/bi.py:99
 msgid "Required number of OK-nodes for a total state of OK:"
-msgstr ""
+msgstr "Numărul necesar de node-uri OK pentru o stare totală de OK:"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/bi.py:100
 msgid "Required number of OK-nodes for a total state of WARN:"
-msgstr ""
+msgstr "Numărul necesar de node-uri OK pentru o stare totală de WARN:"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4907
 msgid "Required plug state"
-msgstr ""
+msgstr "Starea plug necesară"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4887
 msgid "Required switch contact state"
-msgstr ""
+msgstr "Starea contactului de switch necesară"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:67
 msgid "Reschedule"
-msgstr ""
+msgstr "Reprogramare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:65
 msgid "Reschedule active checks"
-msgstr ""
+msgstr "Reprogramarea check-urilor active"
 
 #: /omd/sites/production/share/check_mk/web/plugins/icons/builtin.py:97
 msgid "Reschedule an immediate check"
-msgstr ""
+msgstr "Reprogrameaza o verificare imediată"
 
 #: /omd/sites/production/share/check_mk/web/plugins/icons/builtin.py:107
 msgid "Reschedule an immediate check of the 'Check_MK' service"
-msgstr ""
+msgstr "Reprogramează o verificare imediată al serviciului 'Check_MK'"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:57
 msgid "Reschedule checks"
