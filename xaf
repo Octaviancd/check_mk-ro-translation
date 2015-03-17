@@ -618,15 +618,15 @@ msgstr "Reprogramează o verificare imediată al serviciului 'Check_MK'"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:57
 msgid "Reschedule checks"
-msgstr ""
+msgstr "Reprogramează verificări"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:58
 msgid "Reschedule host and service checks"
-msgstr ""
+msgstr "Reprogramează verificările pentru servicii și hoști"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3651
 msgid "Reserved Space"
-msgstr ""
+msgstr "Spațiu Rezervat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:839
 msgid "Reset Counters"
@@ -637,6 +637,8 @@ msgid ""
 "Reset all manually modified attributes of a host or service (like disabled "
 "notifications)"
 msgstr ""
+"Resetează toate atributele modificate manual ale unui host sau serviciu "
+"(precum notificări dezactivate)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:149
 #, fuzzy
@@ -650,117 +652,120 @@ msgstr "Cautare noua"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/table.py:307
 msgid "Reset sorting"
-msgstr ""
+msgstr "Resetează sortare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7658
 msgid "Reset to default"
-msgstr ""
+msgstr "Resetează la setările implicite"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:618
 msgid "Reset to defaults"
-msgstr ""
+msgstr "Resetează la setările implicite"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6919
 msgid "Resetted WATO, wiped all configuration."
-msgstr ""
+msgstr "Resetat WATO, șters toată configurația."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:883
 msgid "Resetted all rule hit counters to zero"
-msgstr ""
+msgstr "Resetat toate contoarele pentru reguli la zero"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7584
 #, python-format
 msgid "Resetted configuration variable %s to its default."
-msgstr ""
+msgstr "Resetat variabla de configurație %s la setarea implicită."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7412
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7575
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1369
 msgid "Resetting configuration variable"
-msgstr ""
+msgstr "Resetare variabilă de configurare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:7002
 msgid "Resource Name"
-msgstr ""
+msgstr "Nume Resursă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:761
 msgid "Response Timeout (sec)"
-msgstr ""
+msgstr "Timpul de Răspuns (sec)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1106
 msgid "Ressource consumption of windows processes"
-msgstr ""
+msgstr "Consumul de resurse ale proceselor windows"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4920
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4922
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:5459
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:522
 msgid "Restart"
-msgstr ""
+msgstr "Repornire"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6701
 msgid "Restore Snapshot"
-msgstr ""
+msgstr "Restaurează Snapshot"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6944
 msgid "Restore from file"
-msgstr ""
+msgstr "Restaurează din fișier"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6939
 msgid "Restore from uploaded file"
-msgstr ""
+msgstr "Restaurează din fișier încărcat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6905
 #, python-format
 msgid "Restored snapshot %s"
-msgstr ""
+msgstr "Restaurat snapshot %s"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6032
 msgid "Restrict Logfiles (Prefix matching regular expressions)"
-msgstr ""
+msgstr "Restricționează Logfiles (Prefix potrivit expresii regulate)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1537
 msgid "Restrict access to the following source IP addresses"
-msgstr ""
+msgstr "Restricționează accesul la următoarele surse adrese IP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:61
 msgid "Restrict agent access via IP address"
-msgstr ""
+msgstr "Restricționează accesul la agent via adresă IP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:851
 msgid "Restrict number of new messages per cycle"
-msgstr ""
+msgstr "Restricționează numărul mesajelor noi per ciclu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:860
 msgid "Restrict runtime of logfile parsing"
-msgstr ""
+msgstr "Restricționează timpul de execuție pentru parsare logfile"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/bi.py:41
 #: /omd/sites/production/share/check_mk/web/plugins/wato/bi.py:63
 msgid "Restrict severity to at worst"
-msgstr ""
+msgstr "Restricționează severitatea la cel mai rău"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8416
 msgid "Restrict to n<sup>th</sup> to m<sup>th</sup> notification"
-msgstr ""
+msgstr "Restricționează notificările de la n<sup>a</sup> până la m<sup>a</sup>"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11539
 msgid "Restrict to n<sup>th</sup> to m<sup>th</sup> notification (escalation)"
 msgstr ""
+"Restricționează notificările de la n<sup>a</sup> până la m<sup>a</sup> "
+"(escalări"
+
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9017
 msgid "Resulting notifications"
-msgstr ""
+msgstr "Notificările care rezultate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4699
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4741
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4787
 msgid "Resulting state"
-msgstr ""
+msgstr "Starea care rezultă"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:248
 msgid "Results"
-msgstr ""
+msgstr "Rezultate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1057
 msgid "Resumables"
@@ -770,49 +775,49 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:244
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:310
 msgid "Retrieve information about..."
-msgstr ""
+msgstr "Extrage informații despre..."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:605
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1005
 msgid "Retry"
-msgstr ""
+msgstr "Reîncearcă"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:5458
 msgid "Retry Failed Hosts"
-msgstr ""
+msgstr "Reîncearcă Hoștii Eșuați"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1004
 msgid "Retry check interval"
-msgstr ""
+msgstr "Intervalul reîncercării pentru verificări"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1749
 msgid "Retry check interval for host checks"
-msgstr ""
+msgstr "Intervalul reîncercării pentru verificările hoștiilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1660
 msgid "Retry check interval for service checks"
-msgstr ""
+msgstr "Intervalul de reîncercare pentru verificările serviciilor"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3005
 msgid "Retry this test"
-msgstr ""
+msgstr "Rezncearcă acest test"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/index.py:325
 msgid "Retry with debug mode"
-msgstr ""
+msgstr "Reîncearcă cu modul debug"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1212
 msgid "Return process times within performance data"
-msgstr ""
+msgstr "Extrage timpul procesării în datele de performanță"
 
 #: /omd/sites/production/share/check_mk/web/plugins/webapi/webapi.py:112
 msgid "Returns the host_attributes of the given hostname"
-msgstr ""
+msgstr "Extrage host_attributes ale hostname-ului dat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:1260
 #, python-format
 msgid "Reused cached compiled BI aggregations (PID %d)"
-msgstr ""
+msgstr "Cache refolosit pentru agregările BI compilate (PID %d)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:1258
 #, python-format
