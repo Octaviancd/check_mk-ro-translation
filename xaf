@@ -826,7 +826,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:649
 msgid "Rewrite application"
-msgstr ""
+msgstr "Rescrie aplicația"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:636
 msgid "Rewrite hostname"
