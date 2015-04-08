@@ -1645,13 +1645,15 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:419
 msgid "Select specific object type"
-msgstr ""
+msgstr "Selectează tip de obiect specific"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:714
 msgid ""
 "Select the LDAP version the LDAP server is serving. Most modern servers use "
 "LDAP version 3."
 msgstr ""
+"Selectează versiunea LDAP. Majoritatea serverelor moderne folosesc LDA "
+"versiunea 3."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8477
 msgid ""
@@ -1659,6 +1661,10 @@ msgid ""
 "If you activate this option and do <b>not</b> also specify service event "
 "types then this rule will never hold for service notifications!"
 msgstr ""
+"Selectează tip-urile de evenimente host și tranziții pe care această regulă "
+"trebuie să gesționeze. Notă: Dacă activezi această opțiune și nu <b>nu</b> "
+"specifici tipul de evenimente serviciu atunci această regulă nu va ține "
+"pentru notificări de servicii!"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8497
 msgid ""
@@ -1666,149 +1672,156 @@ msgid ""
 "Note: If you activate this option and do <b>not</b> also specify host event "
 "types then this rule will never hold for host notifications!"
 msgstr ""
+"Selectează evenimentele de tip servicii și tranzițiile pe care această "
+"regulă trebui să gesționeze. Dacă activezi această opțiune și nu <b>nu</b> "
+"specifici tipul de evenimente host atunci această regulă nu va ține "
+"pentru notificări de host!"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:721
 msgid ""
 "Select the software the LDAP directory is based on. Depending on the "
 "selection e.g. the attribute names used in LDAP queries will be altered."
 msgstr ""
+"Selectează software-ul pe care directorul LDAP este bazt. În funcție de "
+"această selecție e.g. numele atributelor folosite în interogările LDAP vor "
+"vor fi alterate."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:310
 msgid "Select the type of content element"
-msgstr ""
+msgstr "Selectează tipul de conținut pentru element"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:307
 msgid "Select the type of fixed page element"
-msgstr ""
+msgstr "Selectează tipul de element de pagină fixă"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:1611
 msgid "Selected"
-msgstr ""
+msgstr "Selectat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1347
 msgid "Selected hosts:\n"
-msgstr ""
+msgstr "Selectează hoști:\n"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3875
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4291
 msgid "Selection"
-msgstr ""
+msgstr "Selecție"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:234
 msgid "Selection of multiple host groups"
-msgstr ""
+msgstr "Selecție a multiple grupuri de hoști"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:237
 msgid "Selection of multiple service groups"
-msgstr ""
+msgstr "Selecție a multiple grupuri de servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:530
 msgid "Selection of site is enforced, use this filter for joining"
-msgstr ""
+msgstr "Selecție a site-ului este aplicată, utilizați acest filtru aderare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:273
 msgid "Selection of the host group"
-msgstr ""
+msgstr "Selecție a grupului de host"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:274
 msgid "Selection of the service group"
-msgstr ""
+msgstr "Selecție a grupului de servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:258
 msgid "Send"
-msgstr ""
+msgstr "Trimite"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:143
 msgid "Send Email"
-msgstr ""
+msgstr "Trimite Email"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:737
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1394
 msgid "Send HTTP POST data"
-msgstr ""
+msgstr "Trimite date HTTP POST"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/notify.py:174
 msgid "Send Notification"
-msgstr ""
+msgstr "Trimite Notificare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/notify.py:85
 msgid "Send an E-Mail"
-msgstr ""
+msgstr "Trimite un E-Mail"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:231
 msgid "Send custom notification"
-msgstr ""
+msgstr "Trimite notificare customizată"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6042
 msgid "Send events to local event console"
-msgstr ""
+msgstr "Trimite evenimente la consola de evenimente locală"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6047
 msgid "Send events to local event console in same OMD site"
-msgstr ""
+msgstr "Trimite evenimente la consola de evenimente din aceleași site OMD"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6050
 msgid "Send events to local event console into unix socket"
-msgstr ""
+msgstr "Trimite evenimente la consola de evenimente locală prin socket unix"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6070
 msgid "Send events to remote syslog host"
-msgstr ""
+msgstr "Trimite evenimente la hostul syslog distant"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/notify.py:81
 msgid "Send hint to message inbox (bottom of sidebar)"
-msgstr ""
+msgstr "Trimite un mesaj în inbox (partea de hos a sidebar-ului)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mkeventd.py:116
 msgid "Send monitoring notification"
-msgstr ""
+msgstr "Trimite notificare de monitrizare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/notify.py:111
 msgid "Send notification to"
-msgstr ""
+msgstr "Trimite notificare câtre"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1877
 msgid "Send notifications to Event Console"
-msgstr ""
+msgstr "Trimite notificările la consola de evenimente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1899
 msgid "Send notifications to remote Event Console"
-msgstr ""
+msgstr "Trimite notificârile la consola de evenimente distantă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:263
 msgid "Send performance data to Graphite"
-msgstr ""
+msgstr "Trimite date de performanță la Graphite"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1906
 msgid "Send to remote Event Console via syslog"
-msgstr ""
+msgstr "Trimite câtre consola de evenimente prin syslog"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1658
 msgid "Sender email address"
-msgstr ""
+msgstr "Adresa de email al emițătorului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6470
 msgid "Sending Power"
-msgstr ""
+msgstr "Trimite Power"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4895
 msgid "Sensor"
-msgstr ""
+msgstr "Senzor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4934
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5033
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5314
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5361
 msgid "Sensor ID"
-msgstr ""
+msgstr "ID Senzor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5284
 msgid "Sensor name"
-msgstr ""
+msgstr "Nume senzor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3228
 msgid "Sensor names"
-msgstr ""
+msgstr "Nume senzori"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/inventory.py:65
 msgid "Separator"
@@ -1816,15 +1829,15 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:2102
 msgid "September"
-msgstr ""
+msgstr "Septembrie"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:428
 msgid "Serial Number"
-msgstr ""
+msgstr "Numarul serial"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1459
 msgid "Serv. by host groups"
-msgstr ""
+msgstr "Serv. după grup de hoști"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7343
 msgid "Server"
@@ -1832,7 +1845,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:186
 msgid "Server Name"
-msgstr ""
+msgstr "Nume Server"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:841
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1313
@@ -1842,11 +1855,11 @@ msgstr "Statusul Serverului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:658
 msgid "Server performance"
-msgstr ""
+msgstr "Performanță server"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:839
 msgid "Server time"
-msgstr ""
+msgstr "Timpul serverului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8989
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15257
@@ -1863,31 +1876,31 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:67
 #: /omd/sites/production/share/check_mk/web/plugins/icons/builtin.py:546
 msgid "Service"
-msgstr ""
+msgstr "Serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:70
 msgid "Service (exact match)"
-msgstr ""
+msgstr "Serviciu (potrivie exactă)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2593
 msgid "Service Aggreg."
-msgstr ""
+msgstr "Agregare Servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1629
 msgid "Service Checks"
-msgstr ""
+msgstr "Verificare Servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:766
 msgid "Service Comments"
-msgstr ""
+msgstr "Comentarii Servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:243
 msgid "Service Contact"
-msgstr ""
+msgstr "Contacte Serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:240
 msgid "Service Contact Group"
-msgstr ""
+msgstr "Grup Contacte Servicii"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3248
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:520
@@ -1896,73 +1909,73 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1425
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/infos.py:40
 msgid "Service Description"
-msgstr ""
+msgstr "Descriere Serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1311
 msgid "Service Discovery triggers service discovery check"
-msgstr ""
+msgstr "Descoperirea Serviciilor activează verificarea serviciilor"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11587
 msgid "Service Events"
-msgstr ""
+msgstr "Evenimente Servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1365
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1379
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/infos.py:55
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:274
 msgid "Service Group"
-msgstr ""
+msgstr "Grup Servii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/infos.py:58
 msgid "Service Group Name"
-msgstr ""
+msgstr "Nume Grup Servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1438
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1486
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1508
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:71
 msgid "Service Groups"
-msgstr ""
+msgstr "Grupuri de Servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1507
 msgid "Service Groups (Grid)"
-msgstr ""
+msgstr "Grupuri de Servicii (Grid)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1485
 msgid "Service Groups (Summary)"
-msgstr ""
+msgstr "Grup Servicii (Sumar)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:286
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1039
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:858
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1338
 msgid "Service Level"
-msgstr ""
+msgstr "Nivel Serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:221
 msgid "Service Level at least"
-msgstr ""
+msgstr "Nivel Serviciu la cel puțin"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:222
 msgid "Service Level at most"
-msgstr ""
+msgstr "Nivel Serviciu la cel mult"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:2070
 msgid "Service Level of hosts"
-msgstr ""
+msgstr "Nivel Serviciu al hoștilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:2081
 msgid "Service Level of services"
-msgstr ""
+msgstr "Nivel Serviciu al serviciilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/globals_notification.py:240
 msgid "Service Levels"
-msgstr ""
+msgstr "Nivele Servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mobile.py:707
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:3080
 msgid "Service Notifications"
-msgstr ""
+msgstr "Notificare Serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:448
 msgid "Service Pack"
@@ -1974,80 +1987,80 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/perfometer.py:244
 msgid "Service Perf-O-Meter"
-msgstr ""
+msgstr "Perf-O-Meter Serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/builtin.py:100
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/builtin.py:273
 msgid "Service Problems (unhandled)"
-msgstr ""
+msgstr "Probleme Servicii (netratate)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16895
 msgid "Service Regex:"
-msgstr ""
+msgstr "Regex Serviciu:"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:796
 msgid "Service Speed-O-Meter"
-msgstr ""
+msgstr "Speed-O-Meter Serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/builtin.py:47
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:195
 msgid "Service Statistics"
-msgstr ""
+msgstr "Statistici Servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:515
 msgid "Service String"
-msgstr ""
+msgstr "Șir Serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:388
 msgid "Service Time"
-msgstr ""
+msgstr "Timp Serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:509
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:153
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:73
 msgid "Service alternative display name"
-msgstr ""
+msgstr "Nume Serviciu de afișare alternativ"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:472
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:320
 msgid "Service check command"
-msgstr ""
+msgstr "Comanda de verificare Serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:479
 msgid "Service check command expanded"
-msgstr ""
+msgstr "Comandă de verificare Serviciu extins"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:584
 msgid "Service check duration"
-msgstr ""
+msgstr "Durata verificării Serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:577
 msgid "Service check latency"
-msgstr ""
+msgstr "Latența verificării Serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:618
 msgid "Service check type"
-msgstr ""
+msgstr "Tipul verificării Serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:938
 msgid "Service checks"
-msgstr ""
+msgstr "Verificări Servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:493
 msgid "Service contact groups"
-msgstr ""
+msgstr "Grupuri de contact al Serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:2114
 msgid "Service contact information"
-msgstr ""
+msgstr "Informații de contact al Serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:486
 msgid "Service contacts"
-msgstr ""
+msgstr "Contactele Serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:875
 msgid "Service custom variables"
-msgstr ""
+msgstr "Variabule customizate al Serviciului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8206
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:380
@@ -2055,54 +2068,56 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:501
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:152
 msgid "Service description"
-msgstr ""
+msgstr "Descrierea Serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:798
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3622
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3821
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4227
 msgid "Service descriptions"
-msgstr ""
+msgstr "Descrierea Serviciilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1269
 msgid "Service discovery"
-msgstr ""
+msgstr "Descoperirea Serviciilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1301
 msgid "Service discovery check for SNMP devices"
-msgstr ""
+msgstr "Verificaă Descoperirea Serviciilor pentru device-uri SNMP"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17885
 #, python-format
 msgid ""
 "Service discovery successful. Added %d, Removed %d, Kept %d, New Count %d"
 msgstr ""
+"Descoperirea serviciilor a fost cu success. Adăugat %d, Șters %d, Păstrat %d, "
+"Noul Număr %d"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12240
 msgid "Service events"
-msgstr ""
+msgstr "Evenimente Servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1320
 msgid "Service globally"
-msgstr ""
+msgstr "Servicii globale"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11591
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12229
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1894
 msgid "Service goes into critical state"
-msgstr ""
+msgstr "Serviciu întră în stare critică"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11590
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12228
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1893
 msgid "Service goes into unknown state"
-msgstr ""
+msgstr "Serviciu intră în stare necunoscută"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11589
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12227
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1892
 msgid "Service goes into warning state"
-msgstr ""
+msgstr "Servucuy intră în stare avertizare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1442
 msgid ""
