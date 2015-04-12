@@ -2124,12 +2124,18 @@ msgid ""
 "Service grouped by host groups. Services not member of a host group are not "
 "displayed. Services being in more groups, are displayed once for each group"
 msgstr ""
+"Servicii grupate dupa grupuri de hoști. Serviciile care nu aparțin unui "
+"grup de hoști nu sunt afișate. Serviciile care aparțin mai multor grupuri "
+"sunt afișate odată pentru fiecare grup."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1414
 msgid ""
 "Service grouped by service groups. Services not member of a group are not "
 "displayed. Services being in more groups, are displayed once for each group"
 msgstr ""
+"Servicii grupate după grupuri de servicii. Serviciile care nu aparțin unui "
+"grup nu sunt afișate. Serviciile care aparțin mai multor grupuri sunt "
+"afișate odatp oentru fiecare grup"
 
 # georgem ##############
 
@@ -2140,108 +2146,108 @@ msgstr "Grup nou"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:356
 msgid "Service hard states"
-msgstr ""
+msgstr "Stare dură al serviciilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:195
 msgid "Service icons"
-msgstr ""
+msgstr "Iconțite Servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:474
 msgid "Service in downtime"
-msgstr ""
+msgstr "Serviciu în timp de nefuncționare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:470
 msgid "Service in notif. per."
-msgstr ""
+msgstr "Notif. servicii în proc."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:668
 msgid "Service is active"
-msgstr ""
+msgstr "Serviciu este activ"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:654
 msgid "Service is flapping"
-msgstr ""
+msgstr "Serviciu fluctuează"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:235
 msgid "Service is in Group"
-msgstr ""
+msgstr "Serviciul este în Grup"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:849
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:483
 msgid "Service is stale"
-msgstr ""
+msgstr "Serviciu este stătut"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8207
 msgid "Service level"
-msgstr ""
+msgstr "Nivel Serviciu"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14651
 msgid "Service name "
-msgstr ""
+msgstr "Nume Serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:598
 msgid "Service normal check interval"
-msgstr ""
+msgstr "Interval normal de verificares Serviciilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:610
 msgid "Service normal/retry check interval"
-msgstr ""
+msgstr "Interval normal/de reîncercare al Serviciilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:569
 msgid "Service notification number"
-msgstr ""
+msgstr "Numărul de notificare al Serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:647
 msgid "Service notification period"
-msgstr ""
+msgstr "Perioada de notificare al Serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:661
 msgid "Service notifications enabled"
-msgstr ""
+msgstr "Notificările de Serviciu activate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1530
 msgid "Service output for logwatch"
-msgstr ""
+msgstr "Afișare output Serviciu pentru logwatch"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:367
 msgid "Service performance data"
-msgstr ""
+msgstr "Date de performanță ale Serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:395
 msgid "Service performance data - value number  1"
-msgstr ""
+msgstr "Date de performantă al serviciului - valoarea numărul 1"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:402
 msgid "Service performance data - value number  2"
-msgstr ""
+msgstr "Date de performantă al serviciului - valoarea numărul 2"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:409
 msgid "Service performance data - value number  3"
-msgstr ""
+msgstr "Date de performantă al serviciului - valoarea numărul 3"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:416
 msgid "Service performance data - value number  4"
-msgstr ""
+msgstr "Date de performantă al serviciului - valoarea numărul 4"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:423
 msgid "Service performance data - value number  5"
-msgstr ""
+msgstr "Date de performantă al serviciului - valoarea numărul 5"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:430
 msgid "Service performance data - value number  6"
-msgstr ""
+msgstr "Date de performantă al serviciului - valoarea numărul 6"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:437
 msgid "Service performance data - value number  7"
-msgstr ""
+msgstr "Date de performantă al serviciului - valoarea numărul 7"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:444
 msgid "Service performance data - value number  8"
-msgstr ""
+msgstr "Date de performantă al serviciului - valoarea numărul 8"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:451
 msgid "Service performance data - value number  9"
-msgstr ""
+msgstr "Date de performantă al serviciului - valoarea numărul 9"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:188
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:193
@@ -2255,87 +2261,87 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:233
 #, python-format
 msgid "Service performance data - value number %02d"
-msgstr ""
+msgstr "Date de performantă al serviciului - valoarea numărul %02d""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:458
 msgid "Service performance data - value number 10"
-msgstr ""
+msgstr "Date de performantă al serviciului - valoarea numărul 10"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2129
 msgid "Service period for hosts"
-msgstr ""
+msgstr "Perioada de Serviciu pentru hoști"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2144
 msgid "Service period for services"
-msgstr ""
+msgstr "Perioada de Serviciu pentru servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:154
 msgid "Service plugin output"
-msgstr ""
+msgstr "Ouput-ul pluginului de Serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:773
 msgid "Service problem acknowledged"
-msgstr ""
+msgstr "Problemă de Serviciu recunoscută"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1550
 msgid "Service problems"
-msgstr ""
+msgstr "Probleme Servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2183
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2217
 msgid "Service problems for NagStaMon"
-msgstr ""
+msgstr "Probleme Serviciu pentru NagStatMon"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11592
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12230
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1895
 msgid "Service recovers to OK"
-msgstr ""
+msgstr "Serviciu revenit la starea OK"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:604
 msgid "Service retry check interval"
-msgstr ""
+msgstr "Interval de reîncercare al Serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1233
 msgid "Service search"
-msgstr ""
+msgstr "Căutare Serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:857
 msgid "Service service level"
-msgstr ""
+msgstr "Nivel serviciu pentru Serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:836
 msgid "Service staleness value"
-msgstr ""
+msgstr "Valoarea învechirii Serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:337
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:87
 msgid "Service state"
-msgstr ""
+msgstr "Stare Serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:157
 msgid "Service state age"
-msgstr ""
+msgstr "Vârsta stării Serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:435
 msgid "Service state type"
-msgstr ""
+msgstr "Tiprul stării Serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:355
 msgid "Service states"
-msgstr ""
+msgstr "Stări Serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1700
 msgid "Service whose state changed in the last 60 minutes"
-msgstr ""
+msgstr "Servicii al căror stare s-a schimbat în ultimele 60 de minute"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:384
 msgid "Service-Level"
-msgstr ""
+msgstr "Nivel-Serviciu"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16821
 msgid "Service:"
-msgstr ""
+msgstr "Servicii:"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:158
 msgid "Servicegroup"
@@ -2348,15 +2354,15 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:236
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:298
 msgid "Servicegroup (enforced)"
-msgstr ""
+msgstr "Servicegroup (aplicatâ)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1525
 msgid "Servicegroup alias"
-msgstr ""
+msgstr "Alias Servicegroup"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1519
 msgid "Servicegroup name"
-msgstr ""
+msgstr "Nume Servicegroup"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/datasources.py:140
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:220
@@ -2365,11 +2371,11 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:682
 msgid "Servicegroups the service is member of"
-msgstr ""
+msgstr "Servicegrupurile al cărui serviciu este membru"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/datasources.py:149
 msgid "Servicegroups, merged"
-msgstr ""
+msgstr "Servicegroups, fuzionate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:127
 msgid "Servicelevel"
@@ -2400,80 +2406,80 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:71
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:558
 msgid "Services"
-msgstr ""
+msgstr "Servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:110
 msgid "Services (Regular Expressions)"
-msgstr ""
+msgstr "Servicii (Expresii Regulate)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3849
 msgid "Services added"
-msgstr ""
+msgstr "Servicii adăugate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1437
 msgid "Services by group"
-msgstr ""
+msgstr "Servicii după grup"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1243
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1471
 msgid "Services colored according to state"
-msgstr ""
+msgstr "Servicii colorate după stare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/datasources.py:114
 msgid "Services grouped by host groups"
-msgstr ""
+msgstr "Servicii grupate după grupurile de hoști"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/datasources.py:106
 msgid "Services grouped by service groups"
-msgstr ""
+msgstr "Servucuu grupate dupa service groups"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3851
 msgid "Services kept"
-msgstr ""
+msgstr "Servicii pâstrate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:549
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:578
 msgid "Services of Host"
-msgstr ""
+msgstr "Serviciile Hostului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:859
 msgid "Services of Hostgroup"
-msgstr ""
+msgstr "Serviciile Hostgroupului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:594
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:606
 msgid "Services of Hosts"
-msgstr ""
+msgstr "Servicii ale Hostului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2017
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2039
 msgid "Services of Site"
-msgstr ""
+msgstr "Serviciile Siteului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1357
 msgid "Services of a service group"
-msgstr ""
+msgstr "Serviciile unui grup de servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mobile.py:297
 msgid "Services of host"
-msgstr ""
+msgstr "Serviciile hostului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3076
 #, python-format
 msgid "Services of host %s"
-msgstr ""
+msgstr "Serviciile hostului %s"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mobile.py:296
 msgid "Services of this host"
-msgstr ""
+msgstr "Serviciile acestui host"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3850
 msgid "Services removed"
-msgstr ""
+msgstr "Servicii șterse"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4792
 msgid "Services states"
-msgstr ""
+msgstr "Stările Serviciilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2083
 msgid ""
