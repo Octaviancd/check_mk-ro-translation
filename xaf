@@ -3182,6 +3182,9 @@ msgid ""
 "instead of what is left. In this case it's possible to upturn the levels to "
 "handle this behavior"
 msgstr ""
+"Unele imprimante (eg. Konica for Drum Cartridges) returnează cât mai are "
+"în loc să returneze ce a mai râmas. În astfel de cazuri este posibil să se "
+"inverseze aceste nivele pentru a gesționa corect astfel de cazuri."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2523
 msgid ""
@@ -3194,12 +3197,22 @@ msgid ""
 "the &quot;pig&quot; - i.e. the host that the agent is running on. It is not "
 "applied to the translated piggybacked hosts."
 msgstr ""
+"Unii agenți sau plugin-uri trimit date nu doar pentru host-ul interogat dar "
+"și pentru alți hoști prin &quot;piggyback&quot; cu propriile date. Aceasta "
+"este cazul pentru agentul special vSphere și plugin-ul SAP R/3. Hostname-ul "
+"pe care acești agenți îl trimit trebuie să se potrivească cu hostname-urile "
+"în configurația de monitorizare. Daca aceasta nu este cazul, atunci cu "
+"această regulă poți defini translații de hostname. Notă: Această regulă "
+"trebuie să fie configurată pentru &quot;pig&quot; - i.e. host-ul pe care "
+"rulează agentul. Nu se aplicâ la hostul piggybacked."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2341
 msgid ""
 "Some devices send texts in non-ASCII characters. Check_MK always assumes UTF-"
 "8 encoding. You can declare other  other encodings here"
 msgstr ""
+"Unele device-uri trimit text în caractere non-ASCII. Check_MK întotdeauna "
+"presupune că va fi encodat UTF-8. Poți declara alte codări acii."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:402
 msgid ""
@@ -3208,6 +3221,11 @@ msgid ""
 "these jobs should happen. Larger values add latency to the events in "
 "question. A too small value wastes CPU resources in larger setups."
 msgstr ""
+"Unele job-uri în Core trebuie să fie verificate în mod regulat. Cel mai "
+"important sunt notificările întârziate. Această setare decice cât de des "
+"aceste job-uri trebuie să se efectueze. Valori mai mari adaugă o latență "
+"acestor evenimente. O valoare prea mică risipește resurse CPU pe instalări "
+"mai mari."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/default_permissions.py:74
 msgid ""
@@ -3215,38 +3233,45 @@ msgid ""
 "example time stamp columns can be displayed absolute, relative or in a mixed "
 "style. This permission allows the user to modify display options"
 msgstr ""
+"Unele coloane afișate oferă opțiuni pentru customizare. De exemplu coloanele "
+"timestamps pot fi afișate într-un stil absolut, relativ sau mixt. Această "
+"permisiune permite utilizatorului să modifice aceste opțiuni de afișare."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13468
 msgid ""
 "Some tags that are used in rules have been removed by you. What shall we do "
 "with that rules?"
 msgstr ""
+"Unele tag-uri care sunt folosite în reguli au fost șterse de tine. Ce să "
+"facem cu aceste reguli?"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:207
 msgid "Sorry"
-msgstr ""
+msgstr "Îmi pare rău"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:350
 msgid "Sorry, I will not display more than 900 hosts."
-msgstr ""
+msgstr "Îmi pare rău nu voi afișa mai mult de 900 hoști."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:696
 msgid ""
 "Sorry, only absolute filenames are allowed. Your filename must begin with a "
 "slash."
 msgstr ""
+"Îmi pare rău, doar nume de fișiere absolute sunt permite. Numele de fișier "
+"trebuie să înceapâ cu un slash."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17246
 msgid "Sorry, spaces are not allowed in attribute names."
-msgstr ""
+msgstr "Îmi pare rău, spații nu sunt permise în numele atributelor."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8010
 msgid "Sorry, spaces are not allowed in group names."
-msgstr ""
+msgstr "Îmi pare rău, spații nu sunt permise în numele grupurilor."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8014
 msgid "Sorry, there is already a group with that name"
-msgstr ""
+msgstr "Îmi pare rău, deja există un grup cu acest nume"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17250
 msgid "Sorry, there is already an attribute with that name."
@@ -3254,11 +3279,11 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4703
 msgid "Sorry, you are not allowed to activate changes of other users."
-msgstr ""
+msgstr "Îmi pare rău. nu ai voie să activezi modificările altor utilizatori."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1971
 msgid "Sorry, you are not allowed to clone hosts."
-msgstr ""
+msgstr "Îmi pare rău, nu ai voie să clonezi hoști."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1149
 #, python-format
@@ -3266,14 +3291,16 @@ msgid ""
 "Sorry, you cannot assign the contact group '<b>%s</b>' because you are not "
 "member in that group. Your groups are: <b>%s</b>"
 msgstr ""
+"Îmi pare rău, nu poți aloca grupul de contact '<b>%s</b>' pentru că nu ești "
+"membru al acelui grup. Grupurile tale sunt:<b>%s</b> "
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:638
 msgid "Sorry, you cannot edit hosts in this folder. They are locked."
-msgstr ""
+msgstr "Îmi pare rău, nu poți edița hoști în acest director. Sunt blocate."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:426
 msgid "Sorry, you cannot edit this folder. It is locked."
-msgstr ""
+msgstr "Îmi pare rău, nu poți edita acest director. Este blocat."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1050
 #, python-format
@@ -3281,25 +3308,31 @@ msgid ""
 "Sorry, you have no permission on the host '<b>%s</b>'. The host's contact "
 "groups are <b>%s</b>, your contact groups are <b>%s</b>."
 msgstr ""
+"Îmi pare rău, nu ai permisiuni pe host-ul '<b>%s</b>'. Grupurile de contact "
+"ale host-ului sunt <b>%s</b>, grupurile tale de contact sunt <b>%s</b>."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1117
 #, python-format
 msgid "Sorry, you have no permissions to the folder <b>%s</b>. "
-msgstr ""
+msgstr "Îmi pare rău, nu ai permisiune la directorul <b>%s</b>."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:254
 msgid "Sorry, you lack the permission for editing this type of visuals."
 msgstr ""
+"Îmi pare rău, nu ai permisiunile necesare pentru editarea acestui tip de "
+"vizuale."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15885
 msgid "Sorry, your user account does not exist."
-msgstr ""
+msgstr "Îmi pare rău, contul tău de utilizator nu există."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1819
 msgid ""
 "Sorry. In order to change the permissions of a folder you need write access "
 "to the parent folder."
 msgstr ""
+"Îmi pare rău, pentru a putea schimba permisiunile unui director trebuie să "
+"ai drepturi de scriere pe directorul părinte."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2203
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3942
@@ -3308,58 +3341,62 @@ msgid ""
 "Sorry. In order to change the permissions of a host you need write access to "
 "the folder it is contained in."
 msgstr ""
+"Îmi pare rău, pentru a putea schimba permisiunile unui host trebuie să ai "
+"drepturi de scriere în directorul în care se află host-ul."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:869
 msgid ""
 "Sorry. In order to delete a folder you need write permissions to its parent "
 "folder."
 msgstr ""
+"Îmi pare rău, pentru a putea șterge un director trebuie să ai drepturi de "
+"scriere în directorul părinte."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:1881
 msgid "Sorry. This command is not implemented."
-msgstr ""
+msgstr "Îmi pare rău, această comandă nu este implementată."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:2247
 #: /omd/sites/production/share/check_mk/web/htdocs/table.py:268
 #, python-format
 msgid "Sort by %s"
-msgstr ""
+msgstr "Sortează după %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:546
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:567
 msgid "Sorting"
-msgstr ""
+msgstr "Sortare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:368
 msgid "Source (n'th Graph)"
-msgstr ""
+msgstr "Sursa (Graf-ul x)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:125
 msgid "Spaces in hostnames"
-msgstr ""
+msgstr "Spații în hostname-uri"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:29
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:359
 msgid "Specialized agents, e.g. check via SSH, ESX vSphere, SAP R/3"
-msgstr ""
+msgstr "Agenți specializațim e.g. check prin SSH, ESX vSphere, SAPR/3"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:958
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1012
 msgid "Specific list of instances"
-msgstr ""
+msgstr "Listă specifică de instanțe"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:601
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:1084
 msgid "Specific objects"
-msgstr ""
+msgstr "Obiecte specifice"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2491
 msgid "Specific version"
-msgstr ""
+msgstr "Versiune specifică"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:216
 msgid "Specify DNS Server"
-msgstr ""
+msgstr "Specifică Server DNS"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8362
 msgid ""
