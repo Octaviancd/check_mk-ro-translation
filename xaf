@@ -3432,7 +3432,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1941
 msgid "Specify an arbitrary name of this connection here"
-msgstr ""
+msgstr "Specifică un nume arbitrar al acestei conexiuni aici"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1780
 msgid ""
