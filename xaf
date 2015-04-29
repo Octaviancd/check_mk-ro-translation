@@ -3404,6 +3404,10 @@ msgid ""
 "of the service name in order for the rule to match. Note: Host notifications "
 "never match this rule if this option is being used."
 msgstr ""
+"Specifică o listă cu expresii regulate care trebuie să se potrivească la "
+"<b>începutul</b> numelui serviciului pentru regula să se potrivească. Notă: "
+"notificările de host nu se potrivesc niciodată dacp această regulă este "
+"folosită."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14903
 msgid ""
@@ -3412,6 +3416,11 @@ msgid ""
 "tt> to the end forces an excact match. Pattern use <b>regular expressions</"
 "b>. A <tt>.*</tt> will match an arbitrary text."
 msgstr ""
+"Specifică o listă de modele de servicii pentru această regulă. Modelele "
+"trebuie să se potrivească la <b>începutul</b> numelui serviciului. Adăugând "
+"<tt>$</tt> la sfârșit forțează o potrivire exactă. Modelele folosesc "
+"<b>expresii regulate</b>. Un <tt>.*</tt> se va potrivi cu orice text "
+"arbitrar."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:954
 msgid ""
