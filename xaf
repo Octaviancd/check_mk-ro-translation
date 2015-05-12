@@ -3429,6 +3429,10 @@ msgid ""
 "the option <tt>commit</tt> is being ignored since it is modified by the "
 "power saving algorithms."
 msgstr ""
+"Specifică toate opțiunile mount așteptate aici. Dacă lista găsită diferă de "
+"această listă, check-ul va trece în warning sau critic. Doar opțiunea "
+"<tt>commit</tt> este ignorate deoarece este modificată de algoritmii de "
+"economisire curent."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1941
 msgid "Specify an arbitrary name of this connection here"
@@ -3439,34 +3443,37 @@ msgid ""
 "Specify at which time period a new file for the event history will be "
 "created."
 msgstr ""
+"Specifică la ce perioadă de timp un nou fișier pentru istoricul de "
+"evenimente să fie creat."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14881
 msgid "Specify explicit host names"
-msgstr ""
+msgstr "Specifică un numele hoștiilor explicit"
+
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14931
 msgid "Specify explicit values"
-msgstr ""
+msgstr "Specifică valori explicite"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1954
 msgid "Specify explicitly"
-msgstr ""
+msgstr "Specifică explicitatea"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2544
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2570
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2614
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2747
 msgid "Specify levels in absolute usage values"
-msgstr ""
+msgstr "Specifică nivelurile în valori absolute"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2672
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2691
 msgid "Specify levels in absolute values"
-msgstr ""
+msgstr "Specifică nivelurile în valori absolute"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2607
 msgid "Specify levels in percentage of total Flash"
-msgstr ""
+msgstr "Specifică în procentaj totalul Flash"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2520
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2537
@@ -3476,19 +3483,19 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2742
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2791
 msgid "Specify levels in percentage of total RAM"
-msgstr ""
+msgstr "Specifică nivelurile în procente de RAM total"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2590
 msgid "Specify levels in percentage of total memory usage"
-msgstr ""
+msgstr "Specifică nivelurile în procente de memorie totală folosită"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1983
 msgid "Specify queue names that the rule should apply"
-msgstr ""
+msgstr "Specifică numele cozilor pe care această regulă să se potrivească"
 
 #: /omd/sites/production/share/check_mk/web/plugins/userdb/ldap.py:919
 msgid "Specify the Group DN"
-msgstr ""
+msgstr "Specifică Group DN"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:742
 msgid ""
