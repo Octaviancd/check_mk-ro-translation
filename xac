@@ -1324,89 +1324,89 @@ msgstr "Eroare in timpul inventarierii %s in site-ul %s<div class=exc>%s</div>"
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3746
 #, python-format
 msgid "Error during inventory of %s<div class=exc>%s</div>"
-msgstr ""
+msgstr "Eroare in timpul inventarierii %s<div class=exc>%s</div>"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4177
 #, python-format
 msgid "Error during parent scan of %s on site %s: %s"
-msgstr ""
+msgstr "Eroare în timpul scanării părintelui lui %s in site-ul %s: %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4179
 #, python-format
 msgid "Error during parent scan of %s: %s"
-msgstr ""
+msgstr "Eroare în timpul scanării părintelui lui %s: %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/userdb.py:802
 msgid "Error during saving"
-msgstr ""
+msgstr "Eroare în timpul salvării"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/userdb.py:769
 #: /omd/sites/production/share/check_mk/web/htdocs/userdb.py:774
 #: /omd/sites/production/share/check_mk/web/htdocs/userdb.py:783
 msgid "Error during sync"
-msgstr ""
+msgstr "Eroare în timpul sincronizării"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:373
 #, python-format
 msgid "Error executing GIT command %s: %s"
-msgstr ""
+msgstr "Eroare la executarea comenzii GIT %s: %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/hooks.py:75
 msgid "Error executing hook"
-msgstr ""
+msgstr "Eroare la executarea hook-ului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4752
 #, python-format
 msgid "Error on remote access to site: %s"
-msgstr ""
+msgstr "Eroare la accesul remote la site-ul: %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:295
 #, python-format
 msgid "Error showing view: %s"
-msgstr ""
+msgstr "Eroare la afișarea view-ului: %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7330
 #, python-format
 msgid "Error while fetching group for role %s: %s"
-msgstr ""
+msgstr "Eroare la preluarea grupului pentru rolul %s: %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:1878
 #, python-format
 msgid "Error while rendering element type '%s'"
-msgstr ""
+msgstr "Eroare la randarea elementului de tip '%s'"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/index.py:284
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11124
 #, python-format
 msgid "Error: %s"
-msgstr ""
+msgstr "Eroare: %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6566
 msgid ""
 "Error: The process responsible for creating the snapshot is no longer "
 "running!"
-msgstr ""
+msgstr "Eroare: Procesul răspunzător de crearea snapshot-ului nu mai ruleaza!"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4251
 msgid "Errors"
-msgstr ""
+msgstr "Erori"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/multitar.py:258
 #, python-format
 msgid "Errors on restoring snapshot:<br>%s"
-msgstr ""
+msgstr "Erori la restaurarea snapshot-ului:<br>%s"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:225
 msgid "Escape HTML codes in plugin output"
-msgstr ""
+msgstr "Faceți escape codului HTML în output-ul plugin-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:452
 msgid "Established TCP/UDP connections (Linux, AIX)"
-msgstr ""
+msgstr "Conexiuni TCP/UDP stabilite (Linux, AIX)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1767
 msgid "Event"
-msgstr ""
+msgstr "Eveniment"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1316
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1355
@@ -1416,88 +1416,88 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1927
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:761
 msgid "Event Console"
-msgstr ""
+msgstr "Consola de evenimente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1185
 msgid "Event Console - Pending Changes"
-msgstr ""
+msgstr "Consola de evenimente - Modificări în așteptare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1239
 msgid "Event Console - Server Status"
-msgstr ""
+msgstr "Consola de evenimente - Status-ul Severului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/backup_domains.py:201
 msgid "Event Console Archive and Current State"
-msgstr ""
+msgstr "Arhiva și Starea Curentă a Consolei de Evenimente"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7547
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1307
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1346
 #: /omd/sites/production/share/check_mk/web/plugins/wato/backup_domains.py:192
 msgid "Event Console Configuration"
-msgstr ""
+msgstr "Configurația Consolei de Evenimente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:50
 msgid "Event Console Event"
-msgstr ""
+msgstr "Eveniment al Conslei de Evenimente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/mkeventd.py:84
 msgid "Event Console Performance"
-msgstr ""
+msgstr "Performanța Consolei de Evenimente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1397
 msgid "Event Console Settings"
-msgstr ""
+msgstr "Setarile Consolei de Evenimente"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8526
 msgid "Event Console alerts"
-msgstr ""
+msgstr "Alertele Consolei de Evenimente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/mkeventd.py:42
 msgid "Event Console is not running."
-msgstr ""
+msgstr "Consola de Evenimente nu rulează"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:282
 msgid "Event Console: Current Events"
-msgstr ""
+msgstr "Consola de Evenimente: Evenimente Curente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:291
 msgid "Event Console: Event History"
-msgstr ""
+msgstr "Consola de Evenimente: Istoricul Evenimentelor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1280
 msgid "Event Daemon is running."
-msgstr ""
+msgstr "Daemon-ul de Evenimente rulează"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:908
 msgid "Event Details"
-msgstr ""
+msgstr "Detalii Eveniment"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1338
 msgid "Event History"
-msgstr ""
+msgstr "Istoric Eveniment"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:1002
 msgid "Event History Entry"
-msgstr ""
+msgstr "Inregistrare Istoric Eveniment"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:1078
 msgid "Event History of Host"
-msgstr ""
+msgstr "Istoric de Evenimente al Elementului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:53
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:62
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:95
 msgid "Event ID"
-msgstr ""
+msgstr "ID-ul Evenimentului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:486
 msgid "Event Icons"
-msgstr ""
+msgstr "Pictogramele Evenimentului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:299
 msgid "Event Log"
-msgstr ""
+msgstr "Log-ul Evenimentului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:707
 msgid "Event Simulator"
@@ -1505,27 +1505,27 @@ msgstr "Simularea unui Eveniment"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mkeventd.py:93
 msgid "Event created by required count was not reached in time"
-msgstr ""
+msgstr "Evenimetul creat de numărătoarea cerută nu a fost atinsă la timp"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mkeventd.py:91
 msgid "Event deleted because its livetime expired"
-msgstr ""
+msgstr "Eveniment șters pentru că durata lui de viața a expirat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mkeventd.py:92
 msgid "Event deleted because required count had been reached"
-msgstr ""
+msgstr "Eveniment șters pentru că număratoarea cerută a fost atinsă"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mkeventd.py:89
 msgid "Event deleted in counting state because rule does not count anymore"
-msgstr ""
+msgstr "Eveniment șters in starea de numarare pentru că regula nu mai contează"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mkeventd.py:88
 msgid "Event deleted in counting state because rule was deleted."
-msgstr ""
+msgstr "Eveniment șters in starea de numarare pentru că regula a fost stearsă."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mkeventd.py:96
 msgid "Event deleted manually by user"
-msgstr ""
+msgstr "Evenimet șters manual de utilizator"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:941
 msgid "Event handlers"
@@ -1533,35 +1533,38 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1793
 msgid "Event history lifetime"
-msgstr ""
+msgstr "Durata de viată a istoricului evenimentului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1779
 msgid "Event history logfile rotation"
-msgstr ""
+msgstr "Rotarea fisierului log al istoricului evenimentului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mkeventd.py:94
 msgid "Event information updated by user"
-msgstr ""
+msgstr "Informația evenimentului actualizată de utilizator"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mkeventd.py:90
 msgid ""
 "Event opened because the delay time has elapsed before cancelling event "
 "arrived."
 msgstr ""
+"Evenimentul deschis pentru că timpul de întârziere a trecut înaintea "
+"evenimentului de anulare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mkeventd.py:100
 msgid ""
 "Event was archived because no rule matched and archiving is activated in "
 "global settings."
 msgstr ""
-
+"Evenimentul a fost arhivat pentru că nici o regulă nu s-a potrivit și "
+"arhivarea este activată la nivel global" 
 #: /omd/sites/production/share/check_mk/web/htdocs/mkeventd.py:101
 msgid "Event was deleted automatically"
-msgstr ""
+msgstr "Evenimentul a fost șters automat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:321
 msgid "Eventlog:"
-msgstr ""
+msgstr "Logul de evenimente:"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:125
 #: /omd/sites/production/share/check_mk/web/plugins/views/mobile.py:482
@@ -1569,229 +1572,231 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1767
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:785
 msgid "Events"
-msgstr ""
+msgstr "Evenimente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/icons/mkeventd.py:90
 #, python-format
 msgid "Events of Application \"%s\" on Host %s"
-msgstr ""
+msgstr "Evenimente ale Aplicației \"%s\" pe Elementul %s"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:868
 msgid "Events of Host"
-msgstr ""
+msgstr "Evenimente ale Elementului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/icons/mkeventd.py:81
 #, python-format
 msgid "Events of Host %s"
-msgstr ""
+msgstr "Evenimente ale Elementului %s"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:829
 msgid "Events of Monitored Host"
-msgstr ""
+msgstr "Evenimente ale Elementelor Monitorizate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1822
 msgid "Events of host"
-msgstr ""
+msgstr "Evenimente ale elementului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mobile.py:554
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1940
 msgid "Events of host & services"
-msgstr ""
+msgstr "Evenimente ale elementului si serviciilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/builtin.py:150
 msgid "Events of recent 4 hours"
-msgstr ""
+msgstr "Evenimente din ultimele 4 ore"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mobile.py:581
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1880
 msgid "Events of service"
-msgstr ""
+msgstr "Evenimete ale serviciilor"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:325
 msgid "Every day"
-msgstr ""
+msgstr "În fiecare zi"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:326
 msgid "Every week on..."
-msgstr ""
+msgstr "În fiecare săptămână în .."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/notify.py:91
 msgid "Everybody (Broadcast)"
-msgstr ""
+msgstr "Toți (Broadcast)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:87
 msgid "Exact match"
-msgstr ""
+msgstr "Potrivire exactă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:62
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:71
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:299
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:741
 msgid "Exact match, used for linking"
-msgstr ""
+msgstr "Potrivire exactă, folosită pentru conectare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6293
 msgid "Exact name of the operating system user"
-msgstr ""
+msgstr "Numel exact al utilizatorului sistemului de operare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:371
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6269
 msgid "Exact name of the process without argments"
-msgstr ""
+msgstr "Numele exact al procesului fară argumente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:542
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:7020
 msgid "Exact name of the task"
-msgstr ""
+msgstr "Numele exact al task-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:403
 msgid "Exact name of the user"
-msgstr ""
+msgstr "Numele exact al utilizatorului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:604
 msgid "Exact path of the node"
-msgstr ""
+msgstr "Calea exactă a nodului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/builting_reports.py:125
 msgid "Examples"
-msgstr ""
+msgstr "Exemple"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3054
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7352
 #, python-format
 msgid "Exception: %s"
-msgstr ""
+msgstr "Excepție: %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9773
 msgid "Exceptions (from weekdays)"
-msgstr ""
+msgstr "Excepții (dintre zilele săptamânii)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9788
 msgid "Exclude"
-msgstr ""
+msgstr "Exclude"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:659
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1175
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6151
 msgid "Exclude Pattern"
-msgstr ""
+msgstr "Șablon de excludere"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3883
 msgid "Exclude hosts where the agent is unreachable"
-msgstr ""
+msgstr "Exclude elementele in cazul cărora agentul este imposibil de contactat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:231
 msgid "Exclude scheduled downtimes"
-msgstr ""
+msgstr "Exclude timpii de nefunctionare programați"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1191
 msgid "Exclude some sections on certain instances"
-msgstr ""
+msgstr "Exclude unele sectiuni pe anumite instanțe"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1165
 msgid "Exclude the following SIDs (if found)"
-msgstr ""
+msgstr "Exclude următoarele SID-uri (dacă sunt găsite)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8354
 msgid "Exclude the following hosts"
-msgstr ""
+msgstr "Exclude următoarele elemente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:406
 msgid "Exclude times out of notification period"
-msgstr ""
+msgstr "Exclude timpii din afara perioadei de notificare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:372
 msgid "Executable:"
-msgstr ""
+msgstr "Executabil:"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:175
 msgid "Execute Shell Script"
-msgstr ""
+msgstr "Execută Scriptul de Shell"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:190
 msgid "Execute all files in the plugins directory"
-msgstr ""
+msgstr "Execută toate fisierele din directorul plugins"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:1479
 msgid "Execute commands on hosts, services and other objects"
-msgstr ""
+msgstr "Execută comenzi pe elemente, servicii și alte obiecte"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:220
 msgid "Execute legacy monitoring plugins"
-msgstr ""
+msgstr "Executa plugin-uri de monitorizare vechi"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:219
 msgid "Execute local scripts"
-msgstr ""
+msgstr "Executa scripturi locale"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:218
 msgid "Execute plugins in general"
-msgstr ""
+msgstr "Executa plugin-uri în general"
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/paper_sizes.py:41
 msgid "Executive"
-msgstr ""
+msgstr "Executiv"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:450
 msgid "Existing View"
-msgstr ""
+msgstr "View-uri existente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:429
 msgid "Expand <tt>\\n</tt>, <tt>\\r</tt> and <tt>\\t</tt> in the sent string"
 msgstr ""
+"Expandează <tt>\\n</tt>, <tt>\\r</tt> și <tt>\\t</tt> în șirul de caractere "
+"trimis"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:443
 msgid "Expect <b>all</b> of those strings in the response"
-msgstr ""
+msgstr "Așteapta <b>toate</b> aceste șiruri de caractere în răspuns"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:236
 msgid "Expect Authoritative"
-msgstr ""
+msgstr "Așteaptă Autoritativ"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:235
 msgid "Expect Authoritative DNS Server"
-msgstr ""
+msgstr "Așteaptă Server DNS Autoritativ"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:408
 msgid "Expect regular messages"
-msgstr ""
+msgstr "Așteaptă mesaje regulate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6966
 msgid "Expected DC"
-msgstr ""
+msgstr "Așteaptă DC"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1001
 msgid "Expected String"
-msgstr ""
+msgstr "Așteaptă Șir de Caractere"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:224
 msgid "Expected answer (IP address or hostname)"
-msgstr ""
+msgstr "Răspuns așteptat (Adresă IP sau hostname)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:773
 #, python-format
 msgid "Expected data type is list, but your type is %s."
-msgstr ""
+msgstr "Typul de date așteptat este listă, dar tipul tău de date este: %s."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:953
 msgid "Expected mount options"
-msgstr ""
+msgstr "Optiunile de montare așteptate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6997
 msgid "Expected node"
-msgstr ""
+msgstr "Nodul așteptat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4583
 msgid "Expected number of active paths"
-msgstr ""
+msgstr "Numărul de căi active așteptat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:684
 msgid "Expected packet rate"
-msgstr ""
+msgstr "Rata de pachete așteptată"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4661
 msgid "Expected path situation"
-msgstr ""
+msgstr "Situația căilor așteptată"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:132
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:242
@@ -1800,7 +1805,7 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:923
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1071
 msgid "Expected response time"
-msgstr ""
+msgstr "Timpul de răspuns așteptat."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1018
 msgid "Expected responses to the given SMTP commands."
