@@ -3501,7 +3501,8 @@ msgstr "Specifică Group DN"
 msgid ""
 "Specify the distinguished name to be used to bind to the LDAP directory, e. "
 "g. <tt>CN=ldap,OU=users,DC=example,DC=com</tt>"
-msgstr ""
+msgstr "Specifică DN-ul pentru a face bind la directorul LDAP, e.g. "
+"<tt>CN=ldap,OU=users,DC=example,DC=com</tt>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1562
 msgid ""
@@ -3509,96 +3510,114 @@ msgid ""
 "want to replicate from. The port number must be the same as set in the "
 "master in <i>Access to event status via TCP</i>."
 msgstr ""
+"Specifică numele hostului sau adresa IP pentru master-ul Event Console de "
+"unde vrei să începi replicarea. Numărul port-ului trebuie să fie același "
+"care este configurat în <i>Acess ls stările evenimentelor prin TCP</i>."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1032
 msgid "Specify the initial contact groups of an automatically created user."
 msgstr ""
+"Specifică grupul de contact inițial pentru un utilizator creat automat."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1026
 msgid "Specify the initial roles of an automatically created user."
-msgstr ""
+msgstr "Specifică role-ul inițial pentru un utilizator creat automat."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3603
 msgid "Specify the name of the ASM Disk Group "
-msgstr ""
+msgstr "Specifică numele ASM Disk Group"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:748
 msgid "Specify the password to be used to bind to the LDAP directory."
-msgstr ""
+msgstr "Specifică parola pentru a face bind la directorul LDAP."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:795
 msgid ""
 "Specify the paths in CCMS that you want to monitor. Each entry must match "
-"the full path to one or  several monitor objects. We use unix shell patterns "
+"the full path to one or  several monitor objects. We use unix shelFl patterns "
 "during matching, so  you can use several chars as placeholders:"
 "<ul><li><tt>*      </tt> matches everything</li><li><tt>?      </tt> matches "
 "any single character</li><li><tt>[seq]  </tt> matches any character in seq</"
 "li><li><tt>[!seq] </tt> matches any character not in seq</li></ul>"
 msgstr ""
+"Specifică căile în CCMS pe care dorești să le monitorizezi. Fiecare intrare "
+"trebuie să se potrivească întregii căi sau la una sau mai multe obiecte "
+"monitor. Folosim modele unix shell în timpul potrivirii astfel poți folosi "
+"multipli charactere ca substituenți:"
+"<ul><li><tt>*      </tt> se potrivește cu orice<li><tt>?</tt> potrivește</li>"
+"orice caracter unic</li><li><tt>[seq]  </tt> potriveste orice caracter in "
+"secvență</li><li><tt>[!seq] </tt> potrivt cu orice caracter care nu este "
+"în secvență</li></ul>"
+
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10832
 msgid "Specify the site that should monitor this host."
-msgstr ""
+msgstr "Specifică site-ul pe care trebuie să monitorizeze acest host."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3619
 msgid "Specify time since last successful backup"
-msgstr ""
+msgstr "Specifică timpul de la ultimul backup de succes"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:784
 msgid "Specify two upper case letters like <tt>EN</tt> or <tt>DE</tt>."
-msgstr ""
+msgstr "Specifică două litere majuscule precum <tt>EN</tt> sau <tt>DE</tt>."
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/pnp_graphs.py:151
 msgid ""
 "Specify what we shall do if the selected graph is missing or cannot be "
 "retrieved."
 msgstr ""
+"Specifică ce să facem dacă graficul selectat lipsește sau nu poate fi regăsit."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:417
 msgid "Speed"
-msgstr ""
+msgstr "Viteză"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2391
 msgid "Spool files of PNP4Nagios"
-msgstr ""
+msgstr "Fișiere spool ale PNP4Nagios"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mknotifyd.py:78
 msgid "Spool notifications to remote site"
-msgstr ""
+msgstr "Trimite notificările (spool) site-ului distant"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6056
 msgid "Spool to event console"
-msgstr ""
+msgstr "Spool câtre consola de evenimente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6057
 msgid "Spooling: Send events to local event console in same OMD site"
 msgstr ""
+"Spooling: trimite evenimente la consola de evenimente locală în același "
+"site OMD"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6061
 msgid "Spooling: Send events to local event console into given spool directory"
 msgstr ""
+"Spooling: Trimite evenimentele la consola locală de evenimente în orice "
+"director spool"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:850
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1330
 msgid "Stale"
-msgstr ""
+msgstr "Învechit"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1748
 msgid "Stale services"
-msgstr ""
+msgstr "Servicii învechite"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:837
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1323
 msgid "Staleness"
-msgstr ""
+msgstr "Învechit"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:430
 msgid "Staleness value to mark hosts / services stale"
-msgstr ""
+msgstr "Valoarea învechiturii pentru a marca serviciile / hoștii ca învechite"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4642
 msgid "Standby paths"
-msgstr ""
+msgstr "Căi de așteptare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3895
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4352
@@ -3613,12 +3632,12 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1873
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1897
 msgid "Start or end of a scheduled downtime"
-msgstr ""
+msgstr "Începutul sau sfârșitul unui downtime programat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8488
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11579
 msgid "Start or end of a scheduled downtime "
-msgstr ""
+msgstr "Începutul sau sfârșitul unui downtime programat "
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8487
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8517
@@ -3628,11 +3647,11 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1872
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1896
 msgid "Start or end of flapping state"
-msgstr ""
+msgstr "Începutul sau sfârșitul unei stări de flapping"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4777
 msgid "Start type"
-msgstr ""
+msgstr "Tipul începutului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4523
 msgid "Start!"
@@ -3644,11 +3663,11 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:188
 msgid "Start-URL to display in main frame"
-msgstr ""
+msgstr "URL de pornire pentru afișarea în cadru principal"
 
 #: /omd/sites/production/share/check_mk/web/plugins/webapi/webapi.py:152
 msgid "Starts a service discovery for the given hostname."
-msgstr ""
+msgstr "Începe o descoperire de servicii petnru host-ul dat."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4799
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7360
@@ -3672,129 +3691,129 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:338
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1873
 msgid "State"
-msgstr ""
+msgstr "Stare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:460
 msgid "State (severity) of event"
-msgstr ""
+msgstr "Stare (severitate) al evenimentului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1656
 msgid "State Retention Interval"
-msgstr ""
+msgstr "Interval de Retenție al Stării"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1104
 msgid "State and Count of Processes"
-msgstr ""
+msgstr "Starea și Numărul Proceselor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1105
 msgid "State and Count of Processes (with additional performance data)"
-msgstr ""
+msgstr "Starea și Numărul Proceselor (cu date de performanțe adiționale)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6241
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6260
 msgid "State and count of processes"
-msgstr ""
+msgstr "Starea și numărul proceselor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:171
 msgid "State classification"
-msgstr ""
+msgstr "Clasificarea stării"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:153
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:414
 msgid "State for connection refusal"
-msgstr ""
+msgstr "Starea pentru refuzul de conectare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:456
 msgid "State for expected string mismatch"
-msgstr ""
+msgstr "Starea pentru șirul așteptat dar nepotrivit"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2451
 msgid "State if just <i>some</i> agent sections are missing"
-msgstr ""
+msgstr "Starea dacă doar <i>unele</i> secțiuni ale agentului lipsesc"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4799
 msgid "State if no entry matches"
-msgstr ""
+msgstr "Starea dacă nici o intrare nu se potrivește"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1612
 msgid "State if tunnel is not found"
-msgstr ""
+msgstr "Starea dacă tunelul nu este găsit"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3544
 msgid "State in case of Archivelogmode is disabled: "
-msgstr ""
+msgstr "Starea în cazul în care Archivelogmode este dezactivat: "
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3538
 msgid "State in case of Archivelogmode is enabled: "
-msgstr ""
+msgstr "Starea în cazul în care Archivelogmode este activat: "
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3556
 msgid "State in case of Force Logging is disabled: "
-msgstr ""
+msgstr "Starea în cazul în care Force Logging este dezactivat: "
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3550
 msgid "State in case of Force Logging is enabled: "
-msgstr ""
+msgstr "Starea în cazul în care Force Logging este activat: "
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2446
 msgid "State in case of a overall timeout"
-msgstr ""
+msgstr "Starea în cazul unui timeout general"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1243
 msgid "State in case of absent updates"
-msgstr ""
+msgstr "Starea în cazul unor actualizări absente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2441
 msgid "State in case of connection problems"
-msgstr ""
+msgstr "Starea în cazul unor probleme cu conexiunea"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2456
 msgid "State in case of empty agent output"
-msgstr ""
+msgstr "Starea în cazul agentul nu returnează output"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3562
 msgid "State in case of logins are not possible: "
-msgstr ""
+msgstr "Starea în cazul în care login nu este posibil: "
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2466
 msgid "State in case of unhandled exception"
-msgstr ""
+msgstr "Starea în cazul unor excepții netratate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2461
 msgid "State in case of wrong agent version"
-msgstr ""
+msgstr "Starea în cazul versiunii de agent greșit"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2910
 msgid "State of ESX hosts and virtual machines"
-msgstr ""
+msgstr "Starea hoștilor ESX și mașinilor virtuale"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5369
 msgid "State of NTP time synchronisation"
-msgstr ""
+msgstr "Starea sincronizării timpului NTP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4903
 msgid "State of PDU Plugs"
-msgstr ""
+msgstr "Starea PDU Plugs"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16808
 msgid "State of a host"
-msgstr ""
+msgstr "Starea unui host"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16815
 msgid "State of a service"
-msgstr ""
+msgstr "Starea unui serviciu"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mkeventd.py:102
 msgid "State of event changed by user"
-msgstr ""
+msgstr "Starea unui eveniment schimbat de utilizator"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16829
 msgid "State of remaining services"
-msgstr ""
+msgstr "Starea serviciilr rămase"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:276
 msgid "State retention interval"
-msgstr ""
+msgstr "Starea intervalului de retenție"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4870
 msgid ""
@@ -3803,26 +3822,30 @@ msgid ""
 "the check and hard type being used. Please take examples from inventorized "
 "checks for reference."
 msgstr ""
+"Starea în care se așteaptă să fie disk-ul. Stări tipice sunt online, host "
+"spare, OK și altele asemănătoare. Modalitatea exactă pentru a specifica o "
+"stare depinde de check și tipul hard-ului folosit. Poți lua exemple de la "
+"check-urile inventariate pentru referință."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1741
 msgid "State when missing"
-msgstr ""
+msgstr "Starea când lipsește"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:769
 msgid "State when no backup can be found"
-msgstr ""
+msgstr "Starea când nu se poate găsi un backup"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:765
 msgid "State when no backup is configured"
-msgstr ""
+msgstr "Starea când backup nu este configurat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/paper_sizes.py:43
 msgid "Statement"
-msgstr ""
+msgstr "Declarație"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:687
 msgid "States"
-msgstr ""
+msgstr "Stări"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1697
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6520
@@ -3831,7 +3854,7 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6632
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6678
 msgid "States treated as critical"
-msgstr ""
+msgstr "Stări tratate ca fiind critice"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1690
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6513
@@ -3840,23 +3863,23 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6625
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6671
 msgid "States treated as warning"
-msgstr ""
+msgstr "Stări tratate ca fiind avertizări"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2533
 msgid "Statgrab Memory Usage"
-msgstr ""
+msgstr "Utilizarea Memoriei Statgrab"
 
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:488
 msgid "Static text"
-msgstr ""
+msgstr "Text static"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6173
 msgid "Statically configured Check_MK checks that do not rely on the inventory"
-msgstr ""
+msgstr "Check-urile Check_MK configurate static care nu depind de inventariere"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1679
 msgid "Statistics Interval"
-msgstr ""
+msgstr "Interval Statistici"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3245
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4788
@@ -3870,7 +3893,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:249
 msgid "Status Classification"
-msgstr ""
+msgstr "Clasificarea Statusului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:41
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1838
@@ -3879,7 +3902,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:277
 msgid "Status Grouping"
-msgstr ""
+msgstr "Grupare după Status"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:143
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1507
@@ -3891,7 +3914,7 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:912
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:76
 msgid "Status detail"
-msgstr ""
+msgstr "Detalii status"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10033
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10035
@@ -3901,113 +3924,116 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1068
 msgid "Status of Host"
-msgstr ""
+msgstr "Starea Host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2238
 msgid "Status of Linux bonding interfaces"
-msgstr ""
+msgstr "Starea interfețelor Linux în bond"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1238
 msgid "Status of a single service, to be used for linking"
-msgstr ""
+msgstr "Statusul unui singur serviciu, folosit pentru conectare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1286
 #, python-format
 msgid "Status of last synchronization: <b>%s</b>"
-msgstr ""
+msgstr "Statusului ultimei sincronizări: <b>%s</b>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2471
 msgid "Status of the Check_MK service"
-msgstr ""
+msgstr "Statusul serviciului Check_MK"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:729
 #, python-format
 msgid "Step %d"
-msgstr ""
+msgstr "Pas: %d"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:609
 msgid "Step (precision)"
-msgstr ""
+msgstr "Pas (precizie)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:718
 msgid "Still nothing happened."
-msgstr ""
+msgstr "Încă nu s-a întâmplat nimic"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:484
 msgid "Stop Editing"
-msgstr ""
+msgstr "Opri Editarea"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:124
 msgid "Stopped"
-msgstr ""
+msgstr "Oprit"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:419
 msgid "Storage"
-msgstr ""
+msgstr "Stocare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:37
 msgid "Storage, Filesystems and Files"
-msgstr ""
+msgstr "Stocare, Sisteme de fișiere și Fișiere"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/globals_notification.py:60
 msgid "Store notifications for rule analysis"
-msgstr ""
+msgstr "Salvează notificările pentru analize viitoare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:360
 msgid "Store output value into RRD database"
-msgstr ""
+msgstr "Salvează valoarea de ieșire în bazed de date RRD"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/backup_domains.py:142
 msgid "Stored SNMP Walks"
-msgstr ""
+msgstr "SNMP Walks salavate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:531
 msgid "Street name"
-msgstr ""
+msgstr "Nume stradă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:533
 msgid "Street number"
-msgstr ""
+msgstr "Număr stradă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:57
 msgid "Strict - Must be contact of all members"
-msgstr ""
+msgstr "Strict - Trebuie să fie contact al tuturor membrilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:47
 msgid "Strict - Must be explicit contact of a service"
-msgstr ""
+msgstr "Strict - Trebuie să fie contact explicit al serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:644
 msgid "String to be sent in http header as \"User Agent\""
-msgstr ""
+msgstr "Șir pentru a fi trimis în header-ul http ca \"User Agent\""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1002
 msgid ""
 "String to expect in first line of server response. The default is <tt>220</"
 "tt>."
 msgstr ""
+"Șir de așteptat în prima linie al răspunsului de la server. Împlicit este "
+"<tt>220</tt>."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:700
 msgid "String to expect in response headers"
-msgstr ""
+msgstr "Șir așteptat în header-ele răspuns"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:162
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:423
 msgid "String to send"
-msgstr ""
+msgstr "Șir de trimis"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:499
 msgid "String to send server to initiate a clean close of the connection"
 msgstr ""
+"Șir de trimis la server pentru a inițializa închiderea unei conexiuni"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:167
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:434
 msgid "Strings to expect in response"
-msgstr ""
+msgstr "Șir de așteptat în răspuns"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:705
 msgid "Strings to expect in server response"
-msgstr ""
+msgstr "Șir de așteptat în răspunsul serverului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16896
 msgid ""
