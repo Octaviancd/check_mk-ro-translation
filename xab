@@ -793,14 +793,21 @@ msgid ""
 "reschedule button). If you want to change the check interval of the Check_MK "
 "service only, specify <tt><b>Check_MK$</b></tt> in the list of services."
 msgstr ""
+"Check_MK foloseste de obicei un interval de un minute pentru check-urile "
+"active Check_MK si cele legacy. Aici se poate specifica un interval mai mare "
+"Atentie ca aceasta setare se aplica doar pentru checkurile active (cele cu "
+" %s buton de reprogramare.) Daca vreti sa modificati intervalul de check "
+"doar pentru serviciul Check_MK, specificati <tt><b>Check_MK$</b></tt> in "
+"lista de servicii."
+
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1211
 msgid "Check_MK with times performance data"
-msgstr ""
+msgstr "Check_MK cu date de performanata."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/notify.py:278
 msgid "Check_MK: Notification"
-msgstr ""
+msgstr "Check_MK: Notificare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12833
 msgid "Checkbox"
@@ -808,12 +815,12 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:93
 msgid "Checkbox Selection Livetime"
-msgstr ""
+msgstr "Timpul de viata al selectiei Checkbox "
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:533
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:948
 msgid "Checked"
-msgstr ""
+msgstr "Verificat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3246
 msgid "Checkplugin"
@@ -821,63 +828,64 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3955
 msgid "Checkpoint Firewall Connections"
-msgstr ""
+msgstr "Conexiunile pentru Checkpoint Firewall"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3972
 msgid "Checkpoint Firewall Packet Rates"
-msgstr ""
+msgstr "Rata de packete pentru Checkpoint Firewall"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6672
 msgid "Checksum invalid and not signed"
-msgstr ""
+msgstr "Checksum invalid si nesemnat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6675
 msgid "Checksum not available"
-msgstr ""
+msgstr "Checksum-ul nu este disponibil"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6669
 msgid "Checksum valid and signed"
-msgstr ""
+msgstr "Checkum valid si semnat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15320
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1825
 msgid "Checktype"
-msgstr ""
+msgstr "Tipul de check"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17123
 msgid "Child Node Generation"
-msgstr ""
+msgstr "Generarea de noduri copii"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12834
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13198
 msgid "Choices"
-msgstr ""
+msgstr "Optiuni"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:3206
 msgid "Choose another Icon"
-msgstr ""
+msgstr "Alege alta iconita"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:140
 msgid "Choose the type of action to perform"
-msgstr ""
+msgstr "Alege tipul de actiune de executat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:3222
 msgid "Choose this Icon"
-msgstr ""
+msgstr "Alege aceasta icoana."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:521
 msgid ""
 "Choose, whether you just want to query the version number, or if you want to "
 "check the response to an address query."
 msgstr ""
-
+"Alegeti daca vreti sa interogati numarul versiunii sau daca vreti sa "
+"verificati raspunsul cu un query de adresa"
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2559
 msgid "Cisco Memory Usage"
-msgstr ""
+msgstr "Utilizarea memoriei pentru Cisco"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2628
 msgid "Cisco Nexus Supervisor Memory Usage"
-msgstr ""
+msgstr "Utilizarea memoriei pentru Cisco Nexus Supervisor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1730
 msgid "Cisco WLAN AP"
@@ -885,36 +893,36 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2441
 msgid "Cisco quality of service"
-msgstr ""
+msgstr "Cisco - calitatea serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6419
 msgid "Citrix Server load"
-msgstr ""
+msgstr "Incarcarea pentru Citrix Server"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6430
 msgid "Citrix Terminal Server Sessions"
-msgstr ""
+msgstr "Numarul de sesiuni pentru Citrix Terminal Server"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:535
 msgid "City name"
-msgstr ""
+msgstr "Numele orasului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1184
 msgid "Classical active and passive Nagios checks"
-msgstr ""
+msgstr "Check-uri active si pasive clasice Nagios"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2565
 msgid "Classical check"
-msgstr ""
+msgstr "Check Clasic"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:201
 msgid "Classical web GUI"
-msgstr ""
+msgstr "Interfata web clasica"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4022
 #, python-format
 msgid "Cleaned %d attributes of host %s in bulk mode"
-msgstr ""
+msgstr "Au fost sterse %d atribute al hostului %s in modul bulk"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1354
 msgid "Cleanup"
@@ -923,23 +931,23 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:159
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4596
 msgid "Clear Log"
-msgstr ""
+msgstr "Sterge logul"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:161
 msgid "Clear Logs"
-msgstr ""
+msgstr "Sterge logurile"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1082
 msgid "Clear Rule"
-msgstr ""
+msgstr "Curata regula"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:158
 msgid "Clear modified attributes"
-msgstr ""
+msgstr "Curata atributele modificate"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:5098
 msgid "Cleared audit log."
-msgstr ""
+msgstr "Logul de audit a fost curatat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:790
 msgid "Clickable URLs"
@@ -947,48 +955,50 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/mkeventd.py:54
 msgid "Client connects"
-msgstr ""
+msgstr "Conexiunile clientilor"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12390
 msgid "Clone"
-msgstr ""
+msgstr "Cloneaza"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:694
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:564
 #, python-format
 msgid "Clone %s"
-msgstr ""
+msgstr "Cloneaza %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18564
 msgid ""
 "Clone existing hosts to create new ones from the existing one.Please also "
 "add the permission <i>Add & remove hosts</i>."
 msgstr ""
+"Cloneaza hostii existenti pentru a crea unii noi din cei existenti. "
+"De asemenea adauga permisiunea <i>Adauga si sterge Hosti</i>."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18563
 msgid "Clone hosts"
-msgstr ""
+msgstr "Cloneaza hostii"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:1001
 #, python-format
 msgid "Clone report schedule entry %d"
-msgstr ""
+msgstr "Cloneaza programarea raportului %d"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10008
 msgid "Clone this connection in order to create a new one"
-msgstr ""
+msgstr "Cloneaza aceasta conexiune pentru a crea una noua"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:907
 msgid "Clone this element element"
-msgstr ""
+msgstr "Cloneaza acest element"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:638
 msgid "Clone this fixel element"
-msgstr ""
+msgstr "Cloneaza acest element fix"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:604
 msgid "Clone this schedule entry"
-msgstr ""
+msgstr "Cloneaza aceasta programare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1578
 msgid "Close Timewarp"
@@ -1000,6 +1010,9 @@ msgid ""
 "default the number of read bytes is not limited. This setting is only used "
 "if you expect strings in the response."
 msgstr ""
+"Inchide conexiunea daca se depaseste numarul de bytes primiti. "
+"Defaultul numarului de bytes primiti nu este limitat. Aceasta setare"
+"este utilizata doar daca se asteapta text in raspuns"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2005
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2226
