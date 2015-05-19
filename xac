@@ -1809,91 +1809,93 @@ msgstr "Timpul de răspuns așteptat."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1018
 msgid "Expected responses to the given SMTP commands."
-msgstr ""
+msgstr "Răspunsurile așteptate la comenzile SMTP date."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4770
 msgid "Expected state"
-msgstr ""
+msgstr "Starea așteptată"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1235
 msgid "Expected update interval"
-msgstr ""
+msgstr "Intervalul de actualizare așteptat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:310
 msgid "Expire acknowledgement after"
-msgstr ""
+msgstr "Confirmarea expiră după"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:526
 msgid "Expire events that are in the state <i>acknowledged</i>"
-msgstr ""
+msgstr "Expiră evenimentele care sunt in starea <i>confirmat<i>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:525
 msgid "Expire events that are in the state <i>open</i>"
-msgstr ""
+msgstr "Expiră evenimentele care sunt in starea <i>deschis<i>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1582
 msgid "Expires"
-msgstr ""
+msgstr "Expiră"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:534
 msgid "Explanation for event action"
-msgstr ""
+msgstr "Explicație pentru acțiunea evenimentului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1982
 msgid "Explicit Queue Names"
-msgstr ""
+msgstr "Numele explicit al Cozii"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16451
 msgid "Explicit call "
-msgstr ""
+msgstr "Apelare explicită"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:2131
 msgid "Explicit date..."
-msgstr ""
+msgstr "Data explicită..."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15607
 msgid "Explicit host name mapping"
-msgstr ""
+msgstr "Mapare explicită a numelui host-ului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14876
 msgid "Explicit hosts"
-msgstr ""
+msgstr "Host-uri explicite"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/bi.py:78
 msgid "Explicit number"
-msgstr ""
+msgstr "Număr explicit"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3336
 msgid "Explicit tablespaces"
-msgstr ""
+msgstr "Tablespace-uri explicite"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:2145
 msgid "Explicit time..."
-msgstr ""
+msgstr "Timp explicit..."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/inventory.py:50
 msgid "Export List of Software packages as CSV file"
-msgstr ""
+msgstr "Exportă Lista pachetelor Software ca fișier CSV"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1058
 msgid "Export WATO folder permissions"
-msgstr ""
+msgstr "Exportă permisiunile folder-ului WATO"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/htmllib.py:886
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:116
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1495
 msgid "Export as CSV"
-msgstr ""
+msgstr "Exportă ca CSV"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:1522
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:145
 msgid "Export as PDF"
-msgstr ""
+msgstr "Exportă ca PDF"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/inventory.py:54
 msgid ""
 "Export file to create, containing <tt>&lt;HOST&gt;</tt> for the hostname"
 msgstr ""
+"Exporta fișierul pentru creare, conținând <tt>&lt;HOST&gt;</tt> ca și nume"
+" de host"
 
 #: /omd/sites/production/share/check_mk/web/plugins/userdb/user_attributes.py:44
 msgid "Export only hosts and services the user is a contact for"
@@ -1902,19 +1904,19 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3930
 msgid "F5 Loadbalancer Connections"
-msgstr ""
+msgstr "Conexiuni ale Loadbalancer-ului F5"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4015
 msgid "F5 Loadbalancer Pools"
-msgstr ""
+msgstr "Plaje ale Loadbalancer-ului F5"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5177
 msgid "FAN speed of Hardware devices"
-msgstr ""
+msgstr "Viteza ventilatoarelor echipamentelor Hardware"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:300
 msgid "FC Ports"
-msgstr ""
+msgstr "Porturi FC"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:821
 msgid "FILTER NOT IMPLEMENTED"
@@ -1938,7 +1940,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3120
 msgid "FPGA utilization"
-msgstr ""
+msgstr "Utilizare FPGA"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1032
 msgid "FQDN"
@@ -1946,15 +1948,15 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1033
 msgid "FQDN used for HELO"
-msgstr ""
+msgstr "FQDN folosit pentru HELO"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1023
 msgid "FROM-Address"
-msgstr ""
+msgstr "Adresa FROM"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1024
 msgid "FROM-address to include in MAIL command, required by Exchange 2000"
-msgstr ""
+msgstr "Adresa FROM de inclus in comanda MAIL, necesar pentru Exchange 2000"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1034
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:434
@@ -1963,43 +1965,43 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6723
 msgid "Factory Reset"
-msgstr "Reseteaza la setarile initiale"
+msgstr "Reset la setările de fabrică"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7357
 msgid "Failed"
-msgstr ""
+msgstr "Eșuat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3848
 msgid "Failed hosts"
-msgstr ""
+msgstr "Host-uri inaccesibile"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17879
 #, python-format
 msgid "Failed to inventorize %s: %s"
-msgstr ""
+msgstr "A eșuat inventarierea %s: %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3724
 #, python-format
 msgid "Failed to inventorize %s: %s<br>"
-msgstr ""
+msgstr "A eșuat innventarierea %s: %s<br>"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9564
 #, python-format
 msgid "Failed to parse file: %s"
-msgstr ""
+msgstr "Parsarea fișierului %s a eșuat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/notify.py:231
 #, python-format
 msgid "Failed to sent %s notifications to the following users"
-msgstr ""
+msgstr "Trimiterea notificărilor %s către urmatorii utilizatori a eșuat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1287
 msgid "Failed!"
-msgstr ""
+msgstr "Eșuat!"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:672
 msgid "Failover Servers"
-msgstr ""
+msgstr "Servere Failover"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:167
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:214
@@ -2007,56 +2009,56 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:223
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:224
 msgid "Fake check results"
-msgstr ""
+msgstr "Rezultatele verificării simulate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:294
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:503
 msgid "Fallback Contact Groups"
-msgstr ""
+msgstr "Grupurile de Contacte de rezervă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/globals_notification.py:47
 msgid "Fallback email address for rule based notifications"
-msgstr ""
+msgstr "Adresa de email de rezervă pentru notificările bazate pe reguli"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1619
 msgid "Fallback if master comes back within"
-msgstr ""
+msgstr "Fallback dacă master-ul revine între"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:279
 msgid "False"
-msgstr ""
+msgstr "Fals"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5202
 msgid "Fan Name"
-msgstr ""
+msgstr "Numele ventilatorului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:919
 msgid "Favorite Hosts"
-msgstr ""
+msgstr "Host-uri Favorite"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:919
 msgid "Favorite Services"
-msgstr ""
+msgstr "Servicii Favorite"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:283
 msgid "Favorite services"
-msgstr ""
+msgstr "Servicii favorite"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:612
 msgid "Favorites"
-msgstr ""
+msgstr "Favorite"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:122
 msgid "Favourite hosts"
-msgstr ""
+msgstr "Host-uri favorite"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:2100
 msgid "February"
-msgstr ""
+msgstr "Februarie"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:739
 msgid "Fetch all available sub OIDs"
-msgstr ""
+msgstr "Fetch toate sub OID-urile disponibile"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4173
 msgid "Fetches"
@@ -2064,107 +2066,113 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6696
 msgid "FibreChannel Ports (FCMGMT MIB)"
-msgstr ""
+msgstr "Porturile de FibreChannel (FCMGMT MIB)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1305
 msgid "File Group Name"
-msgstr ""
+msgstr "Numele Grupului de Fișiere"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1146
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1308
 msgid "File Grouping Patterns"
-msgstr ""
+msgstr "Șablon pentru Gruparea Fișierelor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1107
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1341
 msgid "File name"
-msgstr ""
+msgstr "Numele fișierului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:271
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:844
 msgid "File patterns must begin with <tt>/</tt> and must not contain spaces."
 msgstr ""
+"Modelele fișierelor trebuie să inceapă cu <tt>/</tt> și trebuie să nu "
+"contină spații"
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/fixed_elements.py:169
 #: /omd/sites/production/share/check_mk/web/plugins/views/wato.py:32
 msgid "Filename"
-msgstr ""
+msgstr "Numele fișierului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:128
 msgid "Filename / Directory"
-msgstr ""
+msgstr "Numele fișierului/directorului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:354
 msgid "Filename for attached PDF"
-msgstr ""
+msgstr "Numele fișierului PDF atașat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2375
 msgid "Files with performance counters"
-msgstr ""
+msgstr "Fișiere cu contoare de performanță"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:427
 msgid "Filesystem Node"
-msgstr ""
+msgstr "Noduri ale systemului de fișiere"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1114
 msgid "Filesystem grouping patterns"
-msgstr ""
+msgstr "Modele de grupare a systemului de fișiere"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:951
 msgid "Filesystem mount options (Linux/UNIX)"
-msgstr ""
+msgstr "Opțiunile de montare a systemului de fișiere (Linux/UNIX)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2177
 msgid "Filesystems (used space and growth)"
-msgstr ""
+msgstr "Systeme de fișiere (spațiul utilizat si creșterea utilizării"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:210
 msgid "Filesystems (volumes, drives)"
-msgstr ""
+msgstr "Sisteme de fișiere (volume, discuri)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:249
 msgid "Filter"
-msgstr ""
+msgstr "Filtrează"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:262
 msgid "Filter / Search"
-msgstr ""
+msgstr "Filtrează / Caută"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:813
 msgid "Filter Group (Only use in special situations)"
-msgstr ""
+msgstr "Grup de filtrare (Utilizat doar în situații speciale)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/bi.py:148
 msgid ""
 "Filter for all aggregations that are affected by one specific service on a "
 "specific host (no regular expression)"
 msgstr ""
+"Filtrează după toate agregările care sunt afectate de un serviciu specific pe "
+"un host specific (fară expresii regulate)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/bi.py:122
 msgid ""
 "Filter for all aggregations that base on status information of that host. "
 "Exact match (no regular expression)"
 msgstr ""
+"Filtrează după toate agregările in funcție de statusul informațiilor acelui "
+"host. Potrivireexactă (fară expresii regulate)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:1024
 msgid "Filters"
-msgstr ""
+msgstr "Filtre"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:498
 msgid "Final string to send"
-msgstr ""
+msgstr "Șirul final de caractere pentru trimitere"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:684
 msgid "Finally archive an event without any further action"
-msgstr ""
+msgstr "La final arhivează un eveniment fară alte acțiuni ulterioare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3872
 msgid "Find new &amp; remove obsolete"
-msgstr ""
+msgstr "Gasește un nou  &amp; elimina-le pe cele vechi"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3870
 msgid "Find only new services"
-msgstr ""
+msgstr "Gasește doar servicii noi"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:313
 msgid "Finetune Windows Eventlog monitoring"
