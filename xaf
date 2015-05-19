@@ -474,7 +474,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:848
 msgid "Replace umlauts like \"&uuml;\" with \"ue\""
-msgstr "Înlocuiește diacritice precum \"&uuml;\ cu \"ue\""
+msgstr "Înlocuiește diacritice precum \"&uuml;\" cu \"ue\""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:128
 msgid "Replace with underscores"
@@ -2261,7 +2261,7 @@ msgstr "Date de performantă al serviciului - valoarea numărul 9"
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:233
 #, python-format
 msgid "Service performance data - value number %02d"
-msgstr "Date de performantă al serviciului - valoarea numărul %02d""
+msgstr "Date de performantă al serviciului - valoarea numărul %02d"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:458
 msgid "Service performance data - value number 10"

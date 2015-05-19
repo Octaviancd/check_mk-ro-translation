@@ -15,7 +15,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:7040
 msgid "Minimum number of matched tasks for WARNING state"
-msgstr "Numărul minim de sarcini potrivite pentru starea ATENȚONARE""
+msgstr "Numărul minim de sarcini potrivite pentru starea ATENȚONARE"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4017
 msgid "Minimum number of pool members"
@@ -33,7 +33,7 @@ msgstr "Timpul de funcționare minim necesar"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:1871
 msgid "Minute"
-msgstr "Minut""
+msgstr "Minut"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15400
 msgid "Minute of the hour (0-59)"
@@ -41,7 +41,7 @@ msgstr "Minutul orei (0-59)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:453
 msgid "Minutes"
-msgstr "Minute""
+msgstr "Minute"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:506
 msgid "Mirror margins"
@@ -256,7 +256,7 @@ msgid "Monitor the performance of the Event Console"
 msgstr "Monitorizează performanța Consolei de Evenimente"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10831
-msgid "Monitored on site”
+msgid "Monitored on site"
 msgstr "Monitorizate în locație"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:52
@@ -350,6 +350,7 @@ msgid ""
 msgstr ""
 "Mută elementele existente în alte directoare. Te rog să adaugi permisiunea"
 "<i>Modificare a elementelor existente</i>."
+
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:620
 msgid "Move this element one position down"
 msgstr "Mută acest element o poziție mai jos"

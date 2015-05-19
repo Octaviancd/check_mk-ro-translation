@@ -888,7 +888,7 @@ msgstr "<i>%d mai multe grupuri de contact</i><br>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/globals_notification.py:52
 msgid "<i>(No fallback email address configured!)</i>"
-msgstr "<i>(Nici o adresă de rezervă configurată!)</i>""
+msgstr "<i>(Nici o adresă de rezervă configurată!)</i>"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11792
 msgid "<i>not a contact</i>"
@@ -998,8 +998,8 @@ msgstr ""
 "actual în timpul inventarierii. Ai nevoie de așa ceva dacă regula ar putea să "
 "se potrivească la mai mulți utilizatori - s-ar crea servicii duplicate cu "
 "aceeași descriere.</p><p>Utilizatorii Windows sunt specificați după namespace "
-"urmat de numele utilizatorului actual. Spre exemplu \"\\\NT AUTHORITY\\"
-"NETWORK SERVICE\" sau \"\\\CHMKTEST\\Administrator\".</p> "
+"urmat de numele utilizatorului actual. Spre exemplu \"\\\\NT AUTHORITY\\"
+"NETWORK SERVICE\" sau \"\\\\CHMKTEST\\Administrator\".</p> "
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8908
 #, python-format
@@ -1014,7 +1014,7 @@ msgstr ""
 "configurația globală. Regulile pe care le editezi aici vor vea un efect "
 "numai pentru notificările generate de către Consola de Evinemente. Alertele "
 "normale de monitorizare <b>nu</b> vor utiliza aceste reguli acum.<br><br> "
-"Poți schimba aceste setări <a href=\"%s\">aici</a>.""
+"Poți schimba aceste setări <a href=\"%s\">aici</a>."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:86
 msgid ""

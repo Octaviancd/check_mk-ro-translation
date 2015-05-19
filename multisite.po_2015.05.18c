@@ -16801,7 +16801,6 @@ msgid ""
 msgstr ""
 "Mută elementele existente în alte directoare. Te rog să adaugi permisiunea"
 "<i>Modificare a elementelor existente</i>."
-
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:620
 msgid "Move this element one position down"
 msgstr "Mută acest element o poziție mai jos"
