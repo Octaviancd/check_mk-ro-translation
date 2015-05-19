@@ -4040,21 +4040,23 @@ msgid ""
 "Subexpressions enclosed in <tt>(</tt> and <tt>)</tt> will be available as "
 "arguments <tt>$2$</tt>, <tt>$3$</tt>, etc."
 msgstr ""
+"Subexpresii în <tt>(</tt> and </tt>)</tt> for vi disponibile ca argumente "
+"<tt>$2$</tt>m <tt>$3</tt>, etc."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:348
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:156
 msgid "Subject"
-msgstr ""
+msgstr "Subiect"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:46
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:125
 msgid "Subject for host notifications"
-msgstr ""
+msgstr "Subiect pentru notificările de host"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:55
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:134
 msgid "Subject for service notifications"
-msgstr ""
+msgstr "Subiect pentru notificările de servicii"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:765
 msgid "Submit"
@@ -4062,14 +4064,14 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/crashed_check.py:82
 msgid "Submit Report"
-msgstr ""
+msgstr "Prezintă Raportul"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7355
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11001
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11152
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1287
 msgid "Success"
-msgstr ""
+msgstr "Succes"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2066
 #, python-format
@@ -4078,96 +4080,99 @@ msgid ""
 "discovery</a> in order to auto-configure all services to be checked on this "
 "host."
 msgstr ""
+"Creat cu succes host-ul. Acum ar trebui să faci o <a href="\%s\"descoperire "
+"de servicii</a> pentru auto-configurarea tuturor serviciile ce vor fi "
+"verificate pe acest host."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1671
 #, python-format
 msgid "Successfully deleted %d hosts"
-msgstr ""
+msgstr "Eliminat cu succes %d hoști"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4717
 msgid "Successfully discarded all pending changes."
-msgstr ""
+msgstr "Eliminate cu succes toate modificările în așteptare."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9944
 #, python-format
 msgid "Successfully logged into remote site '%s'"
-msgstr ""
+msgstr "Contectat cu succes la site-ul remote '%s'"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9945
 #, python-format
-msgid "Successfully logged into remote site '%s'!"
-msgstr ""
+msgid "Successfully logged into remote site '%s'"
+msgstr "Conectat cu succes la site-ul remote '%s'"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:947
 #, python-format
 msgid "Successfully moved %d hosts to %s"
-msgstr ""
+msgstr "Mutat cu succes %d hoști către %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3513
 #, python-format
 msgid "Successfully moved %d hosts to their original folder destinations."
-msgstr ""
+msgstr "Mutat cu succes %d hoști către folder-ul destinațue original."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6906
 msgid "Successfully restored snapshot."
-msgstr ""
+msgstr "Restaurat cu succes snapshot-ul."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:380
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:1938
 #, python-format
 msgid "Successfully sent %d commands."
-msgstr ""
+msgstr "Trimis cu succes %d comenzi."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2018
 #, python-format
 msgid "Successfully updated IP addresses of %d hosts."
-msgstr ""
+msgstr "Actualizat cu success adresele IP la %d hoști."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15877
 msgid "Successfully updated user profile."
-msgstr ""
+msgstr "Actualizat cu succes profilul de utilizator."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1432
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:635
 msgid "Summary"
-msgstr ""
+msgstr "Sumar"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:315
 msgid "Summary hosts"
-msgstr ""
+msgstr "Hoști rezumat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:488
 msgid "Summary line"
-msgstr ""
+msgstr "Linie Rezumat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4413
 msgid "Summary of all disks"
-msgstr ""
+msgstr "Rezumat al tuturor disk-urilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4414
 msgid "Summary of disk input (read)"
-msgstr ""
+msgstr "Rezumat al intrărilor pe disk (citire)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4415
 msgid "Summary of disk output (write)"
-msgstr ""
+msgstr "Rezumat la ieșirile pe disk (scriere)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9681
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:1756
 msgid "Sunday"
-msgstr ""
+msgstr "Duminică"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:160
 msgid "Support 4.1"
-msgstr ""
+msgstr "Suport 4.1"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:159
 msgid "Support ESX 4.1 (using slower PySphere implementation)"
-msgstr ""
+msgstr "Suport ESX 4.1 (folosind o implementare PySphere mai lentă)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2937
 msgid "Suspended"
-msgstr ""
+msgstr "Suspendat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4792
 msgid "Sv."
@@ -4175,7 +4180,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:507
 msgid "Swap left and right margins on pages with even numbers"
-msgstr ""
+msgstr "Schimbă marginile stânga și dreapta pe paginile cu număr pare."
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:964
 #, python-format
@@ -4184,18 +4189,18 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1301
 msgid "Switch back to sync mode!"
-msgstr ""
+msgstr "Schimbă înapoi la modul sync!"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4884
 msgid "Switch contact state"
-msgstr ""
+msgstr "Comută starea contactului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1476
 msgid "Switch slave replication mode"
-msgstr ""
+msgstr "Comută modul de replicare al site-ului sclav"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1299
 msgid "Switch to Takeover mode!"
-msgstr ""
+msgstr "Comută la modul Takeover!"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1258
