@@ -2176,35 +2176,35 @@ msgstr "Gasește doar servicii noi"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:313
 msgid "Finetune Windows Eventlog monitoring"
-msgstr ""
+msgstr "Ajustare precisă a monitorizării Eventlog-ului de Windows"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:5457
 msgid "Finish"
-msgstr ""
+msgstr "Finalizează"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:356
 msgid "First"
-msgstr ""
+msgstr "Primul"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:188
 msgid "First occurrance of event"
-msgstr ""
+msgstr "Prima aparitie a evenimentului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:68
 msgid "First page"
-msgstr ""
+msgstr "Prima pagina"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13475
 msgid "Fix affected folders, hosts and rules."
-msgstr ""
+msgstr "Repară folderele, host-urile și regulile afectate."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3193
 msgid "Fix all missing/exceeding"
-msgstr ""
+msgstr "Repară serviciile lipsă/în plus"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15528
 msgid "Fixed Levels"
-msgstr ""
+msgstr "Nivele Prestabilite"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:390
 msgid "Fixed el."
@@ -2212,15 +2212,15 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:632
 msgid "Fixed page elements"
-msgstr ""
+msgstr "Elemente prestabilite ale paginii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:697
 msgid "Fixed rate"
-msgstr ""
+msgstr "Rata Prestabilita"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:715
 msgid "Fixed string to expect in the content"
-msgstr ""
+msgstr "Sir de caractere prestabilit a fi așteptat în context"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:655
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1047
@@ -2229,7 +2229,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:940
 msgid "Flap Detection"
-msgstr ""
+msgstr "Detectare Flapping"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8984
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:363
@@ -2243,12 +2243,12 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2603
 msgid "Flash Space Usage"
-msgstr ""
+msgstr "Utilizarea Spatiului pe Flash"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11501
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11632
 msgid "Flexible Custom Notifications"
-msgstr ""
+msgstr "Notificari Flexibile Personalizate"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1996
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2515
@@ -2279,32 +2279,35 @@ msgstr "Proprietatile Folderului"
 msgid ""
 "Folder attributes locked (You cannot edit the attributes of this folder)"
 msgstr ""
+"Atributele folderului blocate (Nu poți edita atributele acestui folder)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1780
 msgid ""
 "Folder attributes locked. You cannot change the attributes of this folder."
 msgstr ""
+"Atributele folderului blocate. Nu poți modifica atributele acestui folder."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17671
 msgid "Folder does not exist and no permission to create folders"
-msgstr ""
+msgstr "Folderul nu există și nu aveti dreptul de a crea foldere"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:980
 msgid "Folder is locked (You cannot create or remove folders in this folder)"
-msgstr ""
+msgstr "Folderul este blocat (Nu poți crea sau sterge foldere în acest folder)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1775
 msgid "Folder is locked. You cannot create or remove a folders in this folder."
-msgstr ""
+msgstr "Folderul este blocat. Nu poți crea sau sterge foldere în acest folder."
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/wato.py:293
 msgid "Folders"
-msgstr ""
+msgstr "Foldere"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1006
 msgid ""
 "Folders group your hosts, can inherit attributes and can have permissions."
 msgstr ""
+"Folderele grupeaza host-urile, poate moșteni atribute și poate avea permisiuni."
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/paper_sizes.py:44
 msgid "Folio"
@@ -2312,23 +2315,23 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:692
 msgid "Follow the redirection"
-msgstr ""
+msgstr "Urmează redirectarea"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:693
 msgid "Follow, but stay to same IP address"
-msgstr ""
+msgstr "Urmează, dar ramâi la aceeași adresa IP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:694
 msgid "Follow, but stay to same IP-address and port"
-msgstr ""
+msgstr "Urmează, dar ramâi la aceeași adresa IP și port"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:463
 msgid "Font family"
-msgstr ""
+msgstr "Familie de fonturi"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:175
 msgid "Font size"
-msgstr ""
+msgstr "Dimensiune font"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:726
 msgid "Foobar-Daemon"
@@ -2340,22 +2343,31 @@ msgid ""
 "<tt>md0</tt>, for hardware raids please refer to the manual of the actual "
 "check being used."
 msgstr ""
+"Pentru Linux MD săpecifică numele device-ului fară <tt>/dev/</tt>, de exemplu "
+"<tt>md0</tt>, pentru raid hardware consultați va rog manualul check-ului "
+"utilizat efectiv."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4586
 msgid ""
 "For Linux multipathing this is either the UUID (e.g. "
 "60a9800043346937686f456f59386741), or the configured alias."
 msgstr ""
+"Pentru multipath-ul pe Linux acesta este fie UUID-ul (de exemplu "
+"60a9800043346937686f456f59386741), sau alias-ul configurat."
+
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2184
 msgid ""
 "For Linux/UNIX systems, specify the mount point, for Windows systems the "
 "drive letter uppercase followed by a colon and a slash, e.g. <tt>C:/</tt>"
 msgstr ""
+"Pentru sistemele Linux/UNIX, specifică mount point-ul, pentru sistemel Windows"
+" litera mare adrive-ului urmata de doua puncte si un slash, de exemplu <tt>C:/"
+"</tt>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4574
 msgid "For NFS enter the name of the mount point."
-msgstr ""
+msgstr "Pentru NFS introdu numele mount point-ului."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4420
 msgid ""
@@ -2365,6 +2377,12 @@ msgid ""
 "Windows (e.g. <tt>C:/</tt>) or by the device name on Linux/UNIX (e.g. <tt>/"
 "dev/sda</tt>)."
 msgstr ""
+"Pentru un throughput însumat al tuturor discurilor, specificați <tt>SUMMARY"
+"</tt>, pentru suma throughput-ului la citire sau scriere specifica <tt>citire"
+"</tt>, respectiv <tt>scriere</tt>. IO-ul per disc este specificat prin litera "
+"drive-ului. doua puncte și un slash în cazul Windows-ului (exemplu <tt>C:/"
+"</tt>) sau prin numele device-ului în cazul Linux/UNIX (exemplu <tt>/dev/sda"
+"</tt>)."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2918
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:36
@@ -2376,6 +2394,13 @@ msgid ""
 "SSH. The command line may contain the placeholders <tt>&lt;IP&gt;</tt> and "
 "<tt>&lt;HOST&gt;</tt>."
 msgstr ""
+"Pentru check-urile bazate pe agent Chack_MK vă permite să specificați un "
+"program alternativ pentru a fi rulat de Check_MK în loc sa se contacteze via "
+"TCP agentul. Acest program trebuie să returneze datele agentului către output-"
+"ul standard în același format ca și agentul. Această metodă este folositoare "
+"în cazul monitorizării prin SSH. Linia de comandă poate conține substituenți "
+"<tt>&lt;IP&gt;</tt> și <tt>&lt;HOST&gt;</tt>."
+
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:814
 msgid ""
@@ -2383,10 +2408,13 @@ msgid ""
 "you can specify the address if it differs from the  address from the host "
 "primary address."
 msgstr ""
+"Pentru fiecare certificat SSL pe un host, o adresă IP diferita este necesară."
+"Aici, se poate specifica adresa dacă este diferită de adresa primară a host"
+"-ului" 
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6396
 msgid "For example <tt>VMware vSphere 5 Standard</tt>"
-msgstr ""
+msgstr "De exemplu <tt>VMware vSphere 5 Standard</tt>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:178
 msgid ""
@@ -2395,6 +2423,10 @@ msgid ""
 "The size of this pool is configured here. This is identical with the maximum "
 "number of concurrent Check_MK checks."
 msgstr ""
+"Pentru rularea check-urilor bazate pe agent Check_MK folosind Micro Core, "
+"păstrează o serie de helperi specializați care accelerează Check_MK evitând "
+"crearea de procese. Numărul acestora poate fi configurat aici. Acesta este "
+"identică cu numarul maxim de check-uri Check_MK concurente."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:277
 msgid ""
