@@ -4,14 +4,12 @@ msgid ""
 "When this option is used the URL is not checked."
 msgstr ""
 "Numarul minim de zile cat certificatul trebuie să fie valid. Portul implicit "
-"443. "
-"Când este folosită această opțiune URL-ul nu este verificat."
+"443. Când este folosită această opțiune URL-ul nu este verificat."
 
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:7044
 msgid "Minimum number of matched tasks for OK state"
-msgstr ""
-"Numărul minim de sarcini potrivite pentru starea OK "
+msgstr "Numărul minim de sarcini potrivite pentru starea OK"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:7040
 msgid "Minimum number of matched tasks for WARNING state"
@@ -19,7 +17,7 @@ msgstr "Numărul minim de sarcini potrivite pentru starea ATENȚONARE"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4017
 msgid "Minimum number of pool members"
-msgstr "Nmărul minim .....  " 
+msgstr "Nmărul minim de membri în pool  " 
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:983
 msgid "Minimum password length"
@@ -67,11 +65,11 @@ msgstr "Credențialele de autentificare lipsesc"
 
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:328
 msgid "Missing needed host parameter."
-msgstr "Lipseste parametrul elementului"
+msgstr "Lipsește parametrul elementului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11213
 msgid "Missing secret for automation command."
-msgstr "-------------------------------------------------------------------------------------------------"
+msgstr "Lipsește secretul pentru comanda de automatizare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:439
 msgid "Missing site"
@@ -324,7 +322,10 @@ msgid ""
 "Most dashlets have a hard coded default title. For example the view snapin "
 "has even a dynamic title which defaults to the real title of the view. If "
 "you like to use another title, set it here."
-msgstr "Majoritate dashlet-urilor au un titlu hard codat. De exemplu ?????????????????????????????????????????????????????????????? "
+msgstr ""
+"Majoritate dashlet-urilor au un titlu hard codat. De exemplu snapin-ul "
+"pentru view are un titlu dynamic care este implicit titlul real al view-ului."
+" Dacă folosești alt titlu, configurează-l aici."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:5224
 msgid "Most recent events"
@@ -911,7 +912,7 @@ msgstr "Eticheta de grup nou"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mkeventd.py:95
 msgid "New event created"
-msgstr ""
+msgstr "Nou eveniment creat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:841
 msgid "New folder"
@@ -932,7 +933,7 @@ msgstr "Nume nou"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4249
 msgid "New parents configured"
-msgstr ""
+msgstr "Noi părinți configurați"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7862
 #, fuzzy
@@ -941,7 +942,7 @@ msgstr "Grup nou"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:5226
 msgid "Newer events"
-msgstr ""
+msgstr "Evenimente mai noi"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:953
 #, fuzzy
@@ -951,23 +952,23 @@ msgstr "Perioada de timp Noua"
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:541
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:956
 msgid "Next check"
-msgstr ""
+msgstr "Următorul check"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:555
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:963
 msgid "Next notification"
-msgstr ""
+msgstr "Următoarea notificare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1480
 msgid "Nginx Server"
-msgstr ""
+msgstr "Server nginx"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/htmllib.py:961
 #: /omd/sites/production/share/check_mk/web/htdocs/htmllib.py:1156
 #: /omd/sites/production/share/check_mk/web/htdocs/htmllib.py:1167
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:64
 msgid "No"
-msgstr ""
+msgstr "Nu"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18141
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1225
@@ -981,8 +982,8 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/htdocs/notify.py:313
 msgid ""
 "No UTF-8 encoding found in your locale -a! Please provide C.UTF-8 encoding."
-msgstr "Nu a fost găsită codare UTF-8 în.....! Te rog sa asiguri  "
-"codare C.UTF-8."
+msgstr ""
+"Nu a fost găsită codare UTF-8 în.....! Te rog sa asiguri codare C.UTF-8."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2859
 msgid "No VMWare Tools installed."
@@ -1068,7 +1069,7 @@ msgstr "Nu sunt disponibile informații"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:149
 msgid "No logging"
-msgstr ""
+msgstr "Fără logging"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:151
 msgid "No logs found for this host."
@@ -1076,74 +1077,74 @@ msgstr "Nu au fost găsite inregistrări pentru acest element."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:1942
 msgid "No matching data row. No command sent."
-msgstr ""
+msgstr "Nu au fpst găsite date în rând. Nici o comandă trimisă."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3402
 msgid "No matching hosts found."
-msgstr ""
+msgstr "Nu a fost găsit un host potrivit."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1184
 msgid "No matching hosts/services."
-msgstr ""
+msgstr "Nu a fost găsit nici un host/serviciu."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/login.py:183
 msgid "No password given."
-msgstr ""
+msgstr "Nu a fost specificată parola."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:5247
 msgid "No pending changes, monitoring server is up to date."
-msgstr ""
+msgstr "Nu sunt modificări în așteptare, serverul este la zi."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/sidebar.py:525
 msgid "No performance data: "
-msgstr ""
+msgstr "Fără date de performanță: "
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:701
 msgid "No persistent connection"
-msgstr ""
+msgstr "Fără conexiune persistentă"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10500
 msgid "No replication with this site"
-msgstr ""
+msgstr "Fără replicare cu acest site"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:153
 #, python-format
 msgid "No report defined with the name '%s'."
-msgstr ""
+msgstr "Nici un raport cu numele '%s' definit."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12160
 msgid "No roles assigned."
-msgstr ""
+msgstr "Nici un rol asignat."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:1912
 msgid "No rows selected to perform actions for."
-msgstr ""
+msgstr "Nu au fost selectate rânduri pentru care să se efectueze acțiuni."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:200
 msgid "No title"
-msgstr ""
+msgstr "Fără titlu"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/login.py:179
 msgid "No username given."
-msgstr ""
+msgstr "Nici un nume de utilizator furnizat."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11707
 msgid "No users are defined yet."
-msgstr ""
+msgstr "Nu sunt definiți utilizatori încă."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:781
 #, python-format
 msgid "No view defined with the name '%s'."
-msgstr ""
+msgstr "Nu există un view cu numele '%s' definit."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:861
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6750
 msgid "No-TxCredits errors"
-msgstr ""
+msgstr "Erori No-Tx-Credits"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1497
 msgid "Node"
-msgstr ""
+msgstr "Nod"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:601
 msgid "Node Path Matching"
@@ -1151,29 +1152,30 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:296
 msgid "Node Stats"
-msgstr ""
+msgstr "Statistici despre Nod"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2134
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16400
 msgid "Nodes"
-msgstr ""
+msgstr "Nod-uri"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17096
 msgid "Nodes that are aggregated by this rule"
-msgstr ""
+msgstr "Nod-uri care sunt agregate de această regulă"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16870
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16901
 msgid "Nodes to create:"
-msgstr ""
+msgstr "Nod-uri de creat:"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4974
 msgid "Nominal Frequencies"
-msgstr ""
+msgstr "Frecvențe nominale"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:422
 msgid "Non-ASCII characters are not allowed here."
-msgstr ""
+msgstr "Caractere Non-ASCII nu sunt permise aici."
+
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13874
 msgid "Non-empty rulesets"
@@ -1181,35 +1183,35 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5858
 msgid "Nonheap Memory Levels"
-msgstr ""
+msgstr "Nivele de Memorie Nonheap"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:998
 msgid "Normal check interval"
-msgstr ""
+msgstr "Interval normal pentru verificare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1735
 msgid "Normal check interval for host checks"
-msgstr ""
+msgstr "Interval normal de verificare pentru check-urile de host"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1645
 msgid "Normal check interval for service checks"
-msgstr ""
+msgstr "Interval normal de verificare pentru check-urile de servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/globals_notification.py:90
 msgid "Normal logging"
-msgstr ""
+msgstr "Logare normală"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/userdb.py:557
 msgid "Normal monitoring user"
-msgstr ""
+msgstr "Utilizator normal de monitorizare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12088
 msgid "Normal user login with password"
-msgstr ""
+msgstr "Login utilizator normal cu parolă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1010
 msgid "Normal/retry check interval"
-msgstr ""
+msgstr "Interval normal și de reîncercare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1115
 msgid ""
@@ -1219,6 +1221,14 @@ msgid ""
 "can define one or several patterns. The filesystems matching one of the "
 "patterns will be monitored like one big filesystem in a single service."
 msgstr ""
+"În mod normal check-ul pentru sistemul de fișiere (<tt>df</tt>, "
+"<tt>hr_fs</tt> și aletele) vor crea un singur serviciu pentru fiecare sistem "
+"de fișiere. Prin definirea modelelor de grupare poți gestiona grupuri de "
+"sisteme de fișiere precum un singur sistem de fișiere. Pentru fiecare grup "
+"poți defini una sau mai multe modele. Sistemul de fișiere potrivit cu una "
+"sau mai multe  modele vor fi monitorizate precum un singur sistem de fișiere "
+"mare."
+
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4450
 msgid ""
@@ -1228,12 +1238,20 @@ msgid ""
 "of its members. You can configure if interfaces which are identified as "
 "group interfaces should not show up as single service"
 msgstr ""
+"În mod normal check-urile de interfețe crează un singur serviciu per "
+"interfață. Prin definirea modelelor pentru interfețe poți combina "
+"multiple interfețe într-una singură. Un singur serviciu va fi creat pentru "
+"acest grup care va afișa traficul total combinat de la toți membri. Poți "
+"configura dacă interfețele identificate ca aparținănd acestui grup să nu "
+"fie afișate ca un singur serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:111
 msgid ""
 "Normally the resolution of the daemon logfile is in seconds. This option "
 "enable micro second precision."
 msgstr ""
+"În mod normal timpii de rezoluție pentru daemon-ul logile este în secunde. "
+"Această opțiune activează precizie micro secundă."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/bi.py:54
 msgid ""
@@ -1243,6 +1261,11 @@ msgid ""
 "states of the child nodes would be CRIT, WARN and OK, then to total state "
 "would be WARN."
 msgstr ""
+"În mod normal această valoare este <tt>1</tt>, ceea ce înseamnă ca starea "
+"cea mai bună al nodurilor copil este folosit pentru starea totală. Dacă spre "
+"exemplu o configurezi la <tt>2</tt>, atunci nodul cu cea mai bună stare nu "
+"va fi evaluat. Dacă starea nodurilor copil ar fi CRIT, WARN sau OK, atunci "
+"starea totală ar trebui să fie WARN."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/bi.py:32
 msgid ""
@@ -1252,6 +1275,11 @@ msgid ""
 "states of the child nodes would be CRIT, WARN and OK, then to total state "
 "would be WARN."
 msgstr ""
+"În mod normal această valoare este<tt>1</tt>, ceea ce înseamnă că starea cea "
+"mai proastă al tuturor nodurile copil este folosită ca starea totală. Dacă "
+"spre exemplu o configureîi la <tt>2</tt>, atunci nod-ul cu cea mai proastă "
+"stare nu este evaluat. Dacă starea nod-urilor copil ar fi CRIT, WARN și OK, "
+"atunci starea totală art trebui să fie WARN."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2164
 msgid ""
@@ -1259,47 +1287,52 @@ msgid ""
 "configured levels have been breached. If you set this option the check "
 "always reports this information"
 msgstr ""
+"În mod normal timpul rămas până la umplerea disk-ului complet este afișat "
+"numar când nivelele configurate sunt încălcate. Dacă setezi această opțiune "
+"check-ul va afișa întotdeauna această informație."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17705
 msgid "Not allowed create subfolders"
-msgstr ""
+msgstr "Creare de sub-foldere nu este permisă"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17702
 msgid "Not allowed to change hosts.mk file. It is locked"
-msgstr ""
+msgstr "Nu este permisă modificarea hosts.mk file. Este încuiat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/index.py:263
 msgid "Not authenticated"
-msgstr ""
+msgstr "Nu este autentificat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1210
 msgid "Not contained in any group"
-msgstr ""
+msgstr "Nu figurează în nici un grup"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4873
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4912
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15713
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15741
 msgid "Not logged in."
-msgstr ""
+msgstr "Nu este autentificat."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12101
 msgid "Not permitted to change the password. Change can not be enforced."
-msgstr ""
+msgstr "Nu este permis să schimbi parola. Schimbarea nu poate executată/"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/dashboard.py:934
 msgid "Not showing information for a specific object."
-msgstr ""
+msgstr "Nu se afișează informații despre un obiect specific."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16372
 msgid "Note"
-msgstr ""
+msgstr "Notă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:311
 msgid ""
 "Note: Expiration of acknowledgements only works when using the Check_MK "
 "Micro Core."
 msgstr ""
+"Notă: Expirarea confirmările funcționează numai când se folosește Check_MK "
+"Micro Core."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:293
 msgid ""
