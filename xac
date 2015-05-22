@@ -2523,7 +2523,7 @@ msgstr "Redirecționează toate notificările către serverul remote"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6016
 msgid "Forwarding"
-msgstr "redirecționare"
+msgstr "Redirecționare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6039
 msgid "Forwarding Method"
@@ -2815,99 +2815,103 @@ msgstr "Dă acestor grupuri de asemenea <b>permisiune pe toate subfolderele</b>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/builtin_modules.py:39
 msgid "Global Settings"
-msgstr ""
+msgstr "Setări Globale"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7391
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7551
 msgid "Global configuration settings for Check_MK"
-msgstr ""
+msgstr "Setările configurării globale pentru Check_MK"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7389
 #, python-format
 msgid "Global configuration settings matching %s"
-msgstr ""
+msgstr "Setările configurării globale ce se potrivesc cu %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8705
 msgid "Global notification rules"
-msgstr ""
+msgstr "Reguli globale de notificare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18615
 msgid "Global settings"
-msgstr ""
+msgstr "Setări globale"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/builtin_modules.py:40
 msgid "Global settings for Check_MK, Multisite and the monitoring core."
-msgstr ""
+msgstr "Setări globale pentru Check_MK, Multisite si nucleul de monitorizare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6379
 msgid "Go critical if all licenses are used"
-msgstr ""
+msgstr "Schimbă starea în critic dacă toate licențele sunt utilizate"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/sidebar.py:161
 msgid "Go to main overview"
-msgstr ""
+msgstr "Mergi către principala prezentare generală"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:1507
 msgid "Go up one tree level"
-msgstr ""
+msgstr "Mergi mai sus un nivel în arbore"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/globals_notification.py:254
 #: /omd/sites/production/share/check_mk/web/plugins/config/mkeventd.py:38
 msgid "Gold"
-msgstr ""
+msgstr "Aur"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:408
 msgid "Grab user from found processess"
-msgstr ""
+msgstr "Colectează utilizatorul din procesele găsite"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/nagvis_auth.py:76
 msgid "Grants modify access to all maps the user is contact for."
 msgstr ""
+"Permite accesul pentru modificare către toate harțile pentru care "
+"utilizatorul este contact""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/nagvis_auth.py:55
 msgid "Grants modify access to all maps."
-msgstr ""
+msgstr "Permite accesul pentru modificare la toate hărțile"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/nagvis_auth.py:69
 msgid "Grants read access to all maps the user is a contact for."
 msgstr ""
+"Permite accesul pentru citire la toate harțile la care utilizatorul este "
+"contact"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/nagvis_auth.py:48
 msgid "Grants read access to all maps."
-msgstr ""
+msgstr "Permite accesul pentru citire la toate harțile"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/nagvis_auth.py:41
 msgid "Grants read access to all rotations."
-msgstr ""
+msgstr "Permite accesul pentru citire la toate rotațiile"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:432
 #, python-format
 msgid "Graphic Card %d"
-msgstr ""
+msgstr "Placa Grafică %d"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:433
 msgid "Graphic Card Name"
-msgstr ""
+msgstr "Numele Placii Grafice"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:431
 msgid "Graphic Cards"
-msgstr ""
+msgstr "Placi Grafice"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1694
 msgid "Graphs"
-msgstr ""
+msgstr "Grafice"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:98
 msgid "Graphs are shown among each other"
-msgstr ""
+msgstr "Graficele sunt afișate între ele"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1340
 msgid "Graphs globally"
-msgstr ""
+msgstr "Grafice globale"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:183
 msgid "Green"
-msgstr ""
+msgstr "Verde"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/notify.py:279
 #, python-format
@@ -2921,42 +2925,51 @@ msgid ""
 "---\n"
 "\n"
 msgstr ""
+"Salutări %s,\n"
+"\n"
+"%s ti-a trimis o notificare:\n"
+"\n"
+"---\n"
+"%s\n"
+"---\n"
+"\n"
+
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/bi.py:136
 msgid "Group"
-msgstr ""
+msgstr "Grup"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:868
 msgid "Group Base DN"
-msgstr ""
+msgstr "Base DN-ul Grup-ului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:7337
 msgid "Group Base-DN"
-msgstr ""
+msgstr "Base DN-ul Grup-ului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/views.py:574
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1588
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:418
 msgid "Grouping"
-msgstr ""
+msgstr "Grupare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16368
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:683
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1274
 msgid "Groups"
-msgstr ""
+msgstr "Grupuri"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2866
 msgid "Guest operating system is responding normally."
-msgstr ""
+msgstr "Sistemul de operare guest răspunde normal."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2845
 msgid "Guest operating system may have stopped responding."
-msgstr ""
+msgstr "Sistemul de operare guest pare a nu mai răspunde."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/userdb.py:558
 msgid "Guest user"
-msgstr ""
+msgstr "Utilizator guest"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:690
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:1251
@@ -2973,12 +2986,12 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:199
 msgid "HTML-Title of HTML Multisite GUI"
-msgstr ""
+msgstr "Titlul HTML al Interfetei grafice HTML Multisite"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:966
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1019
 msgid "HTTP"
-msgstr ""
+msgstr "HTTP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:673
 msgid "HTTP Basic Authentication"
@@ -2991,19 +3004,19 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10743
 #, python-format
 msgid "HTTP Error - %s: %s"
-msgstr ""
+msgstr "Eroare HTTP - %s: %s"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:407
 msgid "HTTP Header Variable"
-msgstr ""
+msgstr "Variabila Header HTTP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:752
 msgid "HTTP Method"
-msgstr ""
+msgstr "Metoda HTTP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:740
 msgid "HTTP POST data"
-msgstr ""
+msgstr "Datele POST HTML"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1310
 msgid "HTTP basic"
@@ -3026,6 +3039,8 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/userdb/ldap.py:930
 msgid "Handle nested group memberships (Active Directory only at the moment)"
 msgstr ""
+"Manipulează apartenența la grupuri imbricate (doar în cazul Active "
+"Directory pentru moment)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3589
 msgid "Handling for required mirror space"
@@ -3033,19 +3048,19 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:882
 msgid "Handling of context messages"
-msgstr ""
+msgstr "Tratarea mesajelor de context"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/bi.py:217
 msgid "Handling of too long texts"
-msgstr ""
+msgstr "Tratarea textelor prea lungi"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5064
 msgid "Hard disk device"
-msgstr ""
+msgstr "Dispozitiv de tip hard disk"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:155
 msgid "Hard query limit"
-msgstr ""
+msgstr "Limita pentru interogările HARD"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16958
 msgid ""
@@ -3058,7 +3073,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5056
 msgid "Harddisk temperature (e.g. via SMART)"
-msgstr ""
+msgstr "Temperatura hard disk-ului (de exemplu via SMART)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:387
 msgid "Hardware"
@@ -3070,15 +3085,15 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:237
 msgid "Hardware Status"
-msgstr ""
+msgstr "Stare Hardware"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5022
 msgid "Hardware temperature, multiple sensors"
-msgstr ""
+msgstr "Temperatura Hardware, senzori multipli"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5041
 msgid "Hardware temperature, single sensor"
-msgstr ""
+msgstr "Temperatura Hardware, un singur senzor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:43
 msgid "Hardware, BIOS"
@@ -3086,19 +3101,19 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/inventory.py:28
 msgid "Hardware/Software-Inventory"
-msgstr ""
+msgstr "Inventar Hardware/Software"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:490
 msgid "Hardware/Software-Inventory (Linux)"
-msgstr ""
+msgstr "Inventar Hardware/Software (Linux)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/inventory.py:118
 msgid "Has Inventory Data"
-msgstr ""
+msgstr "Are date de inventariere"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:461
 msgid "Has performance data"
-msgstr ""
+msgstr "Are date de performanță"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1251
 msgid "Hash"
@@ -3106,15 +3121,15 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/simple_elements.py:54
 msgid "Heading"
-msgstr ""
+msgstr "Rubrică"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:233
 msgid "Headings"
-msgstr ""
+msgstr "Rubrici"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5839
 msgid "Heap Memory Levels"
-msgstr ""
+msgstr "Nivele ale memoriei heap"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:671
 msgid "Heartbeat CRM Inventory"
