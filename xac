@@ -3039,7 +3039,7 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/userdb/ldap.py:930
 msgid "Handle nested group memberships (Active Directory only at the moment)"
 msgstr ""
-"Manipulează apartenența la grupuri imbricate (doar în cazul Active "
+"Tratează apartenența la grupuri imbricate (doar în cazul Active "
 "Directory pentru moment)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3589
@@ -3070,6 +3070,11 @@ msgid ""
 "just since one check then it's soft state is CRIT, but its hard state is "
 "still OK."
 msgstr ""
+"Stările HARD pot diferi de starile SOFT doar dacă cel pution un host sau "
+"serviciu din agregarea BI a avut mai mult de 1 rezultat peste numarul maxim de"
+" check-uri eșuate. De exemplu, dacă setați numărul maxim de încercări de check"
+" pentru un serviciu la 3 și serviciul este în CRITICAL doar de un check atunci"
+" este în stare SOFT dar încă nu este în stare HARD."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5056
 msgid "Harddisk temperature (e.g. via SMART)"
@@ -3133,15 +3138,15 @@ msgstr "Nivele ale memoriei heap"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:671
 msgid "Heartbeat CRM Inventory"
-msgstr ""
+msgstr "Inventar al CRM Heartbeat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6953
 msgid "Heartbeat CRM general status"
-msgstr ""
+msgstr "Status general al CRM Heartbeat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6992
 msgid "Heartbeat CRM resource status"
-msgstr ""
+msgstr "Status al resurselor CRM Heartbeat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2865
 msgid "Heartbeat OK"
@@ -3149,16 +3154,16 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2858
 msgid "Heartbeat tools missing or not installed"
-msgstr ""
+msgstr "Utilitarele heartbeat lipsesc sau nu sunt instalate"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:489
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/simple_elements.py:175
 msgid "Height"
-msgstr ""
+msgstr "Înălțime"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17303
 msgid "Help Text"
-msgstr ""
+msgstr "Text de ajutor"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:465
 msgid "Helvetica"
@@ -3170,6 +3175,8 @@ msgid ""
 "Here a maximum severity of the node state can be set. This severity is not "
 "exceeded, even if some of the childs have more severe states."
 msgstr ""
+"Aici poate fi setata severitatea maximă a stării nodului. Acestă severitate "
+"nu va fi depășită chiar dacă unele componente ale nodului au stări mai severe."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:47
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:56
@@ -3179,6 +3186,8 @@ msgid ""
 "Here you are allowed to use all macros that are defined in the notification "
 "context."
 msgstr ""
+"Aici aveți voie să folosiți toate macro-urile care sunt definite în contextul "
+"notificărilor."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10139
 msgid ""
@@ -3186,12 +3195,17 @@ msgid ""
 "remote site. <b>Note</b>: this only makes sense if the site is a "
 "configuration slave."
 msgstr ""
+"Aici puteți configura setările globale, care trebuiesc doar aplicate acelui "
+"site remote. <b>Notă:</b>: aceasta are sens doar daca acel site este site "
+"slave pentru configutații."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15921
 msgid ""
 "Here you can configure how you want to be notified about host and service "
 "problems and other monitoring events."
 msgstr ""
+"Aici puteți configura cum doriți să fiți notificați în legătură cu problemele "
+"host-urilor și serviciilor precum și cu alte evenimente de minitorizare."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/globals_notification.py:241
 msgid ""
@@ -3205,14 +3219,24 @@ msgid ""
 "then be sent to the Event Console when you forward notifications to it and "
 "will override the setting of the matching rule."
 msgstr ""
+"Aici puteți configura lista posibilă a nivelelor de service pentru host-uri, "
+"servicii si evenimente. Un nivel de service poate fi asignat unui host sau "
+"serviciu prin configurare. Consola de evenimente poate configura fiecare "
+"eveniment creat să aibă un nivel de service secific. intern nivelul este "
+"reprezentat ca un număr întreg. Notă: un număr mai mare reprezintă un nivel "
+"de service mai ridicat. Acest lucru este important când se fac filtrările "
+"view-urilor după nivelul de service. <p> Puteți de asemenea atașa nivele de "
+"service host-urilor și serviciilor în monitorizare. Aceste nivele vor fi apoi "
+"trimise către Consola de evenimente când redirectionați notificările către ea "
+"și va suprascrie setările regulii care face match." 
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:145
 msgid ""
 "Here you can configure whether and how the creation of RRD files is being "
 "logged (in the log file var/log/cmk-create-rrd.log)"
 msgstr ""
-
-#  georgem ###
+"Aici puteți configura dacă și cum crearea fișierelor RRD este logată (în "
+"fișierul log var/log/cmk-create-rrd.log)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:347
 msgid ""
