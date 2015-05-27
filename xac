@@ -3269,12 +3269,16 @@ msgid ""
 "Here you can create explicit checks that are not being created by the "
 "automatic service discovery."
 msgstr ""
+"Aici puteți crea check-uri explicite care nu sunt create de serviciul "
+"automat de descoperire."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3505
 msgid ""
 "Here you can define an upper limit for the run duration of last execution of "
 "the job."
 msgstr ""
+"Aici puteți defini o limita superioara pentru durata de rulare a utimei "
+"execuții a job-ului."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:292
 msgid ""
@@ -3283,6 +3287,10 @@ msgid ""
 "host tag groups. Each host tag group you select will create one level in the "
 "tree."
 msgstr ""
+"Aici puteți defini configurația arborelui pentru instantaneul <i>Arborilor "
+"Hosturilor Virtuale</i>. Acesti arbori organizeaza host-urile dumneavoastră în"
+" funcție de valorile lor în anumite grupuri de taguri ale host-urilor. "
+"Fiecare grup de taguri de host selectat va crea un nivel în arbore."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:467
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:479
@@ -3290,10 +3298,12 @@ msgid ""
 "Here you can deploy a plugin for monitoring quarantine queue, tasks and "
 "updates."
 msgstr ""
+"Aici puteți face deploy unui plugin pentru monitorizarea cozii de carantină, "
+"task-urilor și update-urilor."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:96
 msgid "Here you can enable debugging for Livestatus queries."
-msgstr ""
+msgstr "Aici puteți activa depanarea pentru interogările Livestatus."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3348
 msgid ""
@@ -3301,6 +3311,9 @@ msgid ""
 "levels are applied on the number of used processes in percentage of the "
 "configured limit."
 msgstr ""
+"Aici puteți suprascrie nivelurile implicite pentru check-ul proceselor ORACLE."
+" Nivelele sunt aplicate asupra numărului proceselor utilizate în procente din "
+"limita configurată."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3521
 msgid ""
@@ -3308,12 +3321,16 @@ msgid ""
 "Owner and Job-Name, separated by a dot, for example <b>TUX12C.SYS.PURGE_LOG</"
 "b>"
 msgstr ""
+"Aici puteți seta Job-uri Programate explicite definindu-le prin SID, Job-Owner"
+" și Job-Name, separate printr-un punct, de exemplu <b>TUX12C.SYS.PURGE_LOG</b>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3337
 msgid ""
 "Here you can set explicit tablespaces by defining them via SID and the "
 "tablespace name, separated by a dot, for example <b>pengt.TEMP</b>"
 msgstr ""
+"Aici puteți seta tablespace-uri explicite definindu-le prin SID si numele "
+"tablespace-ului, separate prin punct, de exemplu <b>pengt.TEMP</b>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5440
 msgid ""
@@ -3321,6 +3338,9 @@ msgid ""
 "This load affects the running time of all components being supplied with "
 "battery power."
 msgstr ""
+"Aici puteți seta nivelele procentuale ale actualei încărcări a ieșirii UPS"
+"-ului. Acestă încărcare afectează timpul de functionare al componentelor ce "
+"sunt alimentate de bateria UPS-ului."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3187
 msgid ""
@@ -3329,10 +3349,14 @@ msgid ""
 "on the average utiliazation since the last check - which is usually one "
 "minute."
 msgstr ""
+"Aici puteți seta nivelele utilizării totale a procesorului, adică suma <i>"
+"system</i/>, <i>user</i> si <i>iowait</i>. Nivelele sunt întotdeauna aplicate "
+"utilizării medii de la ultima rulare a check-ului - care este în mod normal un"
+"minut."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1444
 msgid "Here you can set the number of remaining open slots"
-msgstr ""
+msgstr "Aici puteți seta numărul sloturilor deschise rămase"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mknotifyd.py:110
 msgid ""
