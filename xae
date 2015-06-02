@@ -2752,49 +2752,57 @@ msgid ""
 "the host and service names, you can insert the actual value of the "
 "parameters by <tt>$HOST$</tt> and <tt>$INST$</tt> (enclosed in dollar signs)."
 msgstr ""
+"Parametri fac ca regulile să fie mai flexibile. Ele trebuiesc să fie numite "
+"precum variabile în limbaje de programare. Spre exemplu poți face ca regula "
+"să aibe doi parametri <tt>HOST</tt> și <tt>INST</tt>. Când apelezi regula "
+"- dintr-un agregat sau regulă mai înaltă - poți specifica cei două valori "
+"arbitrare pentru acei parametri. În titlul regulii precum și în numele "
+"serviciului și a hostului, poți insera valoarea reală al parametrului prin "
+"<tt>$HOST$</tt> și <tt>$INST$</tt> (între simboluri de dolar)."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:15361
 #, python-format
 msgid "Parameters for %s"
-msgstr ""
+msgstr "Parametri pentru %s"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:29
 msgid "Parameters for Inventorized Checks"
-msgstr ""
+msgstr "Parametri pentru Verificările Inventariate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5131
 msgid "Parameters for input phases of UPSs and PDUs"
-msgstr ""
+msgstr "Parametri pentru fazele de intrare pentrup UPS și PDU"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5104
 msgid "Parameters for output phases of UPSs and PDUs"
-msgstr ""
+msgstr "Parametri pentru fazele de ieșire pentru UPS și PDU"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5982
 msgid "Parameters for the Windows Update Check with WSUS"
-msgstr ""
+msgstr "Parametri pentru Windows Update Check cu WSUS"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17078
 msgid ""
 "Parameters must contain only A-Z, a-z, 0-9 and _ and must not begin with a "
 "digit."
 msgstr ""
+"Parametri pot conține doar A-Z, a-z, 0-9 și _ și nu pot începe cu un digit."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2505
 msgid "Parameters of"
-msgstr ""
+msgstr "Parametrii ale"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:850
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4117
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4243
 msgid "Parent scan"
-msgstr "Scanarea parintilor"
+msgstr "Scanarea părinților"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4392
 #: /omd/sites/production/share/check_mk/web/plugins/wato/builtin_attributes.py:71
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1251
 msgid "Parents"
-msgstr ""
+msgstr "Părinți"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/builtin_attributes.py:72
 msgid ""
@@ -2806,11 +2814,18 @@ msgid ""
 "distributed setup make sure that the host and all of its parents are "
 "monitored by the same site."
 msgstr ""
+"Pârinți sunt folosiți pentru a stabili accesibilitatea hoștilor monitorizați "
+" prin acest server. Un host este considerat <b>inaccesibil</b> dacă toți  "
+"părinții sunt inaccesibili sau opriți. Hoștii inaccesibili nu vor fi "
+"monitorizați activ. <br><br><b>Clusterele</b> configurează automat toate "
+"nodurile ca fiind părinți dar numai dacă nu configurezi părinții manual. "
+"<br><br>Într-o configurație distribuită asigură-te că hoștii și toți părinții "
+"sale sunt monitorizați de câtre același site."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4451
 #, python-format
 msgid "Parents unchanged at %s"
-msgstr ""
+msgstr "Părinți neschimbați la %s"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1359
 msgid "Parentscan"
@@ -2819,12 +2834,12 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/views/commands.py:138
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:686
 msgid "Passive checks"
-msgstr ""
+msgstr "Verificări Pasive"
 
 #: /omd/sites/production/share/check_mk/web/plugins/icons/builtin.py:494
 #, python-format
 msgid "Passive checks have been manually disabled for this %s!"
-msgstr ""
+msgstr "Verificările pasive au fost manual dezactivate pentru acest %s!"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/login.py:271
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11757
@@ -2846,61 +2861,62 @@ msgstr "Parola"
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11127
 #, python-format
 msgid "Password changed (sync failed: %s)"
-msgstr ""
+msgstr "Parila schimbată (sincronizare eșuat: %s)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:886
 msgid "Password for binding, if your server requires an authentication"
-msgstr ""
+msgstr "Parolă pentru binding, dacă serverul necesită autentificare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:581
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:779
 msgid "Password for login"
-msgstr ""
+msgstr "Parolă pentru login"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:668
 msgid "Password for this user"
-msgstr ""
+msgstr "Parolă pentru acest utilizator"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:168
 msgid "Password:"
-msgstr ""
+msgstr "Parolă:"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:462
 msgid "Path"
-msgstr ""
+msgstr "Cale"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4650
 msgid "Path ID"
-msgstr ""
+msgstr "ID Cale"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:268
 msgid "Path-patterns where to search for Jar files"
-msgstr ""
+msgstr "Modele de căi unde să căutăm pentru fișiere Jar"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10200
 msgid "Path:"
-msgstr ""
+msgstr "Cale:"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16222
 msgid "Pattern"
-msgstr ""
+msgstr "Model"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:911
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:76
 msgid "Pattern (Regex)"
-msgstr ""
+msgstr "Model (Regex)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1131
 msgid "Pattern for mount point (using * and ?)"
-msgstr ""
+msgstr "Model pentru mount point (folosind * și ?)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:840
 msgid "Patterns for logfiles to monitor (allowing <tt>*</tt> and <tt>?</tt>)"
 msgstr ""
+"Modele pentru logfiles de monitorizat (permițând <tt>*</tt> și <tt>?</tt>"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:5455
 msgid "Pause"
-msgstr ""
+msgstr "Pauză"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1215
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1444
@@ -2910,11 +2926,11 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1084
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1094
 msgid "Pending Services"
-msgstr ""
+msgstr "Servicii în așteptare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:4638
 msgid "Pending changes to activate"
-msgstr ""
+msgstr "Modificări în așteptare pentru activare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4483
 msgid ""
