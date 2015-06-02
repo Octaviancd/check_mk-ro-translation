@@ -3363,6 +3363,8 @@ msgid ""
 "Here you can set the port at which the notification spooler listens for "
 "forwardednotification messages from spoolers on remote sites."
 msgstr ""
+"Aici puteți seta portul pe care va asculta spoolerul de notificari pentru "
+"mesajele redirectionate de spoolerele site-urilor remote."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1732
 msgid ""
@@ -3370,11 +3372,14 @@ msgid ""
 "missing (might be powered off). The access point can be specified by the AP "
 "name or the AP model"
 msgstr ""
+"Aici puteți seta ce tip de alertă este setată când un anumit acces point "
+"lipsește (poate fi oprit ). Acces point-ul poate fi specificat prin numele "
+"AP-ului sau modelul AP-ului."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2350
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2447
 msgid "Here you can specifiy the measurement unit of the network interface"
-msgstr ""
+msgstr "Aici puteți specifica unitatea de măsură a interfeței de rețea"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:378
 msgid ""
@@ -3387,12 +3392,23 @@ msgid ""
 "matching rule, then <b>all</b> matching rules will be used for defining "
 "pattern - not just the first one."
 msgstr ""
+"Aici puteți specifica o listă cu modele de nume de fișiere pentru a fi trimisă"
+" de agent în secțiunea <tt>Informatii fișier</tt>. Utilizați modele de "
+"globbing ca de exemplu <tt>C:\foo\*.log</tt> sau <tt>/var/*/*.log</tt> aici. "
+"Implicit fiecare fișier găsit va fi monitorizat pentru dimensiune si vârstă. "
+"Constuind grupuri  puteți alternativ să monitorizați o colecție de fișiere ca "
+"o entitate si uteți monitoriza numarul, dimensiunea totală, cel mai mare, cel "
+"mai mic, cel mai vechi sau cel mai nou fișier. Notă: Dacă specificați mai mult"
+" de o regula pentru match, atunci <b>toate</b> regulile ce fac match vor fi "
+"utilizate pentru definirea modelului - nu doar prima regulă."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:382
 msgid ""
 "Here you can specify a service description. If this parameter is not set, "
 "the service is named <tt>TCP Port {Portnumber}</tt>"
 msgstr ""
+"Aici puteți specifica o descriere a serviciului. Dacă acest parametru nu este "
+"setat, numele serviciului va fi <tt>Port TCP {NumarPort}</tt>." 
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9774
 msgid ""
