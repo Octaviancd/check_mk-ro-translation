@@ -3397,10 +3397,10 @@ msgstr ""
 "globbing ca de exemplu <tt>C:\foo\*.log</tt> sau <tt>/var/*/*.log</tt> aici. "
 "Implicit fiecare fișier găsit va fi monitorizat pentru dimensiune si vârstă. "
 "Constuind grupuri  puteți alternativ să monitorizați o colecție de fișiere ca "
-"o entitate si uteți monitoriza numarul, dimensiunea totală, cel mai mare, cel "
-"mai mic, cel mai vechi sau cel mai nou fișier. Notă: Dacă specificați mai mult"
-" de o regula pentru match, atunci <b>toate</b> regulile ce fac match vor fi "
-"utilizate pentru definirea modelului - nu doar prima regulă."
+"o entitate si puteți monitoriza numarul, dimensiunea totală, cel mai mare, cel"
+" mai mic, cel mai vechi sau cel mai nou fișier. Notă: Dacă specificați mai "
+"mult de o regula pentru match, atunci <b>toate</b> regulile ce fac match vor "
+"fi utilizate pentru definirea modelului - nu doar prima regulă."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:382
 msgid ""
@@ -3416,10 +3416,16 @@ msgid ""
 "YYYY-MM-DD which are used to define more specific definitions to override "
 "the times configured for the matching weekday."
 msgstr ""
+"Aici puteți specifica intervalele de timp exceptionale pentru anumite date în "
+"forma YYYY-MM-DD care sunt utilizate pentru stabilirea unor definitii mai "
+"specifice pentru a suprascrie timpii configurați pentru respectiva zi a "
+"săptămânii."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2777
 msgid "Here you can specify the total memory usage levels for clustered hosts "
 msgstr ""
+"Aici puteți specifica nivelul utilizării memoriei totale pentru host-rile "
+"din cluster."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12249
 msgid ""
@@ -3427,14 +3433,17 @@ msgid ""
 "Note: these settings will only be saved and used if the user is member of a "
 "contact group."
 msgstr ""
+"Aici puteți specifica ce tipuri de alerte vor fi notificate acestui contact. "
+"Notă: aceste setări vor fi slavate și utilizate doar dacă utilizatorul este "
+"membru a unui grup de contacte."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:351
 msgid "Hidden"
-msgstr ""
+msgstr "Ascuns"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8840
 msgid "Hide Analysis"
-msgstr ""
+msgstr "Ascunde Analiza"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8845
 msgid "Hide Bulks"
@@ -3442,52 +3451,52 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3201
 msgid "Hide Check Parameters"
-msgstr ""
+msgstr "Ascunde Parametrii Check-ului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1340
 msgid "Hide Checkboxes and bulk actions"
-msgstr ""
+msgstr "Ascunde Checkbox-urile si actiunile în masă"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/logwatch.py:184
 msgid "Hide Context"
-msgstr ""
+msgstr "Ascunde Context-ul"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:130
 msgid "Hide from Status GUI"
-msgstr ""
+msgstr "Ascunde din Status GUI"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:587
 msgid "Hide help text of rules in list views"
-msgstr ""
+msgstr "Ascunde textul de ajutor pentru reguli în view-urile de tip listă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:568
 msgid "Hide hosttags in WATO folder view"
-msgstr ""
+msgstr "Ascunde tagurile host-urilor în view-ul folder-ului din WATO"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:545
 msgid "Hide internal folder names in WATO"
-msgstr ""
+msgstr "Ascunde numele interne ale folder-ului în WATO"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:577
 msgid "Hide names of configuration variables"
-msgstr ""
+msgstr "Ascunde numele variabilelor de configurare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:448
 msgid "Hide response from socket"
-msgstr ""
+msgstr "Ascunde răspunsul de la socket"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/table.py:275
 msgid "Hide table actions"
-msgstr ""
+msgstr "Ascunde tabelul actiunilor"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:588
 #, python-format
 msgid "Hide this %s from the sidebar"
-msgstr ""
+msgstr "Ascunde %s din bara laterală"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8835
 msgid "Hide user rules"
-msgstr "Ascude regulile de utilizator"
+msgstr "Ascude regulile utilizatorului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/backup_domains.py:147
 #: /omd/sites/production/share/check_mk/web/plugins/wato/backup_domains.py:155
@@ -3495,53 +3504,53 @@ msgstr "Ascude regulile de utilizator"
 #: /omd/sites/production/share/check_mk/web/plugins/wato/backup_domains.py:180
 #: /omd/sites/production/share/check_mk/web/plugins/wato/backup_domains.py:200
 msgid "Historic Data"
-msgstr ""
+msgstr "Date Istorice"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:59
 msgid "Historic Event Console Event"
-msgstr ""
+msgstr "Istoricul Evenimetelor Consolei de Evenimente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1850
 msgid "Historic downtimes of host"
-msgstr ""
+msgstr "Istoricul timpilor de nefunctionare a host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1908
 msgid "Historic downtimes of service"
-msgstr ""
+msgstr "Istoricul de nefunctionare a serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:362
 msgid "Historic messages"
-msgstr ""
+msgstr "Istoricul mesajelor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mobile.py:570
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1865
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:150
 msgid "History"
-msgstr ""
+msgstr "Istoric"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:65
 msgid "History Line"
-msgstr ""
+msgstr "Linia Istorică"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:174
 msgid "History action type"
-msgstr ""
+msgstr "Istoricul tipului de actiune"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:1045
 msgid "History entries of one specific event"
-msgstr ""
+msgstr "Înregistrarile istorice ale unui eveniment specific"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:1079
 msgid "History entries of one specific host"
-msgstr ""
+msgstr "Înregistrările istorice ale unui host specific"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:1044
 msgid "History of Event"
-msgstr ""
+msgstr "Istoricul evenimentului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:427
 msgid "History of scheduled downtimes"
-msgstr ""
+msgstr "Istoricul timpilor de nefunctionare programați"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1043
 msgid "Hits"
@@ -3561,7 +3570,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:48
 msgid "Homepage"
-msgstr ""
+msgstr "Acasă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:229
 msgid "Honor scheduled downtimes"
@@ -3577,15 +3586,15 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/fixed_elements.py:33
 msgid "Horizontal rule"
-msgstr ""
+msgstr "Linie orizontală"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:239
 msgid "Horizontal rules"
-msgstr ""
+msgstr "Linii orizontale"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:267
 msgid "Horizontal spacing"
-msgstr ""
+msgstr "Spațiere orizontală"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2005
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2226
@@ -3618,56 +3627,56 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/htdocs/bi.py:1020
 #, python-format
 msgid "Host %s not found"
-msgstr ""
+msgstr "Host-ul %s nu a fost găsit"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18626
 #: /omd/sites/production/share/check_mk/web/plugins/wato/builtin_modules.py:49
 msgid "Host & Service Groups"
-msgstr ""
+msgstr "Grupuri de Host-uri și servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/builtin_modules.py:42
 msgid "Host &amp; Service Parameters"
-msgstr ""
+msgstr "Parametri pentru Host-uri și Servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/builtin.py:226
 msgid "Host &amp; Services Problems"
-msgstr ""
+msgstr "Probleme pentru Host-uri și Servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2385
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2453
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2493
 msgid "Host Aggregations"
-msgstr ""
+msgstr "Agregări de Host-uri"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1771
 msgid "Host Check Command"
-msgstr ""
+msgstr "Comanda pentru Check-ul Host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:672
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1720
 msgid "Host Checks"
-msgstr ""
+msgstr "Check-urile pentru Host"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:242
 msgid "Host Contact"
-msgstr ""
+msgstr "Contactul Host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:239
 msgid "Host Contact Group"
-msgstr ""
+msgstr "Grupul de Contacte al Host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/builting_reports.py:153
 msgid "Host Details"
-msgstr ""
+msgstr "Detaliile Host-ului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18555
 msgid "Host Diagnostic"
-msgstr ""
+msgstr "Diagnosticul Host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:312
 #: /omd/sites/production/share/check_mk/web/plugins/views/availability.py:364
 msgid "Host Down"
-msgstr ""
+msgstr "Host Innaccesibil"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:413
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1838
@@ -3677,22 +3686,22 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11573
 #: /omd/sites/production/share/check_mk/web/plugins/views/datasources.py:193
 msgid "Host Events"
-msgstr ""
+msgstr "Evenimentele Host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:793
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/infos.py:46
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:273
 msgid "Host Group"
-msgstr ""
+msgstr "Grup de Host-uri"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/infos.py:49
 #, fuzzy
 msgid "Host Group Name"
-msgstr "Numele Elementului"
+msgstr "Numele Grupului de Host-uri"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:775
 msgid "Host Group Overview"
-msgstr ""
+msgstr "Prezentare generală a Grupului de Host-uri"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:894
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:924
@@ -3700,7 +3709,7 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1011
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:71
 msgid "Host Groups"
-msgstr ""
+msgstr "Grupuri de Host-uri"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:893
 msgid "Host Groups (Grid)"
