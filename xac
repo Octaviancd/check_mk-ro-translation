@@ -3713,111 +3713,111 @@ msgstr "Grupuri de Host-uri"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:893
 msgid "Host Groups (Grid)"
-msgstr ""
+msgstr "Grupuri de host-uri (Grila)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:923
 msgid "Host Groups (Summary)"
-msgstr ""
+msgstr "Grupuri de Host-uri (Rezumat)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:80
 msgid "Host IP Address"
-msgstr ""
+msgstr "Adresa IP a Host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1951
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1149
 msgid "Host IP address"
-msgstr ""
+msgstr "Adresa IP a Host-ului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16112
 msgid "Host Logfiles"
-msgstr ""
+msgstr "Fișierele log ale Host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:408
 msgid "Host Matrix"
-msgstr ""
+msgstr "Matricea Host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:732
 msgid "Host Name"
-msgstr "Numele Elementului"
+msgstr "Numele Host-ului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16861
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16886
 msgid "Host Name:"
-msgstr ""
+msgstr "Numele Host-ului:"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:762
 msgid "Host Problems"
-msgstr ""
+msgstr "Problemele Host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/builtin.py:57
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/builtin.py:232
 msgid "Host Problems (unhandled)"
-msgstr ""
+msgstr "Problemele Host-ului (netratate)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2230
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2964
 msgid "Host Properties"
-msgstr ""
+msgstr "Proprietațile Host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/builting_reports.py:130
 msgid "Host Report"
-msgstr ""
+msgstr "Raportul Host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/builtin.py:38
 #: /omd/sites/production/share/check_mk/web/plugins/dashboard/dashlets.py:128
 msgid "Host Statistics"
-msgstr ""
+msgstr "Statisticile Host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:88
 msgid "Host Systems"
-msgstr ""
+msgstr "Sisteme Host"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/builtin_modules.py:35
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:818
 msgid "Host Tags"
-msgstr ""
+msgstr "Taguri ale Host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:121
 msgid "Host Tags (raw)"
-msgstr ""
+msgstr "Taguri ale Host-ului (brut)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16858
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16883
 msgid "Host Tags:"
-msgstr ""
+msgstr "Taguri ale Host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:467
 msgid "Host active checks enabled"
-msgstr ""
+msgstr "Check-urile active ale Host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1142
 msgid "Host alias"
-msgstr ""
+msgstr "Aliasul Host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/datasources.py:183
 msgid "Host and Service Events"
-msgstr ""
+msgstr "Evenimente ale Hos-urilor și ale Serviciilor"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2113
 msgid "Host attributes locked (You cannot edit this host)"
-msgstr ""
+msgstr "Atributele Host-ului blocate (Nu puteți edita acest Host)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:925
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:318
 msgid "Host check command"
-msgstr ""
+msgstr "Comanda pentru check a host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:932
 msgid "Host check command expanded"
-msgstr ""
+msgstr "Comanda extinsa pentru check a host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:984
 msgid "Host check duration"
-msgstr ""
+msgstr "Durata check-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:977
 msgid "Host check latency"
-msgstr ""
+msgstr "Latența check-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1018
 msgid "Host check type"
