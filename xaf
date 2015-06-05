@@ -4080,9 +4080,9 @@ msgid ""
 "discovery</a> in order to auto-configure all services to be checked on this "
 "host."
 msgstr ""
-"Creat cu succes host-ul. Acum ar trebui să faci o <a href="\%s\"descoperire "
-"de servicii</a> pentru auto-configurarea tuturor serviciile ce vor fi "
-"verificate pe acest host."
+"Creare cu succes a host-ului. Acum ar trebui să faci o <a href=\"%s\""
+"descoperire de servicii</a> pentru auto-configurarea tuturor serviciile ce "
+"vor fi verificate pe acest host."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1671
 #, python-format
@@ -4100,8 +4100,8 @@ msgstr "Contectat cu succes la site-ul remote '%s'"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9945
 #, python-format
-msgid "Successfully logged into remote site '%s'"
-msgstr "Conectat cu succes la site-ul remote '%s'"
+msgid "Successfully logged into remote site '%s'!"
+msgstr "Conectat cu succes la site-ul remote '%s'!"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:947
 #, python-format

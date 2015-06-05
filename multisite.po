@@ -11208,7 +11208,7 @@ msgstr "Colectează utilizatorul din procesele găsite"
 msgid "Grants modify access to all maps the user is contact for."
 msgstr ""
 "Permite accesul pentru modificare către toate harțile pentru care "
-"utilizatorul este contact""
+"utilizatorul este contact"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/nagvis_auth.py:55
 msgid "Grants modify access to all maps."
@@ -11738,7 +11738,7 @@ msgid ""
 msgstr ""
 "Aici puteți specifica o listă cu modele de nume de fișiere pentru a fi trimisă"
 " de agent în secțiunea <tt>Informatii fișier</tt>. Utilizați modele de "
-"globbing ca de exemplu <tt>C:\foo\*.log</tt> sau <tt>/var/*/*.log</tt> aici. "
+"globbing ca de exemplu <tt>C:\foo\\*.log</tt> sau <tt>/var/*/*.log</tt> aici. "
 "Implicit fiecare fișier găsit va fi monitorizat pentru dimensiune si vârstă. "
 "Constuind grupuri  puteți alternativ să monitorizați o colecție de fișiere ca "
 "o entitate si puteți monitoriza numarul, dimensiunea totală, cel mai mare, cel"
@@ -24874,9 +24874,9 @@ msgid ""
 "discovery</a> in order to auto-configure all services to be checked on this "
 "host."
 msgstr ""
-"Creat cu succes host-ul. Acum ar trebui să faci o <a href="\%s\"descoperire "
-"de servicii</a> pentru auto-configurarea tuturor serviciile ce vor fi "
-"verificate pe acest host."
+"Creare cu succes a host-ului. Acum ar trebui să faci o <a href=\"%s\""
+"descoperire de servicii</a> pentru auto-configurarea tuturor serviciile ce "
+"vor fi verificate pe acest host."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1671
 #, python-format
@@ -24894,8 +24894,8 @@ msgstr "Contectat cu succes la site-ul remote '%s'"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:9945
 #, python-format
-msgid "Successfully logged into remote site '%s'"
-msgstr "Conectat cu succes la site-ul remote '%s'"
+msgid "Successfully logged into remote site '%s'!"
+msgstr "Conectat cu succes la site-ul remote '%s'!"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:947
 #, python-format
