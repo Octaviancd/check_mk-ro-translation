@@ -1,37 +1,37 @@
 msgid "Hostname, marked red if down"
-msgstr "Nume element marcat roșu dacă este oprit"
+msgstr "Nume host marcat roșu dacă este oprit"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1081
 msgid "Hostname, red background if down or unreachable"
-msgstr "Nume element, fundal roșu daca este oprit sau inaccesibil"
+msgstr "Nume host, fundal roșu daca este oprit sau inaccesibil"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1100
 msgid "Hostname, red background if down, link to Nagios services"
-msgstr "Nume element, fundal roșu dacă este oprit, legatura catre serviciile de Nagios"
+msgstr "Nume host, fundal roșu dacă este oprit, legatura catre serviciile de Nagios"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:2018
 msgid "Hostname/IP address of Event Console:"
-msgstr "Nume element/Adresă IP a Consolei de Evenimente"
+msgstr "Nume Host/Adresă IP a Consolei de Evenimente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1567
 msgid "Hostname/IP address of Master Event Console:"
-msgstr "Nume element/Adresă IP a Consolei Principale de Evenimente"
+msgstr "Nume Host/Adresă IP a Consolei Principale de Evenimente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:391
 msgid "Hostname/IP-Address"
-msgstr "Nume element/Adresă IP"
+msgstr "Nume Host/Adresă IP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:102
 msgid "Hostname/IP-Address of event, exact match"
-msgstr "Nume element/Adresă IP a evenimentului, potrivire perfectă"
+msgstr "Nume Host/Adresă IP a evenimentului, potrivire perfectă"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:101
 msgid "Hostname/IP-Address of original event"
-msgstr "Nume element/Adresă IP a evenimentului original"
+msgstr "Nume Host/Adresă IP a evenimentului original"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:556
 msgid "Hostnames to resolve"
-msgstr "Nume elemente de rezolvat"
+msgstr "Nume host-uri de rezolvat"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/mobile.py:125
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1290
@@ -56,18 +56,18 @@ msgstr "Nume elemente de rezolvat"
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:71
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:557
 msgid "Hosts"
-msgstr "Elemente"
+msgstr "Host-uri"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:291
 msgid "Hosts Connected"
-msgstr "Elemente Conectate"
+msgstr "Host-uri Conectate"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:970
 msgid ""
 "Hosts attributes locked (You cannot create, edit or delete hosts in this "
 "folder)"
 msgstr ""
-"Atributele elementelor sunt blocate (Nu poți crea, modifica sau șterge elemente "
+"Atributele host-urilor sunt blocate (Nu poți crea, modifica sau șterge host-uri "
 "din acest folder)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1597
@@ -76,8 +76,8 @@ msgid ""
 "to put hosts which belong together in a host group to make it possible to "
 "get them listed together in the status GUI."
 msgstr ""
-"Elementele pot fi grupate împreună în grupurile de elemente. Cel mai întalnit"
-"caz este gruparea elementelor care corespund într-un singur grup pentru a face"
+"Host-urile pot fi grupate împreună în grupurile de host. Cel mai întalnit"
+"caz este gruparea host-ilor care corespund într-un singur grup pentru a face"
 "posibilă afișarea lor împreună în interfața de stare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1373
