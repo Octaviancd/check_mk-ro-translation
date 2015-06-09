@@ -1,0 +1,5 @@
+#!/bin/bash
+d=`date +%Y.%m.%d`
+cp multisite.po oldMerge/multisite.po_$d
+cat xaa xab xac xad xae xaf xag xah xai > multisite.po
+
