@@ -447,6 +447,10 @@ msgid ""
 "here. This mapping is being applied <b>after</b> the case conversion and "
 "<b>after</b> a regular expression conversion (if that matches)."
 msgstr ""
+"Dacă conversia de litere și expresiile regulate nu funcționează în toate "
+"cazurile atunci poți specifica perechi de host name origine și host name "
+"tradus aici. Această mapare este aplicată <b>după</b> conversia literelor și "
+"<b>după</b> conversia prin expresii regulate (dacă se potrivesc)."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:883
 msgid ""
@@ -484,6 +488,9 @@ msgid ""
 "regular check, if the service discovery would find new services currently un-"
 "monitored."
 msgstr ""
+"Dacă este activat, Check_MK va crea un check adițional per host care face "
+"o verificare regulată, dacă descoperirea serviciilor ar identifica noi "
+"servicii ne-monitorizate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:347
 msgid ""
@@ -491,6 +498,9 @@ msgid ""
 "an event is being created. If the required count is not reached then the "
 "count is reset to zero."
 msgstr ""
+"Dacă în acest interval de timp regula este declanșate, un eveniment va fi "
+"creat. Dacă numărul necesar nu este atins atunci contoarul va fi resetat la "
+"zero."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:685
 msgid ""
@@ -501,34 +511,46 @@ msgid ""
 "the PING packet is being sent but from the time the last packet from the "
 "host was being seen."
 msgstr ""
+"Dacă nici un pachet ICMP sau TCP-SYN/RST este primit de la host pentru "
+"perioada de timp configurată aici atunci host-ul este considerat a fi oprit. "
+"Acest interval este implicit 2.5 ori intervalul de verificare pentru host. "
+"<b>Note</b>: Această setare <i>nu</i> este măsurată din punctul în care "
+"pachetul PING este trimis ci din momentul în care ultimul pachet de la host "
+"a fost primit."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/reporting.py:439
 msgid ""
 "If no explicit time range is being provided then the report default to this "
 "range."
 msgstr ""
+"Dacă nici o perioada de timp explicită este furnizată atunci raportul va fi "
+"creat cu această perioadă de timp."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1122
 msgid "If omitted then the IP address is being used."
-msgstr ""
+msgstr "Dacă este omis atunci adresa IP va fi folosită."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1557
 msgid ""
 "If one of the selected state occur, the check will repsond with a Critical "
 "state "
 msgstr ""
+"Dacă una din stările selectate apr, check-ul va răspunde cu o stare Critică "
 
 #: /omd/sites/production/share/check_mk/web/plugins/webapi/webapi.py:113
 msgid "If set to 1 (default=0) also get attributes from parent folders"
 msgstr ""
+"Dacă este configurat la 1 (implicit=0) primește și atributele de la "
+"folder-ele părinte"
 
 #: /omd/sites/production/share/check_mk/web/plugins/webapi/webapi.py:174
 msgid "If set to 1 (default=0) proceed if there are foreign changes"
 msgstr ""
+"Dacă este configurat la 1 (implicit=0_ procedează dacă sunt schimbâri străine"
 
 #: /omd/sites/production/share/check_mk/web/plugins/webapi/webapi.py:51
 msgid "If set to 1(default) create non-existing folders1)"
-msgstr ""
+msgstr "Dacă este configurat cu 1(implicit) crează foldere non-existente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:118
 msgid ""
