@@ -3821,7 +3821,7 @@ msgstr "Latența check-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1018
 msgid "Host check type"
-msgstr ""
+msgstr "Tipul de check pentru host"
 
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:939
 msgid "Host checks"
@@ -3830,41 +3830,41 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:334
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1301
 msgid "Host comments"
-msgstr ""
+msgstr "Comentariile host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1287
 msgid "Host contact groups"
-msgstr ""
+msgstr "Grupuri de contacte ale host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:2100
 msgid "Host contact information"
-msgstr ""
+msgstr "Informatiile de contact ale host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1280
 msgid "Host contacts"
-msgstr ""
+msgstr "Contactele hostului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1345
 msgid "Host custom variables"
-msgstr ""
+msgstr "Variabilele personalizate ale host-ului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14602
 msgid "Host does not have tag"
-msgstr ""
+msgstr "Host-ul nu are tag"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:494
 msgid "Host downtimes"
-msgstr ""
+msgstr "Perioade de nefunctionare ale host-ului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12239
 msgid "Host events"
-msgstr ""
+msgstr "Evenimetele host-ului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11576
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12223
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1870
 msgid "Host gets unreachble"
-msgstr ""
+msgstr "Host-ul devine inaccesibil"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11575
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12222
@@ -3885,180 +3885,184 @@ msgstr "Grup nou"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14608
 msgid "Host has <b>not</b> the tag "
-msgstr ""
+msgstr "Host-ul <b>nu</b> are tagul"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/inventory.py:137
 msgid "Host has software package"
-msgstr ""
+msgstr "Host-ul are pachetul software"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14604
 msgid "Host has tag"
-msgstr ""
+msgstr "Host-ul are tag"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14610
 msgid "Host has the tag "
-msgstr ""
+msgstr "Host-ul are tagul"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1806
 msgid "Host history"
-msgstr ""
+msgstr "Istoricul host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:204
 msgid "Host icons"
-msgstr ""
+msgstr "Icoanele pentru host"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1308
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:475
 msgid "Host in downtime"
-msgstr ""
+msgstr "Host în timp de nefunctionare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1025
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:465
 msgid "Host in notif. period"
-msgstr ""
+msgstr "Host în perioada de notificare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14635
 msgid "Host is <b>not</b> one of "
-msgstr ""
+msgstr "Host-ul <b>nu</b> este unul dintre"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1053
 msgid "Host is active"
-msgstr ""
+msgstr "Host-ul este activ"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1046
 msgid "Host is flapping"
-msgstr ""
+msgstr "Host-ul este în flapping"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:233
 msgid "Host is in Group"
-msgstr ""
+msgstr "Host-ul este în Grup"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1329
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:480
 msgid "Host is stale"
-msgstr ""
+msgstr "Host-ul este stale"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:18520
 msgid "Host management"
-msgstr ""
+msgstr "Managementul host-urilor"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14631
 msgid "Host name is "
-msgstr ""
+msgstr "Numele host-ului este"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14629
 #, python-format
 msgid "Host name is %s"
-msgstr ""
+msgstr "Numele host-ului este %s"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1039
 msgid "Host notification number"
-msgstr ""
+msgstr "Numărul notificării pentru host"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1032
 msgid "Host notification period"
-msgstr ""
+msgstr "Perioada de notificare pentru host"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2927
 msgid "Host notifications"
-msgstr ""
+msgstr "Notificările host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1059
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:468
 msgid "Host notifications enabled"
-msgstr ""
+msgstr "Notificările activate pentru host"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11562
 msgid ""
 "Host or Service must be in the following service level to get notification"
 msgstr ""
+"Host-ul sau Serviciul trebuie să fie în următorul nivel de service pentru a "
+"primi notificare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8465
 msgid ""
 "Host or service must be in the following service level to get notification"
 msgstr ""
+"Host-ul sau serviciul trebuie să fie în urmatorul nivel de service pentru a "
+"primi notificare"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:918
 msgid "Host performance data"
-msgstr ""
+msgstr "Datele de performanță ale host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1315
 msgid "Host problem acknowledged"
-msgstr ""
+msgstr "Probleme confirmate ale host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:466
 msgid "Host problem has been acknowledged"
-msgstr ""
+msgstr "Problema host-ului a fost confirmată"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:968
 msgid "Host problems"
-msgstr ""
+msgstr "Problemele host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2120
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2150
 msgid "Host problems for NagStaMon"
-msgstr ""
+msgstr "Problemele hostului pentru NagStaMon"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2418
 msgid "Host related aggregations"
-msgstr ""
+msgstr "Agregări asociate host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1896
 msgid "Host running Event Console"
-msgstr ""
+msgstr "Host ce rulează Consola de Evenimente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1152
 msgid "Host search"
-msgstr ""
+msgstr "Căutare de host"
 
 #: /omd/sites/production/share/check_mk/web/plugins/webapi/webapi.py:151
 msgid "Host service discovery"
-msgstr ""
+msgstr "Descoperire de servicii pentru host"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1337
 msgid "Host service level"
-msgstr ""
+msgstr "Nivelul de service al host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1944
 msgid "Host specification"
-msgstr ""
+msgstr "Specificatiile host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1322
 msgid "Host staleness value"
-msgstr ""
+msgstr "Nivelul stării de stale a host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:895
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:93
 msgid "Host state"
-msgstr ""
+msgstr "Starea host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:903
 msgid "Host state (first character)"
-msgstr ""
+msgstr "Starea host-ului (primul caracter)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:434
 msgid "Host state type"
-msgstr ""
+msgstr "Tipul stării host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:360
 msgid "Host states"
-msgstr ""
+msgstr "Stările host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mobile.py:340
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1067
 msgid "Host status"
-msgstr ""
+msgstr "Statusul host-ului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12693
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12799
 msgid "Host tag groups"
-msgstr ""
+msgstr "Grupuri de taguri pentru host"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1988
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:385
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:388
 msgid "Host tag:"
-msgstr ""
+msgstr "Tagul host-ului:"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6014
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:6103
@@ -4068,15 +4072,15 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12685
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14869
 msgid "Host tags"
-msgstr ""
+msgstr "Tagurile host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1923
 msgid "Host tags (raw)"
-msgstr ""
+msgstr "Tagurile host-ului (brut)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1946
 msgid "Host tags (with titles)"
-msgstr ""
+msgstr "Tagurile host-ului (cu titluri)"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12800
 msgid ""
@@ -4086,10 +4090,16 @@ msgid ""
 "hosts and services, such as <i>disable notifications for all hosts with the "
 "tags <b>Network device</b> and <b>Test</b></i>."
 msgstr ""
+"Tagurile hostului sunt baza configurarii bazate pe reguli a Check_MK. În "
+"primul pas definiți grupuri de taguri arbitrare. Un host are atribuit exact un"
+" tag din fiecare grup. Aceste taguri pot fi folosite mai târziu la definirea "
+"parametrilor pentru host-uri si servicii, precum <i>dezactivează notificările "
+"pentru toate host-urile cu tagurile <b>Dispozitiv de Rețea</b> și <b>Test</b>"
+"</i>."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/bi.py:1646
 msgid "Host&nbsp;status"
-msgstr ""
+msgstr "Statusul&nbsp;host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1257
 msgid "Host's childs"
@@ -4101,11 +4111,11 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mobile.py:540
 msgid "Host+Svc history"
-msgstr ""
+msgstr "Istoricul Host+Svc"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mobile.py:651
 msgid "Host+Svc notifications"
-msgstr ""
+msgstr "Notificările Host+Svc"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2512
 msgid "Host-"
@@ -4113,39 +4123,39 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1789
 msgid "Host- and Service events"
-msgstr ""
+msgstr "Host- și evenimetele Serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:3043
 msgid "Host- and Service notifications"
-msgstr ""
+msgstr "Host- și notificările Serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/datasources.py:158
 msgid "Host- and Servicecomments"
-msgstr ""
+msgstr "Host- și comentariile Serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:54
 msgid "Host-/Servicegroups"
-msgstr ""
+msgstr "Host-/Grupuri de Servicii"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4942
 msgid "Host/Device temperature"
-msgstr ""
+msgstr "Host/Temperatura dispozitivului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8209
 msgid "Host/Service state"
-msgstr ""
+msgstr "Host/Starea Serviciului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:1923
 msgid "Host/Svc history"
-msgstr ""
+msgstr "Host/Svc history"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2970
 msgid "Host/Svc notific."
-msgstr ""
+msgstr "Host/Notificări Svc."
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:476
 msgid "Host/service in downtime"
-msgstr ""
+msgstr "Host/serviciu în perioada de nefuncționare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10193
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16801
@@ -4154,44 +4164,44 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:64
 msgid "Hostalias"
-msgstr ""
+msgstr "Aliasul host-ului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/sorters.py:159
 msgid "Hostgroup"
-msgstr ""
+msgstr "Grup de host-uri"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:289
 msgid "Hostgroup (Regex)"
-msgstr ""
+msgstr "Grup de host-uri (Regex)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1457
 msgid "Hostgroup alias"
-msgstr ""
+msgstr "Alias al grupului de host-uri"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1450
 msgid "Hostgroup name"
-msgstr ""
+msgstr "Numele grupului de host-uri"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2891
 msgid "Hostgroup with BI state"
-msgstr ""
+msgstr "Grup de host-uri cu stare BI"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2867
 msgid "Hostgroup with boxed BIs for each host"
-msgstr ""
+msgstr "Grup de host-uri cu BI inclus pentru fiecare host"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/datasources.py:122
 #: /omd/sites/production/share/check_mk/web/plugins/sidebar/shipped.py:213
 msgid "Hostgroups"
-msgstr ""
+msgstr "Grupuri de host-uri"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1273
 msgid "Hostgroups the host is member of"
-msgstr ""
+msgstr "Grupuri de host-uri în care host-ul este membru"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/datasources.py:131
 msgid "Hostgroups, merged"
-msgstr ""
+msgstr "Grupuri de host-uri, unite"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:1457
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:2124
@@ -4206,44 +4216,44 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/infos.py:31
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:58
 msgid "Hostname"
-msgstr ""
+msgstr "Nume de host"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17680
 #, python-format
 msgid "Hostname %s already exists"
-msgstr ""
+msgstr "Numele de host %s deja există"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:17684
 #, python-format
 msgid "Hostname %s does not exist"
-msgstr ""
+msgstr "Numele de host %s nu există"
 
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/filters.py:61
 msgid "Hostname (exact match)"
-msgstr ""
+msgstr "Nume de host (potrivire exactă)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:241
 msgid "Hostname / IP Address of Graphite server"
-msgstr ""
+msgstr "Nume de host / Adresă IP a serverului Graphite"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/builtin.py:2477
 msgid "Hostname Aggregations"
-msgstr ""
+msgstr "Agregările numelui de host"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1704
 msgid "Hostname of the Device"
-msgstr ""
+msgstr "Numele de host al dispozitivului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1117
 msgid "Hostname or IPv4 address for listener"
-msgstr ""
+msgstr "Numele host-ului sau adresa IPv4 pentru listener"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1766
 msgid "Hostname translation for incoming messages"
-msgstr ""
+msgstr "Translatarea numelui hostului pentru mesajele venite"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:2522
 msgid "Hostname translation for piggybacked hosts"
-msgstr ""
+msgstr "Translatarea numelui host-ului pentru host-urile transportate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1126

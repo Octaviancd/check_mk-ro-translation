@@ -1,11 +1,11 @@
 #, python-format
 msgid "Switched replication slave mode to %s"
-msgstr ""
+msgstr "Comutare a replicării slave la modul %s"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1259
 #, python-format
 msgid "Switched to %s mode"
-msgstr ""
+msgstr "Comutare la modul %s"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:466
 msgid "Symantec Anti Virus (Linux)"
@@ -30,11 +30,11 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:11346
 #, python-format
 msgid "Synchronized with master (my site id is %s.)"
-msgstr ""
+msgstr "Sincronizat cu master-ul (id-ul site-ului mae este %s.)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/userdb/ldap.py:713
 msgid "Synchronizes the email of the LDAP user account into Check_MK."
-msgstr ""
+msgstr "Sincronizează emailul din contul de LDAP al userului în Check_MK"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:751
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:220
@@ -43,7 +43,7 @@ msgstr "Unitatea Syslog"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/notifications.py:191
 msgid "Syslog Facility to use"
-msgstr ""
+msgstr "Unitatea Syslog de utilizat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:744
 #: /omd/sites/production/share/check_mk/web/plugins/visuals/mkeventd.py:173
@@ -52,51 +52,51 @@ msgstr "Prioritatea Syslog"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1915
 msgid "Syslog facility for Event Console notifications"
-msgstr ""
+msgstr "Unitatea Syslog pentru notificarile Consolei de Evenimente"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6096
 msgid "Syslog facility for forwarded messages"
-msgstr ""
+msgstr "Unitatea Syslog pentru mesajele redirectionate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:608
 msgid "Syslog priority to cancel event"
-msgstr ""
+msgstr "Prioritatea Syslog pentru anularea evenimentului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:433
 msgid "Syslog-Facility"
-msgstr ""
+msgstr "Unitatea-Syslog"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:426
 msgid "Syslog-Priority"
-msgstr ""
+msgstr "Prioritatea-Syslog"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1702
 msgid "Syslog-like message logging"
-msgstr ""
+msgstr "Logarea mesagelor compatibile Syslog"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/inventory.py:418
 msgid "System"
-msgstr ""
+msgstr "Sistem"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:297
 msgid "System Info"
-msgstr ""
+msgstr "Informatii Sistem"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:773
 msgid "System Number"
-msgstr ""
+msgstr "Numarul Sistemului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:298
 msgid "System Stats"
-msgstr ""
+msgstr "Stările Sistemului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:209
 msgid "System time (time synchronization)"
-msgstr ""
+msgstr "Ora Sistemului (sincronizarea orei)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:208
 msgid "System uptime"
-msgstr ""
+msgstr "Perioada de functionare a Sistemului"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1894
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6075
@@ -105,7 +105,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1778
 msgid "TCP Connect"
-msgstr ""
+msgstr "Conectare TCP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:681
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:374
@@ -119,7 +119,7 @@ msgstr ""
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1625
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1633
 msgid "TCP Port"
-msgstr ""
+msgstr "Port TCP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:975
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1028
@@ -128,24 +128,24 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/datasource_programs.py:66
 msgid "TCP Port number"
-msgstr ""
+msgstr "Numărul Portului TCP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1572
 msgid "TCP Port number of status socket:"
-msgstr ""
+msgstr "Numărul Portului TCP a socket-ului de status:"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:2023
 msgid "TCP Port number:"
-msgstr ""
+msgstr "Numarul Portului TCP:"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:246
 msgid "TCP Port of carbone line receiver"
-msgstr ""
+msgstr "Portul TCP a receiver-ului liniei de duplicare"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10190
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:971
 msgid "TCP Port to connect to"
-msgstr ""
+msgstr "Portul TCP la care să se conecteze"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1500
 msgid "TCP SYN"
@@ -153,11 +153,11 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1593
 msgid "TCP connection timeout for connecting to the master"
-msgstr ""
+msgstr "Timeout-ul conexiunii TCP pentru conectarea la master"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mknotifyd.py:64
 msgid "TCP port"
-msgstr "Portul TCO"
+msgstr "Portul TCP"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:653
 msgid "TCP port for connection"
@@ -169,11 +169,11 @@ msgstr "TCP port pentru conexiunile la agentul Check_MK"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1129
 msgid "TCP port number to connect to. Usually either 139 or 445."
-msgstr "Numar port TCP pentru conexiune. Deobicei 139 sau 445."
+msgstr "Numar port TCP pentru conexiune. De obicei 139 sau 445."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1122
 msgid "TCP-Port for Listener"
-msgstr "TCP-Port pentru Listener"
+msgstr "Port-TCP pentru Listener"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1813
 msgid "TIME_WAIT"
@@ -181,7 +181,7 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1054
 msgid "TS Quotas"
-msgstr ""
+msgstr "Cote TS"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:572
 msgid "TSM - IBM Tivoli Storage Manager (Linux, Unix)"
@@ -248,64 +248,71 @@ msgid ""
 "Tags classify hosts and are the fundament of configuration of hosts and "
 "services."
 msgstr ""
+"Tagurile clasifică Host-urile și sunt fundamentul configurării host-urilor și "
+"serviciilor."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:13110
 msgid "Tags with only one choice must have an ID."
-msgstr ""
+msgstr "Tagurile cu o singura opțiune trebuie sa aibă un ID."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/bi.py:59
 msgid "Take n'th best state for n = "
-msgstr ""
+msgstr "Ia a <b>n</b>-a stare cea mai buna pentru n = "
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/bi.py:37
 msgid "Take n'th worst state for n = "
-msgstr ""
+msgstr "Ia a <b>n</b>-a stare cea mai proastă pentru n = "
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1606
 msgid "Takeover after a master downtime of"
-msgstr ""
+msgstr "Preia după o stare de nefuncționare a masterului de"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1283
 msgid "Takeover!"
-msgstr ""
+msgstr "Preluat!"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2222
 msgid "Target State"
-msgstr ""
+msgstr "Starea Țintei"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4869
 msgid "Target state"
-msgstr ""
+msgstr "Starea țintei"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2918
 msgid "Target states"
-msgstr ""
+msgstr "Stările țintei"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:539
 msgid "Task Matching"
-msgstr ""
+msgstr "Potrivire a task-urilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5077
 msgid "Temperature"
-msgstr ""
+msgstr "Temperatură"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5324
 msgid "Temperature Trend Analysis"
-msgstr ""
+msgstr "Analiza Trendului pentru Temperatură"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5072
 msgid "Temperature and Humidity for Eaton UPS"
-msgstr ""
+msgstr "Temperatura și Umiditatea pentru UPS-uri Eaton"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4926
 msgid ""
 "Temperature levels for external thermometers that are used for monitoring "
 "the temperature of a datacenter. An example is the webthem from W&amp;T."
 msgstr ""
+"Nivelele de temperatură pentru termometrele externe ce sunt utilizate pentru "
+"monitorizarea temperaturii centrului de date. Un exemplu este webthem de la "
+"W&amp;T."
+
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5058
 msgid "Temperature levels for hard disks, that is determined e.g. via SMART"
 msgstr ""
+"Nivelele de temperatură pentru hard disk=uri, determinate de exemplu via SMART"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5024
 msgid ""
@@ -313,6 +320,9 @@ msgid ""
 "(potentially) several temperature sensors. Sensor IDs can be selected in the "
 "rule."
 msgstr ""
+"Nivelele de temperatură pentru echipamente hardware precum switch-urile "
+"Brocade cu (posibil) mai mulți senzori de temperatură. ID-ul senzorului poate "
+"fi selectat în regulă."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5043
 msgid ""
