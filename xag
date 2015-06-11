@@ -329,54 +329,58 @@ msgid ""
 "Temperature levels for hardware devices like DELL Powerconnect that have "
 "just one temperature sensor. "
 msgstr ""
+"Nivelele de temperatură pentru echipamentele hardware precum DELL Powerconnect"
+" care au doar un senzor de temperatură."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:4944
 msgid ""
 "Temperature levels for hardware devices with a single temperature sensor."
 msgstr ""
+"Nivelele de temperatură pentru dispozitivele hardware cu un singur senzor de "
+"temperatură."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5311
 msgid "Temperature sensors with builtin levels"
-msgstr ""
+msgstr "Senzori de temperatură cu nivele preprogramate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5322
 msgid "Temperature trends for devices with builtin levels"
-msgstr ""
+msgstr "Trendurile de temperatură pentru dispozitivele cu nivele preprogramate"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:40
 msgid "Temperature, Humidity, Electrical Parameters, etc."
-msgstr ""
+msgstr "Temperatura, Umiditate, Parametrii Electrici, etc."
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/builting_reports.py:87
 msgid "Template for PDF exporting"
-msgstr ""
+msgstr "Șablon pentru exportarea PDF"
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/builting_reports.py:111
 msgid "Template for PDF exporting of availability views"
-msgstr ""
+msgstr "Șablon pentru exportarea PDF a view-urilor diponibilității"
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/builting_reports.py:99
 msgid "Template for PDF exporting of views"
-msgstr ""
+msgstr "Șablon pentru exportul PDF a view-urilor"
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/builting_reports.py:31
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/builting_reports.py:86
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/builting_reports.py:98
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/builting_reports.py:110
 msgid "Templates"
-msgstr ""
+msgstr "Șabloane"
 
 #: /omd/sites/production/share/check_mk/web/plugins/userdb/user_attributes.py:57
 msgid "Temporarily disable <b>all</b> notifications!"
-msgstr "Dezactiveaza temporar <b>toate</b> notificarile!"
+msgstr "Dezactivează temporar <b>toate</b> notificările!"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10492
 msgid "Temporarily disable this connection"
-msgstr ""
+msgstr "Dezactivează temporat această conexiune"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:3321
 msgid "Temporarily ignore this service"
-msgstr ""
+msgstr "Ignoră temporar acest serviciu"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/cmc.py:150
 msgid "Terse"
@@ -396,37 +400,37 @@ msgstr ""
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:816
 msgid "Text logfiles (Linux)"
-msgstr ""
+msgstr "Fișiere log text (Linux)"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:600
 msgid "Text to cancel event"
-msgstr ""
+msgstr "Textul pentru anularea evenimetului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:16143
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:535
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1045
 msgid "Text to match"
-msgstr ""
+msgstr "Textul pentru potrivire"
 
 #: /omd/sites/production/share/check_mk/web/plugins/reporting/fixed_elements.py:59
 msgid "Text to place"
-msgstr ""
+msgstr "Textul pentru a fi plasat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:165
 msgid "Text-body of the email to send. "
-msgstr ""
+msgstr "Text-corpul emailului de trimis"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:331
 msgid "Text/Message of the event"
-msgstr ""
+msgstr "Textul/Mesajul evenimentului"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:12405
 msgid "That many permissions do not use the factory defaults."
-msgstr ""
+msgstr "Atât de multe permisiuni nu folosesc setările implicite"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:340
 msgid "That many times the message must occur until an event is created"
-msgstr ""
+msgstr "De atâtea ori mesajul trebuie să apara până când un evenimet este creat"
 
 #: /omd/sites/production/share/check_mk/web/plugins/userdb/ldap.py:763
 #, python-format
