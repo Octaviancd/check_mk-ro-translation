@@ -558,6 +558,10 @@ msgid ""
 "Multisite status view if that view has been configured for sounds. From the "
 "views shipped in with Multisite all problem views have sounds enabled."
 msgstr ""
+"Dacă suntele sunt activate utilizatorul va fi notificat de probleme afișate "
+"în Multiste dacă acestea au fost configurate pentru acel view. Dintre "
+"view-urile implicite Multisite, toate cele cu probleme sunt configurate "
+"pentru sunete."
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/mkeventd.py:276
 msgid ""
@@ -566,6 +570,10 @@ msgid ""
 "host in the montioring and that do not have been assigned specific contract "
 "groups to via the event rule."
 msgstr ""
+"Dacă acel utilizator nu are permisiunea pentru a <i>Vedea toate evenimentele"
+"</i> aceasta permisiune configurează dacă poate sau nu să vadă evenimente "
+"care nu sunt legate de un host în monitorizare și care nu au fost asignate "
+"unui grup de contacte specific prin regula de eveniment."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2312
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2331
@@ -574,6 +582,9 @@ msgid ""
 "capabilities are throttled because of the network setup you can set the "
 "assumed speed here."
 msgstr ""
+"Dacă detecția automată al vitezei nu funcționează sau capacitățile "
+"switch-ului sunt sugrumate datorita configurării rețelei poți specifica "
+"viteza aici."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:836
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6725
@@ -581,6 +592,7 @@ msgid ""
 "If the automatic detection of the link speed does not work you can set the "
 "link speed here."
 msgstr ""
+"Dacă detecția automată al vitezei nu funcționează poți configura aici viteza."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:609
 msgid ""
@@ -589,12 +601,18 @@ msgid ""
 "rule will automatically be cancelled (if host, application and match groups "
 "match)."
 msgstr ""
+"Dacă prioritatea evenimentului se află în acest interval și nici un text "
+"pentru anulare sau alt text s-a potrivit atunci evenimentele create cu "
+"această regulă vor fi automat anulate (dacă host, aplicația și grupurile de "
+"potrivire se potrivesc)."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mknotifyd.py:90
 msgid ""
 "If the processing of a notification fails, the notify daemon retries to send "
 "the notification again after this time"
 msgstr ""
+"Dacă procesarea unei notificări eșuează atuni daemon-ul pentru notificări va "
+"reîncerca notificării după aceste interval de timp"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:493
 msgid ""
@@ -602,6 +620,10 @@ msgid ""
 "to this rule, you can optionally merge the new incident with the exising "
 "event or create a new event for each interval with absent messages."
 msgstr ""
+"Dacă există deja un eveniment deschis datorită absenței unu mesaj în "
+"concordanță cu această regulă, poți fuziona noul incident cu cel existent "
+"sau să creezi un nou eveniment pentru fiecare interval în care nu se primesc "
+"mesaje noi."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:1386
 msgid ""
@@ -610,6 +632,10 @@ msgid ""
 "page, you need to provide the name of the form here, to enable the check to "
 "identify the correct form element."
 msgstr ""
+"Dacă există un singur forumalre pe pagina solicitată nu trebuie să furnizezi "
+"numele formului aici. Dacă în schimb ai multiple formulare pe pagină trebuie "
+"să furnizezi numele formularului aici pentru ca check-ul să poată identifica "
+"formularul corespunzător."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1435
 msgid ""
@@ -620,6 +646,13 @@ msgid ""
 "old behaviour by disabling this option. This will retain the old service "
 "descriptions and the old performance data."
 msgstr ""
+"Dacă această opțiune este activată atunci Check_MK va adăuga zero-uri la "
+"numărul porturilor al interfețelor de rețea pentru ca toate descrierile de la "
+"toate porturile de rețea al unui host sau switch au aceeași lungime și astfel "
+"sunt sortate corect în GUI. În versiuni anterioarea versiunii 1.1.13i3 nu "
+"exista această funcționalitate. Poți trece înapoi la comportamentul anterior "
+"prin dezactivarea acestei opțiuni. Aceasta va păstra descrierile și datele de "
+"de performanță al vechiului serviciu."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:416
 msgid ""
@@ -631,6 +664,13 @@ msgid ""
 "authentication information. This option can be useful to  realize "
 "authentication in reverse proxy environments."
 msgstr ""
+"Dacă această opțiune este activată, multisite citește variabila HTTP header "
+"de la cerea primită și va lua șirul din această variablă ca numele "
+"utilizatorului autentificat. Atenție: Permite acces numai de la IP-uri de "
+"încredere (Apache <tt>Allow from</tt>), precum servere de proxy pentru "
+"această pagină. Un utilizator cu acces la această pagină poate falsicia "
+"informația de autentificare. Această opțiune este utilă în medii cu "
+"autentificare proxy inversă,"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6106
 msgid ""
@@ -639,6 +679,10 @@ msgid ""
 "compared to the initial list that was snapshotted during service detection. "
 "Reinventorize this check in order to make it OK again."
 msgstr ""
+"Dacă această opțiune este activată, check-ul monitorizează lista de log-uri "
+"transmisă și te va avertiza dacă un log lipsește sau depășește, comparativ "
+"cu lista inițială care a fost captată la detecția serviciilor. "
+"Reinventariază acest check pentru a trece înapoi în starea OK din nou."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:137
 msgid ""
@@ -646,6 +690,9 @@ msgid ""
 "buttons and hides the rest. Which buttons are used how often is computed "
 "separately per user."
 msgstr ""
+"Dacă aceastâ opțiune este activată atunci Multisite va afișa doar cele mai "
+"utilizate butoane de context și le ascunde pe restul. Butoanele folosite și "
+"frecvența lor este calculată separat per utilizator."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/globals_notification.py:61
 msgid ""
@@ -657,6 +704,13 @@ msgid ""
 "you need to do the analysis directly on the remote sites - unless you use a "
 "central spooling."
 msgstr ""
+"Dacă această opțiune este configurată cu o valoare non-zero atunci Check_MK "
+"va păstra ultimele <i>X</i> notificări pentru referință ulterioară. Poți "
+"relua aceste notificări și analiza set-ul tău de reguli de notificări. "
+"Aceasta funcționează numai cu notificările bazate pe reguli (RBN). Notă: "
+"numai notificările trimise prin sistemul de notificări local pot fi "
+"urmărite. Dacă ai un mediu distribuit trebui să faci analiza direct pe "
+"pe site-urile distante."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:398
 msgid ""
@@ -664,12 +718,19 @@ msgid ""
 "logfile containing details about compiling BI aggregations. This includes "
 "statistics and details for each executed compilation."
 msgstr ""
+"Dacă această opțiune este activată și configurată cu un nume de fișier, "
+"Check_MK BI va crea un logfile conținând detalii despre compilatea "
+"agregărilor BI. Aceasta include statistici și detalii pentru fiecare "
+"compilare executată."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:950
 msgid ""
 "If this option is used and set to a filename, Check_MK will create a logfile "
 "containing details about connecting to LDAP and the single transactions."
 msgstr ""
+"Dacă această opțiune este activată și configurată cu un nume de fișier, "
+"Check_MK va crea un fișier logfile conținând detalii despre conexiunea "
+"LDAP și singura tranzacție."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:2714
 msgid ""
@@ -677,6 +738,9 @@ msgid ""
 "specified time interval before levels are being applied. Per default, "
 "averaging is turned off."
 msgstr ""
+"Dacă acest parametru este activat, toate valorile măsurate vor fi mediate "
+"peste intervalul de timp înainte ca nivele să fie aplicate. Implicit, "
+"medierea este dezactivată."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:1421
 msgid ""
@@ -684,6 +748,9 @@ msgid ""
 "specified time interval before levels are being applied. Per default, "
 "averaging is turned off. "
 msgstr ""
+"Dacă acest parametru este activat, toate valorile măsurate vor fi mediate "
+"peste intervalul de timp înainte ca nivele să fie aplicate. Implicit, "
+"medierea este dezactivată."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:880
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:6769
