@@ -759,6 +759,9 @@ msgid ""
 "specified time interval before levels are being applied. Per default, "
 "averaging is turned off. "
 msgstr ""
+"Dacă acest parametru este activat, toate capacitățile vor fi mediate peste "
+"intervalul perioadei de timp specificat înainte ca nivelele să fie aplicate. "
+"Implicit, medierea este dezactivată."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/active_checks.py:322
 msgid ""
@@ -767,6 +770,10 @@ msgid ""
 "evaluated in the check. If input parameters are required, they may be "
 "specified below."
 msgstr ""
+"Dacă activezi această opțiune, numele procedurii stocate va fi folosit în "
+"locul unei instrucțiuni SQL. Procedura trebuie să întoarcă o variabilă de "
+"ieșire ca va fi calculată cu acest check. Dacă parametri de intrare sunt "
+"necesari, aceștia pot fi specificați mai jos."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:1000
 msgid ""
@@ -775,6 +782,10 @@ msgid ""
 "be one new service with detailed statistics of the current number of clients "
 "and processes and their various states."
 msgstr ""
+"Dacă activezi această opțiune, atunci plugin-ul agent <tt>apache_status</tt> "
+"va fi instalat. Pentru fiecare instanță Apache configurată sau detectată se "
+"va crea un nou serviciu cu statistici detaliate despre numărul curent de "
+"clienți, procese și stările lor."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:491
 msgid ""
@@ -787,6 +798,14 @@ msgid ""
 "3Acmk_inv&folder=&mode=edit_ruleset'>Hardware/Software-Inventory / Do "
 "hardware/software Inventory</a>."
 msgstr ""
+"Dacă activezi această opțiune, atunci plugin-ul agent <tt>mk_inventory</tt> "
+"va fi instalat pe host-urile Linux. Aceasta adună informații despre "
+"hardware-ul și software-ul instalat și le face disponibile în Multisite și "
+"pentru export câtre software-ul terț. <b>Notă:</b> pentru a putea folosi "
+"inventarul pentru un host trebuie să activezi această opțiune în setul de "
+"reguli <a href='wato.py?varname=active_checks%3Acmk_inv&folder=&"
+"mode=edit_ruleset'>Hardware/Software-Inventory / Do hardware/software "
+"Inventory</a>."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:946
 msgid ""
@@ -795,12 +814,18 @@ msgid ""
 "be one new service with detailed statistics of the current number of clients "
 "and processes and their various states."
 msgstr ""
+"Dacă activezi această opțiune, atunci plugin-ul agent <tt>nginx_status</tt> "
+"va fi instalat. Pentru fiecate instanță NGINX configurată sau detectată se "
+"va crea un nou serviciu cu statistici detaliate despre numărul curent de "
+"clienți, procese și stările lor."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1513
 msgid ""
 "If you are running the mkeventd as a non-root (such as in an OMD site) "
 "please choose port number greater than 1024."
 msgstr ""
+"Dacă rulezi mkeventd cu un utilizator non-root (precum într-un site OMD), "
+"alege un port mai mare de 1024."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/globals_notification.py:76
 msgid ""
@@ -808,6 +833,9 @@ msgid ""
 "then Check_MK will check for ripe notification bulks to be sent out at "
 "latest every this interval."
 msgstr ""
+"Dacă flosești notificare bazate pe reguli (RBN) cu <i>Bulk Notifications</i> "
+"atunci Check_MK va verifica pentru notificări în masă noi pentru fi trimise "
+"la cel puțin acest interval."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1986
 msgid ""
@@ -815,6 +843,9 @@ msgid ""
 "event state. Acknowledged events are displayed (i.e. their count) but not "
 "taken into account."
 msgstr ""
+"Dacă activezi această opțiune atunci numai evenimente deschise vor fi onorate "
+"la determinarea stării evenimentului. Evenimentele recunoscute sunt afișate ("
+"numărul lor) dar nu sunt luate în calcul."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:627
 #, python-format
@@ -822,18 +853,24 @@ msgid ""
 "If you define a text here, then it will be used in context buttons linking "
 "to the %s instead of the regular title."
 msgstr ""
+"Dacă definești un text aici, atunci aceasta va fi folsit în contextul "
+"butoanelor pentru legăturile câtre %s în locul titlului normal."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10493
 msgid ""
 "If you disable a connection, then no data of this site will be shown in the "
 "status GUI. The replication is not affected by this, however."
 msgstr ""
+"Dacă dezactivezi o conexiune, atunci nu vor fi afișate date ale acestui site "
+"în GUI-ul pentru stare. Replicarea însă nu este afectată de aceasta."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/agent_bakery.py:690
 msgid ""
 "If you do not specify a name here, then the TCP port number will be used as "
 "an instance name."
 msgstr ""
+"Dacă nu specifici un nume aici, atunci portul TCP va fi folosit pentru "
+"numele instanței."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1975
 msgid ""
@@ -841,6 +878,9 @@ msgid ""
 "host notifications will be sent out in regular intervals until the problem "
 "is acknowledged."
 msgstr ""
+"Dacp activezi notificări periodice, atunci în timpul unei stări problematice "
+"notificările de host vor fi trimise la intervale regulate până când problema "
+"este recunoscută."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_mk_configuration.py:1995
 msgid ""
@@ -848,6 +888,9 @@ msgid ""
 "service notifications will be sent out in regular intervals until the "
 "problem is acknowledged."
 msgstr ""
+"Dacă activezi notificări periodice, atunci în timpul unei stări problematice "
+"notificările de servicii vor fi trimise la intervale regulate până când "
+"problema este recunoscută."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:10453
 msgid ""
@@ -856,6 +899,10 @@ msgid ""
 "latency situations but locks a number of threads in the Livestatus module of "
 "the target site."
 msgstr ""
+"Dacă activezi conexiuni persistente atunci Multisite va încerca să păstreze "
+"conexiunea deschisă câtre site-urile distante. Aceasta aduce o îmbunătățire "
+"considerabilă în situații de înaltă latență dar blochează un număr de fire "
+"în modulul Livestatus ale site-ului țintă."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/globals_notification.py:36
 msgid ""
@@ -864,6 +911,10 @@ msgid ""
 "notificatios will be configured with the WATO module <i>Notifications</i> on "
 "a global base."
 msgstr ""
+"Dacă activezi noul modul de notificări bazate pe reguli atunci actualul email "
+"în text simplu și &quot;notificări flexibile&quot; vor deveni inactive. În "
+"schimb notificările vor fi configurate prin modulul WATO <i>Notificări</i> "
+"într-o manieră globală."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1726
 msgid ""
