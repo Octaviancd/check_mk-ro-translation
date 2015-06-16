@@ -1001,7 +1001,9 @@ msgid ""
 "if you need a complete match."
 msgstr ""
 "Dacă specifici un nume de aplicație aici atunci doar evenimentele acelei "
-"aplicații sunt numărate. "
+"aplicații sunt numărate. Aici introduci o expresie regulată care trebuie să "
+"se potrivească cu o <b>parte</b> din numele aplicației. Folosești ancore <tt>"
+"^</tt> și <tt>$</tt> dacă ai nevoie de o potrivire completă."
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/mkeventd.py:1962
 msgid ""
@@ -1012,6 +1014,8 @@ msgid ""
 "the service gets no item when the \"Application\" field is also not "
 "configured."
 msgstr ""
+"Dacă introduci un nume de item aici aceasta va fi folosit ca parte din "
+"descrierea serviciului "
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:8633
 msgid ""
