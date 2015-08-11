@@ -1,5 +1,7 @@
 #!/bin/bash
 d=`date +%Y.%m.%d`
 cp multisite.po oldMerge/multisite.po_$d
+cat baa bab > xab
+cat daa dab > xad
 cat xaa xab xac xad xae xaf xag xah xai > multisite.po
 
