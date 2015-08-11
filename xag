@@ -438,30 +438,34 @@ msgid ""
 "The \"Authentication Expiration\" attribute (%s) could not be fetched from "
 "the LDAP server for user %s."
 msgstr ""
+"Atributul \"Expirarea Autentificarii\" (%s) nu poate fi primit de pe serverul "
+"LDAP pentru userul %s."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/wato.py:14532
 #, python-format
 msgid "The %s %s does not match this rule."
-msgstr ""
+msgstr "%s %s nu se potriveste pe regula acesta."
 
 #: /omd/sites/production/share/check_mk/web/htdocs/visuals.py:524
 #, python-format
 msgid "The %s does not exist."
-msgstr ""
+msgstr "%s nu există"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1738
 #, python-format
 msgid "The %s started flapping"
-msgstr ""
+msgstr "%s a intrant în flapping"
 
 #: /omd/sites/production/share/check_mk/web/plugins/views/painters.py:1736
 #, python-format
 msgid "The %s stopped flapping"
-msgstr ""
+msgstr "%s a ieșit din flapping"
 
 #: /omd/sites/production/share/check_mk/web/htdocs/valuespec.py:2096
 msgid "The <i>from</i> time must not be greater then the <i>until</i> time."
 msgstr ""
+"Timpul <i>începând de la:</i> nu trebuie sa fie mai mare decât timpul <i>până "
+"la</i>"
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:5782
 msgid ""
@@ -470,6 +474,10 @@ msgid ""
 "requests that are being queued for processing. Other keywords for this rule: "
 "Tomcat, Jolokia, JMX. "
 msgstr ""
+"Serverul de aplicatie BEA are 'Cozi de execuție' în care cererile sunt "
+"procesate. Acestă regula permite setarea nivelelor de atenționare și critic "
+"pentru numărul de cereri care sunt în coada de procesare. Alți termeni cheie "
+"pentru acestă regulă: Tomcat, Jolokia, JMX. "
 
 #: /omd/sites/production/share/check_mk/web/plugins/wato/check_parameters.py:3060
 msgid ""
